@@ -1,0 +1,1171 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "abbd35fad2deeefd32a346038008a439c747d7a36b4fd25df94b3b61e24b6991",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d4cc7c88b6b3",
+                "text": "Las tres interfaces comparten reservas y permiten checkpoint renovación y liberación"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integración acotada sobre interfaces existentes",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Reservas en CLI MCP y panel",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [],
+          "id": "plan.pctx-06-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas en CLI MCP y panel. Declared status: pending. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:06:11Z"
+        },
+        "recorded_at": "2026-10-12T22:06:11Z",
+        "revision": 1
+      },
+      {
+        "digest": "dc3918d369058d16b9c38a5bef384773ce43dab69ec86ffc102624a0d901f053",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d4cc7c88b6b3",
+                "text": "Las tres interfaces comparten reservas y permiten checkpoint renovación y liberación"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integración acotada sobre interfaces existentes",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "Reservas en CLI MCP y panel",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [],
+          "id": "plan.pctx-06-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas en CLI MCP y panel. Declared status: in_progress. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:06:12Z"
+        },
+        "recorded_at": "2026-10-12T22:06:12Z",
+        "revision": 2
+      },
+      {
+        "digest": "684786dd42448ba5fa27c3f4b8d322a73f3c19c271bda4fe03926c974908bb7e",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d4cc7c88b6b3",
+                "text": "Las tres interfaces comparten reservas y permiten checkpoint renovación y liberación"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integración acotada sobre interfaces existentes",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Reservas en CLI MCP y panel",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [],
+          "id": "plan.pctx-06-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas en CLI MCP y panel. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:20Z"
+        },
+        "recorded_at": "2026-10-12T22:15:20Z",
+        "revision": 3
+      },
+      {
+        "digest": "b4863a3914d0fe69c2d3f8193d8de1958f0b61b18b4b1011a3dcfadb397297d6",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d4cc7c88b6b3",
+                "text": "Las tres interfaces comparten reservas y permiten checkpoint renovación y liberación"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integración acotada sobre interfaces existentes",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:20Z",
+              "criteria": [
+                "criterion.d4cc7c88b6b3"
+              ],
+              "definition_hash": "39ea4619be7784fd9104011b11acc4a461c203e84a38a84df44f52a342be7ce5",
+              "evidence": [
+                {
+                  "content_hash": "7819a7cf1734e5e833243920e80a22bab4ad93322a0562b0d7db3113944a081a",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "9690b589adfb2206b71fa2bea52fc793e1f352d6aec6e4d1be7d3987ca6e8f5f",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "b79c21635134ba4e5a2aa7185f0bc47429af74a045b1216e9ec0d937fd88694e",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "bf39d48539e357e6a48e801951923cd5b9ef6d4205b6c4286bb31283fcd3f9a6",
+                  "path": "validation/ui-report-0.6.json"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "08f6b3ee17c044c2f16b2ac8fbd0f3097df0d585a149d470feefd7b81c175b2c",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Reservas en CLI MCP y panel",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "7819a7cf1734e5e833243920e80a22bab4ad93322a0562b0d7db3113944a081a",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "9690b589adfb2206b71fa2bea52fc793e1f352d6aec6e4d1be7d3987ca6e8f5f",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "b79c21635134ba4e5a2aa7185f0bc47429af74a045b1216e9ec0d937fd88694e",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "bf39d48539e357e6a48e801951923cd5b9ef6d4205b6c4286bb31283fcd3f9a6",
+              "kind": "reference",
+              "path": "validation/ui-report-0.6.json",
+              "ref": "validation/ui-report-0.6.json"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-06-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas en CLI MCP y panel. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:20Z"
+        },
+        "recorded_at": "2026-10-12T22:15:20Z",
+        "revision": 4
+      },
+      {
+        "digest": "c76b78518c234169fbcc5b2fe8e3671283313d550525317850e16cf79e5a9678",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d4cc7c88b6b3",
+                "text": "Las tres interfaces comparten reservas y permiten checkpoint renovación y liberación"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integración acotada sobre interfaces existentes",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:20Z",
+              "criteria": [
+                "criterion.d4cc7c88b6b3"
+              ],
+              "definition_hash": "39ea4619be7784fd9104011b11acc4a461c203e84a38a84df44f52a342be7ce5",
+              "evidence": [
+                {
+                  "content_hash": "7819a7cf1734e5e833243920e80a22bab4ad93322a0562b0d7db3113944a081a",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "9690b589adfb2206b71fa2bea52fc793e1f352d6aec6e4d1be7d3987ca6e8f5f",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "b79c21635134ba4e5a2aa7185f0bc47429af74a045b1216e9ec0d937fd88694e",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "bf39d48539e357e6a48e801951923cd5b9ef6d4205b6c4286bb31283fcd3f9a6",
+                  "path": "validation/ui-report-0.6.json"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "08f6b3ee17c044c2f16b2ac8fbd0f3097df0d585a149d470feefd7b81c175b2c",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Reservas en CLI MCP y panel",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "7819a7cf1734e5e833243920e80a22bab4ad93322a0562b0d7db3113944a081a",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "9690b589adfb2206b71fa2bea52fc793e1f352d6aec6e4d1be7d3987ca6e8f5f",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "b79c21635134ba4e5a2aa7185f0bc47429af74a045b1216e9ec0d937fd88694e",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "bf39d48539e357e6a48e801951923cd5b9ef6d4205b6c4286bb31283fcd3f9a6",
+              "kind": "reference",
+              "path": "validation/ui-report-0.6.json",
+              "ref": "validation/ui-report-0.6.json"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-06-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas en CLI MCP y panel. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:20Z"
+        },
+        "recorded_at": "2026-10-12T22:15:20Z",
+        "revision": 5
+      },
+      {
+        "digest": "5aa495769acd27d8ab0eb4f31617b6169c066ceb1b168d36e24559c9c81b5531",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d4cc7c88b6b3",
+                "text": "Las tres interfaces comparten reservas y permiten checkpoint renovación y liberación"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integración acotada sobre interfaces existentes",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:20Z",
+              "criteria": [
+                "criterion.d4cc7c88b6b3"
+              ],
+              "definition_hash": "39ea4619be7784fd9104011b11acc4a461c203e84a38a84df44f52a342be7ce5",
+              "evidence": [
+                {
+                  "content_hash": "7819a7cf1734e5e833243920e80a22bab4ad93322a0562b0d7db3113944a081a",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "9690b589adfb2206b71fa2bea52fc793e1f352d6aec6e4d1be7d3987ca6e8f5f",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "b79c21635134ba4e5a2aa7185f0bc47429af74a045b1216e9ec0d937fd88694e",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "bf39d48539e357e6a48e801951923cd5b9ef6d4205b6c4286bb31283fcd3f9a6",
+                  "path": "validation/ui-report-0.6.json"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "08f6b3ee17c044c2f16b2ac8fbd0f3097df0d585a149d470feefd7b81c175b2c",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Reservas en CLI MCP y panel",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "7819a7cf1734e5e833243920e80a22bab4ad93322a0562b0d7db3113944a081a",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "9690b589adfb2206b71fa2bea52fc793e1f352d6aec6e4d1be7d3987ca6e8f5f",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "b79c21635134ba4e5a2aa7185f0bc47429af74a045b1216e9ec0d937fd88694e",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "bf39d48539e357e6a48e801951923cd5b9ef6d4205b6c4286bb31283fcd3f9a6",
+              "kind": "reference",
+              "path": "validation/ui-report-0.6.json",
+              "ref": "validation/ui-report-0.6.json"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-06-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-24T22:43:28Z",
+          "stale_reason": "pctx/cli.py: changed; pctx/mcp.py: changed; pctx/web/app.js: changed",
+          "state": "stale",
+          "statement": "Checklist task: Reservas en CLI MCP y panel. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 6
+      },
+      {
+        "digest": "dd7b479177b55d1aa8402448262395c780cc2d9553717f86d6526f1867536ab9",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d4cc7c88b6b3",
+                "text": "Las tres interfaces comparten reservas y permiten checkpoint renovación y liberación"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integración acotada sobre interfaces existentes",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:11Z",
+              "criteria": [
+                "criterion.d4cc7c88b6b3"
+              ],
+              "definition_hash": "39ea4619be7784fd9104011b11acc4a461c203e84a38a84df44f52a342be7ce5",
+              "evidence": [
+                {
+                  "content_hash": "583412fcd3b59a960d2d336400ca2ab5c7d4fc07b4148f1abc24ade6505b4202",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "9fc23aa2fbd4a8f2479a749e1a221181dbdad9e60bb2bdd304f785913c0f552d",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+                  "path": "pctx/dashboard.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+                  "path": "validation/ui-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-06-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "2bdf9ac958e4b96fbab8eeeaeae1e7c4fef3a6604c748292bab2411fa734e409",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Reservas en CLI MCP y panel",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "583412fcd3b59a960d2d336400ca2ab5c7d4fc07b4148f1abc24ade6505b4202",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "9fc23aa2fbd4a8f2479a749e1a221181dbdad9e60bb2bdd304f785913c0f552d",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+              "kind": "reference",
+              "path": "pctx/dashboard.py",
+              "ref": "pctx/dashboard.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+              "kind": "reference",
+              "path": "validation/ui-report-0.7.json",
+              "ref": "validation/ui-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-06-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas en CLI MCP y panel. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:11Z"
+        },
+        "recorded_at": "2026-10-24T22:49:11Z",
+        "revision": 7
+      },
+      {
+        "digest": "bcb040abf730e630bc56ce6dbbbb6bd7743577d2706e571545295aeb5fa44280",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d4cc7c88b6b3",
+                "text": "Las tres interfaces comparten reservas y permiten checkpoint renovación y liberación"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integración acotada sobre interfaces existentes",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:11Z",
+              "criteria": [
+                "criterion.d4cc7c88b6b3"
+              ],
+              "definition_hash": "39ea4619be7784fd9104011b11acc4a461c203e84a38a84df44f52a342be7ce5",
+              "evidence": [
+                {
+                  "content_hash": "583412fcd3b59a960d2d336400ca2ab5c7d4fc07b4148f1abc24ade6505b4202",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "9fc23aa2fbd4a8f2479a749e1a221181dbdad9e60bb2bdd304f785913c0f552d",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+                  "path": "pctx/dashboard.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+                  "path": "validation/ui-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-06-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "2bdf9ac958e4b96fbab8eeeaeae1e7c4fef3a6604c748292bab2411fa734e409",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Reservas en CLI MCP y panel",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "583412fcd3b59a960d2d336400ca2ab5c7d4fc07b4148f1abc24ade6505b4202",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "9fc23aa2fbd4a8f2479a749e1a221181dbdad9e60bb2bdd304f785913c0f552d",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+              "kind": "reference",
+              "path": "pctx/dashboard.py",
+              "ref": "pctx/dashboard.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+              "kind": "reference",
+              "path": "validation/ui-report-0.7.json",
+              "ref": "validation/ui-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-06-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas en CLI MCP y panel. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:12Z"
+        },
+        "recorded_at": "2026-10-24T22:49:12Z",
+        "revision": 8
+      },
+      {
+        "digest": "52f2828023afb3df90aa20e74d89a3113a1851c8034a59ba790c9467977a12a2",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d4cc7c88b6b3",
+                "text": "Las tres interfaces comparten reservas y permiten checkpoint renovación y liberación"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integración acotada sobre interfaces existentes",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:09Z",
+              "criteria": [
+                "criterion.d4cc7c88b6b3"
+              ],
+              "definition_hash": "39ea4619be7784fd9104011b11acc4a461c203e84a38a84df44f52a342be7ce5",
+              "evidence": [
+                {
+                  "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "42c481266f7917e928314927affc5e8d85bbeeafb7037960bc376ec7ebe5c440",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+                  "path": "pctx/dashboard.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+                  "path": "validation/ui-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-06-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "9d2a53801b542fe65bfd8a20b771579aeeae4f5a209044c34b495a6452316b56",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Reservas en CLI MCP y panel",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "42c481266f7917e928314927affc5e8d85bbeeafb7037960bc376ec7ebe5c440",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+              "kind": "reference",
+              "path": "pctx/dashboard.py",
+              "ref": "pctx/dashboard.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+              "kind": "reference",
+              "path": "validation/ui-report-0.7.json",
+              "ref": "validation/ui-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-06-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas en CLI MCP y panel. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:09Z"
+        },
+        "recorded_at": "2026-10-24T23:07:09Z",
+        "revision": 9
+      },
+      {
+        "digest": "4889dac3daa28c59b70435ddf1a458f680931bf78156bb77d03fb6574c69b901",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d4cc7c88b6b3",
+                "text": "Las tres interfaces comparten reservas y permiten checkpoint renovación y liberación"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integración acotada sobre interfaces existentes",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:09Z",
+              "criteria": [
+                "criterion.d4cc7c88b6b3"
+              ],
+              "definition_hash": "39ea4619be7784fd9104011b11acc4a461c203e84a38a84df44f52a342be7ce5",
+              "evidence": [
+                {
+                  "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "42c481266f7917e928314927affc5e8d85bbeeafb7037960bc376ec7ebe5c440",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+                  "path": "pctx/dashboard.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+                  "path": "validation/ui-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-06-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "9d2a53801b542fe65bfd8a20b771579aeeae4f5a209044c34b495a6452316b56",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Reservas en CLI MCP y panel",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "42c481266f7917e928314927affc5e8d85bbeeafb7037960bc376ec7ebe5c440",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+              "kind": "reference",
+              "path": "pctx/dashboard.py",
+              "ref": "pctx/dashboard.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+              "kind": "reference",
+              "path": "validation/ui-report-0.7.json",
+              "ref": "validation/ui-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-06-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas en CLI MCP y panel. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:10Z"
+        },
+        "recorded_at": "2026-10-24T23:07:10Z",
+        "revision": 10
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.d4cc7c88b6b3",
+        "text": "Las tres interfaces comparten reservas y permiten checkpoint renovación y liberación"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "intermediate",
+    "difficulty_reason": "Integración acotada sobre interfaces existentes",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T23:07:09Z",
+      "criteria": [
+        "criterion.d4cc7c88b6b3"
+      ],
+      "definition_hash": "39ea4619be7784fd9104011b11acc4a461c203e84a38a84df44f52a342be7ce5",
+      "evidence": [
+        {
+          "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+          "path": "pctx/cli.py"
+        },
+        {
+          "content_hash": "42c481266f7917e928314927affc5e8d85bbeeafb7037960bc376ec7ebe5c440",
+          "path": "pctx/mcp.py"
+        },
+        {
+          "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+          "path": "pctx/dashboard.py"
+        },
+        {
+          "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+          "path": "pctx/web/app.js"
+        },
+        {
+          "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+          "path": "validation/ui-report-0.7.json"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        },
+        {
+          "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+          "path": "validation/release-0.7.1.json"
+        },
+        {
+          "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+          "path": "docs/USO_0.7.1.md"
+        }
+      ],
+      "id": "pctx071-plan.pctx-06-interfaces",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "9d2a53801b542fe65bfd8a20b771579aeeae4f5a209044c34b495a6452316b56",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+    },
+    "owner": "",
+    "parent": "plan.pctx-06-coordination",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 3,
+    "risk": "medium",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Reservas en CLI MCP y panel",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-12T22:06:11Z",
+  "evidence": [
+    {
+      "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+      "kind": "reference",
+      "path": "pctx/cli.py",
+      "ref": "pctx/cli.py"
+    },
+    {
+      "content_hash": "42c481266f7917e928314927affc5e8d85bbeeafb7037960bc376ec7ebe5c440",
+      "kind": "reference",
+      "path": "pctx/mcp.py",
+      "ref": "pctx/mcp.py"
+    },
+    {
+      "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+      "kind": "reference",
+      "path": "pctx/dashboard.py",
+      "ref": "pctx/dashboard.py"
+    },
+    {
+      "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+      "kind": "reference",
+      "path": "pctx/web/app.js",
+      "ref": "pctx/web/app.js"
+    },
+    {
+      "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+      "kind": "reference",
+      "path": "validation/ui-report-0.7.json",
+      "ref": "validation/ui-report-0.7.json"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    },
+    {
+      "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+      "kind": "reference",
+      "path": "validation/release-0.7.1.json",
+      "ref": "validation/release-0.7.1.json"
+    },
+    {
+      "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+      "kind": "reference",
+      "path": "docs/USO_0.7.1.md",
+      "ref": "docs/USO_0.7.1.md"
+    }
+  ],
+  "id": "plan.pctx-06-interfaces",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-06-coordination"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Reservas en CLI MCP y panel. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T23:07:10Z"
+}

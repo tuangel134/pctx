@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Local validation artifacts (screenshots, reports)
+validation/
+
+# Generated per-tool adapters: recreate with `pctx adapters sync`
+CLAUDE.md
+GEMINI.md
+CONVENTIONS.md
+.clinerules
+.windsurfrules
+.cursor/
+
+# Local working state
+.delegacion/
+node_modules/
+.DS_Store
+.idea/
+.vscode/
+
+# PCTX machine-local state (canonical records stay versioned)
+.project-context/.cache/
+.project-context/.runtime/
+.project-context/.private/
+.project-context/.restore-transaction/
+.project-context/work/
+.project-context/.lock

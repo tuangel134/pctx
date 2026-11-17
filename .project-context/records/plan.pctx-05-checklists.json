@@ -1,0 +1,1293 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "0e9bd1f1d2caba3b2dde51f54fd1e85ab8e95751d1d9b89643704cfdf2c9332c",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c6059ec2f4a4",
+                "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+              },
+              {
+                "id": "criterion.be1d19000b49",
+                "text": "Instalación, documentación y continuidad local actualizadas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+            "kind": "goal",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [],
+          "id": "plan.pctx-05-checklists",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: pending. Difficulty: hard; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:03:23Z"
+        },
+        "recorded_at": "2026-10-11T21:03:23Z",
+        "revision": 1
+      },
+      {
+        "digest": "f121b300e06c197fb30e93e131ef8664eb7f853c6a93529d46bd5e26c3043484",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c6059ec2f4a4",
+                "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+              },
+              {
+                "id": "criterion.be1d19000b49",
+                "text": "Instalación, documentación y continuidad local actualizadas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+            "kind": "goal",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [],
+          "id": "plan.pctx-05-checklists",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: in_progress. Difficulty: hard; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:03:24Z"
+        },
+        "recorded_at": "2026-10-11T21:03:24Z",
+        "revision": 2
+      },
+      {
+        "digest": "5010f9745e86045514cf295843daf6973a3bf834f445d66a2097beb28023698a",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c6059ec2f4a4",
+                "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+              },
+              {
+                "id": "criterion.be1d19000b49",
+                "text": "Instalación, documentación y continuidad local actualizadas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+            "kind": "goal",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [],
+          "id": "plan.pctx-05-checklists",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:19Z"
+        },
+        "recorded_at": "2026-10-11T21:11:19Z",
+        "revision": 3
+      },
+      {
+        "digest": "81e9ad40e39183a0f3a6fa650f95e43988c4bac58e8784ea3a573756a3e7d4b7",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c6059ec2f4a4",
+                "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+              },
+              {
+                "id": "criterion.be1d19000b49",
+                "text": "Instalación, documentación y continuidad local actualizadas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-11T21:11:20Z",
+              "criteria": [
+                "criterion.c6059ec2f4a4",
+                "criterion.be1d19000b49"
+              ],
+              "definition_hash": "93dbffdb025b547e43a4e7630b40a17fce3aade0c34ec46e9318a599e40cd53f",
+              "evidence": [
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                },
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-05-context": 4,
+                "plan.pctx-05-docs": 4,
+                "plan.pctx-05-interfaces": 4,
+                "plan.pctx-05-model": 4,
+                "plan.pctx-05-packaging": 4,
+                "plan.pctx-05-reviews": 4,
+                "plan.pctx-05-routing": 4
+              },
+              "request_hash": "2fcb196c6e4c6bc20b13c810fb4fe67d2083fc281ff691f9c39f6ecc8929bf33",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Todos los subpuntos locales están verificados con evidencia vigente; guía e instalación local 0.5 comprobadas. Traspasos reales permanecen fuera de esta comprobación local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            },
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            }
+          ],
+          "id": "plan.pctx-05-checklists",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:20Z"
+        },
+        "recorded_at": "2026-10-11T21:11:20Z",
+        "revision": 4
+      },
+      {
+        "digest": "4e82a2da32a6d061c5818ac094e2ac8d92c3ad8a17ed8e4c3d22f87ce8315ad2",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c6059ec2f4a4",
+                "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+              },
+              {
+                "id": "criterion.be1d19000b49",
+                "text": "Instalación, documentación y continuidad local actualizadas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-11T21:11:20Z",
+              "criteria": [
+                "criterion.c6059ec2f4a4",
+                "criterion.be1d19000b49"
+              ],
+              "definition_hash": "93dbffdb025b547e43a4e7630b40a17fce3aade0c34ec46e9318a599e40cd53f",
+              "evidence": [
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                },
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-05-context": 4,
+                "plan.pctx-05-docs": 4,
+                "plan.pctx-05-interfaces": 4,
+                "plan.pctx-05-model": 4,
+                "plan.pctx-05-packaging": 4,
+                "plan.pctx-05-reviews": 4,
+                "plan.pctx-05-routing": 4
+              },
+              "request_hash": "2fcb196c6e4c6bc20b13c810fb4fe67d2083fc281ff691f9c39f6ecc8929bf33",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Todos los subpuntos locales están verificados con evidencia vigente; guía e instalación local 0.5 comprobadas. Traspasos reales permanecen fuera de esta comprobación local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            },
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            }
+          ],
+          "id": "plan.pctx-05-checklists",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:20Z"
+        },
+        "recorded_at": "2026-10-11T21:11:20Z",
+        "revision": 5
+      },
+      {
+        "digest": "7d966164523fb84a0e8dbb6e4b0ad86724ebcbfcd5d56f743a78ba52d211d1f8",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c6059ec2f4a4",
+                "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+              },
+              {
+                "id": "criterion.be1d19000b49",
+                "text": "Instalación, documentación y continuidad local actualizadas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-12T22:15:25Z",
+              "criteria": [
+                "criterion.c6059ec2f4a4",
+                "criterion.be1d19000b49"
+              ],
+              "definition_hash": "93dbffdb025b547e43a4e7630b40a17fce3aade0c34ec46e9318a599e40cd53f",
+              "evidence": [
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                },
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-checklists",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-05-context": 7,
+                "plan.pctx-05-docs": 7,
+                "plan.pctx-05-interfaces": 7,
+                "plan.pctx-05-model": 7,
+                "plan.pctx-05-packaging": 4,
+                "plan.pctx-05-reviews": 7,
+                "plan.pctx-05-routing": 7
+              },
+              "request_hash": "2e9f15afa5000fa1d8cd98614fbc34cefd31dee38bd53daa1f673a4e35b44e71",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Los criterios del hito 0.5 se conservan en 0.6; subpuntos afectados revisados explícitamente, evidencia histórica 0.5 preservada y entrega actual validada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            },
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-checklists",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:25Z"
+        },
+        "recorded_at": "2026-10-12T22:15:25Z",
+        "revision": 6
+      },
+      {
+        "digest": "8eb443a476fc49b907836e27caaf807a3c4017a367bd7eda41cab4c989b75a7f",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c6059ec2f4a4",
+                "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+              },
+              {
+                "id": "criterion.be1d19000b49",
+                "text": "Instalación, documentación y continuidad local actualizadas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-12T22:15:25Z",
+              "criteria": [
+                "criterion.c6059ec2f4a4",
+                "criterion.be1d19000b49"
+              ],
+              "definition_hash": "93dbffdb025b547e43a4e7630b40a17fce3aade0c34ec46e9318a599e40cd53f",
+              "evidence": [
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                },
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-checklists",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-05-context": 7,
+                "plan.pctx-05-docs": 7,
+                "plan.pctx-05-interfaces": 7,
+                "plan.pctx-05-model": 7,
+                "plan.pctx-05-packaging": 4,
+                "plan.pctx-05-reviews": 7,
+                "plan.pctx-05-routing": 7
+              },
+              "request_hash": "2e9f15afa5000fa1d8cd98614fbc34cefd31dee38bd53daa1f673a4e35b44e71",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Los criterios del hito 0.5 se conservan en 0.6; subpuntos afectados revisados explícitamente, evidencia histórica 0.5 preservada y entrega actual validada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            },
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-checklists",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:25Z"
+        },
+        "recorded_at": "2026-10-12T22:15:25Z",
+        "revision": 7
+      },
+      {
+        "digest": "4a55b4b5715b81c062e18dd056dbbae1da04b211acfd2c6b06f071790fae94a5",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c6059ec2f4a4",
+                "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+              },
+              {
+                "id": "criterion.be1d19000b49",
+                "text": "Instalación, documentación y continuidad local actualizadas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T22:49:13Z",
+              "criteria": [
+                "criterion.c6059ec2f4a4",
+                "criterion.be1d19000b49"
+              ],
+              "definition_hash": "93dbffdb025b547e43a4e7630b40a17fce3aade0c34ec46e9318a599e40cd53f",
+              "evidence": [
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-checklists",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-05-context": 10,
+                "plan.pctx-05-docs": 10,
+                "plan.pctx-05-interfaces": 10,
+                "plan.pctx-05-model": 10,
+                "plan.pctx-05-packaging": 4,
+                "plan.pctx-05-reviews": 10,
+                "plan.pctx-05-routing": 10
+              },
+              "request_hash": "b3ef6fa55e3d0a68cb116f336ba24297cb956bd9ed64ddbd8e863dba11a173e3",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Contratos locales de la meta y sus hijos revisados en 0.7; las pruebas e instalaciones históricas conservan sus artefactos originales y no se presentan como la versión instalada actual. Traspasos externos pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-checklists",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:13Z"
+        },
+        "recorded_at": "2026-10-24T22:49:13Z",
+        "revision": 8
+      },
+      {
+        "digest": "05622e26667d1d8fc1e9a5691cfbe6c847cbd292b41498323c516fa5ca40ae4d",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c6059ec2f4a4",
+                "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+              },
+              {
+                "id": "criterion.be1d19000b49",
+                "text": "Instalación, documentación y continuidad local actualizadas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T22:49:13Z",
+              "criteria": [
+                "criterion.c6059ec2f4a4",
+                "criterion.be1d19000b49"
+              ],
+              "definition_hash": "93dbffdb025b547e43a4e7630b40a17fce3aade0c34ec46e9318a599e40cd53f",
+              "evidence": [
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-checklists",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-05-context": 10,
+                "plan.pctx-05-docs": 10,
+                "plan.pctx-05-interfaces": 10,
+                "plan.pctx-05-model": 10,
+                "plan.pctx-05-packaging": 4,
+                "plan.pctx-05-reviews": 10,
+                "plan.pctx-05-routing": 10
+              },
+              "request_hash": "b3ef6fa55e3d0a68cb116f336ba24297cb956bd9ed64ddbd8e863dba11a173e3",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Contratos locales de la meta y sus hijos revisados en 0.7; las pruebas e instalaciones históricas conservan sus artefactos originales y no se presentan como la versión instalada actual. Traspasos externos pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-checklists",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:14Z"
+        },
+        "recorded_at": "2026-10-24T22:49:14Z",
+        "revision": 9
+      },
+      {
+        "digest": "051b267e776b2d76c0315ca5c3965e667d041ba437c7fc2c4acae4201d1f0f08",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c6059ec2f4a4",
+                "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+              },
+              {
+                "id": "criterion.be1d19000b49",
+                "text": "Instalación, documentación y continuidad local actualizadas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T23:07:14Z",
+              "criteria": [
+                "criterion.c6059ec2f4a4",
+                "criterion.be1d19000b49"
+              ],
+              "definition_hash": "93dbffdb025b547e43a4e7630b40a17fce3aade0c34ec46e9318a599e40cd53f",
+              "evidence": [
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-05-checklists",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-05-context": 10,
+                "plan.pctx-05-docs": 12,
+                "plan.pctx-05-interfaces": 12,
+                "plan.pctx-05-model": 10,
+                "plan.pctx-05-packaging": 4,
+                "plan.pctx-05-reviews": 10,
+                "plan.pctx-05-routing": 10
+              },
+              "request_hash": "dc34f920429da630938039e97916dc42e93570b3c3ef3046d7b0cb388205e0d5",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 4,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-05-checklists",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 4. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:14Z"
+        },
+        "recorded_at": "2026-10-24T23:07:14Z",
+        "revision": 10
+      },
+      {
+        "digest": "b16f3d5b0e6f84782558014f6d2d1323bb4da56cc2b3d996daa5f7530c5f1dc7",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c6059ec2f4a4",
+                "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+              },
+              {
+                "id": "criterion.be1d19000b49",
+                "text": "Instalación, documentación y continuidad local actualizadas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T23:07:14Z",
+              "criteria": [
+                "criterion.c6059ec2f4a4",
+                "criterion.be1d19000b49"
+              ],
+              "definition_hash": "93dbffdb025b547e43a4e7630b40a17fce3aade0c34ec46e9318a599e40cd53f",
+              "evidence": [
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-05-checklists",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-05-context": 10,
+                "plan.pctx-05-docs": 12,
+                "plan.pctx-05-interfaces": 12,
+                "plan.pctx-05-model": 10,
+                "plan.pctx-05-packaging": 4,
+                "plan.pctx-05-reviews": 10,
+                "plan.pctx-05-routing": 10
+              },
+              "request_hash": "dc34f920429da630938039e97916dc42e93570b3c3ef3046d7b0cb388205e0d5",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 4,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-05-checklists",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 4. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:15Z"
+        },
+        "recorded_at": "2026-10-24T23:07:15Z",
+        "revision": 11
+      },
+      {
+        "digest": "7403070c7f1c11b4ca3d3452ad9e1bb74e9eebd427fd8862054250d74f794227",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c6059ec2f4a4",
+                "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+              },
+              {
+                "id": "criterion.be1d19000b49",
+                "text": "Instalación, documentación y continuidad local actualizadas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T23:07:14Z",
+              "criteria": [
+                "criterion.c6059ec2f4a4",
+                "criterion.be1d19000b49"
+              ],
+              "definition_hash": "93dbffdb025b547e43a4e7630b40a17fce3aade0c34ec46e9318a599e40cd53f",
+              "evidence": [
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-05-checklists",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-05-context": 10,
+                "plan.pctx-05-docs": 12,
+                "plan.pctx-05-interfaces": 12,
+                "plan.pctx-05-model": 10,
+                "plan.pctx-05-packaging": 4,
+                "plan.pctx-05-reviews": 10,
+                "plan.pctx-05-routing": 10
+              },
+              "request_hash": "dc34f920429da630938039e97916dc42e93570b3c3ef3046d7b0cb388205e0d5",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 4,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-05-checklists",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-11-17T06:58:06Z",
+          "stale_reason": "docs/VALIDACION_0.7.md: changed",
+          "state": "stale",
+          "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 4. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-11-17T06:58:06Z"
+        },
+        "recorded_at": "2026-11-17T06:58:06Z",
+        "revision": 12
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.c6059ec2f4a4",
+        "text": "Todos los subpuntos locales de PCTX 0.5 están comprobados"
+      },
+      {
+        "id": "criterion.be1d19000b49",
+        "text": "Instalación, documentación y continuidad local actualizadas"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "hard",
+    "difficulty_reason": "Coordina modelo persistente, vigencia de revisiones, concurrencia y tres interfaces sin aumentar el contexto por defecto.",
+    "kind": "goal",
+    "last_review": {
+      "at": "2026-10-24T23:07:14Z",
+      "criteria": [
+        "criterion.c6059ec2f4a4",
+        "criterion.be1d19000b49"
+      ],
+      "definition_hash": "93dbffdb025b547e43a4e7630b40a17fce3aade0c34ec46e9318a599e40cd53f",
+      "evidence": [
+        {
+          "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+          "path": "docs/USO_0.7.md"
+        },
+        {
+          "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+          "path": "docs/VALIDACION_0.7.md"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        },
+        {
+          "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+          "path": "validation/release-0.7.1.json"
+        },
+        {
+          "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+          "path": "docs/USO_0.7.1.md"
+        }
+      ],
+      "id": "pctx071-plan.pctx-05-checklists",
+      "outcome": "passed",
+      "related_revisions": {
+        "plan.pctx-05-context": 10,
+        "plan.pctx-05-docs": 12,
+        "plan.pctx-05-interfaces": 12,
+        "plan.pctx-05-model": 10,
+        "plan.pctx-05-packaging": 4,
+        "plan.pctx-05-reviews": 10,
+        "plan.pctx-05-routing": 10
+      },
+      "request_hash": "dc34f920429da630938039e97916dc42e93570b3c3ef3046d7b0cb388205e0d5",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+    },
+    "owner": "",
+    "parent": "plan.pctx-continuity",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 4,
+    "risk": "medium",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "PCTX 0.5: metas, checklists, revisiones y dificultad",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-11T21:03:23Z",
+  "evidence": [
+    {
+      "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+      "kind": "reference",
+      "path": "docs/USO_0.7.md",
+      "ref": "docs/USO_0.7.md"
+    },
+    {
+      "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+      "kind": "reference",
+      "path": "docs/VALIDACION_0.7.md",
+      "ref": "docs/VALIDACION_0.7.md"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    },
+    {
+      "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+      "kind": "reference",
+      "path": "validation/release-0.7.1.json",
+      "ref": "validation/release-0.7.1.json"
+    },
+    {
+      "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+      "kind": "reference",
+      "path": "docs/USO_0.7.1.md",
+      "ref": "docs/USO_0.7.1.md"
+    }
+  ],
+  "id": "plan.pctx-05-checklists",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-continuity"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "stale_at": "2026-11-17T06:58:06Z",
+  "stale_reason": "docs/VALIDACION_0.7.md: changed",
+  "state": "stale",
+  "statement": "Checklist goal: PCTX 0.5: metas, checklists, revisiones y dificultad. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 4. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-11-17T06:58:06Z"
+}

@@ -1,0 +1,52 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "87bc3dadf703e24bcfcb8f67bbfc07b52b977377493d9783bd24cba3f6043404",
+        "record": {
+          "created_at": "2026-10-11T21:11:20Z",
+          "evidence": [
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "file",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "fact.validation.pctx05.release",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Entrega local 0.5.0: pasan 120 pruebas, 47 recorridos Chromium sin errores JavaScript, once escenarios de recuperación, regresión incremental, wheel/zipapp limpio y diagnóstico MCP. Instalación 0.5.0 y 34 módulos/recursos coinciden. Traspasos reales entre IAs externas siguen sin probarse.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-11T21:11:20Z"
+        },
+        "recorded_at": "2026-10-11T21:11:20Z",
+        "revision": 1
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-10-11T21:11:20Z",
+  "evidence": [
+    {
+      "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+      "kind": "file",
+      "path": "validation/release-0.5.json",
+      "ref": "validation/release-0.5.json"
+    }
+  ],
+  "id": "fact.validation.pctx05.release",
+  "origin": "local-validation",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "verified",
+  "statement": "Entrega local 0.5.0: pasan 120 pruebas, 47 recorridos Chromium sin errores JavaScript, once escenarios de recuperación, regresión incremental, wheel/zipapp limpio y diagnóstico MCP. Instalación 0.5.0 y 34 módulos/recursos coinciden. Traspasos reales entre IAs externas siguen sin probarse.",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-10-11T21:11:20Z"
+}

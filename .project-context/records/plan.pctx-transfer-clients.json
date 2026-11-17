@@ -1,0 +1,106 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "241394748a083d89821d5b0d19b10f057a54f7b227e3a8f70748f3789870f2e7",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.50d612e77f47",
+                "text": "Cada cliente usa la misma raíz e identidad del proyecto"
+              },
+              {
+                "id": "criterion.3b5d93f7f4e8",
+                "text": "El segundo cliente ve metas, dificultad, revisiones y handoff escritos por el primero"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Requiere clientes configurados, permisos efectivos y comprobar lectura/escritura desde cada sesión.",
+            "kind": "check",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-transfer",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Validar sesiones reales en dos clientes de IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-transfer-clients",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-transfer"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Validar sesiones reales en dos clientes de IA. Declared status: pending. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:03:24Z"
+        },
+        "recorded_at": "2026-10-11T21:03:24Z",
+        "revision": 1
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.50d612e77f47",
+        "text": "Cada cliente usa la misma raíz e identidad del proyecto"
+      },
+      {
+        "id": "criterion.3b5d93f7f4e8",
+        "text": "El segundo cliente ve metas, dificultad, revisiones y handoff escritos por el primero"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "intermediate",
+    "difficulty_reason": "Requiere clientes configurados, permisos efectivos y comprobar lectura/escritura desde cada sesión.",
+    "kind": "check",
+    "last_review": null,
+    "owner": "",
+    "parent": "plan.pctx-transfer",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 0,
+    "risk": "medium",
+    "schema_version": 1,
+    "status": "pending",
+    "title": "Validar sesiones reales en dos clientes de IA",
+    "work_generation": 0
+  },
+  "created_at": "2026-10-11T21:03:24Z",
+  "evidence": [],
+  "id": "plan.pctx-transfer-clients",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-transfer"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist check: Validar sesiones reales en dos clientes de IA. Declared status: pending. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-11T21:03:24Z"
+}

@@ -1,0 +1,84 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "127166ccd69bcc12f15fbeff913d0669f3dc9c4c5d7666bc9258346fde38159b",
+        "record": {
+          "created_at": "2026-10-09T17:52:13Z",
+          "evidence": [
+            {
+              "content_hash": "c33cae925d5542c430fc7f026ca447561620d040acb0cb9b8518ede4e96d0d47",
+              "kind": "file",
+              "path": "validation/baseline-0.3.json",
+              "ref": "validation/baseline-0.3.json"
+            },
+            {
+              "content_hash": "c74c68a6dec05152234c063b005e63ad6a6bbf188239b2c2fcf4a3e780fcca47",
+              "kind": "file",
+              "path": "docs/PLAN_0.3.md",
+              "ref": "docs/PLAN_0.3.md"
+            }
+          ],
+          "id": "fact.validation.baseline-0-3",
+          "origin": "cli",
+          "scope": "pctx",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Línea base para PCTX 0.3 comprobada el 9 de octubre: código 0.2.0, 28 pruebas unittest pasan y benchmark clean-room pasa con 750 tokens aproximados y 8 registros. Existe respaldo externo verificado y plan de diez mejoras en docs/PLAN_0.3.md. La implementación 0.3 está pendiente.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T17:52:13Z"
+        },
+        "recorded_at": "2026-10-09T17:52:13Z",
+        "revision": 1
+      },
+      {
+        "digest": "be7fd4357df919523fc6dbe3c4ee8e674d57492d7be2ebeb9e4912d8b6e06d23",
+        "record": {
+          "created_at": "2026-10-09T17:52:13Z",
+          "evidence": [
+            {
+              "content_hash": "c33cae925d5542c430fc7f026ca447561620d040acb0cb9b8518ede4e96d0d47",
+              "kind": "file",
+              "path": "validation/baseline-0.3.json",
+              "ref": "validation/baseline-0.3.json"
+            }
+          ],
+          "id": "fact.validation.baseline-0-3",
+          "origin": "cli",
+          "scope": "pctx",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Línea base histórica anterior al desarrollo 0.3, comprobada el 9 de octubre: código 0.2.0, 28 pruebas unittest pasan y clean-room pasa con 750 tokens aproximados. El respaldo inicial externo está verificado. Estos resultados no constituyen validación de la entrega 0.3.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T18:12:10Z"
+        },
+        "recorded_at": "2026-10-09T18:12:10Z",
+        "revision": 2
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-10-09T17:52:13Z",
+  "evidence": [
+    {
+      "content_hash": "c33cae925d5542c430fc7f026ca447561620d040acb0cb9b8518ede4e96d0d47",
+      "kind": "file",
+      "path": "validation/baseline-0.3.json",
+      "ref": "validation/baseline-0.3.json"
+    }
+  ],
+  "id": "fact.validation.baseline-0-3",
+  "origin": "cli",
+  "scope": "pctx",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "verified",
+  "statement": "Línea base histórica anterior al desarrollo 0.3, comprobada el 9 de octubre: código 0.2.0, 28 pruebas unittest pasan y clean-room pasa con 750 tokens aproximados. El respaldo inicial externo está verificado. Estos resultados no constituyen validación de la entrega 0.3.",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-10-09T18:12:10Z"
+}

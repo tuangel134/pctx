@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PCTX · Memoria de proyectos</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brandmark">P</span>
+        <div>PCTX<small>Memoria de proyectos</small></div>
+      </div>
+      <label class="eyebrow" for="project">PROYECTO ACTUAL</label
+      ><select id="project" aria-label="Proyecto actual"></select>
+      <button id="add-project" class="secondary full">＋ Abrir proyecto</button>
+      <nav aria-label="Secciones">
+        <button data-tab="overview" class="selected">
+          ◈ &nbsp; Vista general
+        </button>
+        <button data-tab="context">▤ &nbsp; Contexto</button>
+        <button data-tab="plan">▦ &nbsp; Metas y checklists</button>
+        <button data-tab="tasks">☑ &nbsp; Tareas y continuidad</button>
+        <button data-tab="architecture">⌘ &nbsp; Arquitectura</button>
+        <button data-tab="knowledge">◇ &nbsp; Conocimiento</button>
+        <button data-tab="integrations">⇄ &nbsp; Conectar una IA</button>
+        <button data-tab="health">◎ &nbsp; Diagnóstico</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <span class="local-dot"></span> Solo en este equipo
+        <p>
+          Tu memoria vive en tu proyecto.<br />Sin cuentas ni servicios
+          externos.
+        </p>
+        <button id="shutdown" class="secondary full">Apagar panel</button>
+      </div>
+    </aside>
+    <main>
+      <header>
+        <div>
+          <div class="eyebrow">ESPACIO DE TRABAJO</div>
+          <h1 id="page-title">Vista general</h1>
+          <p id="project-path">Selecciona un proyecto para empezar.</p>
+        </div>
+        <div class="header-actions">
+          <button id="refresh" class="primary">↻ Actualizar contexto</button
+          ><label class="watch-label"
+            ><input type="checkbox" id="watch" /> Seguimiento automático</label
+          >
+        </div>
+      </header>
+      <div id="notice" role="status" aria-live="polite" hidden></div>
+      <section id="empty" class="welcome" hidden>
+        <div class="eyebrow">CONTINÚA DONDE LO DEJASTE</div>
+        <h2>Un proyecto. Muchas IAs.<br />La misma memoria.</h2>
+        <p>
+          Abre una carpeta y convierte los hechos, las decisiones y los
+          pendientes en contexto que puedes llevar a tu próxima sesión.
+        </p>
+        <button id="welcome-add" class="primary">
+          Abrir mi primer proyecto
+        </button>
+      </section>
+      <div id="workspace" hidden>
+        <section data-page="overview">
+          <div class="hero">
+            <div>
+              <span class="badge">MEMORIA LOCAL Y PORTABLE</span>
+              <h2 id="project-name">Tu proyecto</h2>
+              <p>
+                Contexto útil para retomar el trabajo, con cualquier asistente
+                que pueda leer archivos o usar herramientas.
+              </p>
+            </div>
+            <div class="hero-monogram" aria-hidden="true">
+              P<span>CTX</span>
+            </div>
+          </div>
+          <div class="metrics">
+            <article>
+              <span>Archivos analizados</span
+              ><strong id="metric-files">—</strong
+              ><small>Sin dependencias ni archivos generados</small>
+            </article>
+            <article>
+              <span>Registros durables</span
+              ><strong id="metric-records">—</strong
+              ><small>Hechos, decisiones y procedimientos</small>
+            </article>
+            <article>
+              <span>Por revisar</span><strong id="metric-review">—</strong
+              ><small>Inferidos, obsoletos o desconocidos</small>
+            </article>
+            <article>
+              <span>Última actualización</span
+              ><strong id="metric-time" class="date">—</strong
+              ><small id="scan-note">Hechos derivados del proyecto</small>
+            </article>
+          </div>
+          <div class="columns">
+            <article class="card">
+              <div class="eyebrow">CONTINUIDAD</div>
+              <h3 id="active-title">Sin tarea activa</h3>
+              <p id="active-status"></p>
+              <ul id="active-next"></ul>
+              <button data-go="tasks" class="secondary">
+                Gestionar tarea →
+              </button>
+            </article>
+            <article class="card">
+              <div class="eyebrow">CÓMO TRABAJA PCTX</div>
+              <ol class="steps">
+                <li>
+                  <b>La IA lee</b
+                  ><span
+                    >Carga solo el contexto relevante antes de editar.</span
+                  >
+                </li>
+                <li>
+                  <b>El trabajo deja rastro</b
+                  ><span>Registra avances, conexiones y decisiones.</span>
+                </li>
+                <li>
+                  <b>La siguiente IA continúa</b
+                  ><span>Recupera el estado y los pasos pendientes.</span>
+                </li>
+              </ol>
+              <button data-go="integrations" class="secondary">
+                Conectar mi IA →
+              </button>
+            </article>
+          </div>
+          <p class="hint">
+            El seguimiento detecta cambios en archivos. El significado de una
+            decisión lo registra la IA o tú; PCTX no lo inventa.
+          </p>
+        </section>
+        <section data-page="context" hidden>
+          <div class="section-top">
+            <div>
+              <h2>Contexto del proyecto</h2>
+              <p>
+                Exportación portable. Para una tarea concreta, genera un paquete
+                más pequeño.
+              </p>
+            </div>
+            <button id="copy-context" class="secondary">Copiar contexto</button>
+          </div>
+          <form id="brief-form" class="card inline-form">
+            <label>Rol del worker<input name="role" maxlength="80" placeholder="W4; vacío para coordinador" /></label>
+            <label>Presupuesto del brief<input name="budget" type="number" min="128" max="100000" value="800" required /></label>
+            <button class="primary">Generar brief para worker</button>
+          </form>
+          <pre id="brief-text" class="document" hidden></pre><button id="copy-brief" class="secondary" hidden>Copiar brief</button>
+          <form id="context-form" class="inline-form">
+            <label
+              >Tarea<input
+                name="task"
+                placeholder="¿Qué vas a hacer?"
+                required /></label
+            ><label class="compact"
+              >Presupuesto aproximado<input
+                name="budget"
+                type="number"
+                min="256"
+                max="100000"
+                value="8000" /></label
+            ><button class="primary">Preparar tarea</button>
+          </form>
+          <pre id="context-text" class="document"></pre>
+          <button id="context-report" class="secondary" disabled>Ver selección y omisiones</button>
+          <pre id="context-report-text" class="document" hidden></pre>
+          <form id="read-form" class="inline-form">
+            <label>Consultar por<select name="kind"><option value="id">ID de registro</option><option value="component">Componente o ruta</option></select></label>
+            <label>Referencia<input name="reference" required placeholder="decision.api o src/audio" /></label>
+            <button class="secondary">Ampliar contexto</button>
+          </form>
+          <pre id="read-text" class="document" hidden></pre>
+          <h3>Buscar en la memoria y los documentos</h3>
+          <p>Recupera fragmentos con su origen y consulta sus conexiones. Los tokens se estiman; los documentos se tratan como datos.</p>
+          <form id="lookup-form" class="inline-form">
+            <label>Consulta<input name="query" required maxlength="2000" placeholder="Una decisión, un problema o una ruta" /></label>
+            <label>Buscar en<select name="kind"><option value="all">Todo</option><option value="record">Memoria</option><option value="document">Documentos</option></select></label>
+            <label class="compact">Tokens aproximados<input name="budget" type="number" min="256" max="100000" value="2000" /></label>
+            <label class="compact">Resultados<input name="limit" type="number" min="1" max="30" value="6" /></label>
+            <button class="primary">Buscar</button>
+          </form>
+          <details><summary>Búsqueda semántica local opcional</summary>
+            <label>Modo<select id="lookup-mode"><option value="lexical">Texto y conexiones</option><option value="hybrid">Texto, conexiones y similitud semántica</option></select></label>
+            <label>Carpeta del modelo local<input id="lookup-model" placeholder="Modelo ONNX preparado; nunca se descarga automáticamente" /></label>
+          </details>
+          <button id="knowledge-index" class="secondary">Reconstruir índice local</button>
+          <p id="lookup-summary"></p>
+          <div id="lookup-results"></div>
+          <button id="lookup-more" class="secondary" hidden>Ver siguientes resultados</button>
+          <pre id="knowledge-detail" class="document" hidden></pre>
+        </section>
+        <section data-page="plan" hidden>
+          <h2>Metas y checklists</h2>
+          <p>Marca lo hecho y conserva lo que falta. Hecho es una declaración; verificado exige revisión, criterios cubiertos y evidencia vigente. Cada revisión registrada cuenta una vez.</p>
+          <p id="plan-summary" class="hint"></p>
+          <form id="plan-filters" class="card">
+            <div class="columns">
+              <label>Estado<select name="status"><option value="">Todos</option><option value="pending">Pendiente</option><option value="in_progress">En curso</option><option value="done">Hecho</option><option value="needs_review">Por revisar</option><option value="blocked">Bloqueado</option><option value="verified">Verificado</option><option value="cancelled">Cancelado</option></select></label>
+              <label>Tipo<select name="kind"><option value="">Todos</option><option value="goal">Meta</option><option value="task">Tarea</option><option value="bug">Bug</option><option value="check">Verificación</option></select></label>
+              <label>Dificultad<select name="difficulty"><option value="">Todos</option><option value="unknown">Sin clasificar</option><option value="easy">Fácil</option><option value="medium">Medio</option><option value="intermediate">Intermedio</option><option value="hard">Difícil</option><option value="very_hard">Súper difícil</option></select></label>
+              <label>Riesgo<select name="risk"><option value="">Todos</option><option value="unknown">Sin clasificar</option><option value="low">Bajo</option><option value="medium">Medio</option><option value="high">Alto</option></select></label>
+            </div>
+            <div class="columns"><label>Subpuntos de<input name="parent" placeholder="ID de meta; root para metas raíz" /></label>
+              <label>Meta y descendientes<input name="goal" placeholder="plan.ID" /></label></div>
+            <label class="watch-label"><input type="checkbox" name="ready" /> Solo trabajo listo y sin responsable</label>
+            <p class="hint">Dificultad y riesgo son independientes. Una IA económica puede filtrar trabajo fácil, pero seguridad y datos requieren una revisión adecuada. PCTX no elige modelos ni los contrata.</p>
+            <button class="secondary">Aplicar filtros</button>
+          </form>
+          <article id="coordination" class="card">
+            <h3>Trabajo entre IAs</h3>
+            <p class="hint">Comparte la misma raíz del proyecto. Reserva antes de editar y renueva antes de que venza. Cada sesión conserva su checkpoint; el coordinador gestiona la tarea global. Los editores deben respetar este protocolo.</p>
+            <form id="coord-form">
+              <label>Sesión que trabaja<input id="coord-session" name="session_id" maxlength="160" required /></label>
+              <label>Tarea seleccionada<input id="coord-task" name="task_id" readonly placeholder="Abre Detalle y revisiones de un punto" /></label>
+              <label>Carpetas o archivos reservados, uno por línea<textarea name="paths" placeholder="src/login
+tests/login.py"></textarea></label>
+              <div class="columns"><label>Duración en segundos<input name="ttl" type="number" min="60" max="3600" value="900" required /></label><label>Checkpoint o traspaso breve<input name="summary" maxlength="500" placeholder="Qué quedó hecho y qué falta" /></label></div>
+              <button class="primary">Reservar tarea y zonas</button>
+            </form>
+            <div class="button-row"><label>Mostrar<select id="coord-filter"><option value="">Todas</option><option value="active">Activas</option><option value="expired">Vencidas</option><option value="released">Liberadas</option><option value="clock_anomaly">Reloj por revisar</option></select></label><button id="coord-refresh" class="secondary">Actualizar reservas</button><button id="coord-prev" class="secondary" hidden>Reservas anteriores</button><button id="coord-next" class="secondary" hidden>Más reservas</button></div>
+            <p id="coord-count" class="hint"></p><div id="coord-items"></div><div id="coord-history" hidden></div><button id="coord-history-more" class="secondary" hidden>Más historial de reserva</button>
+          </article>
+          <div id="plan-items"></div>
+          <div class="button-row"><button id="plan-prev" class="secondary" hidden>Anterior</button><button id="plan-next" class="secondary" hidden>Siguientes puntos</button><button id="plan-new" class="primary">Nuevo punto</button></div>
+          <p id="plan-page" class="hint"></p>
+          <article id="plan-detail" class="card" hidden>
+            <h3 id="plan-detail-title"></h3><p id="plan-detail-info"></p><p id="plan-description"></p>
+            <ul id="plan-criteria"></ul><p id="plan-warning" role="status"></p>
+            <form id="plan-status" class="inline-form"><label>Estado<select name="status"><option value="pending">Pendiente</option><option value="in_progress">En curso</option><option value="done">Hecho</option><option value="needs_review">Por revisar</option><option value="blocked">Bloqueado</option><option value="verified">Verificado</option><option value="cancelled">Cancelado</option></select></label><label>Motivo<input name="reason" maxlength="1000" placeholder="Obligatorio al bloquear o cancelar" /></label><button class="secondary">Cambiar estado</button></form>
+            <form id="plan-review" class="card">
+              <h3>Registrar una revisión realizada</h3>
+              <p>Registra qué comprobaste, quién lo comprobó y su resultado. No marques criterios que no revisaste.</p>
+              <div class="columns"><label>Resultado<select name="outcome"><option value="passed">Pasó</option><option value="failed">Falló</option><option value="blocked">Bloqueada</option><option value="inconclusive">No concluyente</option></select></label><label>Revisor<input name="reviewer" required maxlength="160" /></label></div>
+              <label>Qué se comprobó<textarea name="summary" required maxlength="2000" rows="3"></textarea></label>
+              <fieldset id="plan-review-criteria"><legend>Criterios realmente comprobados</legend></fieldset>
+              <label>Archivos de evidencia<textarea name="evidence" rows="2" placeholder="Una ruta relativa por línea. PCTX conserva su hash, no su contenido."></textarea></label>
+              <button class="primary">Registrar revisión</button>
+            </form>
+            <button id="plan-history" class="secondary">Ver historial</button><button id="plan-history-more" class="secondary" hidden>Más historial</button>
+            <div id="plan-history-text"></div>
+          </article>
+          <form id="plan-form" class="card">
+            <h3 id="plan-edit-title">Nuevo punto</h3>
+            <label>Título<input name="title" required maxlength="300" /></label>
+            <label>Descripción<textarea name="description" rows="3" maxlength="4000"></textarea></label>
+            <div class="columns"><label>Tipo<select name="kind"><option value="goal">Meta</option><option value="task">Tarea</option><option value="bug">Bug</option><option value="check">Verificación</option></select></label><label>Prioridad<select name="priority"><option value="low">Baja</option><option value="normal">Normal</option><option value="high">Alta</option><option value="critical">Crítica</option></select></label><label>Responsable<input name="owner" maxlength="160" placeholder="Vacío si está disponible" /></label></div>
+            <div class="columns"><label>Dificultad<select name="difficulty"><option value="unknown">Sin clasificar</option><option value="easy">Fácil</option><option value="medium">Medio</option><option value="intermediate">Intermedio</option><option value="hard">Difícil</option><option value="very_hard">Súper difícil</option></select></label><label>Riesgo<select name="risk"><option value="unknown">Sin clasificar</option><option value="low">Bajo</option><option value="medium">Medio</option><option value="high">Alto</option></select></label></div>
+            <label>Por qué tiene esa dificultad<textarea name="difficulty_reason" rows="2" maxlength="1000" placeholder="Explica alcance, incertidumbre e integraciones; obligatorio al clasificar."></textarea></label>
+            <div class="columns"><label>Meta o punto padre<input name="parent" placeholder="plan.ID; vacío para raíz" /></label><label>Dependencias<textarea name="dependencies" rows="2" placeholder="Un ID por línea"></textarea></label></div>
+            <label>Criterios de aceptación<textarea name="criteria" rows="3" placeholder="Uno por línea; necesarios para verificar"></textarea></label>
+            <button class="primary">Guardar punto</button>
+          </form>
+        </section>
+        <section data-page="tasks" hidden>
+          <div class="section-top">
+            <div>
+              <h2>Tareas y continuidad</h2>
+              <p>
+                Deja un punto de recuperación antes de modificar el proyecto.
+              </p>
+            </div>
+          </div>
+          <form id="task-form" class="card">
+            <label
+              >Objetivo<input
+                name="title"
+                required
+                placeholder="Ejemplo: completar el flujo de autenticación"
+            /></label>
+            <div class="columns">
+              <label
+                >Criterios de aceptación<textarea
+                  name="acceptance"
+                  rows="3"
+                  placeholder="Uno por línea"
+                ></textarea></label
+              ><label
+                >Siguientes pasos<textarea
+                  name="next_actions"
+                  rows="3"
+                  placeholder="Uno por línea; conserva lo que aún falta"
+                ></textarea>
+              </label>
+            </div>
+            <label
+              >Bloqueos<textarea
+                name="blockers"
+                rows="2"
+                placeholder="Vacío si puedes continuar"
+              ></textarea></label
+            ><label
+              >Estado<select name="status">
+                <option value="active">En curso</option>
+                <option value="paused">Pausada</option>
+                <option value="blocked">Bloqueada</option>
+              </select></label
+            >
+            <div class="button-row">
+              <button class="primary">Guardar avance</button
+              ><button type="button" id="finish-task" class="secondary">
+                Cerrar sesión y guardar pendientes
+              </button>
+            </div>
+          </form>
+          <h3>Rastro guardado</h3>
+          <pre id="tasks-text" class="document"></pre>
+        </section>
+        <section data-page="architecture" hidden>
+          <div class="section-top">
+            <div>
+              <h2>Conexiones del proyecto</h2>
+              <p>
+                Mapa generado y conexiones registradas. La fuente portable se
+                conserva en Mermaid.
+              </p>
+            </div>
+            <button id="copy-architecture" class="secondary">
+              Copiar Mermaid
+            </button>
+          </div>
+          <label
+            >Buscar componente<input
+              id="graph-filter"
+              type="search"
+              placeholder="Nombre de módulo, servicio o archivo"
+          /></label>
+          <div class="card graph-wrap">
+            <svg
+              id="graph"
+              role="img"
+              aria-label="Mapa de conexiones"
+              viewBox="0 0 1000 540"
+            ></svg>
+            <p id="graph-note" class="hint"></p>
+          </div>
+          <div id="connections" class="connections"></div>
+          <form id="architecture-form" class="card">
+            <h3>Registrar una conexión</h3>
+            <div class="columns">
+              <label
+                >ID origen<input
+                  name="source"
+                  pattern="[A-Za-z0-9_.-]{1,48}"
+                  placeholder="api"
+                  required /></label
+              ><label
+                >ID destino<input
+                  name="target"
+                  pattern="[A-Za-z0-9_.-]{1,48}"
+                  placeholder="database"
+                  required
+              /></label>
+            </div>
+            <label
+              >Relación<input
+                name="label"
+                required
+                placeholder="consulta mediante repository" /></label
+            ><label
+              >Nota opcional<input
+                name="note"
+                placeholder="Explica lo que el análisis estático no puede ver" /></label
+            ><button class="primary">Guardar conexión</button>
+          </form>
+          <details>
+            <summary>Ver architecture.md</summary>
+            <pre id="architecture-text" class="document"></pre>
+          </details>
+        </section>
+        <section data-page="knowledge" hidden>
+          <div class="section-top">
+            <div>
+              <h2>Conocimiento durable</h2>
+              <p>
+                Lo que importa conservar. Cada registro distingue afirmaciones,
+                inferencias y evidencia obsoleta.
+              </p>
+            </div>
+          </div>
+          <div class="inline-form">
+            <label
+              >Buscar<input
+                id="record-search"
+                type="search"
+                placeholder="Decisión, archivo, restricción…" /></label
+            ><label class="compact"
+              >Estado<select id="record-state">
+                <option value="">Todos</option>
+                <option value="review">Por revisar</option>
+                <option value="verified">Verificados</option>
+                <option value="user_asserted">Confirmados por ti</option>
+                <option value="inferred">Inferidos</option>
+                <option value="stale">Obsoletos</option>
+                <option value="superseded">Sustituidos</option>
+              </select></label
+            >
+          </div>
+          <div id="records"></div>
+          <form id="record-form" class="card">
+            <h3>Añadir conocimiento</h3>
+            <div class="columns">
+              <label
+                >Tipo<select name="type">
+                  <option value="decision">Decisión</option>
+                  <option value="constraint">Restricción</option>
+                  <option value="fact">Hecho</option>
+                  <option value="procedure">Procedimiento</option>
+                  <option value="issue">Problema confirmado</option>
+                  <option value="next_action">Próximo paso</option>
+                </select></label
+              ><label
+                >Ámbito<input name="scope" value="project" required
+              /></label>
+            </div>
+            <label
+              >Qué debe recordar la próxima IA<textarea
+                name="statement"
+                required
+                rows="3"
+              ></textarea></label
+            ><label
+              >Archivos que lo respaldan<input
+                name="evidence"
+                placeholder="Rutas relativas separadas por coma"
+            /></label>
+            <p class="hint">
+              Se guarda como inferido. Puedes confirmarlo después de revisar su
+              evidencia.
+            </p>
+            <button class="primary">Guardar conocimiento</button>
+          </form>
+        </section>
+        <section data-page="integrations" hidden>
+          <div class="section-top">
+            <div>
+              <h2>Conectar una IA</h2>
+              <p>Todos los asistentes comparten la misma carpeta de memoria.</p>
+            </div>
+            <button id="probe" class="secondary">Comprobar MCP local</button>
+          </div>
+          <div class="card">
+            <label
+              >Cliente<select id="client">
+                <option value="generic">MCP genérico / otro cliente</option>
+                <option value="vscode">VS Code</option>
+                <option value="cursor">Cursor</option>
+                <option value="claude-code">Claude Code</option>
+              </select></label
+            ><label class="watch-label"
+              ><input type="checkbox" id="read-only" /> Solo lectura (la IA no
+              actualizará la memoria)</label
+            >
+            <p id="config-path" class="hint"></p>
+            <pre id="config-text" class="document"></pre>
+            <div class="button-row">
+              <button id="copy-config" class="secondary">
+                Copiar configuración</button
+              ><button id="install-config" class="primary">
+                Instalar en este proyecto
+              </button>
+            </div>
+            <p class="hint">
+              El cliente inicia y detiene su propio proceso MCP. Apagar este
+              panel no desconecta los MCP de tus IDEs.
+            </p>
+            <pre id="probe-result" hidden></pre>
+          </div>
+          <div class="card">
+            <span class="badge">CHATGPT WEB + MCP MASTER</span>
+            <h3>Una instrucción lista para tu siguiente chat</h3>
+            <p>
+              Si el MCP Master ofrece terminal, esta guía permite usar PCTX con
+              comandos que terminan inmediatamente. El ejecutable debe estar
+              disponible en su entorno.
+            </p>
+            <button id="copy-guide" class="primary">
+              Copiar instrucciones para la IA
+            </button>
+            <pre id="guide-text" class="document"></pre>
+            <p class="hint">
+              La conexión remota de ChatGPT con tu Master debe estar
+              configurada. Este panel local no es un servidor MCP remoto.
+            </p>
+          </div>
+        </section>
+        <section data-page="health" hidden>
+          <div class="section-top">
+            <div>
+              <h2>Diagnóstico</h2>
+              <p>
+                Comprueba evidencia, exportaciones, archivos y señales de
+                contenido que no debería persistirse.
+              </p>
+            </div>
+            <button id="doctor" class="primary">Ejecutar comprobación</button>
+          </div>
+          <div id="health-result" class="card">
+            <p>Ejecuta una comprobación para ver el estado actual.</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <dialog id="project-dialog">
+      <form id="project-form">
+        <div class="eyebrow">ABRIR PROYECTO</div>
+        <h2>¿Dónde vive tu proyecto?</h2>
+        <p>Escribe la ruta absoluta de una carpeta existente en este equipo.</p>
+        <label
+          >Carpeta<input
+            name="path"
+            id="new-path"
+            required
+            placeholder="/ruta/a/mi-proyecto"
+            autocomplete="off" /></label
+        ><label class="watch-label"
+          ><input name="initialize" type="checkbox" checked /> Inicializar o
+          reparar los archivos de PCTX</label
+        >
+        <p class="hint">
+          Conserva las notas y las reglas manuales. No modifica tu código.
+        </p>
+        <div class="button-row">
+          <button class="primary">Abrir proyecto</button
+          ><button type="button" id="cancel-project" class="secondary">
+            Cancelar
+          </button>
+        </div>
+        <p id="project-error" role="alert"></p>
+      </form>
+    </dialog>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "d4201f5472a952da27282ad7cebf8613cd7f501e0dab00160ca0dd64e2975a35",
+        "record": {
+          "created_at": "2026-10-12T22:15:19Z",
+          "evidence": [
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "fact.validation.pctx06.release",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Entrega local 0.6.0: 141 pruebas, 55 recorridos Chromium sin errores JS, once casos de recuperación, incremental equivalente, búsquedas sin regresión y wheel/zipapp limpios. Instalación 0.6 y 35 módulos/recursos coinciden. Dos procesos concurrentes no ganan la misma reserva; clientes/modelos externos siguen pendientes.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-12T22:15:19Z"
+        },
+        "recorded_at": "2026-10-12T22:15:19Z",
+        "revision": 1
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-10-12T22:15:19Z",
+  "evidence": [
+    {
+      "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+      "kind": "reference",
+      "path": "validation/release-0.6.json",
+      "ref": "validation/release-0.6.json"
+    }
+  ],
+  "id": "fact.validation.pctx06.release",
+  "origin": "local-validation",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "verified",
+  "statement": "Entrega local 0.6.0: 141 pruebas, 55 recorridos Chromium sin errores JS, once casos de recuperación, incremental equivalente, búsquedas sin regresión y wheel/zipapp limpios. Instalación 0.6 y 35 módulos/recursos coinciden. Dos procesos concurrentes no ganan la misma reserva; clientes/modelos externos siguen pendientes.",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-10-12T22:15:19Z"
+}

@@ -1,0 +1,246 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "0e62b81b6a833a62079135ba124f7312b966ff5fd8a3f031557fd142b973a2b2",
+        "record": {
+          "check": {
+            "argv": [
+              "python3",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-v"
+            ],
+            "timeout": 180
+          },
+          "created_at": "2026-10-24T23:05:25Z",
+          "evidence": [],
+          "id": "fact.pctx071.executed-battery",
+          "origin": "local-validation",
+          "roles": [
+            "coordinador"
+          ],
+          "scope": "pctx/validation",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "user_asserted",
+          "statement": "Suite local PCTX 194/194",
+          "tags": [],
+          "ttl_seconds": 86400,
+          "type": "fact",
+          "updated_at": "2026-10-24T23:05:25Z"
+        },
+        "recorded_at": "2026-10-24T23:05:25Z",
+        "revision": 1
+      },
+      {
+        "digest": "b816d22e2a42c76f8e9004cb551d87588ecea202565c9e1708048078a535cad7",
+        "record": {
+          "check": {
+            "argv": [
+              "python3",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-v"
+            ],
+            "timeout": 180
+          },
+          "created_at": "2026-10-24T23:05:25Z",
+          "evidence": [
+            {
+              "content_hash": "4c29deaddfb84f5c87723c794e91d4f009bc1111ce2481944017141a78311691",
+              "kind": "workspace",
+              "ref": "workspace-at-check"
+            }
+          ],
+          "id": "fact.pctx071.executed-battery",
+          "origin": "local-validation",
+          "roles": [
+            "coordinador"
+          ],
+          "scope": "pctx/validation",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "verified",
+          "statement": "Suite local PCTX 194/194",
+          "tags": [],
+          "ttl_seconds": 86400,
+          "type": "fact",
+          "updated_at": "2026-10-24T23:05:58Z",
+          "verification": {
+            "argv": [
+              "python3",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-v"
+            ],
+            "at": "2026-10-24T23:05:25Z",
+            "check_sha256": "a9b7d57dc12490ed11653a3af9607d5f655ebf4f89e03b21a0e7338f8fc9497c",
+            "exit_code": 0,
+            "finished_at": "2026-10-24T23:05:58Z",
+            "observed_counts": {
+              "format": "unittest",
+              "passed": 194,
+              "total": 194
+            },
+            "output_bytes_hashed": 31021,
+            "output_limit": 65536,
+            "output_sha256": "dfa89e03fa135870ef87b319e45ac4cd3a928dcdafeb3e442fd9412a6ce8b177",
+            "output_truncated": false,
+            "run_id": "539e178bcd6048b5b9902d312af04edd",
+            "seconds": 32.715,
+            "timed_out": false,
+            "timeout": 180
+          }
+        },
+        "recorded_at": "2026-10-24T23:05:58Z",
+        "revision": 2
+      },
+      {
+        "digest": "0d824f8dc31181c110de0272f03fbfed221ffac1cba71bcaa523575ddfed8594",
+        "record": {
+          "check": {
+            "argv": [
+              "python3",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-v"
+            ],
+            "timeout": 180
+          },
+          "created_at": "2026-10-24T23:05:25Z",
+          "evidence": [
+            {
+              "content_hash": "4c29deaddfb84f5c87723c794e91d4f009bc1111ce2481944017141a78311691",
+              "kind": "workspace",
+              "ref": "workspace-at-check"
+            }
+          ],
+          "id": "fact.pctx071.executed-battery",
+          "origin": "local-validation",
+          "roles": [
+            "coordinador"
+          ],
+          "scope": "pctx/validation",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "stale_at": "2026-11-17T06:58:06Z",
+          "stale_reason": "expired; workspace: workspace-changed",
+          "state": "stale",
+          "statement": "Suite local PCTX 194/194",
+          "tags": [],
+          "ttl_seconds": 86400,
+          "type": "fact",
+          "updated_at": "2026-11-17T06:58:06Z",
+          "verification": {
+            "argv": [
+              "python3",
+              "-m",
+              "unittest",
+              "discover",
+              "-s",
+              "tests",
+              "-v"
+            ],
+            "at": "2026-10-24T23:05:25Z",
+            "check_sha256": "a9b7d57dc12490ed11653a3af9607d5f655ebf4f89e03b21a0e7338f8fc9497c",
+            "exit_code": 0,
+            "finished_at": "2026-10-24T23:05:58Z",
+            "observed_counts": {
+              "format": "unittest",
+              "passed": 194,
+              "total": 194
+            },
+            "output_bytes_hashed": 31021,
+            "output_limit": 65536,
+            "output_sha256": "dfa89e03fa135870ef87b319e45ac4cd3a928dcdafeb3e442fd9412a6ce8b177",
+            "output_truncated": false,
+            "run_id": "539e178bcd6048b5b9902d312af04edd",
+            "seconds": 32.715,
+            "timed_out": false,
+            "timeout": 180
+          }
+        },
+        "recorded_at": "2026-11-17T06:58:06Z",
+        "revision": 3
+      }
+    ],
+    "schema_version": 1
+  },
+  "check": {
+    "argv": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "timeout": 180
+  },
+  "created_at": "2026-10-24T23:05:25Z",
+  "evidence": [
+    {
+      "content_hash": "4c29deaddfb84f5c87723c794e91d4f009bc1111ce2481944017141a78311691",
+      "kind": "workspace",
+      "ref": "workspace-at-check"
+    }
+  ],
+  "id": "fact.pctx071.executed-battery",
+  "origin": "local-validation",
+  "roles": [
+    "coordinador"
+  ],
+  "scope": "pctx/validation",
+  "sensitivity": "internal",
+  "stability": "volatile",
+  "stale_at": "2026-11-17T06:58:06Z",
+  "stale_reason": "expired; workspace: workspace-changed",
+  "state": "stale",
+  "statement": "Suite local PCTX 194/194",
+  "tags": [],
+  "ttl_seconds": 86400,
+  "type": "fact",
+  "updated_at": "2026-11-17T06:58:06Z",
+  "verification": {
+    "argv": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "at": "2026-10-24T23:05:25Z",
+    "check_sha256": "a9b7d57dc12490ed11653a3af9607d5f655ebf4f89e03b21a0e7338f8fc9497c",
+    "exit_code": 0,
+    "finished_at": "2026-10-24T23:05:58Z",
+    "observed_counts": {
+      "format": "unittest",
+      "passed": 194,
+      "total": 194
+    },
+    "output_bytes_hashed": 31021,
+    "output_limit": 65536,
+    "output_sha256": "dfa89e03fa135870ef87b319e45ac4cd3a928dcdafeb3e442fd9412a6ce8b177",
+    "output_truncated": false,
+    "run_id": "539e178bcd6048b5b9902d312af04edd",
+    "seconds": 32.715,
+    "timed_out": false,
+    "timeout": 180
+  }
+}

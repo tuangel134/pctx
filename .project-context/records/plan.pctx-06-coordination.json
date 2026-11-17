@@ -1,0 +1,1003 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "ebcb1850544ee4ccb8cf5ae3f7148ad7205126cbcdcbe829f8b553b1967f53a3",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.90ce74121e1b",
+                "text": "El ciclo completo de reserva y traspaso funciona por CLI MCP y panel"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Reservas portables y recuperación con concurrencia real",
+            "kind": "goal",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Coordinación local entre IAs (PCTX 0.6)",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [],
+          "id": "plan.pctx-06-coordination",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: Coordinación local entre IAs (PCTX 0.6). Declared status: pending. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:06:11Z"
+        },
+        "recorded_at": "2026-10-12T22:06:11Z",
+        "revision": 1
+      },
+      {
+        "digest": "e0abe8686009d42566dc2bcf37dbc3fcc2d7a0110263aa32f640ee4b6e7090e5",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.90ce74121e1b",
+                "text": "El ciclo completo de reserva y traspaso funciona por CLI MCP y panel"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Reservas portables y recuperación con concurrencia real",
+            "kind": "goal",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "Coordinación local entre IAs (PCTX 0.6)",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [],
+          "id": "plan.pctx-06-coordination",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: Coordinación local entre IAs (PCTX 0.6). Declared status: in_progress. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:06:11Z"
+        },
+        "recorded_at": "2026-10-12T22:06:11Z",
+        "revision": 2
+      },
+      {
+        "digest": "2240128c6392bfe56d9ab3d8bfc462ae8ce128e07103093d4791c551e89b9343",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.90ce74121e1b",
+                "text": "El ciclo completo de reserva y traspaso funciona por CLI MCP y panel"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Reservas portables y recuperación con concurrencia real",
+            "kind": "goal",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Coordinación local entre IAs (PCTX 0.6)",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [],
+          "id": "plan.pctx-06-coordination",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: Coordinación local entre IAs (PCTX 0.6). Declared status: done. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:22Z"
+        },
+        "recorded_at": "2026-10-12T22:15:22Z",
+        "revision": 3
+      },
+      {
+        "digest": "6945f275dce9ce166cdbadeedd054ff6b45871cf5bff21c4299b1cc585124c0e",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.90ce74121e1b",
+                "text": "El ciclo completo de reserva y traspaso funciona por CLI MCP y panel"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Reservas portables y recuperación con concurrencia real",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-12T22:15:22Z",
+              "criteria": [
+                "criterion.90ce74121e1b"
+              ],
+              "definition_hash": "4ac7b65c40db095eb607728e9bd52699397449769f6dcbe3d3e24033685f5196",
+              "evidence": [
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                },
+                {
+                  "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+                  "path": "docs/COORDINACION_0.6.md"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-coordination",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-06-docs": 5,
+                "plan.pctx-06-interfaces": 5,
+                "plan.pctx-06-leases": 5,
+                "plan.pctx-06-validation": 5
+              },
+              "request_hash": "3e044e43a2b50bd390ed89c0469ca502e9de51aabc697c596db259bd77464d05",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Los cuatro subpuntos locales están verificados con evidencia; reservas, interfaces, recuperación y paquetes cumplen sus criterios. Clientes externos pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Coordinación local entre IAs (PCTX 0.6)",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            },
+            {
+              "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+              "kind": "reference",
+              "path": "docs/COORDINACION_0.6.md",
+              "ref": "docs/COORDINACION_0.6.md"
+            }
+          ],
+          "id": "plan.pctx-06-coordination",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: Coordinación local entre IAs (PCTX 0.6). Declared status: done. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:22Z"
+        },
+        "recorded_at": "2026-10-12T22:15:22Z",
+        "revision": 4
+      },
+      {
+        "digest": "6d15eab813dbfa60a7d0b9fb29feee3bf0a26b7e39f91ead5c0af11390dc6297",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.90ce74121e1b",
+                "text": "El ciclo completo de reserva y traspaso funciona por CLI MCP y panel"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Reservas portables y recuperación con concurrencia real",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-12T22:15:22Z",
+              "criteria": [
+                "criterion.90ce74121e1b"
+              ],
+              "definition_hash": "4ac7b65c40db095eb607728e9bd52699397449769f6dcbe3d3e24033685f5196",
+              "evidence": [
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                },
+                {
+                  "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+                  "path": "docs/COORDINACION_0.6.md"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-coordination",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-06-docs": 5,
+                "plan.pctx-06-interfaces": 5,
+                "plan.pctx-06-leases": 5,
+                "plan.pctx-06-validation": 5
+              },
+              "request_hash": "3e044e43a2b50bd390ed89c0469ca502e9de51aabc697c596db259bd77464d05",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Los cuatro subpuntos locales están verificados con evidencia; reservas, interfaces, recuperación y paquetes cumplen sus criterios. Clientes externos pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Coordinación local entre IAs (PCTX 0.6)",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            },
+            {
+              "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+              "kind": "reference",
+              "path": "docs/COORDINACION_0.6.md",
+              "ref": "docs/COORDINACION_0.6.md"
+            }
+          ],
+          "id": "plan.pctx-06-coordination",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: Coordinación local entre IAs (PCTX 0.6). Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:22Z"
+        },
+        "recorded_at": "2026-10-12T22:15:22Z",
+        "revision": 5
+      },
+      {
+        "digest": "933ea3a08e9d9746df957205c0ee9cf869bd09ae2fd483e875d4ab6c175f6b5b",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.90ce74121e1b",
+                "text": "El ciclo completo de reserva y traspaso funciona por CLI MCP y panel"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Reservas portables y recuperación con concurrencia real",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T22:49:14Z",
+              "criteria": [
+                "criterion.90ce74121e1b"
+              ],
+              "definition_hash": "4ac7b65c40db095eb607728e9bd52699397449769f6dcbe3d3e24033685f5196",
+              "evidence": [
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-06-coordination",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-06-docs": 5,
+                "plan.pctx-06-interfaces": 8,
+                "plan.pctx-06-leases": 8,
+                "plan.pctx-06-validation": 5
+              },
+              "request_hash": "b62ef3af9abf2e982c1a9b1129f46753aa6e82b57d923590900327bef3d17bec",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Contratos locales de la meta y sus hijos revisados en 0.7; las pruebas e instalaciones históricas conservan sus artefactos originales y no se presentan como la versión instalada actual. Traspasos externos pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Coordinación local entre IAs (PCTX 0.6)",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-06-coordination",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: Coordinación local entre IAs (PCTX 0.6). Declared status: done. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:14Z"
+        },
+        "recorded_at": "2026-10-24T22:49:14Z",
+        "revision": 6
+      },
+      {
+        "digest": "130a67025ae4273c4b1fd63ddc3a6fb6dc598992f524b8a9f7f1ff43509db630",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.90ce74121e1b",
+                "text": "El ciclo completo de reserva y traspaso funciona por CLI MCP y panel"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Reservas portables y recuperación con concurrencia real",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T22:49:14Z",
+              "criteria": [
+                "criterion.90ce74121e1b"
+              ],
+              "definition_hash": "4ac7b65c40db095eb607728e9bd52699397449769f6dcbe3d3e24033685f5196",
+              "evidence": [
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-06-coordination",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-06-docs": 5,
+                "plan.pctx-06-interfaces": 8,
+                "plan.pctx-06-leases": 8,
+                "plan.pctx-06-validation": 5
+              },
+              "request_hash": "b62ef3af9abf2e982c1a9b1129f46753aa6e82b57d923590900327bef3d17bec",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Contratos locales de la meta y sus hijos revisados en 0.7; las pruebas e instalaciones históricas conservan sus artefactos originales y no se presentan como la versión instalada actual. Traspasos externos pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Coordinación local entre IAs (PCTX 0.6)",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-06-coordination",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: Coordinación local entre IAs (PCTX 0.6). Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:15Z"
+        },
+        "recorded_at": "2026-10-24T22:49:15Z",
+        "revision": 7
+      },
+      {
+        "digest": "737a765f2d911f08a0198f6f0d22b185e55e96bf3007e06ca85590116d746fd5",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.90ce74121e1b",
+                "text": "El ciclo completo de reserva y traspaso funciona por CLI MCP y panel"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Reservas portables y recuperación con concurrencia real",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T23:07:16Z",
+              "criteria": [
+                "criterion.90ce74121e1b"
+              ],
+              "definition_hash": "4ac7b65c40db095eb607728e9bd52699397449769f6dcbe3d3e24033685f5196",
+              "evidence": [
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-06-coordination",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-06-docs": 5,
+                "plan.pctx-06-interfaces": 10,
+                "plan.pctx-06-leases": 8,
+                "plan.pctx-06-validation": 5
+              },
+              "request_hash": "6573f1af1ce94616258a13b38a4e89637974e5076831517d25b3c9624b639ac4",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Coordinación local entre IAs (PCTX 0.6)",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-06-coordination",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: Coordinación local entre IAs (PCTX 0.6). Declared status: done. Difficulty: hard; risk: high; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:16Z"
+        },
+        "recorded_at": "2026-10-24T23:07:16Z",
+        "revision": 8
+      },
+      {
+        "digest": "242868275fce17ab77dd2ad9929ef5ca117cdc42c5f06109e7035a2e33f24281",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.90ce74121e1b",
+                "text": "El ciclo completo de reserva y traspaso funciona por CLI MCP y panel"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Reservas portables y recuperación con concurrencia real",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T23:07:16Z",
+              "criteria": [
+                "criterion.90ce74121e1b"
+              ],
+              "definition_hash": "4ac7b65c40db095eb607728e9bd52699397449769f6dcbe3d3e24033685f5196",
+              "evidence": [
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-06-coordination",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-06-docs": 5,
+                "plan.pctx-06-interfaces": 10,
+                "plan.pctx-06-leases": 8,
+                "plan.pctx-06-validation": 5
+              },
+              "request_hash": "6573f1af1ce94616258a13b38a4e89637974e5076831517d25b3c9624b639ac4",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Coordinación local entre IAs (PCTX 0.6)",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-06-coordination",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: Coordinación local entre IAs (PCTX 0.6). Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:16Z"
+        },
+        "recorded_at": "2026-10-24T23:07:16Z",
+        "revision": 9
+      },
+      {
+        "digest": "44c755344081e1dbb9e49cc32830b6dcb905e576923f208496eb2cffe7c43da0",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.90ce74121e1b",
+                "text": "El ciclo completo de reserva y traspaso funciona por CLI MCP y panel"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Reservas portables y recuperación con concurrencia real",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T23:07:16Z",
+              "criteria": [
+                "criterion.90ce74121e1b"
+              ],
+              "definition_hash": "4ac7b65c40db095eb607728e9bd52699397449769f6dcbe3d3e24033685f5196",
+              "evidence": [
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-06-coordination",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-06-docs": 5,
+                "plan.pctx-06-interfaces": 10,
+                "plan.pctx-06-leases": 8,
+                "plan.pctx-06-validation": 5
+              },
+              "request_hash": "6573f1af1ce94616258a13b38a4e89637974e5076831517d25b3c9624b639ac4",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Coordinación local entre IAs (PCTX 0.6)",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-06-coordination",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-11-17T06:58:06Z",
+          "stale_reason": "docs/VALIDACION_0.7.md: changed",
+          "state": "stale",
+          "statement": "Checklist goal: Coordinación local entre IAs (PCTX 0.6). Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-11-17T06:58:06Z"
+        },
+        "recorded_at": "2026-11-17T06:58:06Z",
+        "revision": 10
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.90ce74121e1b",
+        "text": "El ciclo completo de reserva y traspaso funciona por CLI MCP y panel"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "hard",
+    "difficulty_reason": "Reservas portables y recuperación con concurrencia real",
+    "kind": "goal",
+    "last_review": {
+      "at": "2026-10-24T23:07:16Z",
+      "criteria": [
+        "criterion.90ce74121e1b"
+      ],
+      "definition_hash": "4ac7b65c40db095eb607728e9bd52699397449769f6dcbe3d3e24033685f5196",
+      "evidence": [
+        {
+          "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+          "path": "docs/USO_0.7.md"
+        },
+        {
+          "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+          "path": "docs/VALIDACION_0.7.md"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        },
+        {
+          "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+          "path": "validation/release-0.7.1.json"
+        },
+        {
+          "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+          "path": "docs/USO_0.7.1.md"
+        }
+      ],
+      "id": "pctx071-plan.pctx-06-coordination",
+      "outcome": "passed",
+      "related_revisions": {
+        "plan.pctx-06-docs": 5,
+        "plan.pctx-06-interfaces": 10,
+        "plan.pctx-06-leases": 8,
+        "plan.pctx-06-validation": 5
+      },
+      "request_hash": "6573f1af1ce94616258a13b38a4e89637974e5076831517d25b3c9624b639ac4",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+    },
+    "owner": "",
+    "parent": "plan.pctx-continuity",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 3,
+    "risk": "high",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Coordinación local entre IAs (PCTX 0.6)",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-12T22:06:11Z",
+  "evidence": [
+    {
+      "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+      "kind": "reference",
+      "path": "docs/USO_0.7.md",
+      "ref": "docs/USO_0.7.md"
+    },
+    {
+      "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+      "kind": "reference",
+      "path": "docs/VALIDACION_0.7.md",
+      "ref": "docs/VALIDACION_0.7.md"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    },
+    {
+      "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+      "kind": "reference",
+      "path": "validation/release-0.7.1.json",
+      "ref": "validation/release-0.7.1.json"
+    },
+    {
+      "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+      "kind": "reference",
+      "path": "docs/USO_0.7.1.md",
+      "ref": "docs/USO_0.7.1.md"
+    }
+  ],
+  "id": "plan.pctx-06-coordination",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-continuity"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "stale_at": "2026-11-17T06:58:06Z",
+  "stale_reason": "docs/VALIDACION_0.7.md: changed",
+  "state": "stale",
+  "statement": "Checklist goal: Coordinación local entre IAs (PCTX 0.6). Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 3. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-11-17T06:58:06Z"
+}

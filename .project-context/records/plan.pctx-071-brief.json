@@ -1,0 +1,543 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "8e24f6b0904391f9f77baa05f870b697d5026836d881ad3a7b4a68114d5a5a67",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.aadc4b793549",
+                "text": "Brief por rol incorpora contexto global identificado sin filtrar trabajo de otros roles ni fuentes stale"
+              },
+              {
+                "id": "criterion.1d03e6d6696f",
+                "text": "TTL legible se normaliza a segundos y reemplazos dan diagnóstico accionable sin revelar registros privados"
+              },
+              {
+                "id": "criterion.bcd2289d82bd",
+                "text": "Regresiones, paquetes e instalación pasan; evidencia anterior y pendientes externos preservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Corrección de selección de fuentes y regresiones CLI MCP panel; sin cambios del formato JSON",
+            "kind": "bug",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "PCTX 0.7.1: brief W7 con contexto global y errores accionables",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-24T22:58:05Z",
+          "evidence": [],
+          "id": "plan.pctx-071-brief",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist bug: PCTX 0.7.1: brief W7 con contexto global y errores accionables. Declared status: pending. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:58:05Z"
+        },
+        "recorded_at": "2026-10-24T22:58:05Z",
+        "revision": 1
+      },
+      {
+        "digest": "188174faae691dd3c5bf7958d42123f93cefefffb7233ec3c2f25c310fbb7fbc",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.aadc4b793549",
+                "text": "Brief por rol incorpora contexto global identificado sin filtrar trabajo de otros roles ni fuentes stale"
+              },
+              {
+                "id": "criterion.1d03e6d6696f",
+                "text": "TTL legible se normaliza a segundos y reemplazos dan diagnóstico accionable sin revelar registros privados"
+              },
+              {
+                "id": "criterion.bcd2289d82bd",
+                "text": "Regresiones, paquetes e instalación pasan; evidencia anterior y pendientes externos preservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Corrección de selección de fuentes y regresiones CLI MCP panel; sin cambios del formato JSON",
+            "kind": "bug",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "PCTX 0.7.1: brief W7 con contexto global y errores accionables",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:58:05Z",
+          "evidence": [],
+          "id": "plan.pctx-071-brief",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist bug: PCTX 0.7.1: brief W7 con contexto global y errores accionables. Declared status: in_progress. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:58:06Z"
+        },
+        "recorded_at": "2026-10-24T22:58:06Z",
+        "revision": 2
+      },
+      {
+        "digest": "90ff07873899288cc0cefc2a7475185d512fd8c10f6433eb78f2b7ad04b68f70",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.aadc4b793549",
+                "text": "Brief por rol incorpora contexto global identificado sin filtrar trabajo de otros roles ni fuentes stale"
+              },
+              {
+                "id": "criterion.1d03e6d6696f",
+                "text": "TTL legible se normaliza a segundos y reemplazos dan diagnóstico accionable sin revelar registros privados"
+              },
+              {
+                "id": "criterion.bcd2289d82bd",
+                "text": "Regresiones, paquetes e instalación pasan; evidencia anterior y pendientes externos preservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Corrección de selección de fuentes y regresiones CLI MCP panel; sin cambios del formato JSON",
+            "kind": "bug",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "PCTX 0.7.1: brief W7 con contexto global y errores accionables",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:58:05Z",
+          "evidence": [],
+          "id": "plan.pctx-071-brief",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist bug: PCTX 0.7.1: brief W7 con contexto global y errores accionables. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:54Z"
+        },
+        "recorded_at": "2026-10-24T23:07:54Z",
+        "revision": 3
+      },
+      {
+        "digest": "e79a00725f03e36c41aa2ff719e7557765880bd158207c87b8da3a2a74c68617",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.aadc4b793549",
+                "text": "Brief por rol incorpora contexto global identificado sin filtrar trabajo de otros roles ni fuentes stale"
+              },
+              {
+                "id": "criterion.1d03e6d6696f",
+                "text": "TTL legible se normaliza a segundos y reemplazos dan diagnóstico accionable sin revelar registros privados"
+              },
+              {
+                "id": "criterion.bcd2289d82bd",
+                "text": "Regresiones, paquetes e instalación pasan; evidencia anterior y pendientes externos preservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Corrección de selección de fuentes y regresiones CLI MCP panel; sin cambios del formato JSON",
+            "kind": "bug",
+            "last_review": {
+              "at": "2026-10-24T23:07:55Z",
+              "criteria": [
+                "criterion.aadc4b793549",
+                "criterion.1d03e6d6696f",
+                "criterion.bcd2289d82bd"
+              ],
+              "definition_hash": "0fe69d0a69ce2a8851e9ed47964353e4dfff29d872218918cc524b621f1468f6",
+              "evidence": [
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "a53643369bea9965e1be26d9c8efa21e4593772e52a8df624827a3a75c76c78f",
+                  "path": "validation/reproduction-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                },
+                {
+                  "content_hash": "e870570e0fe09acbac7d812ae0bef953685a968b3ca674a72291b8d785912e31",
+                  "path": "validation/handoff-release-0.7.1.json"
+                },
+                {
+                  "content_hash": "477ee5eb545c737b6db15087db4794c3f710bad056c34d4b182477ff329a2571",
+                  "path": "validation/backup-preclose-0.7.1.json"
+                }
+              ],
+              "id": "pctx071-w7-final",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "78851b0b05ba327030725a28deb6bb5b0d32590220bc63eebb6dcf5952348ff5",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Reproducido con wheel0.7.0 y corregido con0.7.1 sobre la misma fixture.194 pruebas,58 flujos UI,11 recuperaciones,wheel limpio y zipapp pasan. JSON conserva segundos,lecturas sin escritura y exclusión de otros roles;avisos de evidencia cambiada permanecen. Instalación0.7.1,41 archivos,backup y handoff comprobados;externos pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "PCTX 0.7.1: brief W7 con contexto global y errores accionables",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:58:05Z",
+          "evidence": [
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "a53643369bea9965e1be26d9c8efa21e4593772e52a8df624827a3a75c76c78f",
+              "kind": "reference",
+              "path": "validation/reproduction-0.7.1.json",
+              "ref": "validation/reproduction-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            },
+            {
+              "content_hash": "e870570e0fe09acbac7d812ae0bef953685a968b3ca674a72291b8d785912e31",
+              "kind": "reference",
+              "path": "validation/handoff-release-0.7.1.json",
+              "ref": "validation/handoff-release-0.7.1.json"
+            },
+            {
+              "content_hash": "477ee5eb545c737b6db15087db4794c3f710bad056c34d4b182477ff329a2571",
+              "kind": "reference",
+              "path": "validation/backup-preclose-0.7.1.json",
+              "ref": "validation/backup-preclose-0.7.1.json"
+            }
+          ],
+          "id": "plan.pctx-071-brief",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist bug: PCTX 0.7.1: brief W7 con contexto global y errores accionables. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:55Z"
+        },
+        "recorded_at": "2026-10-24T23:07:55Z",
+        "revision": 4
+      },
+      {
+        "digest": "d3c6fb810fd699861ca4cff30e96a49bcc9e88c16074ebf65ccf856acf9a3db1",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.aadc4b793549",
+                "text": "Brief por rol incorpora contexto global identificado sin filtrar trabajo de otros roles ni fuentes stale"
+              },
+              {
+                "id": "criterion.1d03e6d6696f",
+                "text": "TTL legible se normaliza a segundos y reemplazos dan diagnóstico accionable sin revelar registros privados"
+              },
+              {
+                "id": "criterion.bcd2289d82bd",
+                "text": "Regresiones, paquetes e instalación pasan; evidencia anterior y pendientes externos preservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Corrección de selección de fuentes y regresiones CLI MCP panel; sin cambios del formato JSON",
+            "kind": "bug",
+            "last_review": {
+              "at": "2026-10-24T23:07:55Z",
+              "criteria": [
+                "criterion.aadc4b793549",
+                "criterion.1d03e6d6696f",
+                "criterion.bcd2289d82bd"
+              ],
+              "definition_hash": "0fe69d0a69ce2a8851e9ed47964353e4dfff29d872218918cc524b621f1468f6",
+              "evidence": [
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "a53643369bea9965e1be26d9c8efa21e4593772e52a8df624827a3a75c76c78f",
+                  "path": "validation/reproduction-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                },
+                {
+                  "content_hash": "e870570e0fe09acbac7d812ae0bef953685a968b3ca674a72291b8d785912e31",
+                  "path": "validation/handoff-release-0.7.1.json"
+                },
+                {
+                  "content_hash": "477ee5eb545c737b6db15087db4794c3f710bad056c34d4b182477ff329a2571",
+                  "path": "validation/backup-preclose-0.7.1.json"
+                }
+              ],
+              "id": "pctx071-w7-final",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "78851b0b05ba327030725a28deb6bb5b0d32590220bc63eebb6dcf5952348ff5",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Reproducido con wheel0.7.0 y corregido con0.7.1 sobre la misma fixture.194 pruebas,58 flujos UI,11 recuperaciones,wheel limpio y zipapp pasan. JSON conserva segundos,lecturas sin escritura y exclusión de otros roles;avisos de evidencia cambiada permanecen. Instalación0.7.1,41 archivos,backup y handoff comprobados;externos pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "PCTX 0.7.1: brief W7 con contexto global y errores accionables",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:58:05Z",
+          "evidence": [
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "a53643369bea9965e1be26d9c8efa21e4593772e52a8df624827a3a75c76c78f",
+              "kind": "reference",
+              "path": "validation/reproduction-0.7.1.json",
+              "ref": "validation/reproduction-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            },
+            {
+              "content_hash": "e870570e0fe09acbac7d812ae0bef953685a968b3ca674a72291b8d785912e31",
+              "kind": "reference",
+              "path": "validation/handoff-release-0.7.1.json",
+              "ref": "validation/handoff-release-0.7.1.json"
+            },
+            {
+              "content_hash": "477ee5eb545c737b6db15087db4794c3f710bad056c34d4b182477ff329a2571",
+              "kind": "reference",
+              "path": "validation/backup-preclose-0.7.1.json",
+              "ref": "validation/backup-preclose-0.7.1.json"
+            }
+          ],
+          "id": "plan.pctx-071-brief",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist bug: PCTX 0.7.1: brief W7 con contexto global y errores accionables. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:56Z"
+        },
+        "recorded_at": "2026-10-24T23:07:56Z",
+        "revision": 5
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.aadc4b793549",
+        "text": "Brief por rol incorpora contexto global identificado sin filtrar trabajo de otros roles ni fuentes stale"
+      },
+      {
+        "id": "criterion.1d03e6d6696f",
+        "text": "TTL legible se normaliza a segundos y reemplazos dan diagnóstico accionable sin revelar registros privados"
+      },
+      {
+        "id": "criterion.bcd2289d82bd",
+        "text": "Regresiones, paquetes e instalación pasan; evidencia anterior y pendientes externos preservados"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "intermediate",
+    "difficulty_reason": "Corrección de selección de fuentes y regresiones CLI MCP panel; sin cambios del formato JSON",
+    "kind": "bug",
+    "last_review": {
+      "at": "2026-10-24T23:07:55Z",
+      "criteria": [
+        "criterion.aadc4b793549",
+        "criterion.1d03e6d6696f",
+        "criterion.bcd2289d82bd"
+      ],
+      "definition_hash": "0fe69d0a69ce2a8851e9ed47964353e4dfff29d872218918cc524b621f1468f6",
+      "evidence": [
+        {
+          "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+          "path": "validation/release-0.7.1.json"
+        },
+        {
+          "content_hash": "a53643369bea9965e1be26d9c8efa21e4593772e52a8df624827a3a75c76c78f",
+          "path": "validation/reproduction-0.7.1.json"
+        },
+        {
+          "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+          "path": "docs/USO_0.7.1.md"
+        },
+        {
+          "content_hash": "e870570e0fe09acbac7d812ae0bef953685a968b3ca674a72291b8d785912e31",
+          "path": "validation/handoff-release-0.7.1.json"
+        },
+        {
+          "content_hash": "477ee5eb545c737b6db15087db4794c3f710bad056c34d4b182477ff329a2571",
+          "path": "validation/backup-preclose-0.7.1.json"
+        }
+      ],
+      "id": "pctx071-w7-final",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "78851b0b05ba327030725a28deb6bb5b0d32590220bc63eebb6dcf5952348ff5",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Reproducido con wheel0.7.0 y corregido con0.7.1 sobre la misma fixture.194 pruebas,58 flujos UI,11 recuperaciones,wheel limpio y zipapp pasan. JSON conserva segundos,lecturas sin escritura y exclusión de otros roles;avisos de evidencia cambiada permanecen. Instalación0.7.1,41 archivos,backup y handoff comprobados;externos pendientes."
+    },
+    "owner": "",
+    "parent": "plan.pctx-continuity",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 1,
+    "risk": "medium",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "PCTX 0.7.1: brief W7 con contexto global y errores accionables",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-24T22:58:05Z",
+  "evidence": [
+    {
+      "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+      "kind": "reference",
+      "path": "validation/release-0.7.1.json",
+      "ref": "validation/release-0.7.1.json"
+    },
+    {
+      "content_hash": "a53643369bea9965e1be26d9c8efa21e4593772e52a8df624827a3a75c76c78f",
+      "kind": "reference",
+      "path": "validation/reproduction-0.7.1.json",
+      "ref": "validation/reproduction-0.7.1.json"
+    },
+    {
+      "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+      "kind": "reference",
+      "path": "docs/USO_0.7.1.md",
+      "ref": "docs/USO_0.7.1.md"
+    },
+    {
+      "content_hash": "e870570e0fe09acbac7d812ae0bef953685a968b3ca674a72291b8d785912e31",
+      "kind": "reference",
+      "path": "validation/handoff-release-0.7.1.json",
+      "ref": "validation/handoff-release-0.7.1.json"
+    },
+    {
+      "content_hash": "477ee5eb545c737b6db15087db4794c3f710bad056c34d4b182477ff329a2571",
+      "kind": "reference",
+      "path": "validation/backup-preclose-0.7.1.json",
+      "ref": "validation/backup-preclose-0.7.1.json"
+    }
+  ],
+  "id": "plan.pctx-071-brief",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-continuity"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist bug: PCTX 0.7.1: brief W7 con contexto global y errores accionables. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T23:07:56Z"
+}

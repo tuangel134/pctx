@@ -1,0 +1,1012 @@
+{
+  "custom": {
+    "edges": [
+      {
+        "label": "HTTP local autenticado",
+        "source": "pctx_ui",
+        "target": "pctx_api"
+      },
+      {
+        "label": "refresca y observa",
+        "source": "pctx_api",
+        "target": "pctx_core"
+      },
+      {
+        "label": "contexto y actualizaciones",
+        "source": "pctx_protocol",
+        "target": "pctx_core"
+      },
+      {
+        "label": "bloqueos y escrituras atómicas",
+        "source": "pctx_core",
+        "target": "pctx_store"
+      },
+      {
+        "label": "terminal con comandos finitos",
+        "source": "master_client",
+        "target": "pctx_bridge"
+      },
+      {
+        "label": "call invoca herramientas",
+        "source": "pctx_bridge",
+        "target": "pctx_protocol"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "pctx_ui",
+        "kind": "interface",
+        "label": "Panel local (navegador)"
+      },
+      {
+        "id": "pctx_api",
+        "kind": "service",
+        "label": "Dashboard API loopback"
+      },
+      {
+        "id": "pctx_core",
+        "kind": "service",
+        "label": "Servicio de memoria y vigilancia"
+      },
+      {
+        "id": "pctx_store",
+        "kind": "storage",
+        "label": "JSON canónico y vistas Markdown"
+      },
+      {
+        "id": "pctx_bridge",
+        "kind": "interface",
+        "label": "CLI / zipapp portable"
+      },
+      {
+        "id": "pctx_protocol",
+        "kind": "interface",
+        "label": "Servidor MCP stdio"
+      },
+      {
+        "id": "master_client",
+        "kind": "external",
+        "label": "MCP Master del IDE"
+      }
+    ],
+    "notes": [
+      "La GUI, MCP y CLI comparten la misma memoria por carpeta. La vigilancia registra hechos derivados; las decisiones requieren actualizaciones explícitas con evidencia."
+    ]
+  },
+  "generated": {
+    "analysis": {
+      "full": false,
+      "hash_verification": "all discovered files; never mtime only",
+      "processed": 0,
+      "reused": 58
+    },
+    "coverage": {
+      "edges_truncated": true,
+      "files_truncated": false,
+      "nodes_truncated": false,
+      "size_limited": [],
+      "unreadable": []
+    },
+    "edges": [
+      {
+        "label": "configures",
+        "source": "project",
+        "target": "file_pyproject_toml"
+      },
+      {
+        "label": "contains",
+        "source": "project",
+        "target": "component_benchmarks"
+      },
+      {
+        "label": "defines",
+        "source": "file_pyproject_toml",
+        "target": "component_benchmarks"
+      },
+      {
+        "label": "contains",
+        "source": "project",
+        "target": "component_install_py"
+      },
+      {
+        "label": "defines",
+        "source": "file_pyproject_toml",
+        "target": "component_install_py"
+      },
+      {
+        "label": "contains",
+        "source": "project",
+        "target": "component_pctx"
+      },
+      {
+        "label": "defines",
+        "source": "file_pyproject_toml",
+        "target": "component_pctx"
+      },
+      {
+        "label": "contains",
+        "source": "project",
+        "target": "component_tests"
+      },
+      {
+        "label": "defines",
+        "source": "file_pyproject_toml",
+        "target": "component_tests"
+      },
+      {
+        "label": "contains",
+        "source": "component_benchmarks",
+        "target": "module_benchmarks_clean_room"
+      },
+      {
+        "label": "contains",
+        "source": "component_benchmarks",
+        "target": "module_benchmarks_incremental"
+      },
+      {
+        "label": "contains",
+        "source": "component_benchmarks",
+        "target": "module_benchmarks_knowledge"
+      },
+      {
+        "label": "contains",
+        "source": "component_benchmarks",
+        "target": "module_benchmarks_recovery"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx___main"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_adapters"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_architecture"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_backup"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_bridge"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_briefing"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_cli"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_compile"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_continuity"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_coordination"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_dashboard"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_diagnostics"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_doctor"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_embeddings"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_freshness"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_history"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_incremental"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_integrations"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_knowledge"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_links"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_mcp"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_model"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_planning"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_planning_model"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_portable"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_public_paths"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_replacement"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_retrieval"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_review"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_scan"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_security"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_service"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_storage"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_tasks"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_verification"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_web_app"
+      },
+      {
+        "label": "contains",
+        "source": "component_pctx",
+        "target": "module_pctx_worker_reports"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_backup"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_brief_followup"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_continuity"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_coordination"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_diagnostics"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_freshness_workers"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_history"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_incremental"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_knowledge"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_pctx"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_planning"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_retrieval"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_review"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_test_workflows"
+      },
+      {
+        "label": "contains",
+        "source": "component_tests",
+        "target": "module_tests_wheel_smoke"
+      },
+      {
+        "label": "imports",
+        "source": "component_benchmarks",
+        "target": "component_pctx"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx___main",
+        "target": "module_pctx_cli"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_adapters",
+        "target": "module_pctx_compile"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_adapters",
+        "target": "module_pctx_model"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_adapters",
+        "target": "module_pctx_storage"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_adapters",
+        "target": "module_pctx_tasks"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_architecture",
+        "target": "module_pctx_model"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_architecture",
+        "target": "module_pctx_scan"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_architecture",
+        "target": "module_pctx_security"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_architecture",
+        "target": "module_pctx_storage"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_architecture",
+        "target": "module_pctx_incremental"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_backup",
+        "target": "module_pctx_history"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_backup",
+        "target": "module_pctx_model"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_backup",
+        "target": "module_pctx_storage"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_backup",
+        "target": "module_pctx_service"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_backup",
+        "target": "module_pctx_tasks"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_backup",
+        "target": "module_pctx_architecture"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_backup",
+        "target": "module_pctx_coordination"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_briefing",
+        "target": "module_pctx_retrieval"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_briefing",
+        "target": "module_pctx_tasks"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_briefing",
+        "target": "module_pctx_security"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_briefing",
+        "target": "module_pctx_planning"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_adapters"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_architecture"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_compile"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_retrieval"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_continuity"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_review"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_history"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_doctor"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_model"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_mcp"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_scan"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_storage"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_tasks"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_freshness"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_service"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_planning_model"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_briefing"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_verification"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_worker_reports"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_coordination"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_knowledge"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_planning"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_dashboard"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_integrations"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_portable"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_diagnostics"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_cli",
+        "target": "module_pctx_backup"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_compile",
+        "target": "module_pctx_architecture"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_compile",
+        "target": "module_pctx_model"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_compile",
+        "target": "module_pctx_scan"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_compile",
+        "target": "module_pctx_security"
+      },
+      {
+        "label": "imports",
+        "source": "module_pctx_compile",
+        "target": "module_pctx_storage"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "project",
+        "kind": "project",
+        "label": "project-context"
+      },
+      {
+        "id": "file_pyproject_toml",
+        "kind": "manifest",
+        "label": "pyproject.toml"
+      },
+      {
+        "id": "component_benchmarks",
+        "kind": "component",
+        "label": "benchmarks/"
+      },
+      {
+        "id": "component_install_py",
+        "kind": "file",
+        "label": "install.py"
+      },
+      {
+        "id": "component_pctx",
+        "kind": "component",
+        "label": "pctx/"
+      },
+      {
+        "id": "component_tests",
+        "kind": "component",
+        "label": "tests/"
+      },
+      {
+        "id": "module_benchmarks_clean_room",
+        "kind": "module",
+        "label": "benchmarks/clean_room.py"
+      },
+      {
+        "id": "module_benchmarks_incremental",
+        "kind": "module",
+        "label": "benchmarks/incremental.py"
+      },
+      {
+        "id": "module_benchmarks_knowledge",
+        "kind": "module",
+        "label": "benchmarks/knowledge.py"
+      },
+      {
+        "id": "module_benchmarks_recovery",
+        "kind": "module",
+        "label": "benchmarks/recovery.py"
+      },
+      {
+        "id": "module_pctx",
+        "kind": "module",
+        "label": "pctx/__init__.py"
+      },
+      {
+        "id": "module_pctx___main",
+        "kind": "module",
+        "label": "pctx/__main__.py"
+      },
+      {
+        "id": "module_pctx_adapters",
+        "kind": "module",
+        "label": "pctx/adapters.py"
+      },
+      {
+        "id": "module_pctx_architecture",
+        "kind": "module",
+        "label": "pctx/architecture.py"
+      },
+      {
+        "id": "module_pctx_backup",
+        "kind": "module",
+        "label": "pctx/backup.py"
+      },
+      {
+        "id": "module_pctx_bridge",
+        "kind": "module",
+        "label": "pctx/bridge.py"
+      },
+      {
+        "id": "module_pctx_briefing",
+        "kind": "module",
+        "label": "pctx/briefing.py"
+      },
+      {
+        "id": "module_pctx_cli",
+        "kind": "module",
+        "label": "pctx/cli.py"
+      },
+      {
+        "id": "module_pctx_compile",
+        "kind": "module",
+        "label": "pctx/compile.py"
+      },
+      {
+        "id": "module_pctx_continuity",
+        "kind": "module",
+        "label": "pctx/continuity.py"
+      },
+      {
+        "id": "module_pctx_coordination",
+        "kind": "module",
+        "label": "pctx/coordination.py"
+      },
+      {
+        "id": "module_pctx_dashboard",
+        "kind": "module",
+        "label": "pctx/dashboard.py"
+      },
+      {
+        "id": "module_pctx_diagnostics",
+        "kind": "module",
+        "label": "pctx/diagnostics.py"
+      },
+      {
+        "id": "module_pctx_doctor",
+        "kind": "module",
+        "label": "pctx/doctor.py"
+      },
+      {
+        "id": "module_pctx_embeddings",
+        "kind": "module",
+        "label": "pctx/embeddings.py"
+      },
+      {
+        "id": "module_pctx_freshness",
+        "kind": "module",
+        "label": "pctx/freshness.py"
+      },
+      {
+        "id": "module_pctx_history",
+        "kind": "module",
+        "label": "pctx/history.py"
+      },
+      {
+        "id": "module_pctx_incremental",
+        "kind": "module",
+        "label": "pctx/incremental.py"
+      },
+      {
+        "id": "module_pctx_integrations",
+        "kind": "module",
+        "label": "pctx/integrations.py"
+      },
+      {
+        "id": "module_pctx_knowledge",
+        "kind": "module",
+        "label": "pctx/knowledge.py"
+      },
+      {
+        "id": "module_pctx_links",
+        "kind": "module",
+        "label": "pctx/links.py"
+      },
+      {
+        "id": "module_pctx_mcp",
+        "kind": "module",
+        "label": "pctx/mcp.py"
+      },
+      {
+        "id": "module_pctx_model",
+        "kind": "module",
+        "label": "pctx/model.py"
+      },
+      {
+        "id": "module_pctx_planning",
+        "kind": "module",
+        "label": "pctx/planning.py"
+      },
+      {
+        "id": "module_pctx_planning_model",
+        "kind": "module",
+        "label": "pctx/planning_model.py"
+      },
+      {
+        "id": "module_pctx_portable",
+        "kind": "module",
+        "label": "pctx/portable.py"
+      },
+      {
+        "id": "module_pctx_public_paths",
+        "kind": "module",
+        "label": "pctx/public_paths.py"
+      },
+      {
+        "id": "module_pctx_replacement",
+        "kind": "module",
+        "label": "pctx/replacement.py"
+      },
+      {
+        "id": "module_pctx_retrieval",
+        "kind": "module",
+        "label": "pctx/retrieval.py"
+      },
+      {
+        "id": "module_pctx_review",
+        "kind": "module",
+        "label": "pctx/review.py"
+      },
+      {
+        "id": "module_pctx_scan",
+        "kind": "module",
+        "label": "pctx/scan.py"
+      },
+      {
+        "id": "module_pctx_security",
+        "kind": "module",
+        "label": "pctx/security.py"
+      },
+      {
+        "id": "module_pctx_service",
+        "kind": "module",
+        "label": "pctx/service.py"
+      },
+      {
+        "id": "module_pctx_storage",
+        "kind": "module",
+        "label": "pctx/storage.py"
+      },
+      {
+        "id": "module_pctx_tasks",
+        "kind": "module",
+        "label": "pctx/tasks.py"
+      },
+      {
+        "id": "module_pctx_verification",
+        "kind": "module",
+        "label": "pctx/verification.py"
+      },
+      {
+        "id": "module_pctx_web_app",
+        "kind": "module",
+        "label": "pctx/web/app.js"
+      },
+      {
+        "id": "module_pctx_worker_reports",
+        "kind": "module",
+        "label": "pctx/worker_reports.py"
+      },
+      {
+        "id": "module_tests_test_backup",
+        "kind": "module",
+        "label": "tests/test_backup.py"
+      },
+      {
+        "id": "module_tests_test_brief_followup",
+        "kind": "module",
+        "label": "tests/test_brief_followup.py"
+      },
+      {
+        "id": "module_tests_test_continuity",
+        "kind": "module",
+        "label": "tests/test_continuity.py"
+      },
+      {
+        "id": "module_tests_test_coordination",
+        "kind": "module",
+        "label": "tests/test_coordination.py"
+      },
+      {
+        "id": "module_tests_test_diagnostics",
+        "kind": "module",
+        "label": "tests/test_diagnostics.py"
+      },
+      {
+        "id": "module_tests_test_freshness_workers",
+        "kind": "module",
+        "label": "tests/test_freshness_workers.py"
+      },
+      {
+        "id": "module_tests_test_history",
+        "kind": "module",
+        "label": "tests/test_history.py"
+      },
+      {
+        "id": "module_tests_test_incremental",
+        "kind": "module",
+        "label": "tests/test_incremental.py"
+      },
+      {
+        "id": "module_tests_test_knowledge",
+        "kind": "module",
+        "label": "tests/test_knowledge.py"
+      },
+      {
+        "id": "module_tests_test_pctx",
+        "kind": "module",
+        "label": "tests/test_pctx.py"
+      },
+      {
+        "id": "module_tests_test_planning",
+        "kind": "module",
+        "label": "tests/test_planning.py"
+      },
+      {
+        "id": "module_tests_test_retrieval",
+        "kind": "module",
+        "label": "tests/test_retrieval.py"
+      },
+      {
+        "id": "module_tests_test_review",
+        "kind": "module",
+        "label": "tests/test_review.py"
+      },
+      {
+        "id": "module_tests_test_workflows",
+        "kind": "module",
+        "label": "tests/test_workflows.py"
+      },
+      {
+        "id": "module_tests_wheel_smoke",
+        "kind": "module",
+        "label": "tests/wheel_smoke.py"
+      }
+    ]
+  },
+  "schema_version": 1,
+  "updated_at": "2026-11-17T06:58:07Z"
+}

@@ -1,0 +1,250 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "7a9232d03bab417002eabd902367d27ddb65c1192e915e484117bd3ae077fa77",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "file_count": 40,
+              "kind": "filesystem_snapshot",
+              "ref": ""
+            }
+          ],
+          "id": "fact.project.layout",
+          "origin": "scanner",
+          "scope": "project/layout",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "verified",
+          "statement": "Top-level repository layout:\n.gitignore (1 files)\n.pctxignore (1 files)\nCHANGELOG.md (1 files)\nIMPLEMENTATION_STATUS.md (1 files)\nLICENSE (1 files)\nREADME.md (1 files)\nbenchmarks/ (2 files)\ndocs/ (4 files)\ninstall.py (1 files)\npctx/ (22 files)\npyproject.toml (1 files)\ntests/ (4 files)",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T17:51:45Z"
+        },
+        "recorded_at": "2026-10-09T17:51:45Z",
+        "revision": 1
+      },
+      {
+        "digest": "1f8ceccec67d4aa71047209de601ef05ed8a34d2fefbe604be50a584219b41c9",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "file_count": 46,
+              "kind": "filesystem_snapshot",
+              "ref": ""
+            }
+          ],
+          "id": "fact.project.layout",
+          "origin": "scanner",
+          "scope": "project/layout",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "verified",
+          "statement": "Top-level repository layout:\n.gitignore (1 files)\n.pctxignore (1 files)\nCHANGELOG.md (1 files)\nIMPLEMENTATION_STATUS.md (1 files)\nLICENSE (1 files)\nREADME.md (1 files)\nbenchmarks/ (3 files)\ndocs/ (5 files)\ninstall.py (1 files)\npctx/ (24 files)\npyproject.toml (1 files)\ntests/ (6 files)",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T18:12:11Z"
+        },
+        "recorded_at": "2026-10-09T18:12:11Z",
+        "revision": 2
+      },
+      {
+        "digest": "ada2a56617d7d224e11362a8162b3746478fb4e825979d5ce97f0af3cc93403d",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "file_count": 57,
+              "kind": "filesystem_snapshot",
+              "ref": ""
+            }
+          ],
+          "id": "fact.project.layout",
+          "origin": "scanner",
+          "scope": "project/layout",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "verified",
+          "statement": "Top-level repository layout:\n.gitignore (1 files)\n.pctxignore (1 files)\nCHANGELOG.md (1 files)\nIMPLEMENTATION_STATUS.md (1 files)\nLICENSE (1 files)\nREADME.md (1 files)\nbenchmarks/ (4 files)\ndocs/ (5 files)\ninstall.py (1 files)\npctx/ (29 files)\npyproject.toml (1 files)\ntests/ (11 files)",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T19:10:12Z"
+        },
+        "recorded_at": "2026-10-09T19:10:12Z",
+        "revision": 3
+      },
+      {
+        "digest": "ba8b65e6702f4deb1f8cc3fb12b894c275f13f9afc2ec8fa2335456ebfa707de",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "file_count": 65,
+              "kind": "filesystem_snapshot",
+              "ref": ""
+            }
+          ],
+          "id": "fact.project.layout",
+          "origin": "scanner",
+          "scope": "project/layout",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "verified",
+          "statement": "Top-level repository layout:\n.gitignore (1 files)\n.pctxignore (1 files)\nCHANGELOG.md (1 files)\nIMPLEMENTATION_STATUS.md (1 files)\nLICENSE (1 files)\nREADME.md (1 files)\nbenchmarks/ (5 files)\ndocs/ (8 files)\ninstall.py (1 files)\npctx/ (32 files)\npyproject.toml (1 files)\ntests/ (12 files)",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T20:54:14Z"
+        },
+        "recorded_at": "2026-10-09T20:54:14Z",
+        "revision": 4
+      },
+      {
+        "digest": "4361922615ec5b70591dc70b4e06550727dbf0d568dbfdeb1c4631f654740a0b",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "file_count": 71,
+              "kind": "filesystem_snapshot",
+              "ref": ""
+            }
+          ],
+          "id": "fact.project.layout",
+          "origin": "scanner",
+          "scope": "project/layout",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "verified",
+          "statement": "Top-level repository layout:\n.gitignore (1 files)\n.pctxignore (1 files)\nCHANGELOG.md (1 files)\nIMPLEMENTATION_STATUS.md (1 files)\nLICENSE (1 files)\nREADME.md (1 files)\nbenchmarks/ (5 files)\ndocs/ (11 files)\ninstall.py (1 files)\npctx/ (34 files)\npyproject.toml (1 files)\ntests/ (13 files)",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-11T21:11:20Z"
+        },
+        "recorded_at": "2026-10-11T21:11:20Z",
+        "revision": 5
+      },
+      {
+        "digest": "e7f8db990e1b39c6c46a69030e39ac7f0602956d42c2389341cda49d208f5dd9",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "file_count": 76,
+              "kind": "filesystem_snapshot",
+              "ref": ""
+            }
+          ],
+          "id": "fact.project.layout",
+          "origin": "scanner",
+          "scope": "project/layout",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "verified",
+          "statement": "Top-level repository layout:\n.gitignore (1 files)\n.pctxignore (1 files)\nCHANGELOG.md (1 files)\nIMPLEMENTATION_STATUS.md (1 files)\nLICENSE (1 files)\nREADME.md (1 files)\nbenchmarks/ (5 files)\ndocs/ (14 files)\ninstall.py (1 files)\npctx/ (35 files)\npyproject.toml (1 files)\ntests/ (14 files)",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-12T22:10:09Z"
+        },
+        "recorded_at": "2026-10-12T22:10:09Z",
+        "revision": 6
+      },
+      {
+        "digest": "f1cd68d166d15cf2e806d8780bac264d0233a7de03d0a7bf0039b2bbe4431f7d",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "file_count": 87,
+              "kind": "filesystem_snapshot",
+              "ref": ""
+            }
+          ],
+          "id": "fact.project.layout",
+          "origin": "scanner",
+          "scope": "project/layout",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "verified",
+          "statement": "Top-level repository layout:\n.delegacion/ (1 files)\n.gitignore (1 files)\n.pctxignore (1 files)\nCHANGELOG.md (1 files)\nIMPLEMENTATION_STATUS.md (1 files)\nLICENSE (1 files)\nREADME.md (1 files)\nbenchmarks/ (5 files)\ndocs/ (17 files)\ninstall.py (1 files)\npctx/ (41 files)\npyproject.toml (1 files)\ntests/ (15 files)",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 7
+      },
+      {
+        "digest": "0c252334df5410bdbfb3247a5c995a0ccf1e95f61cb54f641b82b4b3c1dd7a48",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "file_count": 90,
+              "kind": "filesystem_snapshot",
+              "ref": ""
+            }
+          ],
+          "id": "fact.project.layout",
+          "origin": "scanner",
+          "scope": "project/layout",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "verified",
+          "statement": "Top-level repository layout:\n.delegacion/ (1 files)\n.gitignore (1 files)\n.pctxignore (1 files)\nCHANGELOG.md (1 files)\nIMPLEMENTATION_STATUS.md (1 files)\nLICENSE (1 files)\nREADME.md (1 files)\nbenchmarks/ (5 files)\ndocs/ (19 files)\ninstall.py (1 files)\npctx/ (41 files)\npyproject.toml (1 files)\ntests/ (16 files)",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-24T23:07:32Z"
+        },
+        "recorded_at": "2026-10-24T23:07:32Z",
+        "revision": 8
+      },
+      {
+        "digest": "fc49c823286c251bc5547341a20c1ab525f62a7fb68575aee2e4b59ec216141d",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "file_count": 96,
+              "kind": "filesystem_snapshot",
+              "ref": ""
+            }
+          ],
+          "id": "fact.project.layout",
+          "origin": "scanner",
+          "scope": "project/layout",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "verified",
+          "statement": "Top-level repository layout:\n.github/ (1 files)\n.gitignore (1 files)\n.pctxignore (1 files)\nCHANGELOG.md (1 files)\nCONTRIBUTING.md (1 files)\nIMPLEMENTATION_STATUS.md (1 files)\nLICENSE (1 files)\nREADME.es.md (1 files)\nREADME.md (1 files)\nbenchmarks/ (5 files)\ndocs/ (23 files)\ninstall.py (1 files)\npctx/ (41 files)\npyproject.toml (1 files)\ntests/ (16 files)",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-11-17T06:58:06Z"
+        },
+        "recorded_at": "2026-11-17T06:58:06Z",
+        "revision": 9
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-09-05T19:58:26Z",
+  "evidence": [
+    {
+      "file_count": 96,
+      "kind": "filesystem_snapshot",
+      "ref": ""
+    }
+  ],
+  "id": "fact.project.layout",
+  "origin": "scanner",
+  "scope": "project/layout",
+  "sensitivity": "internal",
+  "stability": "volatile",
+  "state": "verified",
+  "statement": "Top-level repository layout:\n.github/ (1 files)\n.gitignore (1 files)\n.pctxignore (1 files)\nCHANGELOG.md (1 files)\nCONTRIBUTING.md (1 files)\nIMPLEMENTATION_STATUS.md (1 files)\nLICENSE (1 files)\nREADME.es.md (1 files)\nREADME.md (1 files)\nbenchmarks/ (5 files)\ndocs/ (23 files)\ninstall.py (1 files)\npctx/ (41 files)\npyproject.toml (1 files)\ntests/ (16 files)",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-11-17T06:58:06Z"
+}

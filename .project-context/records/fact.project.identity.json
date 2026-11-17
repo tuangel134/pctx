@@ -1,0 +1,50 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "6082b0deff553fb4917c519283ce6ca482ffe720892b884ac67cad0ec7699f3a",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "kind": "filesystem",
+              "path": ".",
+              "ref": "."
+            }
+          ],
+          "id": "fact.project.identity",
+          "origin": "scanner",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Project: project-context",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-09-06T01:42:41Z"
+        },
+        "recorded_at": "2026-10-09T19:10:27Z",
+        "revision": 1
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-09-05T19:58:26Z",
+  "evidence": [
+    {
+      "kind": "filesystem",
+      "path": ".",
+      "ref": "."
+    }
+  ],
+  "id": "fact.project.identity",
+  "origin": "scanner",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "verified",
+  "statement": "Project: project-context",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-09-06T01:42:41Z"
+}

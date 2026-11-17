@@ -1,0 +1,1061 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "f11e67b475789dbb1e8e6a1f45f49c65c72119f91739ffd30ebc0d7657d3136a",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.3a73ffbe8270",
+                "text": "JSON canónico conserva estados, prioridades, responsable y criterios"
+              },
+              {
+                "id": "criterion.310ff8e27cf7",
+                "text": "Ciclos y cierre con hijos o dependencias pendientes se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Añade esquema tipado y reglas entre registros con historial existente.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Metas, subtareas, bugs y dependencias portables",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [],
+          "id": "plan.pctx-05-model",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Metas, subtareas, bugs y dependencias portables. Declared status: pending. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:03:23Z"
+        },
+        "recorded_at": "2026-10-11T21:03:23Z",
+        "revision": 1
+      },
+      {
+        "digest": "14e09f8bc9eb701ad302bd23140586d0fac6d803df99b6cf4bdefffccc371b15",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.3a73ffbe8270",
+                "text": "JSON canónico conserva estados, prioridades, responsable y criterios"
+              },
+              {
+                "id": "criterion.310ff8e27cf7",
+                "text": "Ciclos y cierre con hijos o dependencias pendientes se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Añade esquema tipado y reglas entre registros con historial existente.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Metas, subtareas, bugs y dependencias portables",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [],
+          "id": "plan.pctx-05-model",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Metas, subtareas, bugs y dependencias portables. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:17Z"
+        },
+        "recorded_at": "2026-10-11T21:11:17Z",
+        "revision": 2
+      },
+      {
+        "digest": "20a619a186606913ce5027e27e265d543738a6f87c5e1827e551db79a68947c2",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.3a73ffbe8270",
+                "text": "JSON canónico conserva estados, prioridades, responsable y criterios"
+              },
+              {
+                "id": "criterion.310ff8e27cf7",
+                "text": "Ciclos y cierre con hijos o dependencias pendientes se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Añade esquema tipado y reglas entre registros con historial existente.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:17Z",
+              "criteria": [
+                "criterion.3a73ffbe8270",
+                "criterion.310ff8e27cf7"
+              ],
+              "definition_hash": "de35541d722e075636037dc86be2f719079a0397c2a83fbef3feb789c731a6b5",
+              "evidence": [
+                {
+                  "content_hash": "419a97c6d540cbcaa23938202dc98fc5ed307960be479f2b8bcebff853a67732",
+                  "path": "pctx/planning_model.py"
+                },
+                {
+                  "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "b62e4876ca20968f5f83b0a6a01341de1a95808a4632853dff3060bb7c6d2b2b",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Pruebas de estados, jerarquía, dependencias canceladas, ciclos y cadena de 1100 nodos pasan; JSON/historial portable conservados."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Metas, subtareas, bugs y dependencias portables",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "419a97c6d540cbcaa23938202dc98fc5ed307960be479f2b8bcebff853a67732",
+              "kind": "reference",
+              "path": "pctx/planning_model.py",
+              "ref": "pctx/planning_model.py"
+            },
+            {
+              "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-model",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Metas, subtareas, bugs y dependencias portables. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:17Z"
+        },
+        "recorded_at": "2026-10-11T21:11:17Z",
+        "revision": 3
+      },
+      {
+        "digest": "6a5618487f4161f0ec6fb67383f9c93d02ddce32dd0f7c2cd2f1077483516d0e",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.3a73ffbe8270",
+                "text": "JSON canónico conserva estados, prioridades, responsable y criterios"
+              },
+              {
+                "id": "criterion.310ff8e27cf7",
+                "text": "Ciclos y cierre con hijos o dependencias pendientes se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Añade esquema tipado y reglas entre registros con historial existente.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:17Z",
+              "criteria": [
+                "criterion.3a73ffbe8270",
+                "criterion.310ff8e27cf7"
+              ],
+              "definition_hash": "de35541d722e075636037dc86be2f719079a0397c2a83fbef3feb789c731a6b5",
+              "evidence": [
+                {
+                  "content_hash": "419a97c6d540cbcaa23938202dc98fc5ed307960be479f2b8bcebff853a67732",
+                  "path": "pctx/planning_model.py"
+                },
+                {
+                  "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "b62e4876ca20968f5f83b0a6a01341de1a95808a4632853dff3060bb7c6d2b2b",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Pruebas de estados, jerarquía, dependencias canceladas, ciclos y cadena de 1100 nodos pasan; JSON/historial portable conservados."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Metas, subtareas, bugs y dependencias portables",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "419a97c6d540cbcaa23938202dc98fc5ed307960be479f2b8bcebff853a67732",
+              "kind": "reference",
+              "path": "pctx/planning_model.py",
+              "ref": "pctx/planning_model.py"
+            },
+            {
+              "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-model",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Metas, subtareas, bugs y dependencias portables. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:17Z"
+        },
+        "recorded_at": "2026-10-11T21:11:17Z",
+        "revision": 4
+      },
+      {
+        "digest": "9aac42126bc9404d67eeaabfeb91531fe704ab6f59d02134ff763fe6db241917",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.3a73ffbe8270",
+                "text": "JSON canónico conserva estados, prioridades, responsable y criterios"
+              },
+              {
+                "id": "criterion.310ff8e27cf7",
+                "text": "Ciclos y cierre con hijos o dependencias pendientes se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Añade esquema tipado y reglas entre registros con historial existente.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:17Z",
+              "criteria": [
+                "criterion.3a73ffbe8270",
+                "criterion.310ff8e27cf7"
+              ],
+              "definition_hash": "de35541d722e075636037dc86be2f719079a0397c2a83fbef3feb789c731a6b5",
+              "evidence": [
+                {
+                  "content_hash": "419a97c6d540cbcaa23938202dc98fc5ed307960be479f2b8bcebff853a67732",
+                  "path": "pctx/planning_model.py"
+                },
+                {
+                  "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "b62e4876ca20968f5f83b0a6a01341de1a95808a4632853dff3060bb7c6d2b2b",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Pruebas de estados, jerarquía, dependencias canceladas, ciclos y cadena de 1100 nodos pasan; JSON/historial portable conservados."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Metas, subtareas, bugs y dependencias portables",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "419a97c6d540cbcaa23938202dc98fc5ed307960be479f2b8bcebff853a67732",
+              "kind": "reference",
+              "path": "pctx/planning_model.py",
+              "ref": "pctx/planning_model.py"
+            },
+            {
+              "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-model",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-12T22:10:09Z",
+          "stale_reason": "evidence changed or disappeared: pctx/planning.py",
+          "state": "stale",
+          "statement": "Checklist task: Metas, subtareas, bugs y dependencias portables. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:10:09Z"
+        },
+        "recorded_at": "2026-10-12T22:10:09Z",
+        "revision": 5
+      },
+      {
+        "digest": "3fd93bcdf00bc3d175376c7c43940d89e5e7e38d61ebc4b9685f0b504caa1770",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.3a73ffbe8270",
+                "text": "JSON canónico conserva estados, prioridades, responsable y criterios"
+              },
+              {
+                "id": "criterion.310ff8e27cf7",
+                "text": "Ciclos y cierre con hijos o dependencias pendientes se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Añade esquema tipado y reglas entre registros con historial existente.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:23Z",
+              "criteria": [
+                "criterion.3a73ffbe8270",
+                "criterion.310ff8e27cf7"
+              ],
+              "definition_hash": "de35541d722e075636037dc86be2f719079a0397c2a83fbef3feb789c731a6b5",
+              "evidence": [
+                {
+                  "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "419a97c6d540cbcaa23938202dc98fc5ed307960be479f2b8bcebff853a67732",
+                  "path": "pctx/planning_model.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-model",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "a69aafe81c510b4ed31bb9e0be19c0933455879df10d106953726a47ff72095e",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Metas, subtareas, bugs y dependencias portables",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "419a97c6d540cbcaa23938202dc98fc5ed307960be479f2b8bcebff853a67732",
+              "kind": "reference",
+              "path": "pctx/planning_model.py",
+              "ref": "pctx/planning_model.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-model",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Metas, subtareas, bugs y dependencias portables. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:23Z"
+        },
+        "recorded_at": "2026-10-12T22:15:23Z",
+        "revision": 6
+      },
+      {
+        "digest": "031e521b0dc39837a0ffa6fb854c05a637f8a1aba23476fdf52365b6d4d6137f",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.3a73ffbe8270",
+                "text": "JSON canónico conserva estados, prioridades, responsable y criterios"
+              },
+              {
+                "id": "criterion.310ff8e27cf7",
+                "text": "Ciclos y cierre con hijos o dependencias pendientes se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Añade esquema tipado y reglas entre registros con historial existente.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:23Z",
+              "criteria": [
+                "criterion.3a73ffbe8270",
+                "criterion.310ff8e27cf7"
+              ],
+              "definition_hash": "de35541d722e075636037dc86be2f719079a0397c2a83fbef3feb789c731a6b5",
+              "evidence": [
+                {
+                  "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "419a97c6d540cbcaa23938202dc98fc5ed307960be479f2b8bcebff853a67732",
+                  "path": "pctx/planning_model.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-model",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "a69aafe81c510b4ed31bb9e0be19c0933455879df10d106953726a47ff72095e",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Metas, subtareas, bugs y dependencias portables",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "419a97c6d540cbcaa23938202dc98fc5ed307960be479f2b8bcebff853a67732",
+              "kind": "reference",
+              "path": "pctx/planning_model.py",
+              "ref": "pctx/planning_model.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-model",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Metas, subtareas, bugs y dependencias portables. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:24Z"
+        },
+        "recorded_at": "2026-10-12T22:15:24Z",
+        "revision": 7
+      },
+      {
+        "digest": "c1161424aa4f50aacddedcbcfcdbfe70a3c692e651f5da2b9d55e706e6fc6813",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.3a73ffbe8270",
+                "text": "JSON canónico conserva estados, prioridades, responsable y criterios"
+              },
+              {
+                "id": "criterion.310ff8e27cf7",
+                "text": "Ciclos y cierre con hijos o dependencias pendientes se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Añade esquema tipado y reglas entre registros con historial existente.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:23Z",
+              "criteria": [
+                "criterion.3a73ffbe8270",
+                "criterion.310ff8e27cf7"
+              ],
+              "definition_hash": "de35541d722e075636037dc86be2f719079a0397c2a83fbef3feb789c731a6b5",
+              "evidence": [
+                {
+                  "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "419a97c6d540cbcaa23938202dc98fc5ed307960be479f2b8bcebff853a67732",
+                  "path": "pctx/planning_model.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-model",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "a69aafe81c510b4ed31bb9e0be19c0933455879df10d106953726a47ff72095e",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Metas, subtareas, bugs y dependencias portables",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "419a97c6d540cbcaa23938202dc98fc5ed307960be479f2b8bcebff853a67732",
+              "kind": "reference",
+              "path": "pctx/planning_model.py",
+              "ref": "pctx/planning_model.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-model",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-24T22:43:28Z",
+          "stale_reason": "pctx/planning.py: changed; pctx/planning_model.py: changed",
+          "state": "stale",
+          "statement": "Checklist task: Metas, subtareas, bugs y dependencias portables. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 8
+      },
+      {
+        "digest": "5d41af9e70511b2945cf00c920ff2472c47d0494b4e3552abe1d0df9c45c41e9",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.3a73ffbe8270",
+                "text": "JSON canónico conserva estados, prioridades, responsable y criterios"
+              },
+              {
+                "id": "criterion.310ff8e27cf7",
+                "text": "Ciclos y cierre con hijos o dependencias pendientes se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Añade esquema tipado y reglas entre registros con historial existente.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:08Z",
+              "criteria": [
+                "criterion.3a73ffbe8270",
+                "criterion.310ff8e27cf7"
+              ],
+              "definition_hash": "de35541d722e075636037dc86be2f719079a0397c2a83fbef3feb789c731a6b5",
+              "evidence": [
+                {
+                  "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "a7419db37d36ceccd9fd855eaf62a2092eaf7095bd15edda5053ddbfc72fd905",
+                  "path": "pctx/planning_model.py"
+                },
+                {
+                  "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-model",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "912d6c5ae73935368d265e8f91b0af170cb1e17116120e6af8d442eed43f4039",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Metas, subtareas, bugs y dependencias portables",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "a7419db37d36ceccd9fd855eaf62a2092eaf7095bd15edda5053ddbfc72fd905",
+              "kind": "reference",
+              "path": "pctx/planning_model.py",
+              "ref": "pctx/planning_model.py"
+            },
+            {
+              "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-model",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Metas, subtareas, bugs y dependencias portables. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:08Z"
+        },
+        "recorded_at": "2026-10-24T22:49:08Z",
+        "revision": 9
+      },
+      {
+        "digest": "0f1d62d62097ca5e20669f79bfd1fb6808f76fb0b4db3c2bce77e743e7800720",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.3a73ffbe8270",
+                "text": "JSON canónico conserva estados, prioridades, responsable y criterios"
+              },
+              {
+                "id": "criterion.310ff8e27cf7",
+                "text": "Ciclos y cierre con hijos o dependencias pendientes se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Añade esquema tipado y reglas entre registros con historial existente.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:08Z",
+              "criteria": [
+                "criterion.3a73ffbe8270",
+                "criterion.310ff8e27cf7"
+              ],
+              "definition_hash": "de35541d722e075636037dc86be2f719079a0397c2a83fbef3feb789c731a6b5",
+              "evidence": [
+                {
+                  "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "a7419db37d36ceccd9fd855eaf62a2092eaf7095bd15edda5053ddbfc72fd905",
+                  "path": "pctx/planning_model.py"
+                },
+                {
+                  "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-model",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "912d6c5ae73935368d265e8f91b0af170cb1e17116120e6af8d442eed43f4039",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Metas, subtareas, bugs y dependencias portables",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "a7419db37d36ceccd9fd855eaf62a2092eaf7095bd15edda5053ddbfc72fd905",
+              "kind": "reference",
+              "path": "pctx/planning_model.py",
+              "ref": "pctx/planning_model.py"
+            },
+            {
+              "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-model",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Metas, subtareas, bugs y dependencias portables. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:09Z"
+        },
+        "recorded_at": "2026-10-24T22:49:09Z",
+        "revision": 10
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.3a73ffbe8270",
+        "text": "JSON canónico conserva estados, prioridades, responsable y criterios"
+      },
+      {
+        "id": "criterion.310ff8e27cf7",
+        "text": "Ciclos y cierre con hijos o dependencias pendientes se rechazan"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "intermediate",
+    "difficulty_reason": "Añade esquema tipado y reglas entre registros con historial existente.",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T22:49:08Z",
+      "criteria": [
+        "criterion.3a73ffbe8270",
+        "criterion.310ff8e27cf7"
+      ],
+      "definition_hash": "de35541d722e075636037dc86be2f719079a0397c2a83fbef3feb789c731a6b5",
+      "evidence": [
+        {
+          "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+          "path": "pctx/planning.py"
+        },
+        {
+          "content_hash": "a7419db37d36ceccd9fd855eaf62a2092eaf7095bd15edda5053ddbfc72fd905",
+          "path": "pctx/planning_model.py"
+        },
+        {
+          "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+          "path": "tests/test_planning.py"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        }
+      ],
+      "id": "pctx07-plan.pctx-05-model",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "912d6c5ae73935368d265e8f91b0af170cb1e17116120e6af8d442eed43f4039",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+    },
+    "owner": "",
+    "parent": "plan.pctx-05-checklists",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 3,
+    "risk": "medium",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Metas, subtareas, bugs y dependencias portables",
+    "work_generation": 0
+  },
+  "created_at": "2026-10-11T21:03:23Z",
+  "evidence": [
+    {
+      "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+      "kind": "reference",
+      "path": "pctx/planning.py",
+      "ref": "pctx/planning.py"
+    },
+    {
+      "content_hash": "a7419db37d36ceccd9fd855eaf62a2092eaf7095bd15edda5053ddbfc72fd905",
+      "kind": "reference",
+      "path": "pctx/planning_model.py",
+      "ref": "pctx/planning_model.py"
+    },
+    {
+      "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+      "kind": "reference",
+      "path": "tests/test_planning.py",
+      "ref": "tests/test_planning.py"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    }
+  ],
+  "id": "plan.pctx-05-model",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-05-checklists"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Metas, subtareas, bugs y dependencias portables. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T22:49:09Z"
+}

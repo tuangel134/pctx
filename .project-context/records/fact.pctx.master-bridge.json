@@ -1,0 +1,164 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "901ead818c34eddc5e4d4e348c7434c20047d6a65bc20ba0289b0ef2890c90d5",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "cdf339ee1e474ed1624dd52e8f530b2e6fbe6da09bca5b4018bebda8e3f04989",
+              "kind": "file",
+              "path": "pctx/portable.py",
+              "ref": "pctx/portable.py"
+            },
+            {
+              "content_hash": "7475b6464a6d4ab272d1f93512f4a8fd2abc5b6c3ee56ce5511fb52cead5a045",
+              "kind": "file",
+              "path": "pctx/integrations.py",
+              "ref": "pctx/integrations.py"
+            },
+            {
+              "content_hash": "3bf7346c6560397a4da74d6b988d2698ea0b45e2c3ac6ada1e1410af195fd9a3",
+              "kind": "file",
+              "path": "docs/INTEGRACIONES.md",
+              "ref": "docs/INTEGRACIONES.md"
+            }
+          ],
+          "id": "fact.pctx.master-bridge",
+          "origin": "user",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "PCTX 0.2 fue probado mediante el gateway real de Tessarion: host_terminal_execute completó contexto, registro con evidencia, checkpoint, handoff y lectura posterior; terminal_execute ejecutó la copia portable con lectura, escritura y cierre en sandbox workspace-write. Esto no valida la selección automática de herramientas desde una conversación de ChatGPT web. No se modificó Tessarion.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-09-12T16:01:53Z"
+        },
+        "recorded_at": "2026-09-12T16:01:53Z",
+        "revision": 1
+      },
+      {
+        "digest": "09e8a2f520a2d55c138914a66b01a7f7a28be021cbbd658b3d7f587ec96250da",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "cdf339ee1e474ed1624dd52e8f530b2e6fbe6da09bca5b4018bebda8e3f04989",
+              "kind": "file",
+              "path": "pctx/portable.py",
+              "ref": "pctx/portable.py"
+            },
+            {
+              "content_hash": "7475b6464a6d4ab272d1f93512f4a8fd2abc5b6c3ee56ce5511fb52cead5a045",
+              "kind": "file",
+              "path": "pctx/integrations.py",
+              "ref": "pctx/integrations.py"
+            },
+            {
+              "content_hash": "3bf7346c6560397a4da74d6b988d2698ea0b45e2c3ac6ada1e1410af195fd9a3",
+              "kind": "file",
+              "path": "docs/INTEGRACIONES.md",
+              "ref": "docs/INTEGRACIONES.md"
+            }
+          ],
+          "id": "fact.pctx.master-bridge",
+          "origin": "user",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-09T19:10:12Z",
+          "stale_reason": "evidence changed or disappeared: docs/INTEGRACIONES.md",
+          "state": "stale",
+          "statement": "PCTX 0.2 fue probado mediante el gateway real de Tessarion: host_terminal_execute completó contexto, registro con evidencia, checkpoint, handoff y lectura posterior; terminal_execute ejecutó la copia portable con lectura, escritura y cierre en sandbox workspace-write. Esto no valida la selección automática de herramientas desde una conversación de ChatGPT web. No se modificó Tessarion.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T19:10:12Z"
+        },
+        "recorded_at": "2026-10-09T19:10:12Z",
+        "revision": 2
+      },
+      {
+        "digest": "edb0a02bb33ef262c0556416b0819d7152c93afe133d4a113c7a59e8b29bc058",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "cdf339ee1e474ed1624dd52e8f530b2e6fbe6da09bca5b4018bebda8e3f04989",
+              "kind": "file",
+              "path": "pctx/portable.py",
+              "ref": "pctx/portable.py"
+            },
+            {
+              "content_hash": "7475b6464a6d4ab272d1f93512f4a8fd2abc5b6c3ee56ce5511fb52cead5a045",
+              "kind": "file",
+              "path": "pctx/integrations.py",
+              "ref": "pctx/integrations.py"
+            },
+            {
+              "content_hash": "3bf7346c6560397a4da74d6b988d2698ea0b45e2c3ac6ada1e1410af195fd9a3",
+              "kind": "file",
+              "path": "docs/INTEGRACIONES.md",
+              "ref": "docs/INTEGRACIONES.md"
+            }
+          ],
+          "id": "fact.pctx.master-bridge",
+          "origin": "user",
+          "reviewed_at": "2026-10-09T19:11:30Z",
+          "reviewed_by": "mcp",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-09T19:10:12Z",
+          "stale_reason": "evidence changed or disappeared: docs/INTEGRACIONES.md",
+          "state": "superseded",
+          "statement": "PCTX 0.2 fue probado mediante el gateway real de Tessarion: host_terminal_execute completó contexto, registro con evidencia, checkpoint, handoff y lectura posterior; terminal_execute ejecutó la copia portable con lectura, escritura y cierre en sandbox workspace-write. Esto no valida la selección automática de herramientas desde una conversación de ChatGPT web. No se modificó Tessarion.",
+          "superseded_by": "fact.pctx.external-status",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T19:11:30Z"
+        },
+        "recorded_at": "2026-10-09T19:11:30Z",
+        "revision": 3
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-09-12T15:53:19Z",
+  "evidence": [
+    {
+      "content_hash": "cdf339ee1e474ed1624dd52e8f530b2e6fbe6da09bca5b4018bebda8e3f04989",
+      "kind": "file",
+      "path": "pctx/portable.py",
+      "ref": "pctx/portable.py"
+    },
+    {
+      "content_hash": "7475b6464a6d4ab272d1f93512f4a8fd2abc5b6c3ee56ce5511fb52cead5a045",
+      "kind": "file",
+      "path": "pctx/integrations.py",
+      "ref": "pctx/integrations.py"
+    },
+    {
+      "content_hash": "3bf7346c6560397a4da74d6b988d2698ea0b45e2c3ac6ada1e1410af195fd9a3",
+      "kind": "file",
+      "path": "docs/INTEGRACIONES.md",
+      "ref": "docs/INTEGRACIONES.md"
+    }
+  ],
+  "id": "fact.pctx.master-bridge",
+  "origin": "user",
+  "reviewed_at": "2026-10-09T19:11:30Z",
+  "reviewed_by": "mcp",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "stale_at": "2026-10-09T19:10:12Z",
+  "stale_reason": "evidence changed or disappeared: docs/INTEGRACIONES.md",
+  "state": "superseded",
+  "statement": "PCTX 0.2 fue probado mediante el gateway real de Tessarion: host_terminal_execute completó contexto, registro con evidencia, checkpoint, handoff y lectura posterior; terminal_execute ejecutó la copia portable con lectura, escritura y cierre en sandbox workspace-write. Esto no valida la selección automática de herramientas desde una conversación de ChatGPT web. No se modificó Tessarion.",
+  "superseded_by": "fact.pctx.external-status",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-10-09T19:11:30Z"
+}

@@ -1,0 +1,104 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "b7d00aadad31becce9f76f0f8e8f5f3f3d6d4261c8d45127b44f0bbf7b1ee80a",
+        "record": {
+          "claim_key": null,
+          "created_at": "2026-10-24T22:43:28Z",
+          "evidence": [],
+          "id": "fact.pctx.v07.workers",
+          "links": [
+            {
+              "relation": "replaces",
+              "target": "record:fact.pctx.v06.coordination"
+            }
+          ],
+          "origin": "mcp",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "PCTX 0.7 implementa memoria vigente, checks explícitos, evidencia Git, brief por rol, informes idempotentes, reservas recuperables y export manual/determinista.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 1
+      },
+      {
+        "digest": "909c9d5ea3d0bbb6547bf46f133c4c09df9519faef8c9f3c71b5480721e1406c",
+        "record": {
+          "claim_key": null,
+          "created_at": "2026-10-24T22:43:28Z",
+          "evidence": [
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "file",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "file",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "fact.pctx.v07.workers",
+          "links": [
+            {
+              "relation": "replaces",
+              "target": "record:fact.pctx.v06.coordination"
+            }
+          ],
+          "origin": "mcp",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "PCTX 0.7.0 implementa memoria vigente con reemplazos y caducidad; checks ejecutados explícitamente; evidencia rama@commit; brief de cinco partes por rol; importación idempotente de informes inferidos; reservas recuperables con rutas .delegacion; quiet y export manual/determinista. Conserva JSON portable e historial.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-24T22:48:58Z"
+        },
+        "recorded_at": "2026-10-24T22:48:58Z",
+        "revision": 2
+      }
+    ],
+    "schema_version": 1
+  },
+  "claim_key": null,
+  "created_at": "2026-10-24T22:43:28Z",
+  "evidence": [
+    {
+      "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+      "kind": "file",
+      "path": "docs/USO_0.7.md",
+      "ref": "docs/USO_0.7.md"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "file",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    }
+  ],
+  "id": "fact.pctx.v07.workers",
+  "links": [
+    {
+      "relation": "replaces",
+      "target": "record:fact.pctx.v06.coordination"
+    }
+  ],
+  "origin": "mcp",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "verified",
+  "statement": "PCTX 0.7.0 implementa memoria vigente con reemplazos y caducidad; checks ejecutados explícitamente; evidencia rama@commit; brief de cinco partes por rol; importación idempotente de informes inferidos; reservas recuperables con rutas .delegacion; quiet y export manual/determinista. Conserva JSON portable e historial.",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-10-24T22:48:58Z"
+}

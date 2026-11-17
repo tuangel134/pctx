@@ -1,0 +1,429 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "647771c2ccd1171e7f76ddee7a75b98afd6084078b0d96bed74c3e610316c9bb",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.8c74aea5ec44",
+                "text": "Pruebas unitarias UI recuperación y wheel zipapp pasan con instalación coherente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Concurrencia recuperación privacidad y paquetes limpios",
+            "kind": "check",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Validar e instalar coordinación 0.6",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-12T22:06:12Z",
+          "evidence": [],
+          "id": "plan.pctx-06-validation",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Validar e instalar coordinación 0.6. Declared status: pending. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:06:12Z"
+        },
+        "recorded_at": "2026-10-12T22:06:12Z",
+        "revision": 1
+      },
+      {
+        "digest": "bed9e72e8109cce56b3ca05258c07cae12b5762cce6e6cd721ede76c86a836b6",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.8c74aea5ec44",
+                "text": "Pruebas unitarias UI recuperación y wheel zipapp pasan con instalación coherente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Concurrencia recuperación privacidad y paquetes limpios",
+            "kind": "check",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "Validar e instalar coordinación 0.6",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:12Z",
+          "evidence": [],
+          "id": "plan.pctx-06-validation",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Validar e instalar coordinación 0.6. Declared status: in_progress. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:06:12Z"
+        },
+        "recorded_at": "2026-10-12T22:06:12Z",
+        "revision": 2
+      },
+      {
+        "digest": "ac645d62cc59f370276c090190e69d6535486a37a972d7d154b1359667fecddd",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.8c74aea5ec44",
+                "text": "Pruebas unitarias UI recuperación y wheel zipapp pasan con instalación coherente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Concurrencia recuperación privacidad y paquetes limpios",
+            "kind": "check",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Validar e instalar coordinación 0.6",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:12Z",
+          "evidence": [],
+          "id": "plan.pctx-06-validation",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Validar e instalar coordinación 0.6. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:20Z"
+        },
+        "recorded_at": "2026-10-12T22:15:20Z",
+        "revision": 3
+      },
+      {
+        "digest": "7e0e24f8fe0a2c04d32490e91f8345c6e63f50015f5c2442bf55e03f63dfdc2a",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.8c74aea5ec44",
+                "text": "Pruebas unitarias UI recuperación y wheel zipapp pasan con instalación coherente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Concurrencia recuperación privacidad y paquetes limpios",
+            "kind": "check",
+            "last_review": {
+              "at": "2026-10-12T22:15:21Z",
+              "criteria": [
+                "criterion.8c74aea5ec44"
+              ],
+              "definition_hash": "3907ce18cb69c6503271e858b5db8e4971556668cd1fe417cb0b9bb13382a61b",
+              "evidence": [
+                {
+                  "content_hash": "5cdf490ea3352e6ed478730d275d64965cfdc56e19e6ed4be538e7e170ca43a1",
+                  "path": "validation/unittest-0.6.txt"
+                },
+                {
+                  "content_hash": "11cb309ec64f376d06e14cd9f8946dea0d3aa061a6e40783150157d3a9f25971",
+                  "path": "validation/wheel-smoke-0.6.txt"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-validation",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "1d5d8e3d335b44ab76373c212b7bf54808360692668b8bf2dc3171b620b8d20e",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Validar e instalar coordinación 0.6",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:12Z",
+          "evidence": [
+            {
+              "content_hash": "5cdf490ea3352e6ed478730d275d64965cfdc56e19e6ed4be538e7e170ca43a1",
+              "kind": "reference",
+              "path": "validation/unittest-0.6.txt",
+              "ref": "validation/unittest-0.6.txt"
+            },
+            {
+              "content_hash": "11cb309ec64f376d06e14cd9f8946dea0d3aa061a6e40783150157d3a9f25971",
+              "kind": "reference",
+              "path": "validation/wheel-smoke-0.6.txt",
+              "ref": "validation/wheel-smoke-0.6.txt"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-06-validation",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Validar e instalar coordinación 0.6. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:21Z"
+        },
+        "recorded_at": "2026-10-12T22:15:21Z",
+        "revision": 4
+      },
+      {
+        "digest": "d9359f46234981e4923bf92e6e89b3da425b85b9839e0ea366fae1faed7af882",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.8c74aea5ec44",
+                "text": "Pruebas unitarias UI recuperación y wheel zipapp pasan con instalación coherente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Concurrencia recuperación privacidad y paquetes limpios",
+            "kind": "check",
+            "last_review": {
+              "at": "2026-10-12T22:15:21Z",
+              "criteria": [
+                "criterion.8c74aea5ec44"
+              ],
+              "definition_hash": "3907ce18cb69c6503271e858b5db8e4971556668cd1fe417cb0b9bb13382a61b",
+              "evidence": [
+                {
+                  "content_hash": "5cdf490ea3352e6ed478730d275d64965cfdc56e19e6ed4be538e7e170ca43a1",
+                  "path": "validation/unittest-0.6.txt"
+                },
+                {
+                  "content_hash": "11cb309ec64f376d06e14cd9f8946dea0d3aa061a6e40783150157d3a9f25971",
+                  "path": "validation/wheel-smoke-0.6.txt"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-validation",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "1d5d8e3d335b44ab76373c212b7bf54808360692668b8bf2dc3171b620b8d20e",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Validar e instalar coordinación 0.6",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:12Z",
+          "evidence": [
+            {
+              "content_hash": "5cdf490ea3352e6ed478730d275d64965cfdc56e19e6ed4be538e7e170ca43a1",
+              "kind": "reference",
+              "path": "validation/unittest-0.6.txt",
+              "ref": "validation/unittest-0.6.txt"
+            },
+            {
+              "content_hash": "11cb309ec64f376d06e14cd9f8946dea0d3aa061a6e40783150157d3a9f25971",
+              "kind": "reference",
+              "path": "validation/wheel-smoke-0.6.txt",
+              "ref": "validation/wheel-smoke-0.6.txt"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-06-validation",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Validar e instalar coordinación 0.6. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:21Z"
+        },
+        "recorded_at": "2026-10-12T22:15:21Z",
+        "revision": 5
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.8c74aea5ec44",
+        "text": "Pruebas unitarias UI recuperación y wheel zipapp pasan con instalación coherente"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "hard",
+    "difficulty_reason": "Concurrencia recuperación privacidad y paquetes limpios",
+    "kind": "check",
+    "last_review": {
+      "at": "2026-10-12T22:15:21Z",
+      "criteria": [
+        "criterion.8c74aea5ec44"
+      ],
+      "definition_hash": "3907ce18cb69c6503271e858b5db8e4971556668cd1fe417cb0b9bb13382a61b",
+      "evidence": [
+        {
+          "content_hash": "5cdf490ea3352e6ed478730d275d64965cfdc56e19e6ed4be538e7e170ca43a1",
+          "path": "validation/unittest-0.6.txt"
+        },
+        {
+          "content_hash": "11cb309ec64f376d06e14cd9f8946dea0d3aa061a6e40783150157d3a9f25971",
+          "path": "validation/wheel-smoke-0.6.txt"
+        },
+        {
+          "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+          "path": "validation/release-0.6.json"
+        }
+      ],
+      "id": "pctx06-plan-pctx-06-validation",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "1d5d8e3d335b44ab76373c212b7bf54808360692668b8bf2dc3171b620b8d20e",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+    },
+    "owner": "",
+    "parent": "plan.pctx-06-coordination",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 1,
+    "risk": "high",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Validar e instalar coordinación 0.6",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-12T22:06:12Z",
+  "evidence": [
+    {
+      "content_hash": "5cdf490ea3352e6ed478730d275d64965cfdc56e19e6ed4be538e7e170ca43a1",
+      "kind": "reference",
+      "path": "validation/unittest-0.6.txt",
+      "ref": "validation/unittest-0.6.txt"
+    },
+    {
+      "content_hash": "11cb309ec64f376d06e14cd9f8946dea0d3aa061a6e40783150157d3a9f25971",
+      "kind": "reference",
+      "path": "validation/wheel-smoke-0.6.txt",
+      "ref": "validation/wheel-smoke-0.6.txt"
+    },
+    {
+      "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+      "kind": "reference",
+      "path": "validation/release-0.6.json",
+      "ref": "validation/release-0.6.json"
+    }
+  ],
+  "id": "plan.pctx-06-validation",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-06-coordination"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist check: Validar e instalar coordinación 0.6. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-12T22:15:21Z"
+}

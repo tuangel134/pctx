@@ -1,0 +1,516 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "e298000b688c33f05d64dc6d561636663285bf13dbec6a11ae4051145714c17a",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.4a3ae5564543",
+                "text": "Las reservas vencidas se liberan en escrituras sin perder checkpoints"
+              },
+              {
+                "id": "criterion.30e075858091",
+                "text": "Rutas seguras ocultas funcionan y alias ambiguos o privados se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Recuperar reservas y aceptar .delegacion",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-24T22:05:05Z",
+          "evidence": [],
+          "id": "plan.pctx-07-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Recuperar reservas y aceptar .delegacion. Declared status: pending. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:05Z"
+        },
+        "recorded_at": "2026-10-24T22:05:05Z",
+        "revision": 1
+      },
+      {
+        "digest": "5b790f2c54ec101e25b7c0318ebb6ce26ea463c03e90d70e3cf277e40c4de2ec",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.4a3ae5564543",
+                "text": "Las reservas vencidas se liberan en escrituras sin perder checkpoints"
+              },
+              {
+                "id": "criterion.30e075858091",
+                "text": "Rutas seguras ocultas funcionan y alias ambiguos o privados se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "Recuperar reservas y aceptar .delegacion",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:05Z",
+          "evidence": [],
+          "id": "plan.pctx-07-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Recuperar reservas y aceptar .delegacion. Declared status: in_progress. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:06Z"
+        },
+        "recorded_at": "2026-10-24T22:05:06Z",
+        "revision": 2
+      },
+      {
+        "digest": "8fdb2e500856e73a0d30bd4d1d117d0f76793b28d0be4bf9e04deeb5e15298fb",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.4a3ae5564543",
+                "text": "Las reservas vencidas se liberan en escrituras sin perder checkpoints"
+              },
+              {
+                "id": "criterion.30e075858091",
+                "text": "Rutas seguras ocultas funcionan y alias ambiguos o privados se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Recuperar reservas y aceptar .delegacion",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:05Z",
+          "evidence": [],
+          "id": "plan.pctx-07-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Recuperar reservas y aceptar .delegacion. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:03Z"
+        },
+        "recorded_at": "2026-10-24T22:49:03Z",
+        "revision": 3
+      },
+      {
+        "digest": "133d8dbbcf2a59797d39d4333244bce9cc7382af6d1fdf8655809cde09edbe1e",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.4a3ae5564543",
+                "text": "Las reservas vencidas se liberan en escrituras sin perder checkpoints"
+              },
+              {
+                "id": "criterion.30e075858091",
+                "text": "Rutas seguras ocultas funcionan y alias ambiguos o privados se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:03Z",
+              "criteria": [
+                "criterion.4a3ae5564543",
+                "criterion.30e075858091"
+              ],
+              "definition_hash": "b7869d1010a29b2bc997b74a56bc3d1bda4b3deaa4608383595096b66176c090",
+              "evidence": [
+                {
+                  "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+                  "path": "pctx/coordination.py"
+                },
+                {
+                  "content_hash": "2123ff435eb9a6848577c3b2e7c4b230b32fe2c8b229086fb2ca9bd6240e032c",
+                  "path": "pctx/scan.py"
+                },
+                {
+                  "content_hash": "cbcc2881d1d99b9e9994b8cfe651a85cb4f4ac0da5d76b4268cf3aed35560172",
+                  "path": "pctx/public_paths.py"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-leases",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "045f7be8a8f464481e035aeef396c8c9fcb7a3541ac3cda52985dee06686d4b4",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Recuperar reservas y aceptar .delegacion",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:05Z",
+          "evidence": [
+            {
+              "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+              "kind": "reference",
+              "path": "pctx/coordination.py",
+              "ref": "pctx/coordination.py"
+            },
+            {
+              "content_hash": "2123ff435eb9a6848577c3b2e7c4b230b32fe2c8b229086fb2ca9bd6240e032c",
+              "kind": "reference",
+              "path": "pctx/scan.py",
+              "ref": "pctx/scan.py"
+            },
+            {
+              "content_hash": "cbcc2881d1d99b9e9994b8cfe651a85cb4f4ac0da5d76b4268cf3aed35560172",
+              "kind": "reference",
+              "path": "pctx/public_paths.py",
+              "ref": "pctx/public_paths.py"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Recuperar reservas y aceptar .delegacion. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:03Z"
+        },
+        "recorded_at": "2026-10-24T22:49:03Z",
+        "revision": 4
+      },
+      {
+        "digest": "792cd9c3d8fa0e9f69ad192540c9511ed2fea316903e68026c8b42c8ac021f77",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.4a3ae5564543",
+                "text": "Las reservas vencidas se liberan en escrituras sin perder checkpoints"
+              },
+              {
+                "id": "criterion.30e075858091",
+                "text": "Rutas seguras ocultas funcionan y alias ambiguos o privados se rechazan"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:03Z",
+              "criteria": [
+                "criterion.4a3ae5564543",
+                "criterion.30e075858091"
+              ],
+              "definition_hash": "b7869d1010a29b2bc997b74a56bc3d1bda4b3deaa4608383595096b66176c090",
+              "evidence": [
+                {
+                  "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+                  "path": "pctx/coordination.py"
+                },
+                {
+                  "content_hash": "2123ff435eb9a6848577c3b2e7c4b230b32fe2c8b229086fb2ca9bd6240e032c",
+                  "path": "pctx/scan.py"
+                },
+                {
+                  "content_hash": "cbcc2881d1d99b9e9994b8cfe651a85cb4f4ac0da5d76b4268cf3aed35560172",
+                  "path": "pctx/public_paths.py"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-leases",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "045f7be8a8f464481e035aeef396c8c9fcb7a3541ac3cda52985dee06686d4b4",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Recuperar reservas y aceptar .delegacion",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:05Z",
+          "evidence": [
+            {
+              "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+              "kind": "reference",
+              "path": "pctx/coordination.py",
+              "ref": "pctx/coordination.py"
+            },
+            {
+              "content_hash": "2123ff435eb9a6848577c3b2e7c4b230b32fe2c8b229086fb2ca9bd6240e032c",
+              "kind": "reference",
+              "path": "pctx/scan.py",
+              "ref": "pctx/scan.py"
+            },
+            {
+              "content_hash": "cbcc2881d1d99b9e9994b8cfe651a85cb4f4ac0da5d76b4268cf3aed35560172",
+              "kind": "reference",
+              "path": "pctx/public_paths.py",
+              "ref": "pctx/public_paths.py"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Recuperar reservas y aceptar .delegacion. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:04Z"
+        },
+        "recorded_at": "2026-10-24T22:49:04Z",
+        "revision": 5
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.4a3ae5564543",
+        "text": "Las reservas vencidas se liberan en escrituras sin perder checkpoints"
+      },
+      {
+        "id": "criterion.30e075858091",
+        "text": "Rutas seguras ocultas funcionan y alias ambiguos o privados se rechazan"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "intermediate",
+    "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T22:49:03Z",
+      "criteria": [
+        "criterion.4a3ae5564543",
+        "criterion.30e075858091"
+      ],
+      "definition_hash": "b7869d1010a29b2bc997b74a56bc3d1bda4b3deaa4608383595096b66176c090",
+      "evidence": [
+        {
+          "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+          "path": "pctx/coordination.py"
+        },
+        {
+          "content_hash": "2123ff435eb9a6848577c3b2e7c4b230b32fe2c8b229086fb2ca9bd6240e032c",
+          "path": "pctx/scan.py"
+        },
+        {
+          "content_hash": "cbcc2881d1d99b9e9994b8cfe651a85cb4f4ac0da5d76b4268cf3aed35560172",
+          "path": "pctx/public_paths.py"
+        },
+        {
+          "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+          "path": "tests/test_freshness_workers.py"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        }
+      ],
+      "id": "pctx07-plan.pctx-07-leases",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "045f7be8a8f464481e035aeef396c8c9fcb7a3541ac3cda52985dee06686d4b4",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+    },
+    "owner": "",
+    "parent": "plan.pctx-07-workers",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 1,
+    "risk": "medium",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Recuperar reservas y aceptar .delegacion",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-24T22:05:05Z",
+  "evidence": [
+    {
+      "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+      "kind": "reference",
+      "path": "pctx/coordination.py",
+      "ref": "pctx/coordination.py"
+    },
+    {
+      "content_hash": "2123ff435eb9a6848577c3b2e7c4b230b32fe2c8b229086fb2ca9bd6240e032c",
+      "kind": "reference",
+      "path": "pctx/scan.py",
+      "ref": "pctx/scan.py"
+    },
+    {
+      "content_hash": "cbcc2881d1d99b9e9994b8cfe651a85cb4f4ac0da5d76b4268cf3aed35560172",
+      "kind": "reference",
+      "path": "pctx/public_paths.py",
+      "ref": "pctx/public_paths.py"
+    },
+    {
+      "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+      "kind": "reference",
+      "path": "tests/test_freshness_workers.py",
+      "ref": "tests/test_freshness_workers.py"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    }
+  ],
+  "id": "plan.pctx-07-leases",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-07-workers"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Recuperar reservas y aceptar .delegacion. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T22:49:04Z"
+}

@@ -1,0 +1,1114 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "13c88769b7b0089fed2846187ae9dc6e1a4f0927b48aaa3d4191d0c5bdc873a7",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.2e1fa3c8343c",
+                "text": "Resumen con IDs y omisiones explícitas respeta presupuesto"
+              },
+              {
+                "id": "criterion.cce9654c2e55",
+                "text": "Consultas paginadas limitan JSON completo y lecturas no escriben"
+              },
+              {
+                "id": "criterion.a7fffd479b58",
+                "text": "Descripción y criterios actuales se buscan sin devolver versiones anteriores"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integra criterios y descripción en recuperación sin cargar historiales ni desplazar restricciones.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Resumen acotado y búsqueda del checklist",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-05-context",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Resumen acotado y búsqueda del checklist. Declared status: pending. Difficulty: intermediate; risk: low; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:03:24Z"
+        },
+        "recorded_at": "2026-10-11T21:03:24Z",
+        "revision": 1
+      },
+      {
+        "digest": "a7dcbb6d8aea0b610be9c5848e201e2688a9f056e4f08bbb5ff7f74115745ac7",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.2e1fa3c8343c",
+                "text": "Resumen con IDs y omisiones explícitas respeta presupuesto"
+              },
+              {
+                "id": "criterion.cce9654c2e55",
+                "text": "Consultas paginadas limitan JSON completo y lecturas no escriben"
+              },
+              {
+                "id": "criterion.a7fffd479b58",
+                "text": "Descripción y criterios actuales se buscan sin devolver versiones anteriores"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integra criterios y descripción en recuperación sin cargar historiales ni desplazar restricciones.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Resumen acotado y búsqueda del checklist",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-05-context",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Resumen acotado y búsqueda del checklist. Declared status: done. Difficulty: intermediate; risk: low; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:18Z"
+        },
+        "recorded_at": "2026-10-11T21:11:18Z",
+        "revision": 2
+      },
+      {
+        "digest": "ecdcbed0b2681839151224f23952691160c034ec9cc5442aaa69c3222a435b38",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.2e1fa3c8343c",
+                "text": "Resumen con IDs y omisiones explícitas respeta presupuesto"
+              },
+              {
+                "id": "criterion.cce9654c2e55",
+                "text": "Consultas paginadas limitan JSON completo y lecturas no escriben"
+              },
+              {
+                "id": "criterion.a7fffd479b58",
+                "text": "Descripción y criterios actuales se buscan sin devolver versiones anteriores"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integra criterios y descripción en recuperación sin cargar historiales ni desplazar restricciones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:18Z",
+              "criteria": [
+                "criterion.2e1fa3c8343c",
+                "criterion.cce9654c2e55",
+                "criterion.a7fffd479b58"
+              ],
+              "definition_hash": "4b9ff681c95866756fdb785eb051b88d6b8f7d8e784c98c483b41efc56d08e0d",
+              "evidence": [
+                {
+                  "content_hash": "a71298a869548f75483d6eeba65770f3391514275fe0af7ce73f444cea9bd3ba",
+                  "path": "pctx/compile.py"
+                },
+                {
+                  "content_hash": "4894466504d57135a8dfa9288de26103175103c85878ce69cc8bfc2cee484853",
+                  "path": "pctx/knowledge.py"
+                },
+                {
+                  "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "761e9c0598c1a5772c1c0ce029885a5ae06af0b6b75bfe81c2b06e94430297b2",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Contexto esencial prioritario, JSON acotado, historial paginado y búsqueda de descripción/criterios actuales pasan; no se guarda historial en recuperación."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Resumen acotado y búsqueda del checklist",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "a71298a869548f75483d6eeba65770f3391514275fe0af7ce73f444cea9bd3ba",
+              "kind": "reference",
+              "path": "pctx/compile.py",
+              "ref": "pctx/compile.py"
+            },
+            {
+              "content_hash": "4894466504d57135a8dfa9288de26103175103c85878ce69cc8bfc2cee484853",
+              "kind": "reference",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-context",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Resumen acotado y búsqueda del checklist. Declared status: done. Difficulty: intermediate; risk: low; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:18Z"
+        },
+        "recorded_at": "2026-10-11T21:11:18Z",
+        "revision": 3
+      },
+      {
+        "digest": "3edd743ab1c049e18f3df2009c5d5cf120d3a12aee9efcb351566292dabb26a2",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.2e1fa3c8343c",
+                "text": "Resumen con IDs y omisiones explícitas respeta presupuesto"
+              },
+              {
+                "id": "criterion.cce9654c2e55",
+                "text": "Consultas paginadas limitan JSON completo y lecturas no escriben"
+              },
+              {
+                "id": "criterion.a7fffd479b58",
+                "text": "Descripción y criterios actuales se buscan sin devolver versiones anteriores"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integra criterios y descripción en recuperación sin cargar historiales ni desplazar restricciones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:18Z",
+              "criteria": [
+                "criterion.2e1fa3c8343c",
+                "criterion.cce9654c2e55",
+                "criterion.a7fffd479b58"
+              ],
+              "definition_hash": "4b9ff681c95866756fdb785eb051b88d6b8f7d8e784c98c483b41efc56d08e0d",
+              "evidence": [
+                {
+                  "content_hash": "a71298a869548f75483d6eeba65770f3391514275fe0af7ce73f444cea9bd3ba",
+                  "path": "pctx/compile.py"
+                },
+                {
+                  "content_hash": "4894466504d57135a8dfa9288de26103175103c85878ce69cc8bfc2cee484853",
+                  "path": "pctx/knowledge.py"
+                },
+                {
+                  "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "761e9c0598c1a5772c1c0ce029885a5ae06af0b6b75bfe81c2b06e94430297b2",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Contexto esencial prioritario, JSON acotado, historial paginado y búsqueda de descripción/criterios actuales pasan; no se guarda historial en recuperación."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Resumen acotado y búsqueda del checklist",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "a71298a869548f75483d6eeba65770f3391514275fe0af7ce73f444cea9bd3ba",
+              "kind": "reference",
+              "path": "pctx/compile.py",
+              "ref": "pctx/compile.py"
+            },
+            {
+              "content_hash": "4894466504d57135a8dfa9288de26103175103c85878ce69cc8bfc2cee484853",
+              "kind": "reference",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-context",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Resumen acotado y búsqueda del checklist. Declared status: verified. Difficulty: intermediate; risk: low; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:18Z"
+        },
+        "recorded_at": "2026-10-11T21:11:18Z",
+        "revision": 4
+      },
+      {
+        "digest": "9863ef10e7c886038678cd178de65892e35bf670abe886556e27f475b40bc705",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.2e1fa3c8343c",
+                "text": "Resumen con IDs y omisiones explícitas respeta presupuesto"
+              },
+              {
+                "id": "criterion.cce9654c2e55",
+                "text": "Consultas paginadas limitan JSON completo y lecturas no escriben"
+              },
+              {
+                "id": "criterion.a7fffd479b58",
+                "text": "Descripción y criterios actuales se buscan sin devolver versiones anteriores"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integra criterios y descripción en recuperación sin cargar historiales ni desplazar restricciones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:18Z",
+              "criteria": [
+                "criterion.2e1fa3c8343c",
+                "criterion.cce9654c2e55",
+                "criterion.a7fffd479b58"
+              ],
+              "definition_hash": "4b9ff681c95866756fdb785eb051b88d6b8f7d8e784c98c483b41efc56d08e0d",
+              "evidence": [
+                {
+                  "content_hash": "a71298a869548f75483d6eeba65770f3391514275fe0af7ce73f444cea9bd3ba",
+                  "path": "pctx/compile.py"
+                },
+                {
+                  "content_hash": "4894466504d57135a8dfa9288de26103175103c85878ce69cc8bfc2cee484853",
+                  "path": "pctx/knowledge.py"
+                },
+                {
+                  "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "761e9c0598c1a5772c1c0ce029885a5ae06af0b6b75bfe81c2b06e94430297b2",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Contexto esencial prioritario, JSON acotado, historial paginado y búsqueda de descripción/criterios actuales pasan; no se guarda historial en recuperación."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Resumen acotado y búsqueda del checklist",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "a71298a869548f75483d6eeba65770f3391514275fe0af7ce73f444cea9bd3ba",
+              "kind": "reference",
+              "path": "pctx/compile.py",
+              "ref": "pctx/compile.py"
+            },
+            {
+              "content_hash": "4894466504d57135a8dfa9288de26103175103c85878ce69cc8bfc2cee484853",
+              "kind": "reference",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-context",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-12T22:10:09Z",
+          "stale_reason": "evidence changed or disappeared: pctx/compile.py",
+          "state": "stale",
+          "statement": "Checklist task: Resumen acotado y búsqueda del checklist. Declared status: verified. Difficulty: intermediate; risk: low; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:10:09Z"
+        },
+        "recorded_at": "2026-10-12T22:10:09Z",
+        "revision": 5
+      },
+      {
+        "digest": "c42ab764f64853b5cc64f30708eff19d6fa442b70faaafc5dc9c0eaf0449718e",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.2e1fa3c8343c",
+                "text": "Resumen con IDs y omisiones explícitas respeta presupuesto"
+              },
+              {
+                "id": "criterion.cce9654c2e55",
+                "text": "Consultas paginadas limitan JSON completo y lecturas no escriben"
+              },
+              {
+                "id": "criterion.a7fffd479b58",
+                "text": "Descripción y criterios actuales se buscan sin devolver versiones anteriores"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integra criterios y descripción en recuperación sin cargar historiales ni desplazar restricciones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:22Z",
+              "criteria": [
+                "criterion.2e1fa3c8343c",
+                "criterion.cce9654c2e55",
+                "criterion.a7fffd479b58"
+              ],
+              "definition_hash": "4b9ff681c95866756fdb785eb051b88d6b8f7d8e784c98c483b41efc56d08e0d",
+              "evidence": [
+                {
+                  "content_hash": "0eb390a7fe94ddbabd63a6c9661aa57ff5ffcca44428c4fd7e5ac98c65b2d2ef",
+                  "path": "pctx/compile.py"
+                },
+                {
+                  "content_hash": "87253bee31de282691ade77389221225d55d77efaa377e4e4c5c6f4491e5b85e",
+                  "path": "pctx/knowledge.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-context",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "e27b696b4a39edb4c69e9c564b529a02ade592043906db60422c516412bc6301",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Resumen acotado y búsqueda del checklist",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "0eb390a7fe94ddbabd63a6c9661aa57ff5ffcca44428c4fd7e5ac98c65b2d2ef",
+              "kind": "reference",
+              "path": "pctx/compile.py",
+              "ref": "pctx/compile.py"
+            },
+            {
+              "content_hash": "87253bee31de282691ade77389221225d55d77efaa377e4e4c5c6f4491e5b85e",
+              "kind": "reference",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-context",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Resumen acotado y búsqueda del checklist. Declared status: done. Difficulty: intermediate; risk: low; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:22Z"
+        },
+        "recorded_at": "2026-10-12T22:15:22Z",
+        "revision": 6
+      },
+      {
+        "digest": "4d47cb5d358086c94dae186546d124d9eb7c5fbfdac3b3ee9f597adae72e5e85",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.2e1fa3c8343c",
+                "text": "Resumen con IDs y omisiones explícitas respeta presupuesto"
+              },
+              {
+                "id": "criterion.cce9654c2e55",
+                "text": "Consultas paginadas limitan JSON completo y lecturas no escriben"
+              },
+              {
+                "id": "criterion.a7fffd479b58",
+                "text": "Descripción y criterios actuales se buscan sin devolver versiones anteriores"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integra criterios y descripción en recuperación sin cargar historiales ni desplazar restricciones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:22Z",
+              "criteria": [
+                "criterion.2e1fa3c8343c",
+                "criterion.cce9654c2e55",
+                "criterion.a7fffd479b58"
+              ],
+              "definition_hash": "4b9ff681c95866756fdb785eb051b88d6b8f7d8e784c98c483b41efc56d08e0d",
+              "evidence": [
+                {
+                  "content_hash": "0eb390a7fe94ddbabd63a6c9661aa57ff5ffcca44428c4fd7e5ac98c65b2d2ef",
+                  "path": "pctx/compile.py"
+                },
+                {
+                  "content_hash": "87253bee31de282691ade77389221225d55d77efaa377e4e4c5c6f4491e5b85e",
+                  "path": "pctx/knowledge.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-context",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "e27b696b4a39edb4c69e9c564b529a02ade592043906db60422c516412bc6301",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Resumen acotado y búsqueda del checklist",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "0eb390a7fe94ddbabd63a6c9661aa57ff5ffcca44428c4fd7e5ac98c65b2d2ef",
+              "kind": "reference",
+              "path": "pctx/compile.py",
+              "ref": "pctx/compile.py"
+            },
+            {
+              "content_hash": "87253bee31de282691ade77389221225d55d77efaa377e4e4c5c6f4491e5b85e",
+              "kind": "reference",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-context",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Resumen acotado y búsqueda del checklist. Declared status: verified. Difficulty: intermediate; risk: low; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:22Z"
+        },
+        "recorded_at": "2026-10-12T22:15:22Z",
+        "revision": 7
+      },
+      {
+        "digest": "4959c9eb89da69caa11ef966f946cd11acc669540b462c6adc095ff2db611f69",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.2e1fa3c8343c",
+                "text": "Resumen con IDs y omisiones explícitas respeta presupuesto"
+              },
+              {
+                "id": "criterion.cce9654c2e55",
+                "text": "Consultas paginadas limitan JSON completo y lecturas no escriben"
+              },
+              {
+                "id": "criterion.a7fffd479b58",
+                "text": "Descripción y criterios actuales se buscan sin devolver versiones anteriores"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integra criterios y descripción en recuperación sin cargar historiales ni desplazar restricciones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:22Z",
+              "criteria": [
+                "criterion.2e1fa3c8343c",
+                "criterion.cce9654c2e55",
+                "criterion.a7fffd479b58"
+              ],
+              "definition_hash": "4b9ff681c95866756fdb785eb051b88d6b8f7d8e784c98c483b41efc56d08e0d",
+              "evidence": [
+                {
+                  "content_hash": "0eb390a7fe94ddbabd63a6c9661aa57ff5ffcca44428c4fd7e5ac98c65b2d2ef",
+                  "path": "pctx/compile.py"
+                },
+                {
+                  "content_hash": "87253bee31de282691ade77389221225d55d77efaa377e4e4c5c6f4491e5b85e",
+                  "path": "pctx/knowledge.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-context",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "e27b696b4a39edb4c69e9c564b529a02ade592043906db60422c516412bc6301",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Resumen acotado y búsqueda del checklist",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "0eb390a7fe94ddbabd63a6c9661aa57ff5ffcca44428c4fd7e5ac98c65b2d2ef",
+              "kind": "reference",
+              "path": "pctx/compile.py",
+              "ref": "pctx/compile.py"
+            },
+            {
+              "content_hash": "87253bee31de282691ade77389221225d55d77efaa377e4e4c5c6f4491e5b85e",
+              "kind": "reference",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-context",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-24T22:43:28Z",
+          "stale_reason": "pctx/compile.py: changed; pctx/knowledge.py: changed",
+          "state": "stale",
+          "statement": "Checklist task: Resumen acotado y búsqueda del checklist. Declared status: verified. Difficulty: intermediate; risk: low; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 8
+      },
+      {
+        "digest": "97e2ce742aeae170e862523451bc5cff1c1c6347865c65a30b9468325cd1a2d6",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.2e1fa3c8343c",
+                "text": "Resumen con IDs y omisiones explícitas respeta presupuesto"
+              },
+              {
+                "id": "criterion.cce9654c2e55",
+                "text": "Consultas paginadas limitan JSON completo y lecturas no escriben"
+              },
+              {
+                "id": "criterion.a7fffd479b58",
+                "text": "Descripción y criterios actuales se buscan sin devolver versiones anteriores"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integra criterios y descripción en recuperación sin cargar historiales ni desplazar restricciones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:06Z",
+              "criteria": [
+                "criterion.2e1fa3c8343c",
+                "criterion.cce9654c2e55",
+                "criterion.a7fffd479b58"
+              ],
+              "definition_hash": "4b9ff681c95866756fdb785eb051b88d6b8f7d8e784c98c483b41efc56d08e0d",
+              "evidence": [
+                {
+                  "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+                  "path": "pctx/compile.py"
+                },
+                {
+                  "content_hash": "3a40017ec1db5f9f11f31157b79a5c95e6547d157ad8e4c1c68c80e6cc666b57",
+                  "path": "pctx/knowledge.py"
+                },
+                {
+                  "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-context",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "da0cc6b38764d80e555d72808753c3590f72ee5632ffd50336d48df2479bebfe",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Resumen acotado y búsqueda del checklist",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+              "kind": "reference",
+              "path": "pctx/compile.py",
+              "ref": "pctx/compile.py"
+            },
+            {
+              "content_hash": "3a40017ec1db5f9f11f31157b79a5c95e6547d157ad8e4c1c68c80e6cc666b57",
+              "kind": "reference",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-context",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Resumen acotado y búsqueda del checklist. Declared status: done. Difficulty: intermediate; risk: low; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:06Z"
+        },
+        "recorded_at": "2026-10-24T22:49:06Z",
+        "revision": 9
+      },
+      {
+        "digest": "4d440a0445bb46de7749367ac35ec384fdbcd9e998bdfdd297402f7748fe4df2",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.2e1fa3c8343c",
+                "text": "Resumen con IDs y omisiones explícitas respeta presupuesto"
+              },
+              {
+                "id": "criterion.cce9654c2e55",
+                "text": "Consultas paginadas limitan JSON completo y lecturas no escriben"
+              },
+              {
+                "id": "criterion.a7fffd479b58",
+                "text": "Descripción y criterios actuales se buscan sin devolver versiones anteriores"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Integra criterios y descripción en recuperación sin cargar historiales ni desplazar restricciones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:06Z",
+              "criteria": [
+                "criterion.2e1fa3c8343c",
+                "criterion.cce9654c2e55",
+                "criterion.a7fffd479b58"
+              ],
+              "definition_hash": "4b9ff681c95866756fdb785eb051b88d6b8f7d8e784c98c483b41efc56d08e0d",
+              "evidence": [
+                {
+                  "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+                  "path": "pctx/compile.py"
+                },
+                {
+                  "content_hash": "3a40017ec1db5f9f11f31157b79a5c95e6547d157ad8e4c1c68c80e6cc666b57",
+                  "path": "pctx/knowledge.py"
+                },
+                {
+                  "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-context",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "da0cc6b38764d80e555d72808753c3590f72ee5632ffd50336d48df2479bebfe",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Resumen acotado y búsqueda del checklist",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+              "kind": "reference",
+              "path": "pctx/compile.py",
+              "ref": "pctx/compile.py"
+            },
+            {
+              "content_hash": "3a40017ec1db5f9f11f31157b79a5c95e6547d157ad8e4c1c68c80e6cc666b57",
+              "kind": "reference",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-context",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Resumen acotado y búsqueda del checklist. Declared status: verified. Difficulty: intermediate; risk: low; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:06Z"
+        },
+        "recorded_at": "2026-10-24T22:49:06Z",
+        "revision": 10
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.2e1fa3c8343c",
+        "text": "Resumen con IDs y omisiones explícitas respeta presupuesto"
+      },
+      {
+        "id": "criterion.cce9654c2e55",
+        "text": "Consultas paginadas limitan JSON completo y lecturas no escriben"
+      },
+      {
+        "id": "criterion.a7fffd479b58",
+        "text": "Descripción y criterios actuales se buscan sin devolver versiones anteriores"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "intermediate",
+    "difficulty_reason": "Integra criterios y descripción en recuperación sin cargar historiales ni desplazar restricciones.",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T22:49:06Z",
+      "criteria": [
+        "criterion.2e1fa3c8343c",
+        "criterion.cce9654c2e55",
+        "criterion.a7fffd479b58"
+      ],
+      "definition_hash": "4b9ff681c95866756fdb785eb051b88d6b8f7d8e784c98c483b41efc56d08e0d",
+      "evidence": [
+        {
+          "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+          "path": "pctx/compile.py"
+        },
+        {
+          "content_hash": "3a40017ec1db5f9f11f31157b79a5c95e6547d157ad8e4c1c68c80e6cc666b57",
+          "path": "pctx/knowledge.py"
+        },
+        {
+          "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+          "path": "pctx/planning.py"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        }
+      ],
+      "id": "pctx07-plan.pctx-05-context",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "da0cc6b38764d80e555d72808753c3590f72ee5632ffd50336d48df2479bebfe",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+    },
+    "owner": "",
+    "parent": "plan.pctx-05-checklists",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 3,
+    "risk": "low",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Resumen acotado y búsqueda del checklist",
+    "work_generation": 0
+  },
+  "created_at": "2026-10-11T21:03:24Z",
+  "evidence": [
+    {
+      "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+      "kind": "reference",
+      "path": "pctx/compile.py",
+      "ref": "pctx/compile.py"
+    },
+    {
+      "content_hash": "3a40017ec1db5f9f11f31157b79a5c95e6547d157ad8e4c1c68c80e6cc666b57",
+      "kind": "reference",
+      "path": "pctx/knowledge.py",
+      "ref": "pctx/knowledge.py"
+    },
+    {
+      "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+      "kind": "reference",
+      "path": "pctx/planning.py",
+      "ref": "pctx/planning.py"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    }
+  ],
+  "id": "plan.pctx-05-context",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-05-checklists"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Resumen acotado y búsqueda del checklist. Declared status: verified. Difficulty: intermediate; risk: low; recorded reviews: 3. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T22:49:06Z"
+}

@@ -1,0 +1,803 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "f3abe0cb01fabcdef448c5c629ba21affa4341676a3bd9fe6711e5f34c28650e",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.b32ec194ff44",
+                "text": "Solo una sesión gana un solapamiento; vence y libera sin reactivar reservas antiguas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Estado compartido, jerarquías y escritores concurrentes",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Reservas atómicas y caducidad",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [],
+          "id": "plan.pctx-06-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas atómicas y caducidad. Declared status: pending. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:06:11Z"
+        },
+        "recorded_at": "2026-10-12T22:06:11Z",
+        "revision": 1
+      },
+      {
+        "digest": "4dfd1085633172ed5cf2b45988ebca001b7db18ebe93ad08d89a2f54cf14b2af",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.b32ec194ff44",
+                "text": "Solo una sesión gana un solapamiento; vence y libera sin reactivar reservas antiguas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Estado compartido, jerarquías y escritores concurrentes",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "Reservas atómicas y caducidad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [],
+          "id": "plan.pctx-06-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas atómicas y caducidad. Declared status: in_progress. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:06:11Z"
+        },
+        "recorded_at": "2026-10-12T22:06:11Z",
+        "revision": 2
+      },
+      {
+        "digest": "755ac180380d5edfb2fef65ca29b031c127b4ff08daf3bd3288be20acf63d313",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.b32ec194ff44",
+                "text": "Solo una sesión gana un solapamiento; vence y libera sin reactivar reservas antiguas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Estado compartido, jerarquías y escritores concurrentes",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Reservas atómicas y caducidad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [],
+          "id": "plan.pctx-06-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas atómicas y caducidad. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:19Z"
+        },
+        "recorded_at": "2026-10-12T22:15:19Z",
+        "revision": 3
+      },
+      {
+        "digest": "0da5a4451a15a03f32a663cf352137fe411907653d204b051a1baf141737ca52",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.b32ec194ff44",
+                "text": "Solo una sesión gana un solapamiento; vence y libera sin reactivar reservas antiguas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Estado compartido, jerarquías y escritores concurrentes",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:19Z",
+              "criteria": [
+                "criterion.b32ec194ff44"
+              ],
+              "definition_hash": "f96aff8ccd8d24537ab56b92ddc4280210bd99298bbda6a4bf648d27e84fdd27",
+              "evidence": [
+                {
+                  "content_hash": "33023fd1ee376720000d370cd0d1978832a09de0a8df062d20f1d1f0a495d2c3",
+                  "path": "pctx/coordination.py"
+                },
+                {
+                  "content_hash": "1021b9e61527a642fa8b715f42053d21f2243015f54537550793407cd987d600",
+                  "path": "pctx/backup.py"
+                },
+                {
+                  "content_hash": "b04e248a965abfdadc0e7e6fc16a011a4ddc9dc8eec32331ff65a9fa40ea0759",
+                  "path": "tests/test_coordination.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-leases",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "95a1c53a809093b862b2b514198ecebcce7ee31ea794b7262bbb9fc1b6317a32",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Reservas atómicas y caducidad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "33023fd1ee376720000d370cd0d1978832a09de0a8df062d20f1d1f0a495d2c3",
+              "kind": "reference",
+              "path": "pctx/coordination.py",
+              "ref": "pctx/coordination.py"
+            },
+            {
+              "content_hash": "1021b9e61527a642fa8b715f42053d21f2243015f54537550793407cd987d600",
+              "kind": "reference",
+              "path": "pctx/backup.py",
+              "ref": "pctx/backup.py"
+            },
+            {
+              "content_hash": "b04e248a965abfdadc0e7e6fc16a011a4ddc9dc8eec32331ff65a9fa40ea0759",
+              "kind": "reference",
+              "path": "tests/test_coordination.py",
+              "ref": "tests/test_coordination.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-06-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas atómicas y caducidad. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:19Z"
+        },
+        "recorded_at": "2026-10-12T22:15:19Z",
+        "revision": 4
+      },
+      {
+        "digest": "d82551904aa9963f79664ccbe67f5049048bc3a596845f2a8a0834dc7f972d42",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.b32ec194ff44",
+                "text": "Solo una sesión gana un solapamiento; vence y libera sin reactivar reservas antiguas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Estado compartido, jerarquías y escritores concurrentes",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:19Z",
+              "criteria": [
+                "criterion.b32ec194ff44"
+              ],
+              "definition_hash": "f96aff8ccd8d24537ab56b92ddc4280210bd99298bbda6a4bf648d27e84fdd27",
+              "evidence": [
+                {
+                  "content_hash": "33023fd1ee376720000d370cd0d1978832a09de0a8df062d20f1d1f0a495d2c3",
+                  "path": "pctx/coordination.py"
+                },
+                {
+                  "content_hash": "1021b9e61527a642fa8b715f42053d21f2243015f54537550793407cd987d600",
+                  "path": "pctx/backup.py"
+                },
+                {
+                  "content_hash": "b04e248a965abfdadc0e7e6fc16a011a4ddc9dc8eec32331ff65a9fa40ea0759",
+                  "path": "tests/test_coordination.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-leases",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "95a1c53a809093b862b2b514198ecebcce7ee31ea794b7262bbb9fc1b6317a32",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Reservas atómicas y caducidad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "33023fd1ee376720000d370cd0d1978832a09de0a8df062d20f1d1f0a495d2c3",
+              "kind": "reference",
+              "path": "pctx/coordination.py",
+              "ref": "pctx/coordination.py"
+            },
+            {
+              "content_hash": "1021b9e61527a642fa8b715f42053d21f2243015f54537550793407cd987d600",
+              "kind": "reference",
+              "path": "pctx/backup.py",
+              "ref": "pctx/backup.py"
+            },
+            {
+              "content_hash": "b04e248a965abfdadc0e7e6fc16a011a4ddc9dc8eec32331ff65a9fa40ea0759",
+              "kind": "reference",
+              "path": "tests/test_coordination.py",
+              "ref": "tests/test_coordination.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-06-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas atómicas y caducidad. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:20Z"
+        },
+        "recorded_at": "2026-10-12T22:15:20Z",
+        "revision": 5
+      },
+      {
+        "digest": "8537bb3977093b4ba36c5949a2ca7219f9d6e080917e398f1da0ba9673762a7a",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.b32ec194ff44",
+                "text": "Solo una sesión gana un solapamiento; vence y libera sin reactivar reservas antiguas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Estado compartido, jerarquías y escritores concurrentes",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:19Z",
+              "criteria": [
+                "criterion.b32ec194ff44"
+              ],
+              "definition_hash": "f96aff8ccd8d24537ab56b92ddc4280210bd99298bbda6a4bf648d27e84fdd27",
+              "evidence": [
+                {
+                  "content_hash": "33023fd1ee376720000d370cd0d1978832a09de0a8df062d20f1d1f0a495d2c3",
+                  "path": "pctx/coordination.py"
+                },
+                {
+                  "content_hash": "1021b9e61527a642fa8b715f42053d21f2243015f54537550793407cd987d600",
+                  "path": "pctx/backup.py"
+                },
+                {
+                  "content_hash": "b04e248a965abfdadc0e7e6fc16a011a4ddc9dc8eec32331ff65a9fa40ea0759",
+                  "path": "tests/test_coordination.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-leases",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "95a1c53a809093b862b2b514198ecebcce7ee31ea794b7262bbb9fc1b6317a32",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Reservas atómicas y caducidad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "33023fd1ee376720000d370cd0d1978832a09de0a8df062d20f1d1f0a495d2c3",
+              "kind": "reference",
+              "path": "pctx/coordination.py",
+              "ref": "pctx/coordination.py"
+            },
+            {
+              "content_hash": "1021b9e61527a642fa8b715f42053d21f2243015f54537550793407cd987d600",
+              "kind": "reference",
+              "path": "pctx/backup.py",
+              "ref": "pctx/backup.py"
+            },
+            {
+              "content_hash": "b04e248a965abfdadc0e7e6fc16a011a4ddc9dc8eec32331ff65a9fa40ea0759",
+              "kind": "reference",
+              "path": "tests/test_coordination.py",
+              "ref": "tests/test_coordination.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-06-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-24T22:43:28Z",
+          "stale_reason": "pctx/coordination.py: changed",
+          "state": "stale",
+          "statement": "Checklist task: Reservas atómicas y caducidad. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 6
+      },
+      {
+        "digest": "f1e1122d8782ed90de0df726c97f5650a79f3bcb9caf922edf76163c54e5f662",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.b32ec194ff44",
+                "text": "Solo una sesión gana un solapamiento; vence y libera sin reactivar reservas antiguas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Estado compartido, jerarquías y escritores concurrentes",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:12Z",
+              "criteria": [
+                "criterion.b32ec194ff44"
+              ],
+              "definition_hash": "f96aff8ccd8d24537ab56b92ddc4280210bd99298bbda6a4bf648d27e84fdd27",
+              "evidence": [
+                {
+                  "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+                  "path": "pctx/coordination.py"
+                },
+                {
+                  "content_hash": "1021b9e61527a642fa8b715f42053d21f2243015f54537550793407cd987d600",
+                  "path": "pctx/backup.py"
+                },
+                {
+                  "content_hash": "b04e248a965abfdadc0e7e6fc16a011a4ddc9dc8eec32331ff65a9fa40ea0759",
+                  "path": "tests/test_coordination.py"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-06-leases",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "d4749eba62cf327b48f107a4e1760ef5614264139202e55d33f659a0a956cd10",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Reservas atómicas y caducidad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+              "kind": "reference",
+              "path": "pctx/coordination.py",
+              "ref": "pctx/coordination.py"
+            },
+            {
+              "content_hash": "1021b9e61527a642fa8b715f42053d21f2243015f54537550793407cd987d600",
+              "kind": "reference",
+              "path": "pctx/backup.py",
+              "ref": "pctx/backup.py"
+            },
+            {
+              "content_hash": "b04e248a965abfdadc0e7e6fc16a011a4ddc9dc8eec32331ff65a9fa40ea0759",
+              "kind": "reference",
+              "path": "tests/test_coordination.py",
+              "ref": "tests/test_coordination.py"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-06-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas atómicas y caducidad. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:12Z"
+        },
+        "recorded_at": "2026-10-24T22:49:12Z",
+        "revision": 7
+      },
+      {
+        "digest": "5ddbc2a01dd907213fd06f72f55c808ba174441e7a1d874099733ebe8707fe96",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.b32ec194ff44",
+                "text": "Solo una sesión gana un solapamiento; vence y libera sin reactivar reservas antiguas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Estado compartido, jerarquías y escritores concurrentes",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:12Z",
+              "criteria": [
+                "criterion.b32ec194ff44"
+              ],
+              "definition_hash": "f96aff8ccd8d24537ab56b92ddc4280210bd99298bbda6a4bf648d27e84fdd27",
+              "evidence": [
+                {
+                  "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+                  "path": "pctx/coordination.py"
+                },
+                {
+                  "content_hash": "1021b9e61527a642fa8b715f42053d21f2243015f54537550793407cd987d600",
+                  "path": "pctx/backup.py"
+                },
+                {
+                  "content_hash": "b04e248a965abfdadc0e7e6fc16a011a4ddc9dc8eec32331ff65a9fa40ea0759",
+                  "path": "tests/test_coordination.py"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-06-leases",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "d4749eba62cf327b48f107a4e1760ef5614264139202e55d33f659a0a956cd10",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Reservas atómicas y caducidad",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:11Z",
+          "evidence": [
+            {
+              "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+              "kind": "reference",
+              "path": "pctx/coordination.py",
+              "ref": "pctx/coordination.py"
+            },
+            {
+              "content_hash": "1021b9e61527a642fa8b715f42053d21f2243015f54537550793407cd987d600",
+              "kind": "reference",
+              "path": "pctx/backup.py",
+              "ref": "pctx/backup.py"
+            },
+            {
+              "content_hash": "b04e248a965abfdadc0e7e6fc16a011a4ddc9dc8eec32331ff65a9fa40ea0759",
+              "kind": "reference",
+              "path": "tests/test_coordination.py",
+              "ref": "tests/test_coordination.py"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-06-leases",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reservas atómicas y caducidad. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:13Z"
+        },
+        "recorded_at": "2026-10-24T22:49:13Z",
+        "revision": 8
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.b32ec194ff44",
+        "text": "Solo una sesión gana un solapamiento; vence y libera sin reactivar reservas antiguas"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "hard",
+    "difficulty_reason": "Estado compartido, jerarquías y escritores concurrentes",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T22:49:12Z",
+      "criteria": [
+        "criterion.b32ec194ff44"
+      ],
+      "definition_hash": "f96aff8ccd8d24537ab56b92ddc4280210bd99298bbda6a4bf648d27e84fdd27",
+      "evidence": [
+        {
+          "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+          "path": "pctx/coordination.py"
+        },
+        {
+          "content_hash": "1021b9e61527a642fa8b715f42053d21f2243015f54537550793407cd987d600",
+          "path": "pctx/backup.py"
+        },
+        {
+          "content_hash": "b04e248a965abfdadc0e7e6fc16a011a4ddc9dc8eec32331ff65a9fa40ea0759",
+          "path": "tests/test_coordination.py"
+        },
+        {
+          "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+          "path": "tests/test_freshness_workers.py"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        }
+      ],
+      "id": "pctx07-plan.pctx-06-leases",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "d4749eba62cf327b48f107a4e1760ef5614264139202e55d33f659a0a956cd10",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+    },
+    "owner": "",
+    "parent": "plan.pctx-06-coordination",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 2,
+    "risk": "high",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Reservas atómicas y caducidad",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-12T22:06:11Z",
+  "evidence": [
+    {
+      "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+      "kind": "reference",
+      "path": "pctx/coordination.py",
+      "ref": "pctx/coordination.py"
+    },
+    {
+      "content_hash": "1021b9e61527a642fa8b715f42053d21f2243015f54537550793407cd987d600",
+      "kind": "reference",
+      "path": "pctx/backup.py",
+      "ref": "pctx/backup.py"
+    },
+    {
+      "content_hash": "b04e248a965abfdadc0e7e6fc16a011a4ddc9dc8eec32331ff65a9fa40ea0759",
+      "kind": "reference",
+      "path": "tests/test_coordination.py",
+      "ref": "tests/test_coordination.py"
+    },
+    {
+      "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+      "kind": "reference",
+      "path": "tests/test_freshness_workers.py",
+      "ref": "tests/test_freshness_workers.py"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    }
+  ],
+  "id": "plan.pctx-06-leases",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-06-coordination"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Reservas atómicas y caducidad. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T22:49:13Z"
+}

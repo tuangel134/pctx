@@ -1,0 +1,1005 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "a0eb1d75b8e08faccd805eaa4d60687c6484b577eeee99dfdd6b22f2d9b7da5e",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.9f9fe381e991",
+                "text": "Las siete mejoras funcionan con JSON portable, privacidad y fuentes vigentes"
+              },
+              {
+                "id": "criterion.593567457787",
+                "text": "Entrega local validada e instalada; pendientes externos conservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "goal",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "PCTX 0.7: memoria vigente y delegación práctica",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-24T22:05:02Z",
+          "evidence": [],
+          "id": "plan.pctx-07-workers",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.7: memoria vigente y delegación práctica. Declared status: pending. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:02Z"
+        },
+        "recorded_at": "2026-10-24T22:05:02Z",
+        "revision": 1
+      },
+      {
+        "digest": "bb2b423c54238ef8d0abdb48349a9f2dedad2a01bcfe5956f137ddc3f546a678",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.9f9fe381e991",
+                "text": "Las siete mejoras funcionan con JSON portable, privacidad y fuentes vigentes"
+              },
+              {
+                "id": "criterion.593567457787",
+                "text": "Entrega local validada e instalada; pendientes externos conservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "goal",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "PCTX 0.7: memoria vigente y delegación práctica",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:02Z",
+          "evidence": [],
+          "id": "plan.pctx-07-workers",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.7: memoria vigente y delegación práctica. Declared status: in_progress. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:02Z"
+        },
+        "recorded_at": "2026-10-24T22:05:02Z",
+        "revision": 2
+      },
+      {
+        "digest": "ab5584b1bbccfa42be8d1578c42deb6dfb1ec2f566d7793806f1f6cf29329a99",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.9f9fe381e991",
+                "text": "Las siete mejoras funcionan con JSON portable, privacidad y fuentes vigentes"
+              },
+              {
+                "id": "criterion.593567457787",
+                "text": "Entrega local validada e instalada; pendientes externos conservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "goal",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "PCTX 0.7: memoria vigente y delegación práctica",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:02Z",
+          "evidence": [],
+          "id": "plan.pctx-07-workers",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.7: memoria vigente y delegación práctica. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:42Z"
+        },
+        "recorded_at": "2026-10-24T22:49:42Z",
+        "revision": 3
+      },
+      {
+        "digest": "0226acee5af6f0c932f40ba246d8d213744ec3d59a7057c2207938c5d0d63ead",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.9f9fe381e991",
+                "text": "Las siete mejoras funcionan con JSON portable, privacidad y fuentes vigentes"
+              },
+              {
+                "id": "criterion.593567457787",
+                "text": "Entrega local validada e instalada; pendientes externos conservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T22:49:43Z",
+              "criteria": [
+                "criterion.9f9fe381e991",
+                "criterion.593567457787"
+              ],
+              "definition_hash": "bdea6664fe20b1760ae3d41d32e520570fba33e39704eeec409c654c39840295",
+              "evidence": [
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+                  "path": "validation/handoff-release-0.7.json"
+                },
+                {
+                  "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+                  "path": "validation/backup-preclose-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-workers",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-07-brief": 5,
+                "plan.pctx-07-checks": 5,
+                "plan.pctx-07-freshness": 5,
+                "plan.pctx-07-leases": 5,
+                "plan.pctx-07-quiet": 5,
+                "plan.pctx-07-release": 5,
+                "plan.pctx-07-reports": 5
+              },
+              "request_hash": "fddab5c1365b474a6c11b78c495e886b56c169a614e64f5eb2f63675d0069155",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios locales comprobados: 186 pruebas, 57 flujos UI, check ejecutado 186/186, once recuperaciones, wheel/zipapp limpio, 41 archivos coincidentes, instalación 0.7 con extras, respaldo y handoff completo. Hijos revisados; sesiones externas conservadas pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "PCTX 0.7: memoria vigente y delegación práctica",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:02Z",
+          "evidence": [
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+              "kind": "reference",
+              "path": "validation/handoff-release-0.7.json",
+              "ref": "validation/handoff-release-0.7.json"
+            },
+            {
+              "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+              "kind": "reference",
+              "path": "validation/backup-preclose-0.7.json",
+              "ref": "validation/backup-preclose-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-workers",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.7: memoria vigente y delegación práctica. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:43Z"
+        },
+        "recorded_at": "2026-10-24T22:49:43Z",
+        "revision": 4
+      },
+      {
+        "digest": "57a8bbdf708d58eccdcdd1bb2912097b3ee3ef11a516214ea6c8600f225a1106",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.9f9fe381e991",
+                "text": "Las siete mejoras funcionan con JSON portable, privacidad y fuentes vigentes"
+              },
+              {
+                "id": "criterion.593567457787",
+                "text": "Entrega local validada e instalada; pendientes externos conservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T22:49:43Z",
+              "criteria": [
+                "criterion.9f9fe381e991",
+                "criterion.593567457787"
+              ],
+              "definition_hash": "bdea6664fe20b1760ae3d41d32e520570fba33e39704eeec409c654c39840295",
+              "evidence": [
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+                  "path": "validation/handoff-release-0.7.json"
+                },
+                {
+                  "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+                  "path": "validation/backup-preclose-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-workers",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-07-brief": 5,
+                "plan.pctx-07-checks": 5,
+                "plan.pctx-07-freshness": 5,
+                "plan.pctx-07-leases": 5,
+                "plan.pctx-07-quiet": 5,
+                "plan.pctx-07-release": 5,
+                "plan.pctx-07-reports": 5
+              },
+              "request_hash": "fddab5c1365b474a6c11b78c495e886b56c169a614e64f5eb2f63675d0069155",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios locales comprobados: 186 pruebas, 57 flujos UI, check ejecutado 186/186, once recuperaciones, wheel/zipapp limpio, 41 archivos coincidentes, instalación 0.7 con extras, respaldo y handoff completo. Hijos revisados; sesiones externas conservadas pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "PCTX 0.7: memoria vigente y delegación práctica",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:02Z",
+          "evidence": [
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+              "kind": "reference",
+              "path": "validation/handoff-release-0.7.json",
+              "ref": "validation/handoff-release-0.7.json"
+            },
+            {
+              "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+              "kind": "reference",
+              "path": "validation/backup-preclose-0.7.json",
+              "ref": "validation/backup-preclose-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-workers",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.7: memoria vigente y delegación práctica. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:43Z"
+        },
+        "recorded_at": "2026-10-24T22:49:43Z",
+        "revision": 5
+      },
+      {
+        "digest": "cf8bf66783420f33c50bb4d51878513848bdc4c73cae546b271f2359b6347313",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.9f9fe381e991",
+                "text": "Las siete mejoras funcionan con JSON portable, privacidad y fuentes vigentes"
+              },
+              {
+                "id": "criterion.593567457787",
+                "text": "Entrega local validada e instalada; pendientes externos conservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T23:07:17Z",
+              "criteria": [
+                "criterion.9f9fe381e991",
+                "criterion.593567457787"
+              ],
+              "definition_hash": "bdea6664fe20b1760ae3d41d32e520570fba33e39704eeec409c654c39840295",
+              "evidence": [
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+                  "path": "validation/handoff-release-0.7.json"
+                },
+                {
+                  "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+                  "path": "validation/backup-preclose-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-07-workers",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-07-brief": 7,
+                "plan.pctx-07-checks": 5,
+                "plan.pctx-07-freshness": 7,
+                "plan.pctx-07-leases": 5,
+                "plan.pctx-07-quiet": 7,
+                "plan.pctx-07-release": 5,
+                "plan.pctx-07-reports": 5
+              },
+              "request_hash": "437a91a568e9be873a23e2f61bb5bee7df112580f279d344c0e90bc21db4ffc3",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "PCTX 0.7: memoria vigente y delegación práctica",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:02Z",
+          "evidence": [
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+              "kind": "reference",
+              "path": "validation/handoff-release-0.7.json",
+              "ref": "validation/handoff-release-0.7.json"
+            },
+            {
+              "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+              "kind": "reference",
+              "path": "validation/backup-preclose-0.7.json",
+              "ref": "validation/backup-preclose-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-07-workers",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.7: memoria vigente y delegación práctica. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:17Z"
+        },
+        "recorded_at": "2026-10-24T23:07:17Z",
+        "revision": 6
+      },
+      {
+        "digest": "a44ba41490b282bbb81f10fa3ee4b0e77f6b602f631c9e7bd46bc45a5da8e7c5",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.9f9fe381e991",
+                "text": "Las siete mejoras funcionan con JSON portable, privacidad y fuentes vigentes"
+              },
+              {
+                "id": "criterion.593567457787",
+                "text": "Entrega local validada e instalada; pendientes externos conservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T23:07:17Z",
+              "criteria": [
+                "criterion.9f9fe381e991",
+                "criterion.593567457787"
+              ],
+              "definition_hash": "bdea6664fe20b1760ae3d41d32e520570fba33e39704eeec409c654c39840295",
+              "evidence": [
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+                  "path": "validation/handoff-release-0.7.json"
+                },
+                {
+                  "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+                  "path": "validation/backup-preclose-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-07-workers",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-07-brief": 7,
+                "plan.pctx-07-checks": 5,
+                "plan.pctx-07-freshness": 7,
+                "plan.pctx-07-leases": 5,
+                "plan.pctx-07-quiet": 7,
+                "plan.pctx-07-release": 5,
+                "plan.pctx-07-reports": 5
+              },
+              "request_hash": "437a91a568e9be873a23e2f61bb5bee7df112580f279d344c0e90bc21db4ffc3",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "PCTX 0.7: memoria vigente y delegación práctica",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:02Z",
+          "evidence": [
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+              "kind": "reference",
+              "path": "validation/handoff-release-0.7.json",
+              "ref": "validation/handoff-release-0.7.json"
+            },
+            {
+              "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+              "kind": "reference",
+              "path": "validation/backup-preclose-0.7.json",
+              "ref": "validation/backup-preclose-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-07-workers",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist goal: PCTX 0.7: memoria vigente y delegación práctica. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:18Z"
+        },
+        "recorded_at": "2026-10-24T23:07:18Z",
+        "revision": 7
+      },
+      {
+        "digest": "4cbdb2e447c2a470071b6d3add2ba3ce7ccbb69810192abb34c8da6132723e8d",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.9f9fe381e991",
+                "text": "Las siete mejoras funcionan con JSON portable, privacidad y fuentes vigentes"
+              },
+              {
+                "id": "criterion.593567457787",
+                "text": "Entrega local validada e instalada; pendientes externos conservados"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "goal",
+            "last_review": {
+              "at": "2026-10-24T23:07:17Z",
+              "criteria": [
+                "criterion.9f9fe381e991",
+                "criterion.593567457787"
+              ],
+              "definition_hash": "bdea6664fe20b1760ae3d41d32e520570fba33e39704eeec409c654c39840295",
+              "evidence": [
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+                  "path": "validation/handoff-release-0.7.json"
+                },
+                {
+                  "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+                  "path": "validation/backup-preclose-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-07-workers",
+              "outcome": "passed",
+              "related_revisions": {
+                "plan.pctx-07-brief": 7,
+                "plan.pctx-07-checks": 5,
+                "plan.pctx-07-freshness": 7,
+                "plan.pctx-07-leases": 5,
+                "plan.pctx-07-quiet": 7,
+                "plan.pctx-07-release": 5,
+                "plan.pctx-07-reports": 5
+              },
+              "request_hash": "437a91a568e9be873a23e2f61bb5bee7df112580f279d344c0e90bc21db4ffc3",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "PCTX 0.7: memoria vigente y delegación práctica",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:02Z",
+          "evidence": [
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+              "kind": "reference",
+              "path": "validation/handoff-release-0.7.json",
+              "ref": "validation/handoff-release-0.7.json"
+            },
+            {
+              "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+              "kind": "reference",
+              "path": "validation/backup-preclose-0.7.json",
+              "ref": "validation/backup-preclose-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-07-workers",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-11-17T06:58:06Z",
+          "stale_reason": "docs/VALIDACION_0.7.md: changed",
+          "state": "stale",
+          "statement": "Checklist goal: PCTX 0.7: memoria vigente y delegación práctica. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-11-17T06:58:06Z"
+        },
+        "recorded_at": "2026-11-17T06:58:06Z",
+        "revision": 8
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.9f9fe381e991",
+        "text": "Las siete mejoras funcionan con JSON portable, privacidad y fuentes vigentes"
+      },
+      {
+        "id": "criterion.593567457787",
+        "text": "Entrega local validada e instalada; pendientes externos conservados"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "hard",
+    "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+    "kind": "goal",
+    "last_review": {
+      "at": "2026-10-24T23:07:17Z",
+      "criteria": [
+        "criterion.9f9fe381e991",
+        "criterion.593567457787"
+      ],
+      "definition_hash": "bdea6664fe20b1760ae3d41d32e520570fba33e39704eeec409c654c39840295",
+      "evidence": [
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        },
+        {
+          "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+          "path": "docs/USO_0.7.md"
+        },
+        {
+          "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+          "path": "docs/VALIDACION_0.7.md"
+        },
+        {
+          "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+          "path": "validation/handoff-release-0.7.json"
+        },
+        {
+          "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+          "path": "validation/backup-preclose-0.7.json"
+        },
+        {
+          "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+          "path": "validation/release-0.7.1.json"
+        },
+        {
+          "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+          "path": "docs/USO_0.7.1.md"
+        }
+      ],
+      "id": "pctx071-plan.pctx-07-workers",
+      "outcome": "passed",
+      "related_revisions": {
+        "plan.pctx-07-brief": 7,
+        "plan.pctx-07-checks": 5,
+        "plan.pctx-07-freshness": 7,
+        "plan.pctx-07-leases": 5,
+        "plan.pctx-07-quiet": 7,
+        "plan.pctx-07-release": 5,
+        "plan.pctx-07-reports": 5
+      },
+      "request_hash": "437a91a568e9be873a23e2f61bb5bee7df112580f279d344c0e90bc21db4ffc3",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+    },
+    "owner": "",
+    "parent": "plan.pctx-continuity",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 2,
+    "risk": "high",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "PCTX 0.7: memoria vigente y delegación práctica",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-24T22:05:02Z",
+  "evidence": [
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    },
+    {
+      "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+      "kind": "reference",
+      "path": "docs/USO_0.7.md",
+      "ref": "docs/USO_0.7.md"
+    },
+    {
+      "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+      "kind": "reference",
+      "path": "docs/VALIDACION_0.7.md",
+      "ref": "docs/VALIDACION_0.7.md"
+    },
+    {
+      "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+      "kind": "reference",
+      "path": "validation/handoff-release-0.7.json",
+      "ref": "validation/handoff-release-0.7.json"
+    },
+    {
+      "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+      "kind": "reference",
+      "path": "validation/backup-preclose-0.7.json",
+      "ref": "validation/backup-preclose-0.7.json"
+    },
+    {
+      "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+      "kind": "reference",
+      "path": "validation/release-0.7.1.json",
+      "ref": "validation/release-0.7.1.json"
+    },
+    {
+      "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+      "kind": "reference",
+      "path": "docs/USO_0.7.1.md",
+      "ref": "docs/USO_0.7.1.md"
+    }
+  ],
+  "id": "plan.pctx-07-workers",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-continuity"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "stale_at": "2026-11-17T06:58:06Z",
+  "stale_reason": "docs/VALIDACION_0.7.md: changed",
+  "state": "stale",
+  "statement": "Checklist goal: PCTX 0.7: memoria vigente y delegación práctica. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-11-17T06:58:06Z"
+}

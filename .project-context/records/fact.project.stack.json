@@ -1,0 +1,340 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "70c47abb5b47aefb7139d5dcf0ce47c5d8303906da1aa078e36b1aad429a00f4",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "content_hash": "cc127c024a6866730fc21542d993be8bfc9dd0213a7d42ccb6d313749eb11595",
+              "kind": "file",
+              "path": "pyproject.toml",
+              "ref": "pyproject.toml",
+              "size": 545
+            },
+            {
+              "content_hash": "1912b815a8e169618c1d963e885420ee38e42746e96ba208f9fbccb0167d9bf8",
+              "kind": "file",
+              "path": "README.md",
+              "ref": "README.md",
+              "size": 8426
+            }
+          ],
+          "id": "fact.project.stack",
+          "origin": "scanner",
+          "scope": "project/stack",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Language: Python\nPackage manager: pip",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-09-12T15:53:20Z"
+        },
+        "recorded_at": "2026-09-12T15:53:20Z",
+        "revision": 1
+      },
+      {
+        "digest": "917731a3172b015e5f86f7d474b32e60e618494914b9655a970a3e1244f6bb07",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "content_hash": "66148897620b305766973dc6a0f9930dc6ff1559759752d3ea7ddd33e295ec64",
+              "kind": "file",
+              "path": "pyproject.toml",
+              "ref": "pyproject.toml",
+              "size": 550
+            },
+            {
+              "content_hash": "a8fa950e187dce12afe51512b9efa20e7e5e103e4f77841be4804288718f6082",
+              "kind": "file",
+              "path": "README.md",
+              "ref": "README.md",
+              "size": 8690
+            }
+          ],
+          "id": "fact.project.stack",
+          "origin": "scanner",
+          "scope": "project/stack",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Language: Python\nPackage manager: pip",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T18:12:11Z"
+        },
+        "recorded_at": "2026-10-09T18:12:11Z",
+        "revision": 2
+      },
+      {
+        "digest": "1faa19b90b459169d7e7afa05349467641aed3925dc11c61c90edba5f4f459a4",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "content_hash": "413908fcae66923d35301913c365c06d2eaadbd23a823c2697c0060a4849bfc4",
+              "kind": "file",
+              "path": "pyproject.toml",
+              "ref": "pyproject.toml",
+              "size": 545
+            },
+            {
+              "content_hash": "dcb3516bc903eccaf37dea50916f1f4ec8ebe1eb15be7dd57284c7ac6e3410ff",
+              "kind": "file",
+              "path": "README.md",
+              "ref": "README.md",
+              "size": 8738
+            }
+          ],
+          "id": "fact.project.stack",
+          "origin": "scanner",
+          "scope": "project/stack",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Language: Python\nPackage manager: pip",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T19:10:12Z"
+        },
+        "recorded_at": "2026-10-09T19:10:12Z",
+        "revision": 3
+      },
+      {
+        "digest": "173cfef447cec4d250ca577fb20c0ac2cea56371ae45981b536716f84878c8ef",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "content_hash": "d26744f724dc792c2d8e96bfe11e44eeb87d8428430c575343cf66a6bc1f6b1e",
+              "kind": "file",
+              "path": "pyproject.toml",
+              "ref": "pyproject.toml",
+              "size": 646
+            },
+            {
+              "content_hash": "cd06be5a2873676c222598b2d262207b5a21162a29c3f3111e8366f1123232f6",
+              "kind": "file",
+              "path": "README.md",
+              "ref": "README.md",
+              "size": 9048
+            }
+          ],
+          "id": "fact.project.stack",
+          "origin": "scanner",
+          "scope": "project/stack",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Language: Python\nPackage manager: pip",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T20:54:14Z"
+        },
+        "recorded_at": "2026-10-09T20:54:14Z",
+        "revision": 4
+      },
+      {
+        "digest": "83db383f83ac20f5e5ede6059a3d64efa28c204214b5835ae5fd6e077cb0f23f",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "content_hash": "e2f2d0e6de768bc7a6b847f2068583e40659961f7f95943533545a36ce124b13",
+              "kind": "file",
+              "path": "pyproject.toml",
+              "ref": "pyproject.toml",
+              "size": 646
+            },
+            {
+              "content_hash": "60ba8604ceecca20721d781ac9c7d3a76a5ccbf1c1031e570a8bccebb3a22087",
+              "kind": "file",
+              "path": "README.md",
+              "ref": "README.md",
+              "size": 9733
+            }
+          ],
+          "id": "fact.project.stack",
+          "origin": "scanner",
+          "scope": "project/stack",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Language: Python\nPackage manager: pip",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-11T21:11:20Z"
+        },
+        "recorded_at": "2026-10-11T21:11:20Z",
+        "revision": 5
+      },
+      {
+        "digest": "16c0287e0f2303f411d5586f7f1891cb0083ccc18ba89344a2ed682985b59df0",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "content_hash": "cf187439b874cc5b5dc8926859a1c5f4e69d90a2960839460153ca5a2ae834cc",
+              "kind": "file",
+              "path": "pyproject.toml",
+              "ref": "pyproject.toml",
+              "size": 646
+            },
+            {
+              "content_hash": "8ed6f865e3f5e1e9fec23927c69425d3afb9c0cb7c372248a6396fc5bf97ab65",
+              "kind": "file",
+              "path": "README.md",
+              "ref": "README.md",
+              "size": 10678
+            }
+          ],
+          "id": "fact.project.stack",
+          "origin": "scanner",
+          "scope": "project/stack",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Language: Python\nPackage manager: pip",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-12T22:10:09Z"
+        },
+        "recorded_at": "2026-10-12T22:10:09Z",
+        "revision": 6
+      },
+      {
+        "digest": "e12f245f128fef8a5901aa928cfb8dc7d19a56c4a20f2c622b60aaf774574b98",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "content_hash": "511148b162dd377f88d5f9a8484080bfe6b4f73ba2b931fc76b44769a5c002ca",
+              "kind": "file",
+              "path": "pyproject.toml",
+              "ref": "pyproject.toml",
+              "size": 646
+            },
+            {
+              "content_hash": "7d8cc6b0a7719b3ada92ef9fd25260112c10defb1991eeb0931db082428f31ef",
+              "kind": "file",
+              "path": "README.md",
+              "ref": "README.md",
+              "size": 11547
+            }
+          ],
+          "id": "fact.project.stack",
+          "origin": "scanner",
+          "scope": "project/stack",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Language: Python\nPackage manager: pip",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 7
+      },
+      {
+        "digest": "972e21da3b46f2f864ef109e63112c1de57a224242526c7bffbbe360177dbabb",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "content_hash": "0131ba596e930a0577b8e0df1c55f4a2fb00fc6e34cfbd21fffba4a6ded0f94a",
+              "kind": "file",
+              "path": "pyproject.toml",
+              "ref": "pyproject.toml",
+              "size": 646
+            },
+            {
+              "content_hash": "db0016989c628f1b48c260488e799026e71584acb512c3e3b66342835985e429",
+              "kind": "file",
+              "path": "README.md",
+              "ref": "README.md",
+              "size": 11632
+            }
+          ],
+          "id": "fact.project.stack",
+          "origin": "scanner",
+          "scope": "project/stack",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Language: Python\nPackage manager: pip",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-24T23:07:32Z"
+        },
+        "recorded_at": "2026-10-24T23:07:32Z",
+        "revision": 8
+      },
+      {
+        "digest": "d0d5d54b44c834412213b7790baa39c25eae7e7a5034cbb78339c3aab829b9bb",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "content_hash": "20e8d1b5aaf107299e9ceb7a6350e0d5c3d4ecaf21e70c9c90256ba2c0f240c7",
+              "kind": "file",
+              "path": "pyproject.toml",
+              "ref": "pyproject.toml",
+              "size": 1698
+            },
+            {
+              "content_hash": "d75bdcfa652c40bd172d0eee7cbfe3b14b7b6341e5e0d0623f553d363ac9f485",
+              "kind": "file",
+              "path": "README.md",
+              "ref": "README.md",
+              "size": 11412
+            }
+          ],
+          "id": "fact.project.stack",
+          "origin": "scanner",
+          "scope": "project/stack",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Language: Python\nPackage manager: pip",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-11-17T06:58:06Z"
+        },
+        "recorded_at": "2026-11-17T06:58:06Z",
+        "revision": 9
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-09-05T19:58:26Z",
+  "evidence": [
+    {
+      "content_hash": "20e8d1b5aaf107299e9ceb7a6350e0d5c3d4ecaf21e70c9c90256ba2c0f240c7",
+      "kind": "file",
+      "path": "pyproject.toml",
+      "ref": "pyproject.toml",
+      "size": 1698
+    },
+    {
+      "content_hash": "d75bdcfa652c40bd172d0eee7cbfe3b14b7b6341e5e0d0623f553d363ac9f485",
+      "kind": "file",
+      "path": "README.md",
+      "ref": "README.md",
+      "size": 11412
+    }
+  ],
+  "id": "fact.project.stack",
+  "origin": "scanner",
+  "scope": "project/stack",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "verified",
+  "statement": "Language: Python\nPackage manager: pip",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-11-17T06:58:06Z"
+}

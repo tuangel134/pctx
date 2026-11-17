@@ -1,0 +1,170 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "0fb11b3076ad78b1a8057431e608c8478ce5bc2077c76d3bf54e512c04981952",
+        "record": {
+          "created_at": "2026-10-09T20:55:00Z",
+          "evidence": [
+            {
+              "content_hash": "9d73765ac23b2d6d95dab87c0975673ca72d68cdd6cfc55bc8aebe87e3a785ab",
+              "kind": "file",
+              "path": "docs/RECUPERACION_0.4.md",
+              "ref": "docs/RECUPERACION_0.4.md"
+            },
+            {
+              "content_hash": "6065c12be9d840d6b80d36c1d1551bc9fc1563ea6aeedfac114aade9c2c7a8f4",
+              "kind": "file",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "17148261c8d574fb9df1ec2dc791846ec5aabf8ac7daf761997e92f21d3447c7",
+              "kind": "file",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "c2413397c68deff2ecc3650b1d7fcac0a236bc9068d533b30206634d96f92016",
+              "kind": "file",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "ac3834c83302017829318bb54a8ae5c584d8b5d1ad534a3fc1bfaee11507d13b",
+              "kind": "file",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            }
+          ],
+          "id": "fact.pctx.v04.retrieval",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:decision.pctx.retrieval.local"
+            }
+          ],
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "PCTX 0.4.0 implementa búsqueda acotada de memoria/documentos, fragmentos vigentes, navegación de evidencia/relaciones y reconstrucción explícita de índice desde CLI, MCP y panel. Las lecturas no guardan consultas ni reparan caché persistente; los documentos entran al contexto después de los esenciales. ONNX híbrido local se probó con modelo multilingüe explícito; exige índice vigente.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T20:55:00Z"
+        },
+        "recorded_at": "2026-10-09T20:55:00Z",
+        "revision": 1
+      },
+      {
+        "digest": "a90d523a0c52d60a5382ef40b8fbe88aa5d61c55f6171b886f131a1960d8b267",
+        "record": {
+          "created_at": "2026-10-09T20:55:00Z",
+          "evidence": [
+            {
+              "content_hash": "9d73765ac23b2d6d95dab87c0975673ca72d68cdd6cfc55bc8aebe87e3a785ab",
+              "kind": "file",
+              "path": "docs/RECUPERACION_0.4.md",
+              "ref": "docs/RECUPERACION_0.4.md"
+            },
+            {
+              "content_hash": "6065c12be9d840d6b80d36c1d1551bc9fc1563ea6aeedfac114aade9c2c7a8f4",
+              "kind": "file",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "17148261c8d574fb9df1ec2dc791846ec5aabf8ac7daf761997e92f21d3447c7",
+              "kind": "file",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "c2413397c68deff2ecc3650b1d7fcac0a236bc9068d533b30206634d96f92016",
+              "kind": "file",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "ac3834c83302017829318bb54a8ae5c584d8b5d1ad534a3fc1bfaee11507d13b",
+              "kind": "file",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            }
+          ],
+          "id": "fact.pctx.v04.retrieval",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:decision.pctx.retrieval.local"
+            }
+          ],
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "superseded",
+          "statement": "PCTX 0.4.0 implementa búsqueda acotada de memoria/documentos, fragmentos vigentes, navegación de evidencia/relaciones y reconstrucción explícita de índice desde CLI, MCP y panel. Las lecturas no guardan consultas ni reparan caché persistente; los documentos entran al contexto después de los esenciales. ONNX híbrido local se probó con modelo multilingüe explícito; exige índice vigente.",
+          "superseded_by": "fact.pctx.v05.checklists",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-11T21:11:20Z"
+        },
+        "recorded_at": "2026-10-11T21:11:20Z",
+        "revision": 2
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-10-09T20:55:00Z",
+  "evidence": [
+    {
+      "content_hash": "9d73765ac23b2d6d95dab87c0975673ca72d68cdd6cfc55bc8aebe87e3a785ab",
+      "kind": "file",
+      "path": "docs/RECUPERACION_0.4.md",
+      "ref": "docs/RECUPERACION_0.4.md"
+    },
+    {
+      "content_hash": "6065c12be9d840d6b80d36c1d1551bc9fc1563ea6aeedfac114aade9c2c7a8f4",
+      "kind": "file",
+      "path": "pctx/knowledge.py",
+      "ref": "pctx/knowledge.py"
+    },
+    {
+      "content_hash": "17148261c8d574fb9df1ec2dc791846ec5aabf8ac7daf761997e92f21d3447c7",
+      "kind": "file",
+      "path": "pctx/mcp.py",
+      "ref": "pctx/mcp.py"
+    },
+    {
+      "content_hash": "c2413397c68deff2ecc3650b1d7fcac0a236bc9068d533b30206634d96f92016",
+      "kind": "file",
+      "path": "pctx/cli.py",
+      "ref": "pctx/cli.py"
+    },
+    {
+      "content_hash": "ac3834c83302017829318bb54a8ae5c584d8b5d1ad534a3fc1bfaee11507d13b",
+      "kind": "file",
+      "path": "pctx/web/app.js",
+      "ref": "pctx/web/app.js"
+    }
+  ],
+  "id": "fact.pctx.v04.retrieval",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:decision.pctx.retrieval.local"
+    }
+  ],
+  "origin": "local-validation",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "superseded",
+  "statement": "PCTX 0.4.0 implementa búsqueda acotada de memoria/documentos, fragmentos vigentes, navegación de evidencia/relaciones y reconstrucción explícita de índice desde CLI, MCP y panel. Las lecturas no guardan consultas ni reparan caché persistente; los documentos entran al contexto después de los esenciales. ONNX híbrido local se probó con modelo multilingüe explícito; exige índice vigente.",
+  "superseded_by": "fact.pctx.v05.checklists",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-10-11T21:11:20Z"
+}

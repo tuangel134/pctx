@@ -1,0 +1,84 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "ebc0d5a6d888f2c18f3adccb7eead38a55522cb2aed939dd0eb1b5284a672642",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "head": null,
+              "kind": "git",
+              "ref": "",
+              "status_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            }
+          ],
+          "id": "fact.project.git",
+          "origin": "scanner",
+          "scope": "project/git",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "verified",
+          "statement": "{\"branch\": \"(detached)\", \"dirty\": false, \"head\": null, \"is_git\": false, \"remote\": null}",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-09-06T01:42:41Z"
+        },
+        "recorded_at": "2026-10-09T19:10:27Z",
+        "revision": 1
+      },
+      {
+        "digest": "7f86d63d165319b9f8ccc2f2db6d8df754794b471e7b3b07e9e462ab6ef476f8",
+        "record": {
+          "created_at": "2026-09-05T19:58:26Z",
+          "evidence": [
+            {
+              "branch": "(detached)",
+              "head": null,
+              "is_git": false,
+              "kind": "git-snapshot",
+              "ref": "",
+              "remote": null,
+              "status_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            }
+          ],
+          "id": "fact.project.git",
+          "origin": "scanner",
+          "scope": "project/git",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "verified",
+          "statement": "{\"branch\": \"(detached)\", \"dirty\": false, \"head\": null, \"is_git\": false, \"remote\": null}",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 2
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-09-05T19:58:26Z",
+  "evidence": [
+    {
+      "branch": "(detached)",
+      "head": null,
+      "is_git": false,
+      "kind": "git-snapshot",
+      "ref": "",
+      "remote": null,
+      "status_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "id": "fact.project.git",
+  "origin": "scanner",
+  "scope": "project/git",
+  "sensitivity": "internal",
+  "stability": "volatile",
+  "state": "verified",
+  "statement": "{\"branch\": \"(detached)\", \"dirty\": false, \"head\": null, \"is_git\": false, \"remote\": null}",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-10-24T22:43:28Z"
+}

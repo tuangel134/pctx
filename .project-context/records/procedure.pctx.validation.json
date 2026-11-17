@@ -1,0 +1,313 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "36178f22dba68ff28c9edb8ca84f17317012e13a987acbedfde78ea4ba25214a",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "84666a940331353d51a58cf128001775bb760adefb5c4ba609b0038679ff00f5",
+              "kind": "file",
+              "path": "docs/VALIDACION.md",
+              "ref": "docs/VALIDACION.md"
+            },
+            {
+              "content_hash": "b7d5eeda0d9bfa62c67e92fc136ac938e9dff1be8d61bdcd8236ffa56b7b088e",
+              "kind": "file",
+              "path": "tests/test_workflows.py",
+              "ref": "tests/test_workflows.py"
+            },
+            {
+              "content_hash": "15a6674743485b8480a4f6d32aa39d0262e9a0c51c52cd7cfc77106739044767",
+              "kind": "file",
+              "path": "tests/ui_smoke.cjs",
+              "ref": "tests/ui_smoke.cjs"
+            },
+            {
+              "content_hash": "c3624fdcb362637fa5c006bf7233b01dc17d6254e88713319af76216ecea741c",
+              "kind": "file",
+              "path": "tests/wheel_smoke.py",
+              "ref": "tests/wheel_smoke.py"
+            }
+          ],
+          "id": "procedure.pctx.validation",
+          "origin": "user",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Validación Linux de PCTX 0.2: 28 pruebas unittest, benchmark clean_room, 16 recorridos reales en Chromium sin errores JavaScript, wheel instalable en venv limpio y prueba real del puente MCP Master. Consultar docs/VALIDACION.md para reproducción y límites; no equivalen a comprobar todos los IDEs ni otros sistemas operativos.",
+          "tags": [],
+          "type": "procedure",
+          "updated_at": "2026-09-12T16:01:53Z"
+        },
+        "recorded_at": "2026-09-12T16:01:53Z",
+        "revision": 1
+      },
+      {
+        "digest": "aba4f7d2442eadf03fbd07ac9ceda6a050864cabeb1d801ece950d2f6a3ac09c",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "84666a940331353d51a58cf128001775bb760adefb5c4ba609b0038679ff00f5",
+              "kind": "file",
+              "path": "docs/VALIDACION.md",
+              "ref": "docs/VALIDACION.md"
+            },
+            {
+              "content_hash": "b7d5eeda0d9bfa62c67e92fc136ac938e9dff1be8d61bdcd8236ffa56b7b088e",
+              "kind": "file",
+              "path": "tests/test_workflows.py",
+              "ref": "tests/test_workflows.py"
+            },
+            {
+              "content_hash": "15a6674743485b8480a4f6d32aa39d0262e9a0c51c52cd7cfc77106739044767",
+              "kind": "file",
+              "path": "tests/ui_smoke.cjs",
+              "ref": "tests/ui_smoke.cjs"
+            },
+            {
+              "content_hash": "c3624fdcb362637fa5c006bf7233b01dc17d6254e88713319af76216ecea741c",
+              "kind": "file",
+              "path": "tests/wheel_smoke.py",
+              "ref": "tests/wheel_smoke.py"
+            }
+          ],
+          "id": "procedure.pctx.validation",
+          "origin": "user",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-09T18:12:11Z",
+          "stale_reason": "evidence changed or disappeared: tests/ui_smoke.cjs",
+          "state": "stale",
+          "statement": "Validación Linux de PCTX 0.2: 28 pruebas unittest, benchmark clean_room, 16 recorridos reales en Chromium sin errores JavaScript, wheel instalable en venv limpio y prueba real del puente MCP Master. Consultar docs/VALIDACION.md para reproducción y límites; no equivalen a comprobar todos los IDEs ni otros sistemas operativos.",
+          "tags": [],
+          "type": "procedure",
+          "updated_at": "2026-10-09T18:12:11Z"
+        },
+        "recorded_at": "2026-10-09T18:12:11Z",
+        "revision": 2
+      },
+      {
+        "digest": "2775514350236f2c29a736eea77975d18a732dbed0f1b648a37ef06d1e0e6dea",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "6733adafd992e18f4bfc1dd66adc523181a230641f25a74afa1d0bbee08f4ea2",
+              "kind": "file",
+              "path": "docs/VALIDACION_0.3.md",
+              "ref": "docs/VALIDACION_0.3.md"
+            }
+          ],
+          "id": "procedure.pctx.validation",
+          "origin": "cli",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Validar PCTX 0.3 con unittest, clean_room, recovery --assert-pass, benchmark incremental, Chromium, wheel_smoke en venv limpio y zipapp aislado. Cerrar con adapters sync --check, doctor, handoff verify y diagnose local. Comandos y límites en docs/VALIDACION_0.3.md.",
+          "tags": [],
+          "type": "procedure",
+          "updated_at": "2026-10-09T19:11:30Z"
+        },
+        "recorded_at": "2026-10-09T19:11:30Z",
+        "revision": 3
+      },
+      {
+        "digest": "ad709778621fe0bea155772460659075a4c0975af3883a3b2d1642207bc86789",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "71681f12f28876a59338202603e8e482f5e12d7a618f734b23ca384d3d6e0b50",
+              "kind": "file",
+              "path": "docs/VALIDACION_0.4.md",
+              "ref": "docs/VALIDACION_0.4.md"
+            },
+            {
+              "content_hash": "7e6d8f81c82a8ba91577f202c1efbfb08da5693d3d24c5c435852165296da2b9",
+              "kind": "file",
+              "path": "validation/release-0.4.json",
+              "ref": "validation/release-0.4.json"
+            }
+          ],
+          "id": "procedure.pctx.validation",
+          "links": [],
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Antes de cerrar cambios en PCTX ejecutar unittest, benchmark de recuperación e incremental, benchmark de conocimiento léxico/híbrido cuando corresponda, Chromium y wheel smoke limpio. Revisar hashes del wheel/zipapp frente al código, doctor, adapters sync --check y handoff verify. Conservar los reportes de release inmutables y el JSON canónico; después de cambiar fuentes reconstruir vectores con modelo explícito.",
+          "tags": [],
+          "type": "procedure",
+          "updated_at": "2026-10-09T20:55:00Z"
+        },
+        "recorded_at": "2026-10-09T20:55:00Z",
+        "revision": 4
+      },
+      {
+        "digest": "b889a0806bfc699333618cca3f98525727f36f12db59193c4f58fbeac188535a",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "88a2481744afd8280ced86cdfb6439f15a725c8e1f1a0912e7f5a35dbb3d6f13",
+              "kind": "file",
+              "path": "docs/VALIDACION_0.5.md",
+              "ref": "docs/VALIDACION_0.5.md"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "file",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "procedure.pctx.validation",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Antes de cerrar cambios PCTX ejecutar suites relevantes, recuperación/incremental, benchmarks léxico/híbrido cuando corresponda, Chromium y wheel/zipapp limpio. Mantener evidencia de entrega inmutable y actualizar explícitamente hechos/revisiones afectados. Cerrar con doctor, adaptadores, checklist y handoff coherentes.",
+          "tags": [],
+          "type": "procedure",
+          "updated_at": "2026-10-11T21:11:20Z"
+        },
+        "recorded_at": "2026-10-11T21:11:20Z",
+        "revision": 5
+      },
+      {
+        "digest": "81dfb691423244e6af3dffc7e094cbb05401d59b8eb0ee349128bb629acc63a7",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "a44fedde7e36c114ec223f4c2d3e1f0055431a295c671a2eecae4d51eef47dfd",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.6.md",
+              "ref": "docs/VALIDACION_0.6.md"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "procedure.pctx.validation",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Antes de cerrar PCTX ejecutar suites relevantes, carreras de reservas y recuperación cuando corresponda, regresión incremental/retrieval, Chromium y wheel/zipapp limpio. Conservar evidencia de releases inmutable, revisar explícitamente fuentes y checklist afectados, y cerrar con doctor adaptadores y handoff coherentes.",
+          "tags": [],
+          "type": "procedure",
+          "updated_at": "2026-10-12T22:15:19Z"
+        },
+        "recorded_at": "2026-10-12T22:15:19Z",
+        "revision": 6
+      },
+      {
+        "digest": "1b1897a7eb33b2d8c2a68a69abfb5312964748a8dc57f9602c3ee500e987d6ba",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "file",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "file",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "procedure.pctx.validation",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "Antes de cerrar PCTX ejecutar suites relevantes, carreras de reservas y recuperación cuando corresponda, regresión incremental/retrieval, Chromium y wheel/zipapp limpio. Ejecutar checks sólo tras inspeccionar su comando; informes importados no son verificación. Conservar releases inmutables, revisar explícitamente checklist afectado y cerrar con doctor, adaptadores y handoff coherentes.",
+          "tags": [],
+          "type": "procedure",
+          "updated_at": "2026-10-24T22:48:58Z"
+        },
+        "recorded_at": "2026-10-24T22:48:58Z",
+        "revision": 7
+      },
+      {
+        "digest": "69ce2d9b9792b084da160ac74a54968fa0bd8c0d7977466a7d5aa1698de1ab75",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "file",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "file",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "procedure.pctx.validation",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-11-17T06:58:06Z",
+          "stale_reason": "docs/VALIDACION_0.7.md: changed",
+          "state": "stale",
+          "statement": "Antes de cerrar PCTX ejecutar suites relevantes, carreras de reservas y recuperación cuando corresponda, regresión incremental/retrieval, Chromium y wheel/zipapp limpio. Ejecutar checks sólo tras inspeccionar su comando; informes importados no son verificación. Conservar releases inmutables, revisar explícitamente checklist afectado y cerrar con doctor, adaptadores y handoff coherentes.",
+          "tags": [],
+          "type": "procedure",
+          "updated_at": "2026-11-17T06:58:06Z"
+        },
+        "recorded_at": "2026-11-17T06:58:06Z",
+        "revision": 8
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-09-12T15:53:19Z",
+  "evidence": [
+    {
+      "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+      "kind": "file",
+      "path": "docs/VALIDACION_0.7.md",
+      "ref": "docs/VALIDACION_0.7.md"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "file",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    }
+  ],
+  "id": "procedure.pctx.validation",
+  "origin": "local-validation",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "stale_at": "2026-11-17T06:58:06Z",
+  "stale_reason": "docs/VALIDACION_0.7.md: changed",
+  "state": "stale",
+  "statement": "Antes de cerrar PCTX ejecutar suites relevantes, carreras de reservas y recuperación cuando corresponda, regresión incremental/retrieval, Chromium y wheel/zipapp limpio. Ejecutar checks sólo tras inspeccionar su comando; informes importados no son verificación. Conservar releases inmutables, revisar explícitamente checklist afectado y cerrar con doctor, adaptadores y handoff coherentes.",
+  "tags": [],
+  "type": "procedure",
+  "updated_at": "2026-11-17T06:58:06Z"
+}

@@ -1,0 +1,184 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "63c6ee9b5985e764e3783c2c9e110f9c7c82c4594ee82b7f78d41fdb3c9c6d21",
+        "record": {
+          "coordination": {
+            "expires_at": 1791844020.3520617,
+            "paths": [
+              "docs/COORDINACION_0.6.md",
+              "docs/PLAN_0.6.md",
+              "docs/VALIDACION_0.6.md",
+              "validation/release-0.6.json"
+            ],
+            "renewed_at": 1791843120.3520617,
+            "schema_version": 1,
+            "session_id": "Codex-coordinador",
+            "started_at": 1791843120.3520617,
+            "state": "held",
+            "summary": "Cierre de documentación y evidencia local; clientes externos pendientes",
+            "task_id": "plan.pctx-06-docs",
+            "ttl": 900
+          },
+          "created_at": "2026-10-12T22:12:00Z",
+          "evidence": [],
+          "id": "coord.504af98292c04fcf8c16bb4941bf582a",
+          "origin": "coordination",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "inferred",
+          "statement": "Cooperative reservation; query pctx_coordination for live validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:12:00Z"
+        },
+        "recorded_at": "2026-10-12T22:12:00Z",
+        "revision": 1
+      },
+      {
+        "digest": "63c502877dd366ff1b07017dc59c5647628f64d84df72be8d855e7545661820d",
+        "record": {
+          "coordination": {
+            "expires_at": 1791844110.7577593,
+            "paths": [
+              "docs/COORDINACION_0.6.md",
+              "docs/PLAN_0.6.md",
+              "docs/VALIDACION_0.6.md",
+              "validation/release-0.6.json"
+            ],
+            "renewed_at": 1791843210.7577593,
+            "schema_version": 1,
+            "session_id": "Codex-coordinador",
+            "started_at": 1791843120.3520617,
+            "state": "held",
+            "summary": "141 pruebas y paquete limpio pasan; cerrando evidencia y handoff",
+            "task_id": "plan.pctx-06-docs",
+            "ttl": 900
+          },
+          "created_at": "2026-10-12T22:12:00Z",
+          "evidence": [],
+          "id": "coord.504af98292c04fcf8c16bb4941bf582a",
+          "origin": "coordination",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "inferred",
+          "statement": "Cooperative reservation; query pctx_coordination for live validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:13:30Z"
+        },
+        "recorded_at": "2026-10-12T22:13:30Z",
+        "revision": 2
+      },
+      {
+        "digest": "011309bc8ed26323b3be3ad37b01c708b6eb84482b3f0fa0196e16bdec522270",
+        "record": {
+          "coordination": {
+            "expires_at": 1791844110.7577593,
+            "paths": [
+              "docs/COORDINACION_0.6.md",
+              "docs/PLAN_0.6.md",
+              "docs/VALIDACION_0.6.md",
+              "validation/release-0.6.json"
+            ],
+            "renewed_at": 1791843210.7577593,
+            "schema_version": 1,
+            "session_id": "Codex-coordinador",
+            "started_at": 1791843120.3520617,
+            "state": "released",
+            "summary": "Documentación y evidencia 0.6 completas; coordinación local validada. Próximo ensayo externo: sesiones reales entre clientes/modelos.",
+            "task_id": "plan.pctx-06-docs",
+            "ttl": 900
+          },
+          "created_at": "2026-10-12T22:12:00Z",
+          "evidence": [],
+          "id": "coord.504af98292c04fcf8c16bb4941bf582a",
+          "origin": "coordination",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "state": "inferred",
+          "statement": "Cooperative reservation; query pctx_coordination for live validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:21Z"
+        },
+        "recorded_at": "2026-10-12T22:15:21Z",
+        "revision": 3
+      },
+      {
+        "digest": "e8100fb49110377e2a02e176deb01b387a63f0b343df4ccee3093f19f3540826",
+        "record": {
+          "coordination": {
+            "expires_at": 1791844110.7577593,
+            "paths": [
+              "docs/COORDINACION_0.6.md",
+              "docs/PLAN_0.6.md",
+              "docs/VALIDACION_0.6.md",
+              "validation/release-0.6.json"
+            ],
+            "renewed_at": 1791843210.7577593,
+            "schema_version": 1,
+            "session_id": "Codex-coordinador",
+            "started_at": 1791843120.3520617,
+            "state": "released",
+            "summary": "Documentación y evidencia 0.6 completas; coordinación local validada. Próximo ensayo externo: sesiones reales entre clientes/modelos.",
+            "task_id": "plan.pctx-06-docs",
+            "ttl": 900
+          },
+          "created_at": "2026-10-12T22:12:00Z",
+          "evidence": [],
+          "id": "coord.504af98292c04fcf8c16bb4941bf582a",
+          "origin": "coordination",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "volatile",
+          "stale_at": "2026-10-24T22:43:28Z",
+          "stale_reason": "expired",
+          "state": "stale",
+          "statement": "Cooperative reservation; query pctx_coordination for live validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 4
+      }
+    ],
+    "schema_version": 1
+  },
+  "coordination": {
+    "expires_at": 1791844110.7577593,
+    "paths": [
+      "docs/COORDINACION_0.6.md",
+      "docs/PLAN_0.6.md",
+      "docs/VALIDACION_0.6.md",
+      "validation/release-0.6.json"
+    ],
+    "renewed_at": 1791843210.7577593,
+    "schema_version": 1,
+    "session_id": "Codex-coordinador",
+    "started_at": 1791843120.3520617,
+    "state": "released",
+    "summary": "Documentación y evidencia 0.6 completas; coordinación local validada. Próximo ensayo externo: sesiones reales entre clientes/modelos.",
+    "task_id": "plan.pctx-06-docs",
+    "ttl": 900
+  },
+  "created_at": "2026-10-12T22:12:00Z",
+  "evidence": [],
+  "id": "coord.504af98292c04fcf8c16bb4941bf582a",
+  "origin": "coordination",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "volatile",
+  "stale_at": "2026-10-24T22:43:28Z",
+  "stale_reason": "expired",
+  "state": "stale",
+  "statement": "Cooperative reservation; query pctx_coordination for live validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T22:43:28Z"
+}

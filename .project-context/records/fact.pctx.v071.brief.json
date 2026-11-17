@@ -1,0 +1,76 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "e77d7227e0b709bb7479aa78f8cc5c1ceaa8a566250c15243f1c1fa7159b640f",
+        "record": {
+          "created_at": "2026-10-24T23:07:07Z",
+          "evidence": [
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "fact.pctx.v071.brief",
+          "links": [
+            {
+              "relation": "replaces",
+              "target": "record:fact.pctx.v07.workers"
+            }
+          ],
+          "origin": "local-validation",
+          "scope": "pctx",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "PCTX 0.7.1 conserva las siete mejoras de memoria vigente, checks Git, brief, informes, reservas y export silencioso. Corrige brief por rol: muestra tarea/handoff y registros compartidos con [global], prioriza asignaciones del worker y excluye otros roles. Un rol sin datos específicos conserva aviso y esenciales incompletos. Record TTL acepta unidades; reemplazos explican actualización del mismo ID y raíz correcta.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-24T23:07:07Z"
+        },
+        "recorded_at": "2026-10-24T23:07:07Z",
+        "revision": 1
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-10-24T23:07:07Z",
+  "evidence": [
+    {
+      "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+      "kind": "reference",
+      "path": "validation/release-0.7.1.json",
+      "ref": "validation/release-0.7.1.json"
+    },
+    {
+      "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+      "kind": "reference",
+      "path": "docs/USO_0.7.1.md",
+      "ref": "docs/USO_0.7.1.md"
+    }
+  ],
+  "id": "fact.pctx.v071.brief",
+  "links": [
+    {
+      "relation": "replaces",
+      "target": "record:fact.pctx.v07.workers"
+    }
+  ],
+  "origin": "local-validation",
+  "scope": "pctx",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "verified",
+  "statement": "PCTX 0.7.1 conserva las siete mejoras de memoria vigente, checks Git, brief, informes, reservas y export silencioso. Corrige brief por rol: muestra tarea/handoff y registros compartidos con [global], prioriza asignaciones del worker y excluye otros roles. Un rol sin datos específicos conserva aviso y esenciales incompletos. Record TTL acepta unidades; reemplazos explican actualización del mismo ID y raíz correcta.",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-10-24T23:07:07Z"
+}

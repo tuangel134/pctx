@@ -1,0 +1,527 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "c5a925798c72d02f65b56f9e730141d357b2a079d191976beeb2f3bb9bc9af31",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c077e4cc7d71",
+                "text": "El uso documenta raíz compartida vencimiento protocolo y límites externos"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Guía de uso sin cambios de arquitectura",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Documentar reparto y límites de coordinación",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-12T22:06:12Z",
+          "evidence": [],
+          "id": "plan.pctx-06-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Documentar reparto y límites de coordinación. Declared status: pending. Difficulty: easy; risk: low; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:06:12Z"
+        },
+        "recorded_at": "2026-10-12T22:06:12Z",
+        "revision": 1
+      },
+      {
+        "digest": "de2c705a48bf58a9968f8d629055a9785e38988bc6069843285675a8019efab1",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c077e4cc7d71",
+                "text": "El uso documenta raíz compartida vencimiento protocolo y límites externos"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Guía de uso sin cambios de arquitectura",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "Documentar reparto y límites de coordinación",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:12Z",
+          "evidence": [],
+          "id": "plan.pctx-06-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Documentar reparto y límites de coordinación. Declared status: in_progress. Difficulty: easy; risk: low; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:06:12Z"
+        },
+        "recorded_at": "2026-10-12T22:06:12Z",
+        "revision": 2
+      },
+      {
+        "digest": "b6039bfc0901d81956a01f0879f1d5b4909b7f4dd1337561374fc520631d0811",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c077e4cc7d71",
+                "text": "El uso documenta raíz compartida vencimiento protocolo y límites externos"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Guía de uso sin cambios de arquitectura",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Documentar reparto y límites de coordinación",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:12Z",
+          "evidence": [],
+          "id": "plan.pctx-06-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Documentar reparto y límites de coordinación. Declared status: done. Difficulty: easy; risk: low; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:21Z"
+        },
+        "recorded_at": "2026-10-12T22:15:21Z",
+        "revision": 3
+      },
+      {
+        "digest": "9b314f640dca2565503e36fbbd9286979f4ae858171c9b59ced4707df6f7a67f",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c077e4cc7d71",
+                "text": "El uso documenta raíz compartida vencimiento protocolo y límites externos"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Guía de uso sin cambios de arquitectura",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:21Z",
+              "criteria": [
+                "criterion.c077e4cc7d71"
+              ],
+              "definition_hash": "62a3e4809879f7ed3e660dad6a564f862a6803b8d5ebc64c12ec0a9e7e246456",
+              "evidence": [
+                {
+                  "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+                  "path": "docs/COORDINACION_0.6.md"
+                },
+                {
+                  "content_hash": "a44fedde7e36c114ec223f4c2d3e1f0055431a295c671a2eecae4d51eef47dfd",
+                  "path": "docs/VALIDACION_0.6.md"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-docs",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "5f8d647e50e2fc0601a07e1e75aad2560ca93b8924151617d0ec327f7b98fd53",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Documentar reparto y límites de coordinación",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:12Z",
+          "evidence": [
+            {
+              "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+              "kind": "reference",
+              "path": "docs/COORDINACION_0.6.md",
+              "ref": "docs/COORDINACION_0.6.md"
+            },
+            {
+              "content_hash": "a44fedde7e36c114ec223f4c2d3e1f0055431a295c671a2eecae4d51eef47dfd",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.6.md",
+              "ref": "docs/VALIDACION_0.6.md"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-06-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Documentar reparto y límites de coordinación. Declared status: done. Difficulty: easy; risk: low; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:21Z"
+        },
+        "recorded_at": "2026-10-12T22:15:21Z",
+        "revision": 4
+      },
+      {
+        "digest": "c2b4f87e24ee52e547eba33f01547e89e2ecd209f320815f8184414501b00407",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c077e4cc7d71",
+                "text": "El uso documenta raíz compartida vencimiento protocolo y límites externos"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Guía de uso sin cambios de arquitectura",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:21Z",
+              "criteria": [
+                "criterion.c077e4cc7d71"
+              ],
+              "definition_hash": "62a3e4809879f7ed3e660dad6a564f862a6803b8d5ebc64c12ec0a9e7e246456",
+              "evidence": [
+                {
+                  "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+                  "path": "docs/COORDINACION_0.6.md"
+                },
+                {
+                  "content_hash": "a44fedde7e36c114ec223f4c2d3e1f0055431a295c671a2eecae4d51eef47dfd",
+                  "path": "docs/VALIDACION_0.6.md"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-docs",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "5f8d647e50e2fc0601a07e1e75aad2560ca93b8924151617d0ec327f7b98fd53",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Documentar reparto y límites de coordinación",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:12Z",
+          "evidence": [
+            {
+              "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+              "kind": "reference",
+              "path": "docs/COORDINACION_0.6.md",
+              "ref": "docs/COORDINACION_0.6.md"
+            },
+            {
+              "content_hash": "a44fedde7e36c114ec223f4c2d3e1f0055431a295c671a2eecae4d51eef47dfd",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.6.md",
+              "ref": "docs/VALIDACION_0.6.md"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-06-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Documentar reparto y límites de coordinación. Declared status: verified. Difficulty: easy; risk: low; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:21Z"
+        },
+        "recorded_at": "2026-10-12T22:15:21Z",
+        "revision": 5
+      },
+      {
+        "digest": "8f7410146ee80a8d62be28b49915ed2cbc9288f69203627df19cca5326a5fcb1",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c077e4cc7d71",
+                "text": "El uso documenta raíz compartida vencimiento protocolo y límites externos"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Guía de uso sin cambios de arquitectura",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:21Z",
+              "criteria": [
+                "criterion.c077e4cc7d71"
+              ],
+              "definition_hash": "62a3e4809879f7ed3e660dad6a564f862a6803b8d5ebc64c12ec0a9e7e246456",
+              "evidence": [
+                {
+                  "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+                  "path": "docs/COORDINACION_0.6.md"
+                },
+                {
+                  "content_hash": "a44fedde7e36c114ec223f4c2d3e1f0055431a295c671a2eecae4d51eef47dfd",
+                  "path": "docs/VALIDACION_0.6.md"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-06-docs",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "5f8d647e50e2fc0601a07e1e75aad2560ca93b8924151617d0ec327f7b98fd53",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+            },
+            "owner": "",
+            "parent": "plan.pctx-06-coordination",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Documentar reparto y límites de coordinación",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-12T22:06:12Z",
+          "evidence": [
+            {
+              "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+              "kind": "reference",
+              "path": "docs/COORDINACION_0.6.md",
+              "ref": "docs/COORDINACION_0.6.md"
+            },
+            {
+              "content_hash": "a44fedde7e36c114ec223f4c2d3e1f0055431a295c671a2eecae4d51eef47dfd",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.6.md",
+              "ref": "docs/VALIDACION_0.6.md"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-06-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-06-coordination"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-11-17T06:58:06Z",
+          "stale_reason": "docs/VALIDACION_0.6.md: changed",
+          "state": "stale",
+          "statement": "Checklist task: Documentar reparto y límites de coordinación. Declared status: verified. Difficulty: easy; risk: low; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-11-17T06:58:06Z"
+        },
+        "recorded_at": "2026-11-17T06:58:06Z",
+        "revision": 6
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.c077e4cc7d71",
+        "text": "El uso documenta raíz compartida vencimiento protocolo y límites externos"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "easy",
+    "difficulty_reason": "Guía de uso sin cambios de arquitectura",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-12T22:15:21Z",
+      "criteria": [
+        "criterion.c077e4cc7d71"
+      ],
+      "definition_hash": "62a3e4809879f7ed3e660dad6a564f862a6803b8d5ebc64c12ec0a9e7e246456",
+      "evidence": [
+        {
+          "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+          "path": "docs/COORDINACION_0.6.md"
+        },
+        {
+          "content_hash": "a44fedde7e36c114ec223f4c2d3e1f0055431a295c671a2eecae4d51eef47dfd",
+          "path": "docs/VALIDACION_0.6.md"
+        },
+        {
+          "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+          "path": "validation/release-0.6.json"
+        }
+      ],
+      "id": "pctx06-plan-pctx-06-docs",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "5f8d647e50e2fc0601a07e1e75aad2560ca93b8924151617d0ec327f7b98fd53",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Criterios comprobados con pruebas/evidencia de PCTX 0.6; alcance local y cooperativo. Las sesiones de IA externas no se simulan como entrega probada."
+    },
+    "owner": "",
+    "parent": "plan.pctx-06-coordination",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 1,
+    "risk": "low",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Documentar reparto y límites de coordinación",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-12T22:06:12Z",
+  "evidence": [
+    {
+      "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+      "kind": "reference",
+      "path": "docs/COORDINACION_0.6.md",
+      "ref": "docs/COORDINACION_0.6.md"
+    },
+    {
+      "content_hash": "a44fedde7e36c114ec223f4c2d3e1f0055431a295c671a2eecae4d51eef47dfd",
+      "kind": "reference",
+      "path": "docs/VALIDACION_0.6.md",
+      "ref": "docs/VALIDACION_0.6.md"
+    },
+    {
+      "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+      "kind": "reference",
+      "path": "validation/release-0.6.json",
+      "ref": "validation/release-0.6.json"
+    }
+  ],
+  "id": "plan.pctx-06-docs",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-06-coordination"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "stale_at": "2026-11-17T06:58:06Z",
+  "stale_reason": "docs/VALIDACION_0.6.md: changed",
+  "state": "stale",
+  "statement": "Checklist task: Documentar reparto y límites de coordinación. Declared status: verified. Difficulty: easy; risk: low; recorded reviews: 1. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-11-17T06:58:06Z"
+}

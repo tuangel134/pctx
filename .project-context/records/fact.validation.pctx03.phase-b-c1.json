@@ -1,0 +1,140 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "baf1ae89235be3bcd1b65fe0c0f3e41e7b13c6f00c7e9d4481581531346d9fb0",
+        "record": {
+          "created_at": "2026-10-09T18:12:10Z",
+          "evidence": [
+            {
+              "content_hash": "80971bc18ef8e1707b110114758d5c1fae193192ab0303a9717315518beb63d2",
+              "kind": "file",
+              "path": "validation/phase-b-c1.json",
+              "ref": "validation/phase-b-c1.json"
+            },
+            {
+              "content_hash": "e3868da805d19050e6a96fd083f05b78267c12e3d532951d45f632ace04d8c39",
+              "kind": "file",
+              "path": "docs/VALIDACION_0.3.md",
+              "ref": "docs/VALIDACION_0.3.md"
+            }
+          ],
+          "id": "fact.validation.pctx03.phase-b-c1",
+          "origin": "cli",
+          "scope": "pctx",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "PCTX 0.3.0.dev1: fase B y C1 implementadas; 49 pruebas pasan, 11 escenarios de recuperación pasan y 22 recorridos Chromium pasan sin errores JS. Wheel instalado en venv limpio y zipapp aislado comprobados. Siguen pendientes C2, C3, D1-D3 y auditoría final.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T18:12:10Z"
+        },
+        "recorded_at": "2026-10-09T18:12:10Z",
+        "revision": 1
+      },
+      {
+        "digest": "42471e68201222a4dc8133557192285ddf5db5e927b8048af1c2460378c33068",
+        "record": {
+          "created_at": "2026-10-09T18:12:10Z",
+          "evidence": [
+            {
+              "content_hash": "80971bc18ef8e1707b110114758d5c1fae193192ab0303a9717315518beb63d2",
+              "kind": "file",
+              "path": "validation/phase-b-c1.json",
+              "ref": "validation/phase-b-c1.json"
+            },
+            {
+              "content_hash": "e3868da805d19050e6a96fd083f05b78267c12e3d532951d45f632ace04d8c39",
+              "kind": "file",
+              "path": "docs/VALIDACION_0.3.md",
+              "ref": "docs/VALIDACION_0.3.md"
+            }
+          ],
+          "id": "fact.validation.pctx03.phase-b-c1",
+          "origin": "cli",
+          "scope": "pctx",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-09T19:10:12Z",
+          "stale_reason": "evidence changed or disappeared: docs/VALIDACION_0.3.md",
+          "state": "stale",
+          "statement": "PCTX 0.3.0.dev1: fase B y C1 implementadas; 49 pruebas pasan, 11 escenarios de recuperación pasan y 22 recorridos Chromium pasan sin errores JS. Wheel instalado en venv limpio y zipapp aislado comprobados. Siguen pendientes C2, C3, D1-D3 y auditoría final.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T19:10:12Z"
+        },
+        "recorded_at": "2026-10-09T19:10:12Z",
+        "revision": 2
+      },
+      {
+        "digest": "4a3b6d3363e2ae555db3ebe09a87eef7aa4e8d7ee97cd40b0599990ba08d63a7",
+        "record": {
+          "created_at": "2026-10-09T18:12:10Z",
+          "evidence": [
+            {
+              "content_hash": "80971bc18ef8e1707b110114758d5c1fae193192ab0303a9717315518beb63d2",
+              "kind": "file",
+              "path": "validation/phase-b-c1.json",
+              "ref": "validation/phase-b-c1.json"
+            },
+            {
+              "content_hash": "e3868da805d19050e6a96fd083f05b78267c12e3d532951d45f632ace04d8c39",
+              "kind": "file",
+              "path": "docs/VALIDACION_0.3.md",
+              "ref": "docs/VALIDACION_0.3.md"
+            }
+          ],
+          "id": "fact.validation.pctx03.phase-b-c1",
+          "origin": "cli",
+          "reviewed_at": "2026-10-09T19:11:30Z",
+          "reviewed_by": "mcp",
+          "scope": "pctx",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-09T19:10:12Z",
+          "stale_reason": "evidence changed or disappeared: docs/VALIDACION_0.3.md",
+          "state": "superseded",
+          "statement": "PCTX 0.3.0.dev1: fase B y C1 implementadas; 49 pruebas pasan, 11 escenarios de recuperación pasan y 22 recorridos Chromium pasan sin errores JS. Wheel instalado en venv limpio y zipapp aislado comprobados. Siguen pendientes C2, C3, D1-D3 y auditoría final.",
+          "superseded_by": "fact.validation.pctx03.release",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T19:11:30Z"
+        },
+        "recorded_at": "2026-10-09T19:11:30Z",
+        "revision": 3
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-10-09T18:12:10Z",
+  "evidence": [
+    {
+      "content_hash": "80971bc18ef8e1707b110114758d5c1fae193192ab0303a9717315518beb63d2",
+      "kind": "file",
+      "path": "validation/phase-b-c1.json",
+      "ref": "validation/phase-b-c1.json"
+    },
+    {
+      "content_hash": "e3868da805d19050e6a96fd083f05b78267c12e3d532951d45f632ace04d8c39",
+      "kind": "file",
+      "path": "docs/VALIDACION_0.3.md",
+      "ref": "docs/VALIDACION_0.3.md"
+    }
+  ],
+  "id": "fact.validation.pctx03.phase-b-c1",
+  "origin": "cli",
+  "reviewed_at": "2026-10-09T19:11:30Z",
+  "reviewed_by": "mcp",
+  "scope": "pctx",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "stale_at": "2026-10-09T19:10:12Z",
+  "stale_reason": "evidence changed or disappeared: docs/VALIDACION_0.3.md",
+  "state": "superseded",
+  "statement": "PCTX 0.3.0.dev1: fase B y C1 implementadas; 49 pruebas pasan, 11 escenarios de recuperación pasan y 22 recorridos Chromium pasan sin errores JS. Wheel instalado en venv limpio y zipapp aislado comprobados. Siguen pendientes C2, C3, D1-D3 y auditoría final.",
+  "superseded_by": "fact.validation.pctx03.release",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-10-09T19:11:30Z"
+}

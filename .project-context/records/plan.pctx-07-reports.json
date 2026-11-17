@@ -1,0 +1,516 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "904b1afcbbae37987e6b4de0c7515ef5b97bda47af1a455d91fa604527e054e5",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.bb713d70de4f",
+                "text": "HECHO e INTEGRACION se importan idempotentemente como afirmaciones inferidas"
+              },
+              {
+                "id": "criterion.f03d14af75f3",
+                "text": "La API sin reserva escribe solo informes públicos seguros"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Importar y escribir informes sin reserva de código",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-24T22:05:05Z",
+          "evidence": [],
+          "id": "plan.pctx-07-reports",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Importar y escribir informes sin reserva de código. Declared status: pending. Difficulty: intermediate; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:05Z"
+        },
+        "recorded_at": "2026-10-24T22:05:05Z",
+        "revision": 1
+      },
+      {
+        "digest": "a15771e495a6d9cd122abb78f9e0257426e118d2aeef27c2b208442e0ed836e9",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.bb713d70de4f",
+                "text": "HECHO e INTEGRACION se importan idempotentemente como afirmaciones inferidas"
+              },
+              {
+                "id": "criterion.f03d14af75f3",
+                "text": "La API sin reserva escribe solo informes públicos seguros"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "Importar y escribir informes sin reserva de código",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:05Z",
+          "evidence": [],
+          "id": "plan.pctx-07-reports",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Importar y escribir informes sin reserva de código. Declared status: in_progress. Difficulty: intermediate; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:05Z"
+        },
+        "recorded_at": "2026-10-24T22:05:05Z",
+        "revision": 2
+      },
+      {
+        "digest": "98cb322ecc704b63abf243729144b574c28385b49b33d7ee9d918ab39d8eeac4",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.bb713d70de4f",
+                "text": "HECHO e INTEGRACION se importan idempotentemente como afirmaciones inferidas"
+              },
+              {
+                "id": "criterion.f03d14af75f3",
+                "text": "La API sin reserva escribe solo informes públicos seguros"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Importar y escribir informes sin reserva de código",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:05Z",
+          "evidence": [],
+          "id": "plan.pctx-07-reports",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Importar y escribir informes sin reserva de código. Declared status: done. Difficulty: intermediate; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:02Z"
+        },
+        "recorded_at": "2026-10-24T22:49:02Z",
+        "revision": 3
+      },
+      {
+        "digest": "e319ba10ffd85e6cadb29811c6723558bb2aabd99df506bfdd57cdd2bbcef53d",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.bb713d70de4f",
+                "text": "HECHO e INTEGRACION se importan idempotentemente como afirmaciones inferidas"
+              },
+              {
+                "id": "criterion.f03d14af75f3",
+                "text": "La API sin reserva escribe solo informes públicos seguros"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:02Z",
+              "criteria": [
+                "criterion.bb713d70de4f",
+                "criterion.f03d14af75f3"
+              ],
+              "definition_hash": "cf9a67180662fbbf7a1095b41f2e5b836d483c3ce1f101a7e70e8770d05203ee",
+              "evidence": [
+                {
+                  "content_hash": "99685a5e5e0f13a4ff9ff173cf57fc6646cbb3e3533da68097e59cb68fd83a4a",
+                  "path": "pctx/worker_reports.py"
+                },
+                {
+                  "content_hash": "cbcc2881d1d99b9e9994b8cfe651a85cb4f4ac0da5d76b4268cf3aed35560172",
+                  "path": "pctx/public_paths.py"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "2f526ebd9ec5f908b328f97d64e01c0d71c86c4623e8894d4314be41fa362e54",
+                  "path": "validation/live-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-reports",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "5ad95b27a27189b40b56120d17730d81041e18c30bbd0fb829135abcb0e88320",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Importar y escribir informes sin reserva de código",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:05Z",
+          "evidence": [
+            {
+              "content_hash": "99685a5e5e0f13a4ff9ff173cf57fc6646cbb3e3533da68097e59cb68fd83a4a",
+              "kind": "reference",
+              "path": "pctx/worker_reports.py",
+              "ref": "pctx/worker_reports.py"
+            },
+            {
+              "content_hash": "cbcc2881d1d99b9e9994b8cfe651a85cb4f4ac0da5d76b4268cf3aed35560172",
+              "kind": "reference",
+              "path": "pctx/public_paths.py",
+              "ref": "pctx/public_paths.py"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "2f526ebd9ec5f908b328f97d64e01c0d71c86c4623e8894d4314be41fa362e54",
+              "kind": "reference",
+              "path": "validation/live-report-0.7.json",
+              "ref": "validation/live-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-reports",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Importar y escribir informes sin reserva de código. Declared status: done. Difficulty: intermediate; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:02Z"
+        },
+        "recorded_at": "2026-10-24T22:49:02Z",
+        "revision": 4
+      },
+      {
+        "digest": "2b868bb759e63e800449d970de51cd6ada88ab23b8f909d91d82fb36f4ea355b",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.bb713d70de4f",
+                "text": "HECHO e INTEGRACION se importan idempotentemente como afirmaciones inferidas"
+              },
+              {
+                "id": "criterion.f03d14af75f3",
+                "text": "La API sin reserva escribe solo informes públicos seguros"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:02Z",
+              "criteria": [
+                "criterion.bb713d70de4f",
+                "criterion.f03d14af75f3"
+              ],
+              "definition_hash": "cf9a67180662fbbf7a1095b41f2e5b836d483c3ce1f101a7e70e8770d05203ee",
+              "evidence": [
+                {
+                  "content_hash": "99685a5e5e0f13a4ff9ff173cf57fc6646cbb3e3533da68097e59cb68fd83a4a",
+                  "path": "pctx/worker_reports.py"
+                },
+                {
+                  "content_hash": "cbcc2881d1d99b9e9994b8cfe651a85cb4f4ac0da5d76b4268cf3aed35560172",
+                  "path": "pctx/public_paths.py"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "2f526ebd9ec5f908b328f97d64e01c0d71c86c4623e8894d4314be41fa362e54",
+                  "path": "validation/live-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-reports",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "5ad95b27a27189b40b56120d17730d81041e18c30bbd0fb829135abcb0e88320",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Importar y escribir informes sin reserva de código",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:05Z",
+          "evidence": [
+            {
+              "content_hash": "99685a5e5e0f13a4ff9ff173cf57fc6646cbb3e3533da68097e59cb68fd83a4a",
+              "kind": "reference",
+              "path": "pctx/worker_reports.py",
+              "ref": "pctx/worker_reports.py"
+            },
+            {
+              "content_hash": "cbcc2881d1d99b9e9994b8cfe651a85cb4f4ac0da5d76b4268cf3aed35560172",
+              "kind": "reference",
+              "path": "pctx/public_paths.py",
+              "ref": "pctx/public_paths.py"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "2f526ebd9ec5f908b328f97d64e01c0d71c86c4623e8894d4314be41fa362e54",
+              "kind": "reference",
+              "path": "validation/live-report-0.7.json",
+              "ref": "validation/live-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-reports",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Importar y escribir informes sin reserva de código. Declared status: verified. Difficulty: intermediate; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:02Z"
+        },
+        "recorded_at": "2026-10-24T22:49:02Z",
+        "revision": 5
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.bb713d70de4f",
+        "text": "HECHO e INTEGRACION se importan idempotentemente como afirmaciones inferidas"
+      },
+      {
+        "id": "criterion.f03d14af75f3",
+        "text": "La API sin reserva escribe solo informes públicos seguros"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "intermediate",
+    "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T22:49:02Z",
+      "criteria": [
+        "criterion.bb713d70de4f",
+        "criterion.f03d14af75f3"
+      ],
+      "definition_hash": "cf9a67180662fbbf7a1095b41f2e5b836d483c3ce1f101a7e70e8770d05203ee",
+      "evidence": [
+        {
+          "content_hash": "99685a5e5e0f13a4ff9ff173cf57fc6646cbb3e3533da68097e59cb68fd83a4a",
+          "path": "pctx/worker_reports.py"
+        },
+        {
+          "content_hash": "cbcc2881d1d99b9e9994b8cfe651a85cb4f4ac0da5d76b4268cf3aed35560172",
+          "path": "pctx/public_paths.py"
+        },
+        {
+          "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+          "path": "tests/test_freshness_workers.py"
+        },
+        {
+          "content_hash": "2f526ebd9ec5f908b328f97d64e01c0d71c86c4623e8894d4314be41fa362e54",
+          "path": "validation/live-report-0.7.json"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        }
+      ],
+      "id": "pctx07-plan.pctx-07-reports",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "5ad95b27a27189b40b56120d17730d81041e18c30bbd0fb829135abcb0e88320",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+    },
+    "owner": "",
+    "parent": "plan.pctx-07-workers",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 1,
+    "risk": "high",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Importar y escribir informes sin reserva de código",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-24T22:05:05Z",
+  "evidence": [
+    {
+      "content_hash": "99685a5e5e0f13a4ff9ff173cf57fc6646cbb3e3533da68097e59cb68fd83a4a",
+      "kind": "reference",
+      "path": "pctx/worker_reports.py",
+      "ref": "pctx/worker_reports.py"
+    },
+    {
+      "content_hash": "cbcc2881d1d99b9e9994b8cfe651a85cb4f4ac0da5d76b4268cf3aed35560172",
+      "kind": "reference",
+      "path": "pctx/public_paths.py",
+      "ref": "pctx/public_paths.py"
+    },
+    {
+      "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+      "kind": "reference",
+      "path": "tests/test_freshness_workers.py",
+      "ref": "tests/test_freshness_workers.py"
+    },
+    {
+      "content_hash": "2f526ebd9ec5f908b328f97d64e01c0d71c86c4623e8894d4314be41fa362e54",
+      "kind": "reference",
+      "path": "validation/live-report-0.7.json",
+      "ref": "validation/live-report-0.7.json"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    }
+  ],
+  "id": "plan.pctx-07-reports",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-07-workers"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Importar y escribir informes sin reserva de código. Declared status: verified. Difficulty: intermediate; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T22:49:02Z"
+}

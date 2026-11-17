@@ -1,0 +1,1114 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "5acee866190479c0e87a7c7489f99373b8e49ae12499493d202fe0eeb5173761",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.81c5d55016da",
+                "text": "Solo revisiones explícitas aumentan el contador; historial e idempotencia conservados"
+              },
+              {
+                "id": "criterion.10c0297e38c0",
+                "text": "Verificar exige criterios cubiertos y hashes vigentes; reabrir invalida la revisión"
+              },
+              {
+                "id": "criterion.e4c36c300ff5",
+                "text": "Escrituras concurrentes y cambios de requisitos se detectan sin sobrescribir"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Debe evitar falsos positivos, revisiones duplicadas y pérdida de cambios entre procesos.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Revisiones con contador, evidencia y vigencia",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-05-reviews",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Revisiones con contador, evidencia y vigencia. Declared status: pending. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:03:24Z"
+        },
+        "recorded_at": "2026-10-11T21:03:24Z",
+        "revision": 1
+      },
+      {
+        "digest": "a2f7de68df4527f8b983e73d2cf2e7b910018d4edc505a86b453e6f02f7aeda3",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.81c5d55016da",
+                "text": "Solo revisiones explícitas aumentan el contador; historial e idempotencia conservados"
+              },
+              {
+                "id": "criterion.10c0297e38c0",
+                "text": "Verificar exige criterios cubiertos y hashes vigentes; reabrir invalida la revisión"
+              },
+              {
+                "id": "criterion.e4c36c300ff5",
+                "text": "Escrituras concurrentes y cambios de requisitos se detectan sin sobrescribir"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Debe evitar falsos positivos, revisiones duplicadas y pérdida de cambios entre procesos.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Revisiones con contador, evidencia y vigencia",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-05-reviews",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Revisiones con contador, evidencia y vigencia. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:17Z"
+        },
+        "recorded_at": "2026-10-11T21:11:17Z",
+        "revision": 2
+      },
+      {
+        "digest": "cfedcaee20546da5450166fe06470b99d4738b0b1822105b48b3145aad88b57b",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.81c5d55016da",
+                "text": "Solo revisiones explícitas aumentan el contador; historial e idempotencia conservados"
+              },
+              {
+                "id": "criterion.10c0297e38c0",
+                "text": "Verificar exige criterios cubiertos y hashes vigentes; reabrir invalida la revisión"
+              },
+              {
+                "id": "criterion.e4c36c300ff5",
+                "text": "Escrituras concurrentes y cambios de requisitos se detectan sin sobrescribir"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Debe evitar falsos positivos, revisiones duplicadas y pérdida de cambios entre procesos.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:18Z",
+              "criteria": [
+                "criterion.81c5d55016da",
+                "criterion.10c0297e38c0",
+                "criterion.e4c36c300ff5"
+              ],
+              "definition_hash": "6cb734bc819ef0d5352cc1f61480e371b4f6c93a30f7ac8a04636b2e970dd799",
+              "evidence": [
+                {
+                  "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "778baa7925b201bb58c157e6aa6e49fb06b4d062b25028909d639e511f572c3b",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Pruebas de contador/historial, reintentos idempotentes, reapertura, evidencia vigente, cobertura parcial/completa y conflictos entre hilos/procesos pasan."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Revisiones con contador, evidencia y vigencia",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-reviews",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Revisiones con contador, evidencia y vigencia. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:18Z"
+        },
+        "recorded_at": "2026-10-11T21:11:18Z",
+        "revision": 3
+      },
+      {
+        "digest": "31e166bbdcf7d5e29af188cfa06fa4ef1ed99766eaf4174794f4e2a156fc65ed",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.81c5d55016da",
+                "text": "Solo revisiones explícitas aumentan el contador; historial e idempotencia conservados"
+              },
+              {
+                "id": "criterion.10c0297e38c0",
+                "text": "Verificar exige criterios cubiertos y hashes vigentes; reabrir invalida la revisión"
+              },
+              {
+                "id": "criterion.e4c36c300ff5",
+                "text": "Escrituras concurrentes y cambios de requisitos se detectan sin sobrescribir"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Debe evitar falsos positivos, revisiones duplicadas y pérdida de cambios entre procesos.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:18Z",
+              "criteria": [
+                "criterion.81c5d55016da",
+                "criterion.10c0297e38c0",
+                "criterion.e4c36c300ff5"
+              ],
+              "definition_hash": "6cb734bc819ef0d5352cc1f61480e371b4f6c93a30f7ac8a04636b2e970dd799",
+              "evidence": [
+                {
+                  "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "778baa7925b201bb58c157e6aa6e49fb06b4d062b25028909d639e511f572c3b",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Pruebas de contador/historial, reintentos idempotentes, reapertura, evidencia vigente, cobertura parcial/completa y conflictos entre hilos/procesos pasan."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Revisiones con contador, evidencia y vigencia",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-reviews",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Revisiones con contador, evidencia y vigencia. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:18Z"
+        },
+        "recorded_at": "2026-10-11T21:11:18Z",
+        "revision": 4
+      },
+      {
+        "digest": "d7a97cbd41b0ffed2195a18f5645029220096abd78a775cb289cf5fe9e4fde85",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.81c5d55016da",
+                "text": "Solo revisiones explícitas aumentan el contador; historial e idempotencia conservados"
+              },
+              {
+                "id": "criterion.10c0297e38c0",
+                "text": "Verificar exige criterios cubiertos y hashes vigentes; reabrir invalida la revisión"
+              },
+              {
+                "id": "criterion.e4c36c300ff5",
+                "text": "Escrituras concurrentes y cambios de requisitos se detectan sin sobrescribir"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Debe evitar falsos positivos, revisiones duplicadas y pérdida de cambios entre procesos.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:18Z",
+              "criteria": [
+                "criterion.81c5d55016da",
+                "criterion.10c0297e38c0",
+                "criterion.e4c36c300ff5"
+              ],
+              "definition_hash": "6cb734bc819ef0d5352cc1f61480e371b4f6c93a30f7ac8a04636b2e970dd799",
+              "evidence": [
+                {
+                  "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "778baa7925b201bb58c157e6aa6e49fb06b4d062b25028909d639e511f572c3b",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Pruebas de contador/historial, reintentos idempotentes, reapertura, evidencia vigente, cobertura parcial/completa y conflictos entre hilos/procesos pasan."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Revisiones con contador, evidencia y vigencia",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-reviews",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-12T22:10:09Z",
+          "stale_reason": "evidence changed or disappeared: pctx/planning.py",
+          "state": "stale",
+          "statement": "Checklist task: Revisiones con contador, evidencia y vigencia. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:10:09Z"
+        },
+        "recorded_at": "2026-10-12T22:10:09Z",
+        "revision": 5
+      },
+      {
+        "digest": "a10a6516bcb62b6f212a8b1c22a2a8c3808a77ca85c12fb6aab3b72aa33409c5",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.81c5d55016da",
+                "text": "Solo revisiones explícitas aumentan el contador; historial e idempotencia conservados"
+              },
+              {
+                "id": "criterion.10c0297e38c0",
+                "text": "Verificar exige criterios cubiertos y hashes vigentes; reabrir invalida la revisión"
+              },
+              {
+                "id": "criterion.e4c36c300ff5",
+                "text": "Escrituras concurrentes y cambios de requisitos se detectan sin sobrescribir"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Debe evitar falsos positivos, revisiones duplicadas y pérdida de cambios entre procesos.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:24Z",
+              "criteria": [
+                "criterion.81c5d55016da",
+                "criterion.10c0297e38c0",
+                "criterion.e4c36c300ff5"
+              ],
+              "definition_hash": "6cb734bc819ef0d5352cc1f61480e371b4f6c93a30f7ac8a04636b2e970dd799",
+              "evidence": [
+                {
+                  "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-reviews",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "1b09db92d3afcf607c3a97a9ca97c40f08f7a62d49c31d08a1a6047001b25af2",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Revisiones con contador, evidencia y vigencia",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-reviews",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Revisiones con contador, evidencia y vigencia. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:24Z"
+        },
+        "recorded_at": "2026-10-12T22:15:24Z",
+        "revision": 6
+      },
+      {
+        "digest": "b8dc9e1a26b72f193f30831e1ae828396bd72ded61d93377b3753c382be16731",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.81c5d55016da",
+                "text": "Solo revisiones explícitas aumentan el contador; historial e idempotencia conservados"
+              },
+              {
+                "id": "criterion.10c0297e38c0",
+                "text": "Verificar exige criterios cubiertos y hashes vigentes; reabrir invalida la revisión"
+              },
+              {
+                "id": "criterion.e4c36c300ff5",
+                "text": "Escrituras concurrentes y cambios de requisitos se detectan sin sobrescribir"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Debe evitar falsos positivos, revisiones duplicadas y pérdida de cambios entre procesos.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:24Z",
+              "criteria": [
+                "criterion.81c5d55016da",
+                "criterion.10c0297e38c0",
+                "criterion.e4c36c300ff5"
+              ],
+              "definition_hash": "6cb734bc819ef0d5352cc1f61480e371b4f6c93a30f7ac8a04636b2e970dd799",
+              "evidence": [
+                {
+                  "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-reviews",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "1b09db92d3afcf607c3a97a9ca97c40f08f7a62d49c31d08a1a6047001b25af2",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Revisiones con contador, evidencia y vigencia",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-reviews",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Revisiones con contador, evidencia y vigencia. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:24Z"
+        },
+        "recorded_at": "2026-10-12T22:15:24Z",
+        "revision": 7
+      },
+      {
+        "digest": "f90325afdb9ec33e7565437c1a8e456b3ee631fc50c0efea074c6e031fbe0760",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.81c5d55016da",
+                "text": "Solo revisiones explícitas aumentan el contador; historial e idempotencia conservados"
+              },
+              {
+                "id": "criterion.10c0297e38c0",
+                "text": "Verificar exige criterios cubiertos y hashes vigentes; reabrir invalida la revisión"
+              },
+              {
+                "id": "criterion.e4c36c300ff5",
+                "text": "Escrituras concurrentes y cambios de requisitos se detectan sin sobrescribir"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Debe evitar falsos positivos, revisiones duplicadas y pérdida de cambios entre procesos.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:24Z",
+              "criteria": [
+                "criterion.81c5d55016da",
+                "criterion.10c0297e38c0",
+                "criterion.e4c36c300ff5"
+              ],
+              "definition_hash": "6cb734bc819ef0d5352cc1f61480e371b4f6c93a30f7ac8a04636b2e970dd799",
+              "evidence": [
+                {
+                  "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-reviews",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "1b09db92d3afcf607c3a97a9ca97c40f08f7a62d49c31d08a1a6047001b25af2",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Revisiones con contador, evidencia y vigencia",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-reviews",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-24T22:43:28Z",
+          "stale_reason": "pctx/planning.py: changed",
+          "state": "stale",
+          "statement": "Checklist task: Revisiones con contador, evidencia y vigencia. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 8
+      },
+      {
+        "digest": "8e53147a591f6001876818f4b1fadea84b342ce35bc79faef8fc221ce2d700c7",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.81c5d55016da",
+                "text": "Solo revisiones explícitas aumentan el contador; historial e idempotencia conservados"
+              },
+              {
+                "id": "criterion.10c0297e38c0",
+                "text": "Verificar exige criterios cubiertos y hashes vigentes; reabrir invalida la revisión"
+              },
+              {
+                "id": "criterion.e4c36c300ff5",
+                "text": "Escrituras concurrentes y cambios de requisitos se detectan sin sobrescribir"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Debe evitar falsos positivos, revisiones duplicadas y pérdida de cambios entre procesos.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:09Z",
+              "criteria": [
+                "criterion.81c5d55016da",
+                "criterion.10c0297e38c0",
+                "criterion.e4c36c300ff5"
+              ],
+              "definition_hash": "6cb734bc819ef0d5352cc1f61480e371b4f6c93a30f7ac8a04636b2e970dd799",
+              "evidence": [
+                {
+                  "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "2a28cb8910e7bbfa049865c2ac3fa7fbb6e5da8236c7e0a93d3f8a5621310e78",
+                  "path": "pctx/review.py"
+                },
+                {
+                  "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "b4cd23228c29c2fe3533d5618cb5f3cacbe79e728397c46fc939d17faa850ea0",
+                  "path": "tests/test_review.py"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-reviews",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "03d530981548dba60ecf3027215e767e44ea0d05d83ce78bb780ae3665f089f4",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Revisiones con contador, evidencia y vigencia",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "2a28cb8910e7bbfa049865c2ac3fa7fbb6e5da8236c7e0a93d3f8a5621310e78",
+              "kind": "reference",
+              "path": "pctx/review.py",
+              "ref": "pctx/review.py"
+            },
+            {
+              "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "b4cd23228c29c2fe3533d5618cb5f3cacbe79e728397c46fc939d17faa850ea0",
+              "kind": "reference",
+              "path": "tests/test_review.py",
+              "ref": "tests/test_review.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-reviews",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Revisiones con contador, evidencia y vigencia. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:09Z"
+        },
+        "recorded_at": "2026-10-24T22:49:09Z",
+        "revision": 9
+      },
+      {
+        "digest": "b856ff04eae209140a7ec40b00dd3d9f5f8257e0abf18faeb4db94f550fb2266",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.81c5d55016da",
+                "text": "Solo revisiones explícitas aumentan el contador; historial e idempotencia conservados"
+              },
+              {
+                "id": "criterion.10c0297e38c0",
+                "text": "Verificar exige criterios cubiertos y hashes vigentes; reabrir invalida la revisión"
+              },
+              {
+                "id": "criterion.e4c36c300ff5",
+                "text": "Escrituras concurrentes y cambios de requisitos se detectan sin sobrescribir"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Debe evitar falsos positivos, revisiones duplicadas y pérdida de cambios entre procesos.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:09Z",
+              "criteria": [
+                "criterion.81c5d55016da",
+                "criterion.10c0297e38c0",
+                "criterion.e4c36c300ff5"
+              ],
+              "definition_hash": "6cb734bc819ef0d5352cc1f61480e371b4f6c93a30f7ac8a04636b2e970dd799",
+              "evidence": [
+                {
+                  "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "2a28cb8910e7bbfa049865c2ac3fa7fbb6e5da8236c7e0a93d3f8a5621310e78",
+                  "path": "pctx/review.py"
+                },
+                {
+                  "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "b4cd23228c29c2fe3533d5618cb5f3cacbe79e728397c46fc939d17faa850ea0",
+                  "path": "tests/test_review.py"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-reviews",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "03d530981548dba60ecf3027215e767e44ea0d05d83ce78bb780ae3665f089f4",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Revisiones con contador, evidencia y vigencia",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "2a28cb8910e7bbfa049865c2ac3fa7fbb6e5da8236c7e0a93d3f8a5621310e78",
+              "kind": "reference",
+              "path": "pctx/review.py",
+              "ref": "pctx/review.py"
+            },
+            {
+              "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "b4cd23228c29c2fe3533d5618cb5f3cacbe79e728397c46fc939d17faa850ea0",
+              "kind": "reference",
+              "path": "tests/test_review.py",
+              "ref": "tests/test_review.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-reviews",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Revisiones con contador, evidencia y vigencia. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:10Z"
+        },
+        "recorded_at": "2026-10-24T22:49:10Z",
+        "revision": 10
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.81c5d55016da",
+        "text": "Solo revisiones explícitas aumentan el contador; historial e idempotencia conservados"
+      },
+      {
+        "id": "criterion.10c0297e38c0",
+        "text": "Verificar exige criterios cubiertos y hashes vigentes; reabrir invalida la revisión"
+      },
+      {
+        "id": "criterion.e4c36c300ff5",
+        "text": "Escrituras concurrentes y cambios de requisitos se detectan sin sobrescribir"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "hard",
+    "difficulty_reason": "Debe evitar falsos positivos, revisiones duplicadas y pérdida de cambios entre procesos.",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T22:49:09Z",
+      "criteria": [
+        "criterion.81c5d55016da",
+        "criterion.10c0297e38c0",
+        "criterion.e4c36c300ff5"
+      ],
+      "definition_hash": "6cb734bc819ef0d5352cc1f61480e371b4f6c93a30f7ac8a04636b2e970dd799",
+      "evidence": [
+        {
+          "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+          "path": "pctx/planning.py"
+        },
+        {
+          "content_hash": "2a28cb8910e7bbfa049865c2ac3fa7fbb6e5da8236c7e0a93d3f8a5621310e78",
+          "path": "pctx/review.py"
+        },
+        {
+          "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+          "path": "tests/test_planning.py"
+        },
+        {
+          "content_hash": "b4cd23228c29c2fe3533d5618cb5f3cacbe79e728397c46fc939d17faa850ea0",
+          "path": "tests/test_review.py"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        }
+      ],
+      "id": "pctx07-plan.pctx-05-reviews",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "03d530981548dba60ecf3027215e767e44ea0d05d83ce78bb780ae3665f089f4",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+    },
+    "owner": "",
+    "parent": "plan.pctx-05-checklists",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 3,
+    "risk": "high",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Revisiones con contador, evidencia y vigencia",
+    "work_generation": 0
+  },
+  "created_at": "2026-10-11T21:03:24Z",
+  "evidence": [
+    {
+      "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+      "kind": "reference",
+      "path": "pctx/planning.py",
+      "ref": "pctx/planning.py"
+    },
+    {
+      "content_hash": "2a28cb8910e7bbfa049865c2ac3fa7fbb6e5da8236c7e0a93d3f8a5621310e78",
+      "kind": "reference",
+      "path": "pctx/review.py",
+      "ref": "pctx/review.py"
+    },
+    {
+      "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+      "kind": "reference",
+      "path": "tests/test_planning.py",
+      "ref": "tests/test_planning.py"
+    },
+    {
+      "content_hash": "b4cd23228c29c2fe3533d5618cb5f3cacbe79e728397c46fc939d17faa850ea0",
+      "kind": "reference",
+      "path": "tests/test_review.py",
+      "ref": "tests/test_review.py"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    }
+  ],
+  "id": "plan.pctx-05-reviews",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-05-checklists"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Revisiones con contador, evidencia y vigencia. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 3. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T22:49:10Z"
+}

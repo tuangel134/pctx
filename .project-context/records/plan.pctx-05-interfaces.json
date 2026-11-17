@@ -1,0 +1,1562 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "7691fe51db4d6ac95b6772e0a91d12fa01e98e099d55444cfefca03829277e89",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7a3d668ed14",
+                "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+              },
+              {
+                "id": "criterion.e8482cd3bba4",
+                "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+              },
+              {
+                "id": "criterion.bc1d23266bad",
+                "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Checklist usable en CLI, MCP y panel local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-05-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: pending. Difficulty: hard; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:03:24Z"
+        },
+        "recorded_at": "2026-10-11T21:03:24Z",
+        "revision": 1
+      },
+      {
+        "digest": "00369ffde81a1b372e6e4163ef5d0f018a5eeeb6a265a8a858e82039be304c4a",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7a3d668ed14",
+                "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+              },
+              {
+                "id": "criterion.e8482cd3bba4",
+                "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+              },
+              {
+                "id": "criterion.bc1d23266bad",
+                "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Checklist usable en CLI, MCP y panel local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-05-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:18Z"
+        },
+        "recorded_at": "2026-10-11T21:11:18Z",
+        "revision": 2
+      },
+      {
+        "digest": "b1ffb26ea134d90e0bb5238ccd0c86abeabc8501bb15ce88e93da9d5ea34fde0",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7a3d668ed14",
+                "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+              },
+              {
+                "id": "criterion.e8482cd3bba4",
+                "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+              },
+              {
+                "id": "criterion.bc1d23266bad",
+                "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:18Z",
+              "criteria": [
+                "criterion.c7a3d668ed14",
+                "criterion.e8482cd3bba4",
+                "criterion.bc1d23266bad"
+              ],
+              "definition_hash": "07f5a7bbf8159db9ea95a4fed5445170c7efd8c3da2aee51e1cda1c2c29e71be",
+              "evidence": [
+                {
+                  "content_hash": "f9c82d9acdec0f668846b6a2626652144f01ead69a3ab74c5c013cd7216bc9b8",
+                  "path": "validation/ui-report-0.5.json"
+                },
+                {
+                  "content_hash": "eee489342d087396a84bf508672bec6becebb64155ce052dc9379a28d127ce5e",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "e0cdae1d160f96865185ad9f373a197abf0da9af0821f5fb15d52d46aa6e747a",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "67f613ce9255ac2bbcf4938de840642d88de41925e552607f3d0911fd1df272b",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "8c25cdde55b3a2ba72c47d3219aaea2cdd15cafe5c20665be2f0ca91b20d3ece",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Pasaron 47 recorridos Chromium y permisos/consistencia CLI/MCP; casillas, filtros, revisión, texto seguro y móvil comprobados."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Checklist usable en CLI, MCP y panel local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "f9c82d9acdec0f668846b6a2626652144f01ead69a3ab74c5c013cd7216bc9b8",
+              "kind": "reference",
+              "path": "validation/ui-report-0.5.json",
+              "ref": "validation/ui-report-0.5.json"
+            },
+            {
+              "content_hash": "eee489342d087396a84bf508672bec6becebb64155ce052dc9379a28d127ce5e",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "e0cdae1d160f96865185ad9f373a197abf0da9af0821f5fb15d52d46aa6e747a",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "67f613ce9255ac2bbcf4938de840642d88de41925e552607f3d0911fd1df272b",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:18Z"
+        },
+        "recorded_at": "2026-10-11T21:11:18Z",
+        "revision": 3
+      },
+      {
+        "digest": "3549c5b08f0db8ebba1cca5c7c7544c6d9ec3e41aa9f6e04e6b3aacd6ee03761",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7a3d668ed14",
+                "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+              },
+              {
+                "id": "criterion.e8482cd3bba4",
+                "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+              },
+              {
+                "id": "criterion.bc1d23266bad",
+                "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:18Z",
+              "criteria": [
+                "criterion.c7a3d668ed14",
+                "criterion.e8482cd3bba4",
+                "criterion.bc1d23266bad"
+              ],
+              "definition_hash": "07f5a7bbf8159db9ea95a4fed5445170c7efd8c3da2aee51e1cda1c2c29e71be",
+              "evidence": [
+                {
+                  "content_hash": "f9c82d9acdec0f668846b6a2626652144f01ead69a3ab74c5c013cd7216bc9b8",
+                  "path": "validation/ui-report-0.5.json"
+                },
+                {
+                  "content_hash": "eee489342d087396a84bf508672bec6becebb64155ce052dc9379a28d127ce5e",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "e0cdae1d160f96865185ad9f373a197abf0da9af0821f5fb15d52d46aa6e747a",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "67f613ce9255ac2bbcf4938de840642d88de41925e552607f3d0911fd1df272b",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "8c25cdde55b3a2ba72c47d3219aaea2cdd15cafe5c20665be2f0ca91b20d3ece",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Pasaron 47 recorridos Chromium y permisos/consistencia CLI/MCP; casillas, filtros, revisión, texto seguro y móvil comprobados."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Checklist usable en CLI, MCP y panel local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "f9c82d9acdec0f668846b6a2626652144f01ead69a3ab74c5c013cd7216bc9b8",
+              "kind": "reference",
+              "path": "validation/ui-report-0.5.json",
+              "ref": "validation/ui-report-0.5.json"
+            },
+            {
+              "content_hash": "eee489342d087396a84bf508672bec6becebb64155ce052dc9379a28d127ce5e",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "e0cdae1d160f96865185ad9f373a197abf0da9af0821f5fb15d52d46aa6e747a",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "67f613ce9255ac2bbcf4938de840642d88de41925e552607f3d0911fd1df272b",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:19Z"
+        },
+        "recorded_at": "2026-10-11T21:11:19Z",
+        "revision": 4
+      },
+      {
+        "digest": "d6f127326956016e201a4b7fa9ff5a040289c5454ce2e94ee1a4ab406bbccc30",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7a3d668ed14",
+                "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+              },
+              {
+                "id": "criterion.e8482cd3bba4",
+                "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+              },
+              {
+                "id": "criterion.bc1d23266bad",
+                "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:18Z",
+              "criteria": [
+                "criterion.c7a3d668ed14",
+                "criterion.e8482cd3bba4",
+                "criterion.bc1d23266bad"
+              ],
+              "definition_hash": "07f5a7bbf8159db9ea95a4fed5445170c7efd8c3da2aee51e1cda1c2c29e71be",
+              "evidence": [
+                {
+                  "content_hash": "f9c82d9acdec0f668846b6a2626652144f01ead69a3ab74c5c013cd7216bc9b8",
+                  "path": "validation/ui-report-0.5.json"
+                },
+                {
+                  "content_hash": "eee489342d087396a84bf508672bec6becebb64155ce052dc9379a28d127ce5e",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "e0cdae1d160f96865185ad9f373a197abf0da9af0821f5fb15d52d46aa6e747a",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "67f613ce9255ac2bbcf4938de840642d88de41925e552607f3d0911fd1df272b",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "8c25cdde55b3a2ba72c47d3219aaea2cdd15cafe5c20665be2f0ca91b20d3ece",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Pasaron 47 recorridos Chromium y permisos/consistencia CLI/MCP; casillas, filtros, revisión, texto seguro y móvil comprobados."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Checklist usable en CLI, MCP y panel local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "f9c82d9acdec0f668846b6a2626652144f01ead69a3ab74c5c013cd7216bc9b8",
+              "kind": "reference",
+              "path": "validation/ui-report-0.5.json",
+              "ref": "validation/ui-report-0.5.json"
+            },
+            {
+              "content_hash": "eee489342d087396a84bf508672bec6becebb64155ce052dc9379a28d127ce5e",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "e0cdae1d160f96865185ad9f373a197abf0da9af0821f5fb15d52d46aa6e747a",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "67f613ce9255ac2bbcf4938de840642d88de41925e552607f3d0911fd1df272b",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-12T22:10:09Z",
+          "stale_reason": "evidence changed or disappeared: pctx/web/app.js",
+          "state": "stale",
+          "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:10:09Z"
+        },
+        "recorded_at": "2026-10-12T22:10:09Z",
+        "revision": 5
+      },
+      {
+        "digest": "b375960330e1b4f4587564f3cba3825ae0f917cbd8fa1093aa6cea89529a3f2d",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7a3d668ed14",
+                "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+              },
+              {
+                "id": "criterion.e8482cd3bba4",
+                "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+              },
+              {
+                "id": "criterion.bc1d23266bad",
+                "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:23Z",
+              "criteria": [
+                "criterion.c7a3d668ed14",
+                "criterion.e8482cd3bba4",
+                "criterion.bc1d23266bad"
+              ],
+              "definition_hash": "07f5a7bbf8159db9ea95a4fed5445170c7efd8c3da2aee51e1cda1c2c29e71be",
+              "evidence": [
+                {
+                  "content_hash": "7819a7cf1734e5e833243920e80a22bab4ad93322a0562b0d7db3113944a081a",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "9690b589adfb2206b71fa2bea52fc793e1f352d6aec6e4d1be7d3987ca6e8f5f",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "b79c21635134ba4e5a2aa7185f0bc47429af74a045b1216e9ec0d937fd88694e",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "f73f308e6b37a0fc0707f1579b2aaa31826a99ad540a296258c7710ddeb633d0",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Checklist usable en CLI, MCP y panel local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "7819a7cf1734e5e833243920e80a22bab4ad93322a0562b0d7db3113944a081a",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "9690b589adfb2206b71fa2bea52fc793e1f352d6aec6e4d1be7d3987ca6e8f5f",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "b79c21635134ba4e5a2aa7185f0bc47429af74a045b1216e9ec0d937fd88694e",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:23Z"
+        },
+        "recorded_at": "2026-10-12T22:15:23Z",
+        "revision": 6
+      },
+      {
+        "digest": "89fd7bfc731b40356fb9da4cd5cf453abf7f28b56e5f8fecee06384d4fbce3e2",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7a3d668ed14",
+                "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+              },
+              {
+                "id": "criterion.e8482cd3bba4",
+                "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+              },
+              {
+                "id": "criterion.bc1d23266bad",
+                "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:23Z",
+              "criteria": [
+                "criterion.c7a3d668ed14",
+                "criterion.e8482cd3bba4",
+                "criterion.bc1d23266bad"
+              ],
+              "definition_hash": "07f5a7bbf8159db9ea95a4fed5445170c7efd8c3da2aee51e1cda1c2c29e71be",
+              "evidence": [
+                {
+                  "content_hash": "7819a7cf1734e5e833243920e80a22bab4ad93322a0562b0d7db3113944a081a",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "9690b589adfb2206b71fa2bea52fc793e1f352d6aec6e4d1be7d3987ca6e8f5f",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "b79c21635134ba4e5a2aa7185f0bc47429af74a045b1216e9ec0d937fd88694e",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "f73f308e6b37a0fc0707f1579b2aaa31826a99ad540a296258c7710ddeb633d0",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Checklist usable en CLI, MCP y panel local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "7819a7cf1734e5e833243920e80a22bab4ad93322a0562b0d7db3113944a081a",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "9690b589adfb2206b71fa2bea52fc793e1f352d6aec6e4d1be7d3987ca6e8f5f",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "b79c21635134ba4e5a2aa7185f0bc47429af74a045b1216e9ec0d937fd88694e",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:23Z"
+        },
+        "recorded_at": "2026-10-12T22:15:23Z",
+        "revision": 7
+      },
+      {
+        "digest": "0b2a1dca8ebbf209dac10f3536efda520b0fe445dc01d8cad1eca7a1ce539a18",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7a3d668ed14",
+                "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+              },
+              {
+                "id": "criterion.e8482cd3bba4",
+                "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+              },
+              {
+                "id": "criterion.bc1d23266bad",
+                "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:23Z",
+              "criteria": [
+                "criterion.c7a3d668ed14",
+                "criterion.e8482cd3bba4",
+                "criterion.bc1d23266bad"
+              ],
+              "definition_hash": "07f5a7bbf8159db9ea95a4fed5445170c7efd8c3da2aee51e1cda1c2c29e71be",
+              "evidence": [
+                {
+                  "content_hash": "7819a7cf1734e5e833243920e80a22bab4ad93322a0562b0d7db3113944a081a",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "9690b589adfb2206b71fa2bea52fc793e1f352d6aec6e4d1be7d3987ca6e8f5f",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "b79c21635134ba4e5a2aa7185f0bc47429af74a045b1216e9ec0d937fd88694e",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "f73f308e6b37a0fc0707f1579b2aaa31826a99ad540a296258c7710ddeb633d0",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Checklist usable en CLI, MCP y panel local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "7819a7cf1734e5e833243920e80a22bab4ad93322a0562b0d7db3113944a081a",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "9690b589adfb2206b71fa2bea52fc793e1f352d6aec6e4d1be7d3987ca6e8f5f",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "b79c21635134ba4e5a2aa7185f0bc47429af74a045b1216e9ec0d937fd88694e",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-24T22:43:28Z",
+          "stale_reason": "pctx/cli.py: changed; pctx/mcp.py: changed; pctx/web/app.js: changed",
+          "state": "stale",
+          "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 8
+      },
+      {
+        "digest": "aa5ce877b19d500315cdd0320f6bf1f822e84fe194d7243c4ff4b861316d6f34",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7a3d668ed14",
+                "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+              },
+              {
+                "id": "criterion.e8482cd3bba4",
+                "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+              },
+              {
+                "id": "criterion.bc1d23266bad",
+                "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:07Z",
+              "criteria": [
+                "criterion.c7a3d668ed14",
+                "criterion.e8482cd3bba4",
+                "criterion.bc1d23266bad"
+              ],
+              "definition_hash": "07f5a7bbf8159db9ea95a4fed5445170c7efd8c3da2aee51e1cda1c2c29e71be",
+              "evidence": [
+                {
+                  "content_hash": "583412fcd3b59a960d2d336400ca2ab5c7d4fc07b4148f1abc24ade6505b4202",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "9fc23aa2fbd4a8f2479a749e1a221181dbdad9e60bb2bdd304f785913c0f552d",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+                  "path": "pctx/dashboard.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+                  "path": "validation/ui-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "2d0de1f0358142e09427c503c4a2cda1ed2df624a1e3880dd52c4a1c427eec1c",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Checklist usable en CLI, MCP y panel local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "583412fcd3b59a960d2d336400ca2ab5c7d4fc07b4148f1abc24ade6505b4202",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "9fc23aa2fbd4a8f2479a749e1a221181dbdad9e60bb2bdd304f785913c0f552d",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+              "kind": "reference",
+              "path": "pctx/dashboard.py",
+              "ref": "pctx/dashboard.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+              "kind": "reference",
+              "path": "validation/ui-report-0.7.json",
+              "ref": "validation/ui-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:07Z"
+        },
+        "recorded_at": "2026-10-24T22:49:07Z",
+        "revision": 9
+      },
+      {
+        "digest": "124eca7994d7cb67a805c5cc59403c37c8f4a5896779a55f4e4db63f403ff96b",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7a3d668ed14",
+                "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+              },
+              {
+                "id": "criterion.e8482cd3bba4",
+                "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+              },
+              {
+                "id": "criterion.bc1d23266bad",
+                "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:07Z",
+              "criteria": [
+                "criterion.c7a3d668ed14",
+                "criterion.e8482cd3bba4",
+                "criterion.bc1d23266bad"
+              ],
+              "definition_hash": "07f5a7bbf8159db9ea95a4fed5445170c7efd8c3da2aee51e1cda1c2c29e71be",
+              "evidence": [
+                {
+                  "content_hash": "583412fcd3b59a960d2d336400ca2ab5c7d4fc07b4148f1abc24ade6505b4202",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "9fc23aa2fbd4a8f2479a749e1a221181dbdad9e60bb2bdd304f785913c0f552d",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+                  "path": "pctx/dashboard.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+                  "path": "validation/ui-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "2d0de1f0358142e09427c503c4a2cda1ed2df624a1e3880dd52c4a1c427eec1c",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Checklist usable en CLI, MCP y panel local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "583412fcd3b59a960d2d336400ca2ab5c7d4fc07b4148f1abc24ade6505b4202",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "9fc23aa2fbd4a8f2479a749e1a221181dbdad9e60bb2bdd304f785913c0f552d",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+              "kind": "reference",
+              "path": "pctx/dashboard.py",
+              "ref": "pctx/dashboard.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+              "kind": "reference",
+              "path": "validation/ui-report-0.7.json",
+              "ref": "validation/ui-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:08Z"
+        },
+        "recorded_at": "2026-10-24T22:49:08Z",
+        "revision": 10
+      },
+      {
+        "digest": "80765ef8534242ea5d00041c8ea6ed0a056c8d7ff0f0c10b03abca2cd5cfd471",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7a3d668ed14",
+                "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+              },
+              {
+                "id": "criterion.e8482cd3bba4",
+                "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+              },
+              {
+                "id": "criterion.bc1d23266bad",
+                "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:08Z",
+              "criteria": [
+                "criterion.c7a3d668ed14",
+                "criterion.e8482cd3bba4",
+                "criterion.bc1d23266bad"
+              ],
+              "definition_hash": "07f5a7bbf8159db9ea95a4fed5445170c7efd8c3da2aee51e1cda1c2c29e71be",
+              "evidence": [
+                {
+                  "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "42c481266f7917e928314927affc5e8d85bbeeafb7037960bc376ec7ebe5c440",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+                  "path": "pctx/dashboard.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+                  "path": "validation/ui-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-05-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "5832816f793d68eeb33ee70c5246324df2638c809953c631aa190b9ecf58250b",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 4,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Checklist usable en CLI, MCP y panel local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "42c481266f7917e928314927affc5e8d85bbeeafb7037960bc376ec7ebe5c440",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+              "kind": "reference",
+              "path": "pctx/dashboard.py",
+              "ref": "pctx/dashboard.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+              "kind": "reference",
+              "path": "validation/ui-report-0.7.json",
+              "ref": "validation/ui-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-05-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 4. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:08Z"
+        },
+        "recorded_at": "2026-10-24T23:07:08Z",
+        "revision": 11
+      },
+      {
+        "digest": "50f02f2012d29eb3affd11b8e8b08dae6c7f79b8be6ce3254f4a186dd605e311",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7a3d668ed14",
+                "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+              },
+              {
+                "id": "criterion.e8482cd3bba4",
+                "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+              },
+              {
+                "id": "criterion.bc1d23266bad",
+                "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:08Z",
+              "criteria": [
+                "criterion.c7a3d668ed14",
+                "criterion.e8482cd3bba4",
+                "criterion.bc1d23266bad"
+              ],
+              "definition_hash": "07f5a7bbf8159db9ea95a4fed5445170c7efd8c3da2aee51e1cda1c2c29e71be",
+              "evidence": [
+                {
+                  "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "42c481266f7917e928314927affc5e8d85bbeeafb7037960bc376ec7ebe5c440",
+                  "path": "pctx/mcp.py"
+                },
+                {
+                  "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+                  "path": "pctx/dashboard.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+                  "path": "validation/ui-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-05-interfaces",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "5832816f793d68eeb33ee70c5246324df2638c809953c631aa190b9ecf58250b",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 4,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Checklist usable en CLI, MCP y panel local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "42c481266f7917e928314927affc5e8d85bbeeafb7037960bc376ec7ebe5c440",
+              "kind": "reference",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            },
+            {
+              "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+              "kind": "reference",
+              "path": "pctx/dashboard.py",
+              "ref": "pctx/dashboard.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+              "kind": "reference",
+              "path": "validation/ui-report-0.7.json",
+              "ref": "validation/ui-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-05-interfaces",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 4. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:09Z"
+        },
+        "recorded_at": "2026-10-24T23:07:09Z",
+        "revision": 12
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.c7a3d668ed14",
+        "text": "CLI y herramientas MCP leen/escriben los mismos registros con permisos correctos"
+      },
+      {
+        "id": "criterion.e8482cd3bba4",
+        "text": "Casillas, detalle, filtros, revisión, historial y edición pasan recorridos Chromium"
+      },
+      {
+        "id": "criterion.bc1d23266bad",
+        "text": "Panel móvil sin desbordamiento y contenido mostrado como texto seguro"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "hard",
+    "difficulty_reason": "Tres superficies comparten reglas, revisión esperada y privacidad; el panel debe preservar formularios y ser usable en móvil.",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T23:07:08Z",
+      "criteria": [
+        "criterion.c7a3d668ed14",
+        "criterion.e8482cd3bba4",
+        "criterion.bc1d23266bad"
+      ],
+      "definition_hash": "07f5a7bbf8159db9ea95a4fed5445170c7efd8c3da2aee51e1cda1c2c29e71be",
+      "evidence": [
+        {
+          "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+          "path": "pctx/cli.py"
+        },
+        {
+          "content_hash": "42c481266f7917e928314927affc5e8d85bbeeafb7037960bc376ec7ebe5c440",
+          "path": "pctx/mcp.py"
+        },
+        {
+          "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+          "path": "pctx/dashboard.py"
+        },
+        {
+          "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+          "path": "pctx/web/app.js"
+        },
+        {
+          "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+          "path": "validation/ui-report-0.7.json"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        },
+        {
+          "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+          "path": "validation/release-0.7.1.json"
+        },
+        {
+          "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+          "path": "docs/USO_0.7.1.md"
+        }
+      ],
+      "id": "pctx071-plan.pctx-05-interfaces",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "5832816f793d68eeb33ee70c5246324df2638c809953c631aa190b9ecf58250b",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+    },
+    "owner": "",
+    "parent": "plan.pctx-05-checklists",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 4,
+    "risk": "medium",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Checklist usable en CLI, MCP y panel local",
+    "work_generation": 0
+  },
+  "created_at": "2026-10-11T21:03:24Z",
+  "evidence": [
+    {
+      "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+      "kind": "reference",
+      "path": "pctx/cli.py",
+      "ref": "pctx/cli.py"
+    },
+    {
+      "content_hash": "42c481266f7917e928314927affc5e8d85bbeeafb7037960bc376ec7ebe5c440",
+      "kind": "reference",
+      "path": "pctx/mcp.py",
+      "ref": "pctx/mcp.py"
+    },
+    {
+      "content_hash": "3b1829cddd1d3c6f5e89ea3be68bd34b2610cdd0fe36371d1a12c5a3f6b4e886",
+      "kind": "reference",
+      "path": "pctx/dashboard.py",
+      "ref": "pctx/dashboard.py"
+    },
+    {
+      "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+      "kind": "reference",
+      "path": "pctx/web/app.js",
+      "ref": "pctx/web/app.js"
+    },
+    {
+      "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+      "kind": "reference",
+      "path": "validation/ui-report-0.7.json",
+      "ref": "validation/ui-report-0.7.json"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    },
+    {
+      "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+      "kind": "reference",
+      "path": "validation/release-0.7.1.json",
+      "ref": "validation/release-0.7.1.json"
+    },
+    {
+      "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+      "kind": "reference",
+      "path": "docs/USO_0.7.1.md",
+      "ref": "docs/USO_0.7.1.md"
+    }
+  ],
+  "id": "plan.pctx-05-interfaces",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-05-checklists"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Checklist usable en CLI, MCP y panel local. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 4. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T23:07:09Z"
+}

@@ -1,0 +1,64 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "8e29db499a7d3a90580aac9ccc2142a0bfda44aa8fa41ae873a259c2110b7f9e",
+        "record": {
+          "created_at": "2026-10-12T22:15:19Z",
+          "evidence": [
+            {
+              "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+              "kind": "reference",
+              "path": "docs/COORDINACION_0.6.md",
+              "ref": "docs/COORDINACION_0.6.md"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "fact.pctx.v06.coordination",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "PCTX 0.6.0 añade reservas cooperativas por tarea y rutas con conflicto atómico, renovación, caducidad, checkpoints e historial en JSON; CLI MCP y panel comparten ocupación. No invoca IAs ni autentica sesiones ni bloquea editores externos. Restaurar memoria libera reservas antiguas; trabajadores preservan la traza global del coordinador.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-12T22:15:19Z"
+        },
+        "recorded_at": "2026-10-12T22:15:19Z",
+        "revision": 1
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-10-12T22:15:19Z",
+  "evidence": [
+    {
+      "content_hash": "b9868d39abbd85fb7aee8e5f6b901a24eda45b2d4ecdfb3a927983b5034abb88",
+      "kind": "reference",
+      "path": "docs/COORDINACION_0.6.md",
+      "ref": "docs/COORDINACION_0.6.md"
+    },
+    {
+      "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+      "kind": "reference",
+      "path": "validation/release-0.6.json",
+      "ref": "validation/release-0.6.json"
+    }
+  ],
+  "id": "fact.pctx.v06.coordination",
+  "origin": "local-validation",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "verified",
+  "statement": "PCTX 0.6.0 añade reservas cooperativas por tarea y rutas con conflicto atómico, renovación, caducidad, checkpoints e historial en JSON; CLI MCP y panel comparten ocupación. No invoca IAs ni autentica sesiones ni bloquea editores externos. Restaurar memoria libera reservas antiguas; trabajadores preservan la traza global del coordinador.",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-10-12T22:15:19Z"
+}

@@ -1,0 +1,456 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "34df450897c40eb23311ba8f53f622e8efac51272fe4b0dfe55b547a40bfcb90",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.51c0bfe621f6",
+                "text": "Suite completa y Chromium sin errores"
+              },
+              {
+                "id": "criterion.c78a4357e3cc",
+                "text": "Wheel y zipapp funcionan sin extras semánticos"
+              },
+              {
+                "id": "criterion.6d19f5014333",
+                "text": "Instalación 0.5 y módulos/recursos coinciden con fuente validada"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "medium",
+            "difficulty_reason": "Ejecuta suites conocidas, instala wheel aislado y verifica zipapp y versión local.",
+            "kind": "check",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Regresión, paquetes limpios e instalación local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-05-packaging",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Regresión, paquetes limpios e instalación local. Declared status: pending. Difficulty: medium; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:03:24Z"
+        },
+        "recorded_at": "2026-10-11T21:03:24Z",
+        "revision": 1
+      },
+      {
+        "digest": "19f2b0f09200c22b41b69fbc302544f974aeb18f8327644a9bde32eea9765d26",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.51c0bfe621f6",
+                "text": "Suite completa y Chromium sin errores"
+              },
+              {
+                "id": "criterion.c78a4357e3cc",
+                "text": "Wheel y zipapp funcionan sin extras semánticos"
+              },
+              {
+                "id": "criterion.6d19f5014333",
+                "text": "Instalación 0.5 y módulos/recursos coinciden con fuente validada"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "medium",
+            "difficulty_reason": "Ejecuta suites conocidas, instala wheel aislado y verifica zipapp y versión local.",
+            "kind": "check",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Regresión, paquetes limpios e instalación local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-05-packaging",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Regresión, paquetes limpios e instalación local. Declared status: done. Difficulty: medium; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:19Z"
+        },
+        "recorded_at": "2026-10-11T21:11:19Z",
+        "revision": 2
+      },
+      {
+        "digest": "ce0bfc3cc3eee9c6157de6bc8b1c98e4c506ea938a3309eebb2a195a2d543c36",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.51c0bfe621f6",
+                "text": "Suite completa y Chromium sin errores"
+              },
+              {
+                "id": "criterion.c78a4357e3cc",
+                "text": "Wheel y zipapp funcionan sin extras semánticos"
+              },
+              {
+                "id": "criterion.6d19f5014333",
+                "text": "Instalación 0.5 y módulos/recursos coinciden con fuente validada"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "medium",
+            "difficulty_reason": "Ejecuta suites conocidas, instala wheel aislado y verifica zipapp y versión local.",
+            "kind": "check",
+            "last_review": {
+              "at": "2026-10-11T21:11:19Z",
+              "criteria": [
+                "criterion.51c0bfe621f6",
+                "criterion.c78a4357e3cc",
+                "criterion.6d19f5014333"
+              ],
+              "definition_hash": "835c80b4a448d61ff59d964cc5ed43620d137b4b38ca499c630932a49542cc0a",
+              "evidence": [
+                {
+                  "content_hash": "375516bf4b78b43e1801ddc3e36fb0b04562fb008571e796c3ea32a695bb0aaf",
+                  "path": "validation/unittest-0.5.txt"
+                },
+                {
+                  "content_hash": "11cb309ec64f376d06e14cd9f8946dea0d3aa061a6e40783150157d3a9f25971",
+                  "path": "validation/wheel-smoke-0.5.txt"
+                },
+                {
+                  "content_hash": "928f69d6a89254ac441acb6666349cf5564870f31ec6b17a5cb14154198fba8e",
+                  "path": "dist/pctx-0.5.0-py3-none-any.whl"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "3b7826894751a06b6396b28d5fc32a21922e1504f56dff8e1ecbd419d7ff3371",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Pasaron 120 pruebas, paquete aislado y zipapp con -I. Instalación 0.5.0 y 34 módulos/recursos coinciden byte por byte con fuente."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Regresión, paquetes limpios e instalación local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "375516bf4b78b43e1801ddc3e36fb0b04562fb008571e796c3ea32a695bb0aaf",
+              "kind": "reference",
+              "path": "validation/unittest-0.5.txt",
+              "ref": "validation/unittest-0.5.txt"
+            },
+            {
+              "content_hash": "11cb309ec64f376d06e14cd9f8946dea0d3aa061a6e40783150157d3a9f25971",
+              "kind": "reference",
+              "path": "validation/wheel-smoke-0.5.txt",
+              "ref": "validation/wheel-smoke-0.5.txt"
+            },
+            {
+              "content_hash": "928f69d6a89254ac441acb6666349cf5564870f31ec6b17a5cb14154198fba8e",
+              "kind": "reference",
+              "path": "dist/pctx-0.5.0-py3-none-any.whl",
+              "ref": "dist/pctx-0.5.0-py3-none-any.whl"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-packaging",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Regresión, paquetes limpios e instalación local. Declared status: done. Difficulty: medium; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:19Z"
+        },
+        "recorded_at": "2026-10-11T21:11:19Z",
+        "revision": 3
+      },
+      {
+        "digest": "47de9d1df20e1ef87f206d96110f62c15d60af6aad290386cf07965a5f3236c8",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.51c0bfe621f6",
+                "text": "Suite completa y Chromium sin errores"
+              },
+              {
+                "id": "criterion.c78a4357e3cc",
+                "text": "Wheel y zipapp funcionan sin extras semánticos"
+              },
+              {
+                "id": "criterion.6d19f5014333",
+                "text": "Instalación 0.5 y módulos/recursos coinciden con fuente validada"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "medium",
+            "difficulty_reason": "Ejecuta suites conocidas, instala wheel aislado y verifica zipapp y versión local.",
+            "kind": "check",
+            "last_review": {
+              "at": "2026-10-11T21:11:19Z",
+              "criteria": [
+                "criterion.51c0bfe621f6",
+                "criterion.c78a4357e3cc",
+                "criterion.6d19f5014333"
+              ],
+              "definition_hash": "835c80b4a448d61ff59d964cc5ed43620d137b4b38ca499c630932a49542cc0a",
+              "evidence": [
+                {
+                  "content_hash": "375516bf4b78b43e1801ddc3e36fb0b04562fb008571e796c3ea32a695bb0aaf",
+                  "path": "validation/unittest-0.5.txt"
+                },
+                {
+                  "content_hash": "11cb309ec64f376d06e14cd9f8946dea0d3aa061a6e40783150157d3a9f25971",
+                  "path": "validation/wheel-smoke-0.5.txt"
+                },
+                {
+                  "content_hash": "928f69d6a89254ac441acb6666349cf5564870f31ec6b17a5cb14154198fba8e",
+                  "path": "dist/pctx-0.5.0-py3-none-any.whl"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "3b7826894751a06b6396b28d5fc32a21922e1504f56dff8e1ecbd419d7ff3371",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Pasaron 120 pruebas, paquete aislado y zipapp con -I. Instalación 0.5.0 y 34 módulos/recursos coinciden byte por byte con fuente."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Regresión, paquetes limpios e instalación local",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "375516bf4b78b43e1801ddc3e36fb0b04562fb008571e796c3ea32a695bb0aaf",
+              "kind": "reference",
+              "path": "validation/unittest-0.5.txt",
+              "ref": "validation/unittest-0.5.txt"
+            },
+            {
+              "content_hash": "11cb309ec64f376d06e14cd9f8946dea0d3aa061a6e40783150157d3a9f25971",
+              "kind": "reference",
+              "path": "validation/wheel-smoke-0.5.txt",
+              "ref": "validation/wheel-smoke-0.5.txt"
+            },
+            {
+              "content_hash": "928f69d6a89254ac441acb6666349cf5564870f31ec6b17a5cb14154198fba8e",
+              "kind": "reference",
+              "path": "dist/pctx-0.5.0-py3-none-any.whl",
+              "ref": "dist/pctx-0.5.0-py3-none-any.whl"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-packaging",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Regresión, paquetes limpios e instalación local. Declared status: verified. Difficulty: medium; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:19Z"
+        },
+        "recorded_at": "2026-10-11T21:11:19Z",
+        "revision": 4
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.51c0bfe621f6",
+        "text": "Suite completa y Chromium sin errores"
+      },
+      {
+        "id": "criterion.c78a4357e3cc",
+        "text": "Wheel y zipapp funcionan sin extras semánticos"
+      },
+      {
+        "id": "criterion.6d19f5014333",
+        "text": "Instalación 0.5 y módulos/recursos coinciden con fuente validada"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "medium",
+    "difficulty_reason": "Ejecuta suites conocidas, instala wheel aislado y verifica zipapp y versión local.",
+    "kind": "check",
+    "last_review": {
+      "at": "2026-10-11T21:11:19Z",
+      "criteria": [
+        "criterion.51c0bfe621f6",
+        "criterion.c78a4357e3cc",
+        "criterion.6d19f5014333"
+      ],
+      "definition_hash": "835c80b4a448d61ff59d964cc5ed43620d137b4b38ca499c630932a49542cc0a",
+      "evidence": [
+        {
+          "content_hash": "375516bf4b78b43e1801ddc3e36fb0b04562fb008571e796c3ea32a695bb0aaf",
+          "path": "validation/unittest-0.5.txt"
+        },
+        {
+          "content_hash": "11cb309ec64f376d06e14cd9f8946dea0d3aa061a6e40783150157d3a9f25971",
+          "path": "validation/wheel-smoke-0.5.txt"
+        },
+        {
+          "content_hash": "928f69d6a89254ac441acb6666349cf5564870f31ec6b17a5cb14154198fba8e",
+          "path": "dist/pctx-0.5.0-py3-none-any.whl"
+        },
+        {
+          "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+          "path": "validation/release-0.5.json"
+        }
+      ],
+      "id": "release-0.5-local-check",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "3b7826894751a06b6396b28d5fc32a21922e1504f56dff8e1ecbd419d7ff3371",
+      "reviewer": "Codex: suite local; no auditoría independiente",
+      "summary": "Pasaron 120 pruebas, paquete aislado y zipapp con -I. Instalación 0.5.0 y 34 módulos/recursos coinciden byte por byte con fuente."
+    },
+    "owner": "",
+    "parent": "plan.pctx-05-checklists",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 1,
+    "risk": "medium",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Regresión, paquetes limpios e instalación local",
+    "work_generation": 0
+  },
+  "created_at": "2026-10-11T21:03:24Z",
+  "evidence": [
+    {
+      "content_hash": "375516bf4b78b43e1801ddc3e36fb0b04562fb008571e796c3ea32a695bb0aaf",
+      "kind": "reference",
+      "path": "validation/unittest-0.5.txt",
+      "ref": "validation/unittest-0.5.txt"
+    },
+    {
+      "content_hash": "11cb309ec64f376d06e14cd9f8946dea0d3aa061a6e40783150157d3a9f25971",
+      "kind": "reference",
+      "path": "validation/wheel-smoke-0.5.txt",
+      "ref": "validation/wheel-smoke-0.5.txt"
+    },
+    {
+      "content_hash": "928f69d6a89254ac441acb6666349cf5564870f31ec6b17a5cb14154198fba8e",
+      "kind": "reference",
+      "path": "dist/pctx-0.5.0-py3-none-any.whl",
+      "ref": "dist/pctx-0.5.0-py3-none-any.whl"
+    },
+    {
+      "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+      "kind": "reference",
+      "path": "validation/release-0.5.json",
+      "ref": "validation/release-0.5.json"
+    }
+  ],
+  "id": "plan.pctx-05-packaging",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-05-checklists"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist check: Regresión, paquetes limpios e instalación local. Declared status: verified. Difficulty: medium; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-11T21:11:19Z"
+}

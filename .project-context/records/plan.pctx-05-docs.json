@@ -1,0 +1,1442 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "437550c384f35a6b1c9b89f72a5a56fd7fb1f02ff246594c487ab15ed82bc6fd",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: pending. Difficulty: easy; risk: low; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:03:24Z"
+        },
+        "recorded_at": "2026-10-11T21:03:24Z",
+        "revision": 1
+      },
+      {
+        "digest": "5d3e3e8588d91b8dcaaaf20e1e21145fe0b133140b590440bfc756c1764b9c5f",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: done. Difficulty: easy; risk: low; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:19Z"
+        },
+        "recorded_at": "2026-10-11T21:11:19Z",
+        "revision": 2
+      },
+      {
+        "digest": "81bcf6d8d9b98764343ebeec08435f4470c6b1505a922242698cf8d7169cdbbf",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:19Z",
+              "criteria": [
+                "criterion.d97158fcc157",
+                "criterion.deb875620160"
+              ],
+              "definition_hash": "2caf8de457b711bfe8297fb1c586d7b72feb57483dea13a4b399a4fb9e47d8a4",
+              "evidence": [
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "60ba8604ceecca20721d781ac9c7d3a76a5ccbf1c1031e570a8bccebb3a22087",
+                  "path": "README.md"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "2e4fcd21feacc46e30f7d00c6211637b75dc5bc6fb4587c7c0393c07383100ad",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Guía y README explican cinco dificultades, riesgo, criterios, revisiones y límites. El plan real conserva clientes/modelos externos pendientes sin revisiones inventadas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "60ba8604ceecca20721d781ac9c7d3a76a5ccbf1c1031e570a8bccebb3a22087",
+              "kind": "reference",
+              "path": "README.md",
+              "ref": "README.md"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: done. Difficulty: easy; risk: low; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:19Z"
+        },
+        "recorded_at": "2026-10-11T21:11:19Z",
+        "revision": 3
+      },
+      {
+        "digest": "f85fc237414125934632e0db3ae9f6dd38a3fb117993b0c3183a77b420c12cd6",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:19Z",
+              "criteria": [
+                "criterion.d97158fcc157",
+                "criterion.deb875620160"
+              ],
+              "definition_hash": "2caf8de457b711bfe8297fb1c586d7b72feb57483dea13a4b399a4fb9e47d8a4",
+              "evidence": [
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "60ba8604ceecca20721d781ac9c7d3a76a5ccbf1c1031e570a8bccebb3a22087",
+                  "path": "README.md"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "2e4fcd21feacc46e30f7d00c6211637b75dc5bc6fb4587c7c0393c07383100ad",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Guía y README explican cinco dificultades, riesgo, criterios, revisiones y límites. El plan real conserva clientes/modelos externos pendientes sin revisiones inventadas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "60ba8604ceecca20721d781ac9c7d3a76a5ccbf1c1031e570a8bccebb3a22087",
+              "kind": "reference",
+              "path": "README.md",
+              "ref": "README.md"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: verified. Difficulty: easy; risk: low; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:19Z"
+        },
+        "recorded_at": "2026-10-11T21:11:19Z",
+        "revision": 4
+      },
+      {
+        "digest": "3980cfeba8a222277f3e43024cb92ed48d1a69ec819af7f1ab64051794e70197",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:19Z",
+              "criteria": [
+                "criterion.d97158fcc157",
+                "criterion.deb875620160"
+              ],
+              "definition_hash": "2caf8de457b711bfe8297fb1c586d7b72feb57483dea13a4b399a4fb9e47d8a4",
+              "evidence": [
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "60ba8604ceecca20721d781ac9c7d3a76a5ccbf1c1031e570a8bccebb3a22087",
+                  "path": "README.md"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "2e4fcd21feacc46e30f7d00c6211637b75dc5bc6fb4587c7c0393c07383100ad",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Guía y README explican cinco dificultades, riesgo, criterios, revisiones y límites. El plan real conserva clientes/modelos externos pendientes sin revisiones inventadas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "60ba8604ceecca20721d781ac9c7d3a76a5ccbf1c1031e570a8bccebb3a22087",
+              "kind": "reference",
+              "path": "README.md",
+              "ref": "README.md"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-12T22:10:09Z",
+          "stale_reason": "evidence changed or disappeared: README.md",
+          "state": "stale",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: verified. Difficulty: easy; risk: low; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:10:09Z"
+        },
+        "recorded_at": "2026-10-12T22:10:09Z",
+        "revision": 5
+      },
+      {
+        "digest": "1c0ad0038c679e3560e5be785d33cf07ade07785cc343d084a94d696664a7b64",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:23Z",
+              "criteria": [
+                "criterion.d97158fcc157",
+                "criterion.deb875620160"
+              ],
+              "definition_hash": "2caf8de457b711bfe8297fb1c586d7b72feb57483dea13a4b399a4fb9e47d8a4",
+              "evidence": [
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "8ed6f865e3f5e1e9fec23927c69425d3afb9c0cb7c372248a6396fc5bf97ab65",
+                  "path": "README.md"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-docs",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "f068c828da3608590455175c4341603626987c14e8e2115b29da7ca57f0f40d3",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "8ed6f865e3f5e1e9fec23927c69425d3afb9c0cb7c372248a6396fc5bf97ab65",
+              "kind": "reference",
+              "path": "README.md",
+              "ref": "README.md"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: done. Difficulty: easy; risk: low; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:23Z"
+        },
+        "recorded_at": "2026-10-12T22:15:23Z",
+        "revision": 6
+      },
+      {
+        "digest": "fbcb29bf68da3bab32eca69b9a8e12dc68c7034c43872a096f9f6e57c2a5e0f8",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:23Z",
+              "criteria": [
+                "criterion.d97158fcc157",
+                "criterion.deb875620160"
+              ],
+              "definition_hash": "2caf8de457b711bfe8297fb1c586d7b72feb57483dea13a4b399a4fb9e47d8a4",
+              "evidence": [
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "8ed6f865e3f5e1e9fec23927c69425d3afb9c0cb7c372248a6396fc5bf97ab65",
+                  "path": "README.md"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-docs",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "f068c828da3608590455175c4341603626987c14e8e2115b29da7ca57f0f40d3",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "8ed6f865e3f5e1e9fec23927c69425d3afb9c0cb7c372248a6396fc5bf97ab65",
+              "kind": "reference",
+              "path": "README.md",
+              "ref": "README.md"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: verified. Difficulty: easy; risk: low; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:23Z"
+        },
+        "recorded_at": "2026-10-12T22:15:23Z",
+        "revision": 7
+      },
+      {
+        "digest": "45c4e7630abd1db509743aafa2cd588a4439d4d8de39ecd62b7999347fad3ae8",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:23Z",
+              "criteria": [
+                "criterion.d97158fcc157",
+                "criterion.deb875620160"
+              ],
+              "definition_hash": "2caf8de457b711bfe8297fb1c586d7b72feb57483dea13a4b399a4fb9e47d8a4",
+              "evidence": [
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "8ed6f865e3f5e1e9fec23927c69425d3afb9c0cb7c372248a6396fc5bf97ab65",
+                  "path": "README.md"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-docs",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "f068c828da3608590455175c4341603626987c14e8e2115b29da7ca57f0f40d3",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "8ed6f865e3f5e1e9fec23927c69425d3afb9c0cb7c372248a6396fc5bf97ab65",
+              "kind": "reference",
+              "path": "README.md",
+              "ref": "README.md"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-24T22:43:28Z",
+          "stale_reason": "README.md: changed",
+          "state": "stale",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: verified. Difficulty: easy; risk: low; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 8
+      },
+      {
+        "digest": "a2642c880ccdbd8e99f1c7df3cd57e931473bd7e5fc0702305b4a44b71033f51",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:06Z",
+              "criteria": [
+                "criterion.d97158fcc157",
+                "criterion.deb875620160"
+              ],
+              "definition_hash": "2caf8de457b711bfe8297fb1c586d7b72feb57483dea13a4b399a4fb9e47d8a4",
+              "evidence": [
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "7d8cc6b0a7719b3ada92ef9fd25260112c10defb1991eeb0931db082428f31ef",
+                  "path": "README.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-docs",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "b4a56a6c8d26d01dc06feae96b7986f106624b9de4ac8929c2ddd74e16444b2e",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "7d8cc6b0a7719b3ada92ef9fd25260112c10defb1991eeb0931db082428f31ef",
+              "kind": "reference",
+              "path": "README.md",
+              "ref": "README.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: done. Difficulty: easy; risk: low; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:06Z"
+        },
+        "recorded_at": "2026-10-24T22:49:06Z",
+        "revision": 9
+      },
+      {
+        "digest": "14648bbabd52f21518f431e9b359bbfe6d4f71c0ff3064fae0b1898f8c67d302",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:06Z",
+              "criteria": [
+                "criterion.d97158fcc157",
+                "criterion.deb875620160"
+              ],
+              "definition_hash": "2caf8de457b711bfe8297fb1c586d7b72feb57483dea13a4b399a4fb9e47d8a4",
+              "evidence": [
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "7d8cc6b0a7719b3ada92ef9fd25260112c10defb1991eeb0931db082428f31ef",
+                  "path": "README.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-docs",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "b4a56a6c8d26d01dc06feae96b7986f106624b9de4ac8929c2ddd74e16444b2e",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "7d8cc6b0a7719b3ada92ef9fd25260112c10defb1991eeb0931db082428f31ef",
+              "kind": "reference",
+              "path": "README.md",
+              "ref": "README.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: verified. Difficulty: easy; risk: low; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:07Z"
+        },
+        "recorded_at": "2026-10-24T22:49:07Z",
+        "revision": 10
+      },
+      {
+        "digest": "89d353642267ff9d3d646c4f46e5ae693a53e34d250931981028c8075fa431e7",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:07Z",
+              "criteria": [
+                "criterion.d97158fcc157",
+                "criterion.deb875620160"
+              ],
+              "definition_hash": "2caf8de457b711bfe8297fb1c586d7b72feb57483dea13a4b399a4fb9e47d8a4",
+              "evidence": [
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "db0016989c628f1b48c260488e799026e71584acb512c3e3b66342835985e429",
+                  "path": "README.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-05-docs",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "eeaad340354d0649e96abc265cf45cbe2db5d84e1f8c101922875f69e0e3f0bb",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 4,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "db0016989c628f1b48c260488e799026e71584acb512c3e3b66342835985e429",
+              "kind": "reference",
+              "path": "README.md",
+              "ref": "README.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: done. Difficulty: easy; risk: low; recorded reviews: 4. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:07Z"
+        },
+        "recorded_at": "2026-10-24T23:07:07Z",
+        "revision": 11
+      },
+      {
+        "digest": "f606e09d0782f2f13c77758445b416b9481e124f2f90202dc4697dce9ee3bd67",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:07Z",
+              "criteria": [
+                "criterion.d97158fcc157",
+                "criterion.deb875620160"
+              ],
+              "definition_hash": "2caf8de457b711bfe8297fb1c586d7b72feb57483dea13a4b399a4fb9e47d8a4",
+              "evidence": [
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "db0016989c628f1b48c260488e799026e71584acb512c3e3b66342835985e429",
+                  "path": "README.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-05-docs",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "eeaad340354d0649e96abc265cf45cbe2db5d84e1f8c101922875f69e0e3f0bb",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 4,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "db0016989c628f1b48c260488e799026e71584acb512c3e3b66342835985e429",
+              "kind": "reference",
+              "path": "README.md",
+              "ref": "README.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: verified. Difficulty: easy; risk: low; recorded reviews: 4. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:08Z"
+        },
+        "recorded_at": "2026-10-24T23:07:08Z",
+        "revision": 12
+      },
+      {
+        "digest": "bb0d1c05023ec3234f8f527aeb02aaa4ddbfa260d18d9cf603cdf912d5dc5609",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d97158fcc157",
+                "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+              },
+              {
+                "id": "criterion.deb875620160",
+                "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "easy",
+            "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:07Z",
+              "criteria": [
+                "criterion.d97158fcc157",
+                "criterion.deb875620160"
+              ],
+              "definition_hash": "2caf8de457b711bfe8297fb1c586d7b72feb57483dea13a4b399a4fb9e47d8a4",
+              "evidence": [
+                {
+                  "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+                  "path": "docs/CHECKLISTS_0.5.md"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "db0016989c628f1b48c260488e799026e71584acb512c3e3b66342835985e429",
+                  "path": "README.md"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-05-docs",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "eeaad340354d0649e96abc265cf45cbe2db5d84e1f8c101922875f69e0e3f0bb",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 4,
+            "risk": "low",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Guía, límites y plan real para la siguiente IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+              "kind": "reference",
+              "path": "docs/CHECKLISTS_0.5.md",
+              "ref": "docs/CHECKLISTS_0.5.md"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "db0016989c628f1b48c260488e799026e71584acb512c3e3b66342835985e429",
+              "kind": "reference",
+              "path": "README.md",
+              "ref": "README.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-05-docs",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-11-17T06:58:06Z",
+          "stale_reason": "README.md: changed",
+          "state": "stale",
+          "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: verified. Difficulty: easy; risk: low; recorded reviews: 4. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-11-17T06:58:06Z"
+        },
+        "recorded_at": "2026-11-17T06:58:06Z",
+        "revision": 13
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.d97158fcc157",
+        "text": "Guía explica dificultad, riesgo, hecho/verificado, revisiones y presupuestos"
+      },
+      {
+        "id": "criterion.deb875620160",
+        "text": "El plan real distingue comprobaciones locales y traspasos externos pendientes"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "easy",
+    "difficulty_reason": "Documenta APIs y estados comprobados; conserva pendientes externos sin inventar revisiones.",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T23:07:07Z",
+      "criteria": [
+        "criterion.d97158fcc157",
+        "criterion.deb875620160"
+      ],
+      "definition_hash": "2caf8de457b711bfe8297fb1c586d7b72feb57483dea13a4b399a4fb9e47d8a4",
+      "evidence": [
+        {
+          "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+          "path": "docs/CHECKLISTS_0.5.md"
+        },
+        {
+          "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+          "path": "docs/USO_0.7.md"
+        },
+        {
+          "content_hash": "db0016989c628f1b48c260488e799026e71584acb512c3e3b66342835985e429",
+          "path": "README.md"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        },
+        {
+          "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+          "path": "validation/release-0.7.1.json"
+        },
+        {
+          "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+          "path": "docs/USO_0.7.1.md"
+        }
+      ],
+      "id": "pctx071-plan.pctx-05-docs",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "eeaad340354d0649e96abc265cf45cbe2db5d84e1f8c101922875f69e0e3f0bb",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+    },
+    "owner": "",
+    "parent": "plan.pctx-05-checklists",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 4,
+    "risk": "low",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Guía, límites y plan real para la siguiente IA",
+    "work_generation": 0
+  },
+  "created_at": "2026-10-11T21:03:24Z",
+  "evidence": [
+    {
+      "content_hash": "c752e36f277c7ff6d44f10f62f257fd9a1a91e9684d3b0edc8174b3e404dc2e0",
+      "kind": "reference",
+      "path": "docs/CHECKLISTS_0.5.md",
+      "ref": "docs/CHECKLISTS_0.5.md"
+    },
+    {
+      "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+      "kind": "reference",
+      "path": "docs/USO_0.7.md",
+      "ref": "docs/USO_0.7.md"
+    },
+    {
+      "content_hash": "db0016989c628f1b48c260488e799026e71584acb512c3e3b66342835985e429",
+      "kind": "reference",
+      "path": "README.md",
+      "ref": "README.md"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    },
+    {
+      "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+      "kind": "reference",
+      "path": "validation/release-0.7.1.json",
+      "ref": "validation/release-0.7.1.json"
+    },
+    {
+      "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+      "kind": "reference",
+      "path": "docs/USO_0.7.1.md",
+      "ref": "docs/USO_0.7.1.md"
+    }
+  ],
+  "id": "plan.pctx-05-docs",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-05-checklists"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "stale_at": "2026-11-17T06:58:06Z",
+  "stale_reason": "README.md: changed",
+  "state": "stale",
+  "statement": "Checklist task: Guía, límites y plan real para la siguiente IA. Declared status: verified. Difficulty: easy; risk: low; recorded reviews: 4. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-11-17T06:58:06Z"
+}

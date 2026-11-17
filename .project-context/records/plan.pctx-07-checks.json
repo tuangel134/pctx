@@ -1,0 +1,546 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "6d78765d945768e40dd974c3bf4065bbd91b2e8237a73421d7b452a29448f093",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.99beaff56acf",
+                "text": "Comandos solo se ejecutan explícitamente y registran resultados observados"
+              },
+              {
+                "id": "criterion.2ffec98b7610",
+                "text": "Rama@commit y revisión de checklist se invalidan al avanzar la referencia"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Comprobaciones ejecutadas y evidencia Git",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-24T22:05:03Z",
+          "evidence": [],
+          "id": "plan.pctx-07-checks",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Comprobaciones ejecutadas y evidencia Git. Declared status: pending. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:03Z"
+        },
+        "recorded_at": "2026-10-24T22:05:03Z",
+        "revision": 1
+      },
+      {
+        "digest": "8b750c9d77070abd0654736d087aaede2d60b9e64d10f0e08d7c3ef84bee7d21",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.99beaff56acf",
+                "text": "Comandos solo se ejecutan explícitamente y registran resultados observados"
+              },
+              {
+                "id": "criterion.2ffec98b7610",
+                "text": "Rama@commit y revisión de checklist se invalidan al avanzar la referencia"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "Comprobaciones ejecutadas y evidencia Git",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:03Z",
+          "evidence": [],
+          "id": "plan.pctx-07-checks",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Comprobaciones ejecutadas y evidencia Git. Declared status: in_progress. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:04Z"
+        },
+        "recorded_at": "2026-10-24T22:05:04Z",
+        "revision": 2
+      },
+      {
+        "digest": "1314049185a3e98412cac566fe531879064f35c1df1874cac840826eaab36387",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.99beaff56acf",
+                "text": "Comandos solo se ejecutan explícitamente y registran resultados observados"
+              },
+              {
+                "id": "criterion.2ffec98b7610",
+                "text": "Rama@commit y revisión de checklist se invalidan al avanzar la referencia"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Comprobaciones ejecutadas y evidencia Git",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:03Z",
+          "evidence": [],
+          "id": "plan.pctx-07-checks",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Comprobaciones ejecutadas y evidencia Git. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:48:59Z"
+        },
+        "recorded_at": "2026-10-24T22:48:59Z",
+        "revision": 3
+      },
+      {
+        "digest": "78d80f6c726e969cba6bc791ee3fa31da2877f553b2bf36c97ed4bc6f620f590",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.99beaff56acf",
+                "text": "Comandos solo se ejecutan explícitamente y registran resultados observados"
+              },
+              {
+                "id": "criterion.2ffec98b7610",
+                "text": "Rama@commit y revisión de checklist se invalidan al avanzar la referencia"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:48:59Z",
+              "criteria": [
+                "criterion.99beaff56acf",
+                "criterion.2ffec98b7610"
+              ],
+              "definition_hash": "69d6206be75c5bcbd9524ebcfbb395d680e21774d5f5b183a30021ed5bd89e4f",
+              "evidence": [
+                {
+                  "content_hash": "ba40d1ff29e6f6b5c68ee345f5726cc6245060eb3bfaf3e6e1f8a3158d0ca38d",
+                  "path": "pctx/verification.py"
+                },
+                {
+                  "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "dd3baf47c3792bcad1bcb951f5618655062f7cf22ff20c6c5ed46f527fc9fe9d",
+                  "path": "validation/pctx-verify-0.7.json"
+                },
+                {
+                  "content_hash": "700796026c9b06c1b1117c79fe13cc9c701a5b0d079eb646a9ff1d0400763550",
+                  "path": "validation/stale-after-change-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-checks",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "61b58b3055007638c34a3563cd5581504cbd07bd133158a1bc0d8c9376e49aeb",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Comprobaciones ejecutadas y evidencia Git",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:03Z",
+          "evidence": [
+            {
+              "content_hash": "ba40d1ff29e6f6b5c68ee345f5726cc6245060eb3bfaf3e6e1f8a3158d0ca38d",
+              "kind": "reference",
+              "path": "pctx/verification.py",
+              "ref": "pctx/verification.py"
+            },
+            {
+              "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "dd3baf47c3792bcad1bcb951f5618655062f7cf22ff20c6c5ed46f527fc9fe9d",
+              "kind": "reference",
+              "path": "validation/pctx-verify-0.7.json",
+              "ref": "validation/pctx-verify-0.7.json"
+            },
+            {
+              "content_hash": "700796026c9b06c1b1117c79fe13cc9c701a5b0d079eb646a9ff1d0400763550",
+              "kind": "reference",
+              "path": "validation/stale-after-change-0.7.json",
+              "ref": "validation/stale-after-change-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-checks",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Comprobaciones ejecutadas y evidencia Git. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:48:59Z"
+        },
+        "recorded_at": "2026-10-24T22:48:59Z",
+        "revision": 4
+      },
+      {
+        "digest": "d4de725711888591ad0f9e75a49f0424558ded8db4e540dfdf6b78b132c27181",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.99beaff56acf",
+                "text": "Comandos solo se ejecutan explícitamente y registran resultados observados"
+              },
+              {
+                "id": "criterion.2ffec98b7610",
+                "text": "Rama@commit y revisión de checklist se invalidan al avanzar la referencia"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:48:59Z",
+              "criteria": [
+                "criterion.99beaff56acf",
+                "criterion.2ffec98b7610"
+              ],
+              "definition_hash": "69d6206be75c5bcbd9524ebcfbb395d680e21774d5f5b183a30021ed5bd89e4f",
+              "evidence": [
+                {
+                  "content_hash": "ba40d1ff29e6f6b5c68ee345f5726cc6245060eb3bfaf3e6e1f8a3158d0ca38d",
+                  "path": "pctx/verification.py"
+                },
+                {
+                  "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "dd3baf47c3792bcad1bcb951f5618655062f7cf22ff20c6c5ed46f527fc9fe9d",
+                  "path": "validation/pctx-verify-0.7.json"
+                },
+                {
+                  "content_hash": "700796026c9b06c1b1117c79fe13cc9c701a5b0d079eb646a9ff1d0400763550",
+                  "path": "validation/stale-after-change-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-checks",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "61b58b3055007638c34a3563cd5581504cbd07bd133158a1bc0d8c9376e49aeb",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Comprobaciones ejecutadas y evidencia Git",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:03Z",
+          "evidence": [
+            {
+              "content_hash": "ba40d1ff29e6f6b5c68ee345f5726cc6245060eb3bfaf3e6e1f8a3158d0ca38d",
+              "kind": "reference",
+              "path": "pctx/verification.py",
+              "ref": "pctx/verification.py"
+            },
+            {
+              "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "dd3baf47c3792bcad1bcb951f5618655062f7cf22ff20c6c5ed46f527fc9fe9d",
+              "kind": "reference",
+              "path": "validation/pctx-verify-0.7.json",
+              "ref": "validation/pctx-verify-0.7.json"
+            },
+            {
+              "content_hash": "700796026c9b06c1b1117c79fe13cc9c701a5b0d079eb646a9ff1d0400763550",
+              "kind": "reference",
+              "path": "validation/stale-after-change-0.7.json",
+              "ref": "validation/stale-after-change-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-checks",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Comprobaciones ejecutadas y evidencia Git. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:00Z"
+        },
+        "recorded_at": "2026-10-24T22:49:00Z",
+        "revision": 5
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.99beaff56acf",
+        "text": "Comandos solo se ejecutan explícitamente y registran resultados observados"
+      },
+      {
+        "id": "criterion.2ffec98b7610",
+        "text": "Rama@commit y revisión de checklist se invalidan al avanzar la referencia"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "hard",
+    "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T22:48:59Z",
+      "criteria": [
+        "criterion.99beaff56acf",
+        "criterion.2ffec98b7610"
+      ],
+      "definition_hash": "69d6206be75c5bcbd9524ebcfbb395d680e21774d5f5b183a30021ed5bd89e4f",
+      "evidence": [
+        {
+          "content_hash": "ba40d1ff29e6f6b5c68ee345f5726cc6245060eb3bfaf3e6e1f8a3158d0ca38d",
+          "path": "pctx/verification.py"
+        },
+        {
+          "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+          "path": "pctx/planning.py"
+        },
+        {
+          "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+          "path": "tests/test_freshness_workers.py"
+        },
+        {
+          "content_hash": "dd3baf47c3792bcad1bcb951f5618655062f7cf22ff20c6c5ed46f527fc9fe9d",
+          "path": "validation/pctx-verify-0.7.json"
+        },
+        {
+          "content_hash": "700796026c9b06c1b1117c79fe13cc9c701a5b0d079eb646a9ff1d0400763550",
+          "path": "validation/stale-after-change-0.7.json"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        }
+      ],
+      "id": "pctx07-plan.pctx-07-checks",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "61b58b3055007638c34a3563cd5581504cbd07bd133158a1bc0d8c9376e49aeb",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+    },
+    "owner": "",
+    "parent": "plan.pctx-07-workers",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 1,
+    "risk": "high",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Comprobaciones ejecutadas y evidencia Git",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-24T22:05:03Z",
+  "evidence": [
+    {
+      "content_hash": "ba40d1ff29e6f6b5c68ee345f5726cc6245060eb3bfaf3e6e1f8a3158d0ca38d",
+      "kind": "reference",
+      "path": "pctx/verification.py",
+      "ref": "pctx/verification.py"
+    },
+    {
+      "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+      "kind": "reference",
+      "path": "pctx/planning.py",
+      "ref": "pctx/planning.py"
+    },
+    {
+      "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+      "kind": "reference",
+      "path": "tests/test_freshness_workers.py",
+      "ref": "tests/test_freshness_workers.py"
+    },
+    {
+      "content_hash": "dd3baf47c3792bcad1bcb951f5618655062f7cf22ff20c6c5ed46f527fc9fe9d",
+      "kind": "reference",
+      "path": "validation/pctx-verify-0.7.json",
+      "ref": "validation/pctx-verify-0.7.json"
+    },
+    {
+      "content_hash": "700796026c9b06c1b1117c79fe13cc9c701a5b0d079eb646a9ff1d0400763550",
+      "kind": "reference",
+      "path": "validation/stale-after-change-0.7.json",
+      "ref": "validation/stale-after-change-0.7.json"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    }
+  ],
+  "id": "plan.pctx-07-checks",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-07-workers"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Comprobaciones ejecutadas y evidencia Git. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T22:49:00Z"
+}

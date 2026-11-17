@@ -1,0 +1,1054 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "3cf4c2ad0a9dec9af4f04341511e3cb0525e6edae3b0e786c5f2d8c9a11703de",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.cb6ee213b79a",
+                "text": "Cinco dificultades y sin clasificar; motivo obligatorio al clasificar"
+              },
+              {
+                "id": "criterion.ef06870a6f3a",
+                "text": "Riesgo separado y filtro listo excluye responsables, padres y trabajo en curso"
+              },
+              {
+                "id": "criterion.93c1505d1eab",
+                "text": "No selecciona modelos, proveedores ni realiza gastos automáticamente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasifica cinco niveles y disponibilidad sin confundir dificultad con seguridad o capacidad garantizada.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Dificultad, riesgo y trabajo disponible para otra IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-05-routing",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Dificultad, riesgo y trabajo disponible para otra IA. Declared status: pending. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:03:24Z"
+        },
+        "recorded_at": "2026-10-11T21:03:24Z",
+        "revision": 1
+      },
+      {
+        "digest": "326690b935eeee9bb6496955710e2be05c2d1492a9b809bf4618838aaba2de6a",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.cb6ee213b79a",
+                "text": "Cinco dificultades y sin clasificar; motivo obligatorio al clasificar"
+              },
+              {
+                "id": "criterion.ef06870a6f3a",
+                "text": "Riesgo separado y filtro listo excluye responsables, padres y trabajo en curso"
+              },
+              {
+                "id": "criterion.93c1505d1eab",
+                "text": "No selecciona modelos, proveedores ni realiza gastos automáticamente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasifica cinco niveles y disponibilidad sin confundir dificultad con seguridad o capacidad garantizada.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Dificultad, riesgo y trabajo disponible para otra IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [],
+          "id": "plan.pctx-05-routing",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Dificultad, riesgo y trabajo disponible para otra IA. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:18Z"
+        },
+        "recorded_at": "2026-10-11T21:11:18Z",
+        "revision": 2
+      },
+      {
+        "digest": "dd2d030321706a4cb1b7be1161ed6e03440dadc7ff8d22d4fc7e377b5cb00078",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.cb6ee213b79a",
+                "text": "Cinco dificultades y sin clasificar; motivo obligatorio al clasificar"
+              },
+              {
+                "id": "criterion.ef06870a6f3a",
+                "text": "Riesgo separado y filtro listo excluye responsables, padres y trabajo en curso"
+              },
+              {
+                "id": "criterion.93c1505d1eab",
+                "text": "No selecciona modelos, proveedores ni realiza gastos automáticamente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasifica cinco niveles y disponibilidad sin confundir dificultad con seguridad o capacidad garantizada.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:18Z",
+              "criteria": [
+                "criterion.cb6ee213b79a",
+                "criterion.ef06870a6f3a",
+                "criterion.93c1505d1eab"
+              ],
+              "definition_hash": "7849efe786c83beea3d577e5bb7c312558a25acfff5e331501a204343cd24880",
+              "evidence": [
+                {
+                  "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "ef188144296df158ed302f74182790211d4d909005484adacc5c85e6ddc10448",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Comprobados los cinco niveles, motivo requerido, riesgo alto independiente y exclusión de padres/responsables/en curso del filtro listo. No hay ejecución de proveedores."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Dificultad, riesgo y trabajo disponible para otra IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-routing",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Dificultad, riesgo y trabajo disponible para otra IA. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:18Z"
+        },
+        "recorded_at": "2026-10-11T21:11:18Z",
+        "revision": 3
+      },
+      {
+        "digest": "88b49b8a235c5d3fd7f020d1cd5b05fb2fccbd5d6f10a8d3effa85cc8c0d78cd",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.cb6ee213b79a",
+                "text": "Cinco dificultades y sin clasificar; motivo obligatorio al clasificar"
+              },
+              {
+                "id": "criterion.ef06870a6f3a",
+                "text": "Riesgo separado y filtro listo excluye responsables, padres y trabajo en curso"
+              },
+              {
+                "id": "criterion.93c1505d1eab",
+                "text": "No selecciona modelos, proveedores ni realiza gastos automáticamente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasifica cinco niveles y disponibilidad sin confundir dificultad con seguridad o capacidad garantizada.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:18Z",
+              "criteria": [
+                "criterion.cb6ee213b79a",
+                "criterion.ef06870a6f3a",
+                "criterion.93c1505d1eab"
+              ],
+              "definition_hash": "7849efe786c83beea3d577e5bb7c312558a25acfff5e331501a204343cd24880",
+              "evidence": [
+                {
+                  "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "ef188144296df158ed302f74182790211d4d909005484adacc5c85e6ddc10448",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Comprobados los cinco niveles, motivo requerido, riesgo alto independiente y exclusión de padres/responsables/en curso del filtro listo. No hay ejecución de proveedores."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Dificultad, riesgo y trabajo disponible para otra IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-routing",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Dificultad, riesgo y trabajo disponible para otra IA. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:18Z"
+        },
+        "recorded_at": "2026-10-11T21:11:18Z",
+        "revision": 4
+      },
+      {
+        "digest": "02018b14b33697d09ac2124f894a39767ae6a7856c406cba16da276a5c769573",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.cb6ee213b79a",
+                "text": "Cinco dificultades y sin clasificar; motivo obligatorio al clasificar"
+              },
+              {
+                "id": "criterion.ef06870a6f3a",
+                "text": "Riesgo separado y filtro listo excluye responsables, padres y trabajo en curso"
+              },
+              {
+                "id": "criterion.93c1505d1eab",
+                "text": "No selecciona modelos, proveedores ni realiza gastos automáticamente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasifica cinco niveles y disponibilidad sin confundir dificultad con seguridad o capacidad garantizada.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:18Z",
+              "criteria": [
+                "criterion.cb6ee213b79a",
+                "criterion.ef06870a6f3a",
+                "criterion.93c1505d1eab"
+              ],
+              "definition_hash": "7849efe786c83beea3d577e5bb7c312558a25acfff5e331501a204343cd24880",
+              "evidence": [
+                {
+                  "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "ef188144296df158ed302f74182790211d4d909005484adacc5c85e6ddc10448",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Comprobados los cinco niveles, motivo requerido, riesgo alto independiente y exclusión de padres/responsables/en curso del filtro listo. No hay ejecución de proveedores."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Dificultad, riesgo y trabajo disponible para otra IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "8f6bf169c7268b63d58992a0e392ca2561e701aa8f52ed8737be6ed8b1236909",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "8c4cce452a732531d4f319f6767baab932adeb8c3a9dc6d76937496f218796ea",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-05-routing",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-12T22:10:09Z",
+          "stale_reason": "evidence changed or disappeared: pctx/planning.py",
+          "state": "stale",
+          "statement": "Checklist task: Dificultad, riesgo y trabajo disponible para otra IA. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:10:09Z"
+        },
+        "recorded_at": "2026-10-12T22:10:09Z",
+        "revision": 5
+      },
+      {
+        "digest": "4a7785863a7504d38e072a123860520cd444fa51e2d93c4966ea021bcf2ded67",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.cb6ee213b79a",
+                "text": "Cinco dificultades y sin clasificar; motivo obligatorio al clasificar"
+              },
+              {
+                "id": "criterion.ef06870a6f3a",
+                "text": "Riesgo separado y filtro listo excluye responsables, padres y trabajo en curso"
+              },
+              {
+                "id": "criterion.93c1505d1eab",
+                "text": "No selecciona modelos, proveedores ni realiza gastos automáticamente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasifica cinco niveles y disponibilidad sin confundir dificultad con seguridad o capacidad garantizada.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:24Z",
+              "criteria": [
+                "criterion.cb6ee213b79a",
+                "criterion.ef06870a6f3a",
+                "criterion.93c1505d1eab"
+              ],
+              "definition_hash": "7849efe786c83beea3d577e5bb7c312558a25acfff5e331501a204343cd24880",
+              "evidence": [
+                {
+                  "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-routing",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "3c697500ef978ebd883640522a69b9a9f001bace13313fd14921df636e254522",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Dificultad, riesgo y trabajo disponible para otra IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-routing",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Dificultad, riesgo y trabajo disponible para otra IA. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:24Z"
+        },
+        "recorded_at": "2026-10-12T22:15:24Z",
+        "revision": 6
+      },
+      {
+        "digest": "da5078cceaac134569a2c5237a9540d290c6710462c9f3b508170e859fef25b8",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.cb6ee213b79a",
+                "text": "Cinco dificultades y sin clasificar; motivo obligatorio al clasificar"
+              },
+              {
+                "id": "criterion.ef06870a6f3a",
+                "text": "Riesgo separado y filtro listo excluye responsables, padres y trabajo en curso"
+              },
+              {
+                "id": "criterion.93c1505d1eab",
+                "text": "No selecciona modelos, proveedores ni realiza gastos automáticamente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasifica cinco niveles y disponibilidad sin confundir dificultad con seguridad o capacidad garantizada.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:24Z",
+              "criteria": [
+                "criterion.cb6ee213b79a",
+                "criterion.ef06870a6f3a",
+                "criterion.93c1505d1eab"
+              ],
+              "definition_hash": "7849efe786c83beea3d577e5bb7c312558a25acfff5e331501a204343cd24880",
+              "evidence": [
+                {
+                  "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-routing",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "3c697500ef978ebd883640522a69b9a9f001bace13313fd14921df636e254522",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Dificultad, riesgo y trabajo disponible para otra IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-routing",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Dificultad, riesgo y trabajo disponible para otra IA. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:25Z"
+        },
+        "recorded_at": "2026-10-12T22:15:25Z",
+        "revision": 7
+      },
+      {
+        "digest": "fdaf7c4ee3189190a1a3716aa8b118d3fb207814e40120c2e572ebe62107e76a",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.cb6ee213b79a",
+                "text": "Cinco dificultades y sin clasificar; motivo obligatorio al clasificar"
+              },
+              {
+                "id": "criterion.ef06870a6f3a",
+                "text": "Riesgo separado y filtro listo excluye responsables, padres y trabajo en curso"
+              },
+              {
+                "id": "criterion.93c1505d1eab",
+                "text": "No selecciona modelos, proveedores ni realiza gastos automáticamente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasifica cinco niveles y disponibilidad sin confundir dificultad con seguridad o capacidad garantizada.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:24Z",
+              "criteria": [
+                "criterion.cb6ee213b79a",
+                "criterion.ef06870a6f3a",
+                "criterion.93c1505d1eab"
+              ],
+              "definition_hash": "7849efe786c83beea3d577e5bb7c312558a25acfff5e331501a204343cd24880",
+              "evidence": [
+                {
+                  "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-05-routing",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "3c697500ef978ebd883640522a69b9a9f001bace13313fd14921df636e254522",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión del contrato de checklist 0.5 comprobada en 0.6: suite y panel pasan; nueva revisión explícita tras cambios de fuente, sin afirmar auditoría externa."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Dificultad, riesgo y trabajo disponible para otra IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "8bce1a8ee17a659284223d3cee21cdce1a8ab5e619e68824ec33a226aa43e3d3",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-05-routing",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-24T22:43:28Z",
+          "stale_reason": "pctx/planning.py: changed",
+          "state": "stale",
+          "statement": "Checklist task: Dificultad, riesgo y trabajo disponible para otra IA. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 8
+      },
+      {
+        "digest": "642dd5e7e59a1c3e3047dbc68f0458041839b63b5282bc9ed95f1ff40432d99a",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.cb6ee213b79a",
+                "text": "Cinco dificultades y sin clasificar; motivo obligatorio al clasificar"
+              },
+              {
+                "id": "criterion.ef06870a6f3a",
+                "text": "Riesgo separado y filtro listo excluye responsables, padres y trabajo en curso"
+              },
+              {
+                "id": "criterion.93c1505d1eab",
+                "text": "No selecciona modelos, proveedores ni realiza gastos automáticamente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasifica cinco niveles y disponibilidad sin confundir dificultad con seguridad o capacidad garantizada.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:10Z",
+              "criteria": [
+                "criterion.cb6ee213b79a",
+                "criterion.ef06870a6f3a",
+                "criterion.93c1505d1eab"
+              ],
+              "definition_hash": "7849efe786c83beea3d577e5bb7c312558a25acfff5e331501a204343cd24880",
+              "evidence": [
+                {
+                  "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-routing",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "16be292c99cba7387b1f02b0daf25fb3d6d27d43ed9810f3f094d50b7fdff85a",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Dificultad, riesgo y trabajo disponible para otra IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-routing",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Dificultad, riesgo y trabajo disponible para otra IA. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:10Z"
+        },
+        "recorded_at": "2026-10-24T22:49:10Z",
+        "revision": 9
+      },
+      {
+        "digest": "8a9ab8007affd1acfd1de41992348dbcefc0ee6a2e8a5b2d34109e8a1a52bd30",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.cb6ee213b79a",
+                "text": "Cinco dificultades y sin clasificar; motivo obligatorio al clasificar"
+              },
+              {
+                "id": "criterion.ef06870a6f3a",
+                "text": "Riesgo separado y filtro listo excluye responsables, padres y trabajo en curso"
+              },
+              {
+                "id": "criterion.93c1505d1eab",
+                "text": "No selecciona modelos, proveedores ni realiza gastos automáticamente"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasifica cinco niveles y disponibilidad sin confundir dificultad con seguridad o capacidad garantizada.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:10Z",
+              "criteria": [
+                "criterion.cb6ee213b79a",
+                "criterion.ef06870a6f3a",
+                "criterion.93c1505d1eab"
+              ],
+              "definition_hash": "7849efe786c83beea3d577e5bb7c312558a25acfff5e331501a204343cd24880",
+              "evidence": [
+                {
+                  "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+                  "path": "pctx/planning.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+                  "path": "tests/test_planning.py"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-05-routing",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "16be292c99cba7387b1f02b0daf25fb3d6d27d43ed9810f3f094d50b7fdff85a",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+            },
+            "owner": "",
+            "parent": "plan.pctx-05-checklists",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 3,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Dificultad, riesgo y trabajo disponible para otra IA",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:24Z",
+          "evidence": [
+            {
+              "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+              "kind": "reference",
+              "path": "pctx/planning.py",
+              "ref": "pctx/planning.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+              "kind": "reference",
+              "path": "tests/test_planning.py",
+              "ref": "tests/test_planning.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-05-routing",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-05-checklists"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Dificultad, riesgo y trabajo disponible para otra IA. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:11Z"
+        },
+        "recorded_at": "2026-10-24T22:49:11Z",
+        "revision": 10
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.cb6ee213b79a",
+        "text": "Cinco dificultades y sin clasificar; motivo obligatorio al clasificar"
+      },
+      {
+        "id": "criterion.ef06870a6f3a",
+        "text": "Riesgo separado y filtro listo excluye responsables, padres y trabajo en curso"
+      },
+      {
+        "id": "criterion.93c1505d1eab",
+        "text": "No selecciona modelos, proveedores ni realiza gastos automáticamente"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "intermediate",
+    "difficulty_reason": "Clasifica cinco niveles y disponibilidad sin confundir dificultad con seguridad o capacidad garantizada.",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T22:49:10Z",
+      "criteria": [
+        "criterion.cb6ee213b79a",
+        "criterion.ef06870a6f3a",
+        "criterion.93c1505d1eab"
+      ],
+      "definition_hash": "7849efe786c83beea3d577e5bb7c312558a25acfff5e331501a204343cd24880",
+      "evidence": [
+        {
+          "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+          "path": "pctx/planning.py"
+        },
+        {
+          "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+          "path": "pctx/web/app.js"
+        },
+        {
+          "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+          "path": "tests/test_planning.py"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        }
+      ],
+      "id": "pctx07-plan.pctx-05-routing",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "16be292c99cba7387b1f02b0daf25fb3d6d27d43ed9810f3f094d50b7fdff85a",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita tras cambios de fuente en 0.7: contratos previos conservados y comprobados en suite completa y panel. Evidencia antigua se preserva en historial; el contador refleja esta revisión local."
+    },
+    "owner": "",
+    "parent": "plan.pctx-05-checklists",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 3,
+    "risk": "medium",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Dificultad, riesgo y trabajo disponible para otra IA",
+    "work_generation": 0
+  },
+  "created_at": "2026-10-11T21:03:24Z",
+  "evidence": [
+    {
+      "content_hash": "527c455ed5b40709846b7f38429bd75e9ee46e19b578baf0f5da2bc75a15c73c",
+      "kind": "reference",
+      "path": "pctx/planning.py",
+      "ref": "pctx/planning.py"
+    },
+    {
+      "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+      "kind": "reference",
+      "path": "pctx/web/app.js",
+      "ref": "pctx/web/app.js"
+    },
+    {
+      "content_hash": "92a87d06818aa9764343d6dcf2e71916d5fce14a0b2eb1f2a483277436f747a8",
+      "kind": "reference",
+      "path": "tests/test_planning.py",
+      "ref": "tests/test_planning.py"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    }
+  ],
+  "id": "plan.pctx-05-routing",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-05-checklists"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Dificultad, riesgo y trabajo disponible para otra IA. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 3. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T22:49:11Z"
+}

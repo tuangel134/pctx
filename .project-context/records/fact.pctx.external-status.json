@@ -1,0 +1,271 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "5d315569c472fd7203d62e715e0fe3bc61ebff5fab9da6d98e72bfc42eecb704",
+        "record": {
+          "created_at": "2026-10-09T19:11:30Z",
+          "evidence": [
+            {
+              "content_hash": "d7cf43f31697ea658a796a52225b5a82ed27e2fcaf2299124c58f920e045d112",
+              "kind": "file",
+              "path": "docs/INTEGRACIONES.md",
+              "ref": "docs/INTEGRACIONES.md"
+            },
+            {
+              "content_hash": "56ac77dfa14d220af93d4f830ded32c9bdcb6382b0e62260a1389edd388212da",
+              "kind": "file",
+              "path": "validation/diagnose-local-0.3.json",
+              "ref": "validation/diagnose-local-0.3.json"
+            }
+          ],
+          "id": "fact.pctx.external-status",
+          "origin": "cli",
+          "scope": "pctx",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "La validación 0.3 comprueba PCTX local y su proceso MCP. Las sesiones reales en IDEs, ChatGPT web y Windows/macOS permanecen sin probar; la prueba histórica del gateway 0.2 no verifica la integración automática actual. No se modificaron otros proyectos.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T19:11:30Z"
+        },
+        "recorded_at": "2026-10-09T19:11:30Z",
+        "revision": 1
+      },
+      {
+        "digest": "988445b0021dc214a48ef81203cbe3d7f235055cf5096f23ef62ab1c65075dca",
+        "record": {
+          "created_at": "2026-10-09T19:11:30Z",
+          "evidence": [
+            {
+              "content_hash": "d7cf43f31697ea658a796a52225b5a82ed27e2fcaf2299124c58f920e045d112",
+              "kind": "file",
+              "path": "docs/INTEGRACIONES.md",
+              "ref": "docs/INTEGRACIONES.md"
+            },
+            {
+              "content_hash": "56ac77dfa14d220af93d4f830ded32c9bdcb6382b0e62260a1389edd388212da",
+              "kind": "file",
+              "path": "validation/diagnose-local-0.3.json",
+              "ref": "validation/diagnose-local-0.3.json"
+            }
+          ],
+          "id": "fact.pctx.external-status",
+          "origin": "cli",
+          "scope": "pctx",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-09T20:54:14Z",
+          "stale_reason": "evidence changed or disappeared: docs/INTEGRACIONES.md",
+          "state": "stale",
+          "statement": "La validación 0.3 comprueba PCTX local y su proceso MCP. Las sesiones reales en IDEs, ChatGPT web y Windows/macOS permanecen sin probar; la prueba histórica del gateway 0.2 no verifica la integración automática actual. No se modificaron otros proyectos.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T20:54:14Z"
+        },
+        "recorded_at": "2026-10-09T20:54:14Z",
+        "revision": 2
+      },
+      {
+        "digest": "8db701e943b81a69f34501f9fb1eaf5779e487e6c32ece0e27787f9ecaa9db7f",
+        "record": {
+          "created_at": "2026-10-09T19:11:30Z",
+          "evidence": [
+            {
+              "content_hash": "cefe20f674e0c16a43c5e6cea4a37b93f85a93d0aed66a442cdee1cd0f05a287",
+              "kind": "file",
+              "path": "docs/INTEGRACIONES.md",
+              "ref": "docs/INTEGRACIONES.md"
+            },
+            {
+              "content_hash": "9e9799b6c699fdd82337364a15ff713d5ed1117b8355c691ff05a5c5002e93ec",
+              "kind": "file",
+              "path": "validation/diagnose-local-0.4.json",
+              "ref": "validation/diagnose-local-0.4.json"
+            },
+            {
+              "content_hash": "7e6d8f81c82a8ba91577f202c1efbfb08da5693d3d24c5c435852165296da2b9",
+              "kind": "file",
+              "path": "validation/release-0.4.json",
+              "ref": "validation/release-0.4.json"
+            }
+          ],
+          "id": "fact.pctx.external-status",
+          "links": [],
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "CLI, panel, herramientas de recuperación y procesos MCP locales de PCTX 0.4.0 están comprobados. Clientes externos (Cursor, Claude, Gemini, ChatGPT web y otros IDEs), Windows/macOS y cambio real entre IAs no están verificados. Los resultados multilingües son un benchmark sintético local y no prueban integración externa.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T20:55:00Z"
+        },
+        "recorded_at": "2026-10-09T20:55:00Z",
+        "revision": 3
+      },
+      {
+        "digest": "365b98f83d9f89df183ab3e9477feefe0e96e91b9a03e465336d1a8b76f9a7df",
+        "record": {
+          "created_at": "2026-10-09T19:11:30Z",
+          "evidence": [
+            {
+              "content_hash": "cefe20f674e0c16a43c5e6cea4a37b93f85a93d0aed66a442cdee1cd0f05a287",
+              "kind": "file",
+              "path": "docs/INTEGRACIONES.md",
+              "ref": "docs/INTEGRACIONES.md"
+            },
+            {
+              "content_hash": "2bfb7fa8946e808094a4aad3355ca55557ecf44beffb53c039c2752bd9efbcae",
+              "kind": "file",
+              "path": "validation/diagnose-local-0.5.json",
+              "ref": "validation/diagnose-local-0.5.json"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "file",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "fact.pctx.external-status",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "CLI, panel y MCP locales PCTX 0.5.0 comprobados. Las sesiones reales entre clientes/modelos de IA y Windows/macOS permanecen pendientes; no se infiere compatibilidad efectiva a partir de pruebas locales. El checklist mantiene estos pendientes.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-11T21:11:20Z"
+        },
+        "recorded_at": "2026-10-11T21:11:20Z",
+        "revision": 4
+      },
+      {
+        "digest": "ac2443e1338ecb21971347d59fb7f951c2bf8cb58eb2b27fe2b26e5ef87457a5",
+        "record": {
+          "created_at": "2026-10-09T19:11:30Z",
+          "evidence": [
+            {
+              "content_hash": "52d196f31354d0533ccbee1466cf6983f6bbcd558e4378f3e9f80ffa51467ed8",
+              "kind": "reference",
+              "path": "validation/diagnose-local-0.6.json",
+              "ref": "validation/diagnose-local-0.6.json"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "fact.pctx.external-status",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "CLI MCP panel y reservas cooperativas locales PCTX 0.6 comprobados. Sesiones reales entre varios clientes/modelos, máquinas distintas y Windows/macOS permanecen pendientes; pruebas locales no prueban cooperación efectiva de editores externos.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-12T22:15:19Z"
+        },
+        "recorded_at": "2026-10-12T22:15:19Z",
+        "revision": 5
+      },
+      {
+        "digest": "d83ce19b6a0a7e066c38a84f07d5c377cd8dd015ef4df83b58c659ecfb4b7570",
+        "record": {
+          "created_at": "2026-10-09T19:11:30Z",
+          "evidence": [
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "file",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "file",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "fact.pctx.external-status",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "CLI, MCP, panel, brief y reservas cooperativas PCTX 0.7 comprobados en Linux local. Sesiones reales entre clientes/modelos externos, máquinas distintas y Windows/macOS siguen pendientes; las pruebas locales no demuestran cooperación efectiva de editores externos.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-24T22:48:58Z"
+        },
+        "recorded_at": "2026-10-24T22:48:58Z",
+        "revision": 6
+      },
+      {
+        "digest": "cd404e90ddd0b9a9d4b3b364abc8779ddf75710b783e0ce94024b2be3dbe783e",
+        "record": {
+          "created_at": "2026-10-09T19:11:30Z",
+          "evidence": [
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "6fc37fd1132eaee36795da2b8dfc1e119f2ef36d508d8ed700e6d0f4ad59713b",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.1.md",
+              "ref": "docs/VALIDACION_0.7.1.md"
+            }
+          ],
+          "id": "fact.pctx.external-status",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "CLI, MCP, panel, brief y reservas cooperativas PCTX 0.7.1 comprobados en Linux local. Sesiones entre clientes/modelos externos, máquinas distintas y Windows/macOS siguen pendientes. La fixture W7 no es una sesión real de Microbastión; las copias portables ajenas deben actualizarse en su propia raíz.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-24T23:07:07Z"
+        },
+        "recorded_at": "2026-10-24T23:07:07Z",
+        "revision": 7
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-10-09T19:11:30Z",
+  "evidence": [
+    {
+      "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+      "kind": "reference",
+      "path": "validation/release-0.7.1.json",
+      "ref": "validation/release-0.7.1.json"
+    },
+    {
+      "content_hash": "6fc37fd1132eaee36795da2b8dfc1e119f2ef36d508d8ed700e6d0f4ad59713b",
+      "kind": "reference",
+      "path": "docs/VALIDACION_0.7.1.md",
+      "ref": "docs/VALIDACION_0.7.1.md"
+    }
+  ],
+  "id": "fact.pctx.external-status",
+  "origin": "local-validation",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "verified",
+  "statement": "CLI, MCP, panel, brief y reservas cooperativas PCTX 0.7.1 comprobados en Linux local. Sesiones entre clientes/modelos externos, máquinas distintas y Windows/macOS siguen pendientes. La fixture W7 no es una sesión real de Microbastión; las copias portables ajenas deben actualizarse en su propia raíz.",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-10-24T23:07:07Z"
+}

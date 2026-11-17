@@ -1,0 +1,814 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "7e79734c01ccd9936f306880bf7cde7d5e829e480017b8afda55ae6d1dfd2498",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.bcd5d54c4524",
+                "text": "Brief de cinco partes respeta 800 tokens aproximados y filtra W4"
+              },
+              {
+                "id": "criterion.6ef13664325e",
+                "text": "CLI MCP y panel no sobrescriben la traza del coordinador al leer"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Brief corto por rol",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-24T22:05:04Z",
+          "evidence": [],
+          "id": "plan.pctx-07-brief",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Brief corto por rol. Declared status: pending. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:04Z"
+        },
+        "recorded_at": "2026-10-24T22:05:04Z",
+        "revision": 1
+      },
+      {
+        "digest": "d34337558a518294f0786821a5aa96e2b6d4c29ddbf554563d983738de643cec",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.bcd5d54c4524",
+                "text": "Brief de cinco partes respeta 800 tokens aproximados y filtra W4"
+              },
+              {
+                "id": "criterion.6ef13664325e",
+                "text": "CLI MCP y panel no sobrescriben la traza del coordinador al leer"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "Brief corto por rol",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:04Z",
+          "evidence": [],
+          "id": "plan.pctx-07-brief",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Brief corto por rol. Declared status: in_progress. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:04Z"
+        },
+        "recorded_at": "2026-10-24T22:05:04Z",
+        "revision": 2
+      },
+      {
+        "digest": "5a8ff86bb2a7c2202ae2467ee3f32cdb08355b98a61b510506477a722dca7210",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.bcd5d54c4524",
+                "text": "Brief de cinco partes respeta 800 tokens aproximados y filtra W4"
+              },
+              {
+                "id": "criterion.6ef13664325e",
+                "text": "CLI MCP y panel no sobrescriben la traza del coordinador al leer"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Brief corto por rol",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:04Z",
+          "evidence": [],
+          "id": "plan.pctx-07-brief",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Brief corto por rol. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:00Z"
+        },
+        "recorded_at": "2026-10-24T22:49:00Z",
+        "revision": 3
+      },
+      {
+        "digest": "0dcce2b0170d2d208195e8ea3e85c124d4a040190de37c9747538abd144b01d5",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.bcd5d54c4524",
+                "text": "Brief de cinco partes respeta 800 tokens aproximados y filtra W4"
+              },
+              {
+                "id": "criterion.6ef13664325e",
+                "text": "CLI MCP y panel no sobrescriben la traza del coordinador al leer"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:01Z",
+              "criteria": [
+                "criterion.bcd5d54c4524",
+                "criterion.6ef13664325e"
+              ],
+              "definition_hash": "f3a3b455a868ef0dc317c31d975e1f4a11a83969b9d3636754c736dc612a5d44",
+              "evidence": [
+                {
+                  "content_hash": "ab1b31ba372f83acedb734571439a820eb00d7883d37f330729a468df6867ac8",
+                  "path": "pctx/briefing.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+                  "path": "validation/ui-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-brief",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "594f6294c6af331190f5c3eda8d8638a0689e046e5a0d20ca6663f9341136afa",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Brief corto por rol",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:04Z",
+          "evidence": [
+            {
+              "content_hash": "ab1b31ba372f83acedb734571439a820eb00d7883d37f330729a468df6867ac8",
+              "kind": "reference",
+              "path": "pctx/briefing.py",
+              "ref": "pctx/briefing.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+              "kind": "reference",
+              "path": "validation/ui-report-0.7.json",
+              "ref": "validation/ui-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-brief",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Brief corto por rol. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:01Z"
+        },
+        "recorded_at": "2026-10-24T22:49:01Z",
+        "revision": 4
+      },
+      {
+        "digest": "bde0e5fd4c91c643e0814187c24b13990e8ea48e81d04c144312afc37956c356",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.bcd5d54c4524",
+                "text": "Brief de cinco partes respeta 800 tokens aproximados y filtra W4"
+              },
+              {
+                "id": "criterion.6ef13664325e",
+                "text": "CLI MCP y panel no sobrescriben la traza del coordinador al leer"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:01Z",
+              "criteria": [
+                "criterion.bcd5d54c4524",
+                "criterion.6ef13664325e"
+              ],
+              "definition_hash": "f3a3b455a868ef0dc317c31d975e1f4a11a83969b9d3636754c736dc612a5d44",
+              "evidence": [
+                {
+                  "content_hash": "ab1b31ba372f83acedb734571439a820eb00d7883d37f330729a468df6867ac8",
+                  "path": "pctx/briefing.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+                  "path": "validation/ui-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-brief",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "594f6294c6af331190f5c3eda8d8638a0689e046e5a0d20ca6663f9341136afa",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Brief corto por rol",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:04Z",
+          "evidence": [
+            {
+              "content_hash": "ab1b31ba372f83acedb734571439a820eb00d7883d37f330729a468df6867ac8",
+              "kind": "reference",
+              "path": "pctx/briefing.py",
+              "ref": "pctx/briefing.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+              "kind": "reference",
+              "path": "validation/ui-report-0.7.json",
+              "ref": "validation/ui-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-brief",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Brief corto por rol. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:01Z"
+        },
+        "recorded_at": "2026-10-24T22:49:01Z",
+        "revision": 5
+      },
+      {
+        "digest": "995d23bb5cf5760ca48829dfc4f87458311fed7e7cd13db755f4809cfbd7626e",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.bcd5d54c4524",
+                "text": "Brief de cinco partes respeta 800 tokens aproximados y filtra W4"
+              },
+              {
+                "id": "criterion.6ef13664325e",
+                "text": "CLI MCP y panel no sobrescriben la traza del coordinador al leer"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:10Z",
+              "criteria": [
+                "criterion.bcd5d54c4524",
+                "criterion.6ef13664325e"
+              ],
+              "definition_hash": "f3a3b455a868ef0dc317c31d975e1f4a11a83969b9d3636754c736dc612a5d44",
+              "evidence": [
+                {
+                  "content_hash": "bbd9ceb51d8009ef252b2da0f00d52e4f1155013775555dac1839545a3175c10",
+                  "path": "pctx/briefing.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+                  "path": "validation/ui-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-07-brief",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "07d99d06b537a9e4dd7450bd1aa2e73666e0f293649bf0cb60772fd07e7d2c02",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Brief corto por rol",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:04Z",
+          "evidence": [
+            {
+              "content_hash": "bbd9ceb51d8009ef252b2da0f00d52e4f1155013775555dac1839545a3175c10",
+              "kind": "reference",
+              "path": "pctx/briefing.py",
+              "ref": "pctx/briefing.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+              "kind": "reference",
+              "path": "validation/ui-report-0.7.json",
+              "ref": "validation/ui-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-07-brief",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Brief corto por rol. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:10Z"
+        },
+        "recorded_at": "2026-10-24T23:07:10Z",
+        "revision": 6
+      },
+      {
+        "digest": "409f974a27481a66128298f1787869455400a468141f2ddb7701ea6236b99775",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.bcd5d54c4524",
+                "text": "Brief de cinco partes respeta 800 tokens aproximados y filtra W4"
+              },
+              {
+                "id": "criterion.6ef13664325e",
+                "text": "CLI MCP y panel no sobrescriben la traza del coordinador al leer"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:10Z",
+              "criteria": [
+                "criterion.bcd5d54c4524",
+                "criterion.6ef13664325e"
+              ],
+              "definition_hash": "f3a3b455a868ef0dc317c31d975e1f4a11a83969b9d3636754c736dc612a5d44",
+              "evidence": [
+                {
+                  "content_hash": "bbd9ceb51d8009ef252b2da0f00d52e4f1155013775555dac1839545a3175c10",
+                  "path": "pctx/briefing.py"
+                },
+                {
+                  "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+                  "path": "pctx/web/app.js"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+                  "path": "validation/ui-report-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-07-brief",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "07d99d06b537a9e4dd7450bd1aa2e73666e0f293649bf0cb60772fd07e7d2c02",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Brief corto por rol",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:04Z",
+          "evidence": [
+            {
+              "content_hash": "bbd9ceb51d8009ef252b2da0f00d52e4f1155013775555dac1839545a3175c10",
+              "kind": "reference",
+              "path": "pctx/briefing.py",
+              "ref": "pctx/briefing.py"
+            },
+            {
+              "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+              "kind": "reference",
+              "path": "pctx/web/app.js",
+              "ref": "pctx/web/app.js"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+              "kind": "reference",
+              "path": "validation/ui-report-0.7.json",
+              "ref": "validation/ui-report-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-07-brief",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Brief corto por rol. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:11Z"
+        },
+        "recorded_at": "2026-10-24T23:07:11Z",
+        "revision": 7
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.bcd5d54c4524",
+        "text": "Brief de cinco partes respeta 800 tokens aproximados y filtra W4"
+      },
+      {
+        "id": "criterion.6ef13664325e",
+        "text": "CLI MCP y panel no sobrescriben la traza del coordinador al leer"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "intermediate",
+    "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T23:07:10Z",
+      "criteria": [
+        "criterion.bcd5d54c4524",
+        "criterion.6ef13664325e"
+      ],
+      "definition_hash": "f3a3b455a868ef0dc317c31d975e1f4a11a83969b9d3636754c736dc612a5d44",
+      "evidence": [
+        {
+          "content_hash": "bbd9ceb51d8009ef252b2da0f00d52e4f1155013775555dac1839545a3175c10",
+          "path": "pctx/briefing.py"
+        },
+        {
+          "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+          "path": "pctx/web/app.js"
+        },
+        {
+          "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+          "path": "tests/test_freshness_workers.py"
+        },
+        {
+          "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+          "path": "validation/ui-report-0.7.json"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        },
+        {
+          "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+          "path": "validation/release-0.7.1.json"
+        },
+        {
+          "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+          "path": "docs/USO_0.7.1.md"
+        }
+      ],
+      "id": "pctx071-plan.pctx-07-brief",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "07d99d06b537a9e4dd7450bd1aa2e73666e0f293649bf0cb60772fd07e7d2c02",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+    },
+    "owner": "",
+    "parent": "plan.pctx-07-workers",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 2,
+    "risk": "medium",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Brief corto por rol",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-24T22:05:04Z",
+  "evidence": [
+    {
+      "content_hash": "bbd9ceb51d8009ef252b2da0f00d52e4f1155013775555dac1839545a3175c10",
+      "kind": "reference",
+      "path": "pctx/briefing.py",
+      "ref": "pctx/briefing.py"
+    },
+    {
+      "content_hash": "398eb03c49533889d17fc3f358209b64e406f53419880432b9b533e7be23b936",
+      "kind": "reference",
+      "path": "pctx/web/app.js",
+      "ref": "pctx/web/app.js"
+    },
+    {
+      "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+      "kind": "reference",
+      "path": "tests/test_freshness_workers.py",
+      "ref": "tests/test_freshness_workers.py"
+    },
+    {
+      "content_hash": "b6cf13d3a6de5416f5bee4055ec6912536af5b70ad2dd9831c7aad224f04a1d2",
+      "kind": "reference",
+      "path": "validation/ui-report-0.7.json",
+      "ref": "validation/ui-report-0.7.json"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    },
+    {
+      "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+      "kind": "reference",
+      "path": "validation/release-0.7.1.json",
+      "ref": "validation/release-0.7.1.json"
+    },
+    {
+      "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+      "kind": "reference",
+      "path": "docs/USO_0.7.1.md",
+      "ref": "docs/USO_0.7.1.md"
+    }
+  ],
+  "id": "plan.pctx-07-brief",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-07-workers"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Brief corto por rol. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T23:07:11Z"
+}

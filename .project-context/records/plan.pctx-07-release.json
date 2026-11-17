@@ -1,0 +1,639 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "a88d5b55ee41854eeb9cb7ca47cb79a0f2d667f1cb7a61f1a86d55ebc3aac474",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.89b6e78206ef",
+                "text": "Suites, UI, recuperación y wheel/zipapp limpio pasan con evidencia congelada"
+              },
+              {
+                "id": "criterion.f5076341bf97",
+                "text": "Instalación, respaldo y handoff coherentes sin modificar otros proyectos"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "check",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Validación, documentación e instalación 0.7",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [],
+          "id": "plan.pctx-07-release",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Validación, documentación e instalación 0.7. Declared status: pending. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:06Z"
+        },
+        "recorded_at": "2026-10-24T22:05:07Z",
+        "revision": 1
+      },
+      {
+        "digest": "abaaa45182dfc130da47a28bbeff30c842a45b80be05ac664546d846a6d75fd1",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.89b6e78206ef",
+                "text": "Suites, UI, recuperación y wheel/zipapp limpio pasan con evidencia congelada"
+              },
+              {
+                "id": "criterion.f5076341bf97",
+                "text": "Instalación, respaldo y handoff coherentes sin modificar otros proyectos"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "check",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "Validación, documentación e instalación 0.7",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [],
+          "id": "plan.pctx-07-release",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Validación, documentación e instalación 0.7. Declared status: in_progress. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:07Z"
+        },
+        "recorded_at": "2026-10-24T22:05:07Z",
+        "revision": 2
+      },
+      {
+        "digest": "de403401994b02a080696dfe943cbc6483f276693d000713ff0090f849c8c151",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.89b6e78206ef",
+                "text": "Suites, UI, recuperación y wheel/zipapp limpio pasan con evidencia congelada"
+              },
+              {
+                "id": "criterion.f5076341bf97",
+                "text": "Instalación, respaldo y handoff coherentes sin modificar otros proyectos"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "check",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Validación, documentación e instalación 0.7",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [],
+          "id": "plan.pctx-07-release",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Validación, documentación e instalación 0.7. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:40Z"
+        },
+        "recorded_at": "2026-10-24T22:49:40Z",
+        "revision": 3
+      },
+      {
+        "digest": "28aa2b53636521c90decdde2d4b2a3759c7415f8435d7f7cca4826bd4b08f271",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.89b6e78206ef",
+                "text": "Suites, UI, recuperación y wheel/zipapp limpio pasan con evidencia congelada"
+              },
+              {
+                "id": "criterion.f5076341bf97",
+                "text": "Instalación, respaldo y handoff coherentes sin modificar otros proyectos"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "check",
+            "last_review": {
+              "at": "2026-10-24T22:49:40Z",
+              "criteria": [
+                "criterion.89b6e78206ef",
+                "criterion.f5076341bf97"
+              ],
+              "definition_hash": "dd41dae0c9118b0d2aeec46f557b2c1ec2084943a03d730748fac870470f2121",
+              "evidence": [
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+                  "path": "validation/handoff-release-0.7.json"
+                },
+                {
+                  "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+                  "path": "validation/backup-preclose-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-release",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "da7573378fa16797e14f98bc049fd7078dadbbbdcb32b0dcb679e301c170f637",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios locales comprobados: 186 pruebas, 57 flujos UI, check ejecutado 186/186, once recuperaciones, wheel/zipapp limpio, 41 archivos coincidentes, instalación 0.7 con extras, respaldo y handoff completo. Hijos revisados; sesiones externas conservadas pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Validación, documentación e instalación 0.7",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+              "kind": "reference",
+              "path": "validation/handoff-release-0.7.json",
+              "ref": "validation/handoff-release-0.7.json"
+            },
+            {
+              "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+              "kind": "reference",
+              "path": "validation/backup-preclose-0.7.json",
+              "ref": "validation/backup-preclose-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-release",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Validación, documentación e instalación 0.7. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:40Z"
+        },
+        "recorded_at": "2026-10-24T22:49:40Z",
+        "revision": 4
+      },
+      {
+        "digest": "0abca8df667d11162ec8a51589955cb081fc1cc1ee607df5a882b6168d6d4f5a",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.89b6e78206ef",
+                "text": "Suites, UI, recuperación y wheel/zipapp limpio pasan con evidencia congelada"
+              },
+              {
+                "id": "criterion.f5076341bf97",
+                "text": "Instalación, respaldo y handoff coherentes sin modificar otros proyectos"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "check",
+            "last_review": {
+              "at": "2026-10-24T22:49:40Z",
+              "criteria": [
+                "criterion.89b6e78206ef",
+                "criterion.f5076341bf97"
+              ],
+              "definition_hash": "dd41dae0c9118b0d2aeec46f557b2c1ec2084943a03d730748fac870470f2121",
+              "evidence": [
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+                  "path": "validation/handoff-release-0.7.json"
+                },
+                {
+                  "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+                  "path": "validation/backup-preclose-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-release",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "da7573378fa16797e14f98bc049fd7078dadbbbdcb32b0dcb679e301c170f637",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios locales comprobados: 186 pruebas, 57 flujos UI, check ejecutado 186/186, once recuperaciones, wheel/zipapp limpio, 41 archivos coincidentes, instalación 0.7 con extras, respaldo y handoff completo. Hijos revisados; sesiones externas conservadas pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Validación, documentación e instalación 0.7",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+              "kind": "reference",
+              "path": "validation/handoff-release-0.7.json",
+              "ref": "validation/handoff-release-0.7.json"
+            },
+            {
+              "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+              "kind": "reference",
+              "path": "validation/backup-preclose-0.7.json",
+              "ref": "validation/backup-preclose-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-release",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist check: Validación, documentación e instalación 0.7. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:41Z"
+        },
+        "recorded_at": "2026-10-24T22:49:41Z",
+        "revision": 5
+      },
+      {
+        "digest": "9b3de0ab2c679a8e8806086695d9d6e440d6fbff098fe568893c093783f682d0",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.89b6e78206ef",
+                "text": "Suites, UI, recuperación y wheel/zipapp limpio pasan con evidencia congelada"
+              },
+              {
+                "id": "criterion.f5076341bf97",
+                "text": "Instalación, respaldo y handoff coherentes sin modificar otros proyectos"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "check",
+            "last_review": {
+              "at": "2026-10-24T22:49:40Z",
+              "criteria": [
+                "criterion.89b6e78206ef",
+                "criterion.f5076341bf97"
+              ],
+              "definition_hash": "dd41dae0c9118b0d2aeec46f557b2c1ec2084943a03d730748fac870470f2121",
+              "evidence": [
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+                  "path": "docs/USO_0.7.md"
+                },
+                {
+                  "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+                  "path": "docs/VALIDACION_0.7.md"
+                },
+                {
+                  "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+                  "path": "validation/handoff-release-0.7.json"
+                },
+                {
+                  "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+                  "path": "validation/backup-preclose-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-release",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "da7573378fa16797e14f98bc049fd7078dadbbbdcb32b0dcb679e301c170f637",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios locales comprobados: 186 pruebas, 57 flujos UI, check ejecutado 186/186, once recuperaciones, wheel/zipapp limpio, 41 archivos coincidentes, instalación 0.7 con extras, respaldo y handoff completo. Hijos revisados; sesiones externas conservadas pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Validación, documentación e instalación 0.7",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+              "kind": "reference",
+              "path": "docs/USO_0.7.md",
+              "ref": "docs/USO_0.7.md"
+            },
+            {
+              "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+              "kind": "reference",
+              "path": "docs/VALIDACION_0.7.md",
+              "ref": "docs/VALIDACION_0.7.md"
+            },
+            {
+              "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+              "kind": "reference",
+              "path": "validation/handoff-release-0.7.json",
+              "ref": "validation/handoff-release-0.7.json"
+            },
+            {
+              "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+              "kind": "reference",
+              "path": "validation/backup-preclose-0.7.json",
+              "ref": "validation/backup-preclose-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-release",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-11-17T06:58:06Z",
+          "stale_reason": "docs/VALIDACION_0.7.md: changed",
+          "state": "stale",
+          "statement": "Checklist check: Validación, documentación e instalación 0.7. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-11-17T06:58:06Z"
+        },
+        "recorded_at": "2026-11-17T06:58:06Z",
+        "revision": 6
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.89b6e78206ef",
+        "text": "Suites, UI, recuperación y wheel/zipapp limpio pasan con evidencia congelada"
+      },
+      {
+        "id": "criterion.f5076341bf97",
+        "text": "Instalación, respaldo y handoff coherentes sin modificar otros proyectos"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "hard",
+    "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+    "kind": "check",
+    "last_review": {
+      "at": "2026-10-24T22:49:40Z",
+      "criteria": [
+        "criterion.89b6e78206ef",
+        "criterion.f5076341bf97"
+      ],
+      "definition_hash": "dd41dae0c9118b0d2aeec46f557b2c1ec2084943a03d730748fac870470f2121",
+      "evidence": [
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        },
+        {
+          "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+          "path": "docs/USO_0.7.md"
+        },
+        {
+          "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+          "path": "docs/VALIDACION_0.7.md"
+        },
+        {
+          "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+          "path": "validation/handoff-release-0.7.json"
+        },
+        {
+          "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+          "path": "validation/backup-preclose-0.7.json"
+        }
+      ],
+      "id": "pctx07-plan.pctx-07-release",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "da7573378fa16797e14f98bc049fd7078dadbbbdcb32b0dcb679e301c170f637",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Criterios locales comprobados: 186 pruebas, 57 flujos UI, check ejecutado 186/186, once recuperaciones, wheel/zipapp limpio, 41 archivos coincidentes, instalación 0.7 con extras, respaldo y handoff completo. Hijos revisados; sesiones externas conservadas pendientes."
+    },
+    "owner": "",
+    "parent": "plan.pctx-07-workers",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 1,
+    "risk": "high",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Validación, documentación e instalación 0.7",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-24T22:05:06Z",
+  "evidence": [
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    },
+    {
+      "content_hash": "3de9ccf0321f7ec9d7eaee90f7579c614dca20e1d8fab0bae2efbe92e7f8f45d",
+      "kind": "reference",
+      "path": "docs/USO_0.7.md",
+      "ref": "docs/USO_0.7.md"
+    },
+    {
+      "content_hash": "5d4bb81c13bcc62f1ae75530d27716687f67c4450c8a998350638e5ec98d9fbf",
+      "kind": "reference",
+      "path": "docs/VALIDACION_0.7.md",
+      "ref": "docs/VALIDACION_0.7.md"
+    },
+    {
+      "content_hash": "f24ab520156211bb5335d243f478bf0be139b59923b8fd5d5ccabf4e747c2bab",
+      "kind": "reference",
+      "path": "validation/handoff-release-0.7.json",
+      "ref": "validation/handoff-release-0.7.json"
+    },
+    {
+      "content_hash": "65ad28ead140910417e6373338398e1d0adc7bddf222eb81616ceafaacf6d619",
+      "kind": "reference",
+      "path": "validation/backup-preclose-0.7.json",
+      "ref": "validation/backup-preclose-0.7.json"
+    }
+  ],
+  "id": "plan.pctx-07-release",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-07-workers"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "stale_at": "2026-11-17T06:58:06Z",
+  "stale_reason": "docs/VALIDACION_0.7.md: changed",
+  "state": "stale",
+  "statement": "Checklist check: Validación, documentación e instalación 0.7. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-11-17T06:58:06Z"
+}

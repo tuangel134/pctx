@@ -1,0 +1,651 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "4467ff7a985f93311a486e578cfef191a325fa8eee206d29d69970a5b65e5cf2",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.8e3385728d88",
+                "text": "Regresión léxica 7/10 y semántica local 10/10 en el fixture reproducible"
+              },
+              {
+                "id": "criterion.91e28a4bb52a",
+                "text": "Once escenarios de recuperación conservan esenciales u omisiones explícitas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Integra FTS5, referencias vigentes, grafo y modelo local opcional con presupuestos y privacidad.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Recuperación selectiva, grafo y ONNX locales",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [],
+          "id": "plan.pctx-04-retrieval",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Recuperación selectiva, grafo y ONNX locales. Declared status: pending. Difficulty: hard; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:03:23Z"
+        },
+        "recorded_at": "2026-10-11T21:03:23Z",
+        "revision": 1
+      },
+      {
+        "digest": "41ede29c6fae9ffc6ca7592a88036cb270d6b4943042d556407c35f438f6294a",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.8e3385728d88",
+                "text": "Regresión léxica 7/10 y semántica local 10/10 en el fixture reproducible"
+              },
+              {
+                "id": "criterion.91e28a4bb52a",
+                "text": "Once escenarios de recuperación conservan esenciales u omisiones explícitas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Integra FTS5, referencias vigentes, grafo y modelo local opcional con presupuestos y privacidad.",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Recuperación selectiva, grafo y ONNX locales",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [],
+          "id": "plan.pctx-04-retrieval",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Recuperación selectiva, grafo y ONNX locales. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:17Z"
+        },
+        "recorded_at": "2026-10-11T21:11:17Z",
+        "revision": 2
+      },
+      {
+        "digest": "8cbeb35064efcb0a1bd4fc0c708d7a3b1566c46e1c3c8414a5889ac2abaa8398",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.8e3385728d88",
+                "text": "Regresión léxica 7/10 y semántica local 10/10 en el fixture reproducible"
+              },
+              {
+                "id": "criterion.91e28a4bb52a",
+                "text": "Once escenarios de recuperación conservan esenciales u omisiones explícitas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Integra FTS5, referencias vigentes, grafo y modelo local opcional con presupuestos y privacidad.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:17Z",
+              "criteria": [
+                "criterion.8e3385728d88",
+                "criterion.91e28a4bb52a"
+              ],
+              "definition_hash": "e8a5e0c151fb1ccb9ad27282c51cb5428cfc9b86300f995760c231a36e6fe680",
+              "evidence": [
+                {
+                  "content_hash": "d191b1aa3af513320cf852820ebe1ebe331dbf5799366b88d9dd9fd70d0c5d1b",
+                  "path": "validation/knowledge-lexical-0.5.json"
+                },
+                {
+                  "content_hash": "6fe5e96306378586fb8fa8ef7341e586cf4550cccaa31c3f956b194497e32464",
+                  "path": "validation/knowledge-hybrid-0.5.json"
+                },
+                {
+                  "content_hash": "dd0be773be16dc8c84b87e8282fa6df7d4f9e518438cd6c2730062f84c3cba79",
+                  "path": "validation/recovery-candidate-0.5.json"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "534765bf04067d7a7bce4bd606d82734ea0080a7cf081bc7856af86315120195",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Regresión comprobada: once escenarios; fixture léxico 7/10 y ONNX local 10/10, mismos costes 6007/7727 caracteres/4. No prueba sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Recuperación selectiva, grafo y ONNX locales",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "d191b1aa3af513320cf852820ebe1ebe331dbf5799366b88d9dd9fd70d0c5d1b",
+              "kind": "reference",
+              "path": "validation/knowledge-lexical-0.5.json",
+              "ref": "validation/knowledge-lexical-0.5.json"
+            },
+            {
+              "content_hash": "6fe5e96306378586fb8fa8ef7341e586cf4550cccaa31c3f956b194497e32464",
+              "kind": "reference",
+              "path": "validation/knowledge-hybrid-0.5.json",
+              "ref": "validation/knowledge-hybrid-0.5.json"
+            },
+            {
+              "content_hash": "dd0be773be16dc8c84b87e8282fa6df7d4f9e518438cd6c2730062f84c3cba79",
+              "kind": "reference",
+              "path": "validation/recovery-candidate-0.5.json",
+              "ref": "validation/recovery-candidate-0.5.json"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-04-retrieval",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Recuperación selectiva, grafo y ONNX locales. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:17Z"
+        },
+        "recorded_at": "2026-10-11T21:11:17Z",
+        "revision": 3
+      },
+      {
+        "digest": "bf5e1f9a2a15c885d6ab3fc460b58fde03918d057744264ca0ba4f0bf874b744",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.8e3385728d88",
+                "text": "Regresión léxica 7/10 y semántica local 10/10 en el fixture reproducible"
+              },
+              {
+                "id": "criterion.91e28a4bb52a",
+                "text": "Once escenarios de recuperación conservan esenciales u omisiones explícitas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Integra FTS5, referencias vigentes, grafo y modelo local opcional con presupuestos y privacidad.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-11T21:11:17Z",
+              "criteria": [
+                "criterion.8e3385728d88",
+                "criterion.91e28a4bb52a"
+              ],
+              "definition_hash": "e8a5e0c151fb1ccb9ad27282c51cb5428cfc9b86300f995760c231a36e6fe680",
+              "evidence": [
+                {
+                  "content_hash": "d191b1aa3af513320cf852820ebe1ebe331dbf5799366b88d9dd9fd70d0c5d1b",
+                  "path": "validation/knowledge-lexical-0.5.json"
+                },
+                {
+                  "content_hash": "6fe5e96306378586fb8fa8ef7341e586cf4550cccaa31c3f956b194497e32464",
+                  "path": "validation/knowledge-hybrid-0.5.json"
+                },
+                {
+                  "content_hash": "dd0be773be16dc8c84b87e8282fa6df7d4f9e518438cd6c2730062f84c3cba79",
+                  "path": "validation/recovery-candidate-0.5.json"
+                },
+                {
+                  "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+                  "path": "validation/release-0.5.json"
+                }
+              ],
+              "id": "release-0.5-local-check",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "534765bf04067d7a7bce4bd606d82734ea0080a7cf081bc7856af86315120195",
+              "reviewer": "Codex: suite local; no auditoría independiente",
+              "summary": "Regresión comprobada: once escenarios; fixture léxico 7/10 y ONNX local 10/10, mismos costes 6007/7727 caracteres/4. No prueba sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Recuperación selectiva, grafo y ONNX locales",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "d191b1aa3af513320cf852820ebe1ebe331dbf5799366b88d9dd9fd70d0c5d1b",
+              "kind": "reference",
+              "path": "validation/knowledge-lexical-0.5.json",
+              "ref": "validation/knowledge-lexical-0.5.json"
+            },
+            {
+              "content_hash": "6fe5e96306378586fb8fa8ef7341e586cf4550cccaa31c3f956b194497e32464",
+              "kind": "reference",
+              "path": "validation/knowledge-hybrid-0.5.json",
+              "ref": "validation/knowledge-hybrid-0.5.json"
+            },
+            {
+              "content_hash": "dd0be773be16dc8c84b87e8282fa6df7d4f9e518438cd6c2730062f84c3cba79",
+              "kind": "reference",
+              "path": "validation/recovery-candidate-0.5.json",
+              "ref": "validation/recovery-candidate-0.5.json"
+            },
+            {
+              "content_hash": "12949cf5af9870ea68891eb1bf55a83be8141114f7dad2b04209676fa549105e",
+              "kind": "reference",
+              "path": "validation/release-0.5.json",
+              "ref": "validation/release-0.5.json"
+            }
+          ],
+          "id": "plan.pctx-04-retrieval",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Recuperación selectiva, grafo y ONNX locales. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-11T21:11:17Z"
+        },
+        "recorded_at": "2026-10-11T21:11:17Z",
+        "revision": 4
+      },
+      {
+        "digest": "5e957375fad80433367574158e8d5b0154457d0796aa48423427944c541fe541",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.8e3385728d88",
+                "text": "Regresión léxica 7/10 y semántica local 10/10 en el fixture reproducible"
+              },
+              {
+                "id": "criterion.91e28a4bb52a",
+                "text": "Once escenarios de recuperación conservan esenciales u omisiones explícitas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Integra FTS5, referencias vigentes, grafo y modelo local opcional con presupuestos y privacidad.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:25Z",
+              "criteria": [
+                "criterion.8e3385728d88",
+                "criterion.91e28a4bb52a"
+              ],
+              "definition_hash": "e8a5e0c151fb1ccb9ad27282c51cb5428cfc9b86300f995760c231a36e6fe680",
+              "evidence": [
+                {
+                  "content_hash": "5a423230312e12337e8a9aff7a3d1b5d4b5fbb33c1461ecac770a0e02e7d9f34",
+                  "path": "validation/knowledge-lexical-0.6.json"
+                },
+                {
+                  "content_hash": "f5d9b9715e035b7c580c529d7897330f8766b39c23eb6d1ab7020f53298dfd43",
+                  "path": "validation/knowledge-hybrid-0.6.json"
+                },
+                {
+                  "content_hash": "aa05dede1a4225b87a370e0942c1391463ff877a4720eed0dedd4c41ef29157e",
+                  "path": "validation/recovery-0.6.json"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-04-retrieval",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "278e9a478ba94d83cf47a3bb9851a6b5265c468a476319bfbfd534ef530e1a11",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión actual comprobada: léxico 7/10, híbrido 10/10 y once escenarios de recuperación; sin inferir ahorro universal ni cambio real entre proveedores."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Recuperación selectiva, grafo y ONNX locales",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "5a423230312e12337e8a9aff7a3d1b5d4b5fbb33c1461ecac770a0e02e7d9f34",
+              "kind": "reference",
+              "path": "validation/knowledge-lexical-0.6.json",
+              "ref": "validation/knowledge-lexical-0.6.json"
+            },
+            {
+              "content_hash": "f5d9b9715e035b7c580c529d7897330f8766b39c23eb6d1ab7020f53298dfd43",
+              "kind": "reference",
+              "path": "validation/knowledge-hybrid-0.6.json",
+              "ref": "validation/knowledge-hybrid-0.6.json"
+            },
+            {
+              "content_hash": "aa05dede1a4225b87a370e0942c1391463ff877a4720eed0dedd4c41ef29157e",
+              "kind": "reference",
+              "path": "validation/recovery-0.6.json",
+              "ref": "validation/recovery-0.6.json"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-04-retrieval",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Recuperación selectiva, grafo y ONNX locales. Declared status: done. Difficulty: hard; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:25Z"
+        },
+        "recorded_at": "2026-10-12T22:15:25Z",
+        "revision": 5
+      },
+      {
+        "digest": "17b92fe145c6aa1bf54fb1ee33592dce1a630ce359f6dae8be04220937edde46",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.8e3385728d88",
+                "text": "Regresión léxica 7/10 y semántica local 10/10 en el fixture reproducible"
+              },
+              {
+                "id": "criterion.91e28a4bb52a",
+                "text": "Once escenarios de recuperación conservan esenciales u omisiones explícitas"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Integra FTS5, referencias vigentes, grafo y modelo local opcional con presupuestos y privacidad.",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-12T22:15:25Z",
+              "criteria": [
+                "criterion.8e3385728d88",
+                "criterion.91e28a4bb52a"
+              ],
+              "definition_hash": "e8a5e0c151fb1ccb9ad27282c51cb5428cfc9b86300f995760c231a36e6fe680",
+              "evidence": [
+                {
+                  "content_hash": "5a423230312e12337e8a9aff7a3d1b5d4b5fbb33c1461ecac770a0e02e7d9f34",
+                  "path": "validation/knowledge-lexical-0.6.json"
+                },
+                {
+                  "content_hash": "f5d9b9715e035b7c580c529d7897330f8766b39c23eb6d1ab7020f53298dfd43",
+                  "path": "validation/knowledge-hybrid-0.6.json"
+                },
+                {
+                  "content_hash": "aa05dede1a4225b87a370e0942c1391463ff877a4720eed0dedd4c41ef29157e",
+                  "path": "validation/recovery-0.6.json"
+                },
+                {
+                  "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+                  "path": "validation/release-0.6.json"
+                }
+              ],
+              "id": "pctx06-plan-pctx-04-retrieval",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "278e9a478ba94d83cf47a3bb9851a6b5265c468a476319bfbfd534ef530e1a11",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Regresión actual comprobada: léxico 7/10, híbrido 10/10 y once escenarios de recuperación; sin inferir ahorro universal ni cambio real entre proveedores."
+            },
+            "owner": "",
+            "parent": "plan.pctx-continuity",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Recuperación selectiva, grafo y ONNX locales",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-11T21:03:23Z",
+          "evidence": [
+            {
+              "content_hash": "5a423230312e12337e8a9aff7a3d1b5d4b5fbb33c1461ecac770a0e02e7d9f34",
+              "kind": "reference",
+              "path": "validation/knowledge-lexical-0.6.json",
+              "ref": "validation/knowledge-lexical-0.6.json"
+            },
+            {
+              "content_hash": "f5d9b9715e035b7c580c529d7897330f8766b39c23eb6d1ab7020f53298dfd43",
+              "kind": "reference",
+              "path": "validation/knowledge-hybrid-0.6.json",
+              "ref": "validation/knowledge-hybrid-0.6.json"
+            },
+            {
+              "content_hash": "aa05dede1a4225b87a370e0942c1391463ff877a4720eed0dedd4c41ef29157e",
+              "kind": "reference",
+              "path": "validation/recovery-0.6.json",
+              "ref": "validation/recovery-0.6.json"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "plan.pctx-04-retrieval",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-continuity"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Recuperación selectiva, grafo y ONNX locales. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-12T22:15:25Z"
+        },
+        "recorded_at": "2026-10-12T22:15:25Z",
+        "revision": 6
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.8e3385728d88",
+        "text": "Regresión léxica 7/10 y semántica local 10/10 en el fixture reproducible"
+      },
+      {
+        "id": "criterion.91e28a4bb52a",
+        "text": "Once escenarios de recuperación conservan esenciales u omisiones explícitas"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "hard",
+    "difficulty_reason": "Integra FTS5, referencias vigentes, grafo y modelo local opcional con presupuestos y privacidad.",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-12T22:15:25Z",
+      "criteria": [
+        "criterion.8e3385728d88",
+        "criterion.91e28a4bb52a"
+      ],
+      "definition_hash": "e8a5e0c151fb1ccb9ad27282c51cb5428cfc9b86300f995760c231a36e6fe680",
+      "evidence": [
+        {
+          "content_hash": "5a423230312e12337e8a9aff7a3d1b5d4b5fbb33c1461ecac770a0e02e7d9f34",
+          "path": "validation/knowledge-lexical-0.6.json"
+        },
+        {
+          "content_hash": "f5d9b9715e035b7c580c529d7897330f8766b39c23eb6d1ab7020f53298dfd43",
+          "path": "validation/knowledge-hybrid-0.6.json"
+        },
+        {
+          "content_hash": "aa05dede1a4225b87a370e0942c1391463ff877a4720eed0dedd4c41ef29157e",
+          "path": "validation/recovery-0.6.json"
+        },
+        {
+          "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+          "path": "validation/release-0.6.json"
+        }
+      ],
+      "id": "pctx06-plan-pctx-04-retrieval",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "278e9a478ba94d83cf47a3bb9851a6b5265c468a476319bfbfd534ef530e1a11",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Regresión actual comprobada: léxico 7/10, híbrido 10/10 y once escenarios de recuperación; sin inferir ahorro universal ni cambio real entre proveedores."
+    },
+    "owner": "",
+    "parent": "plan.pctx-continuity",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 2,
+    "risk": "medium",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Recuperación selectiva, grafo y ONNX locales",
+    "work_generation": 0
+  },
+  "created_at": "2026-10-11T21:03:23Z",
+  "evidence": [
+    {
+      "content_hash": "5a423230312e12337e8a9aff7a3d1b5d4b5fbb33c1461ecac770a0e02e7d9f34",
+      "kind": "reference",
+      "path": "validation/knowledge-lexical-0.6.json",
+      "ref": "validation/knowledge-lexical-0.6.json"
+    },
+    {
+      "content_hash": "f5d9b9715e035b7c580c529d7897330f8766b39c23eb6d1ab7020f53298dfd43",
+      "kind": "reference",
+      "path": "validation/knowledge-hybrid-0.6.json",
+      "ref": "validation/knowledge-hybrid-0.6.json"
+    },
+    {
+      "content_hash": "aa05dede1a4225b87a370e0942c1391463ff877a4720eed0dedd4c41ef29157e",
+      "kind": "reference",
+      "path": "validation/recovery-0.6.json",
+      "ref": "validation/recovery-0.6.json"
+    },
+    {
+      "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+      "kind": "reference",
+      "path": "validation/release-0.6.json",
+      "ref": "validation/release-0.6.json"
+    }
+  ],
+  "id": "plan.pctx-04-retrieval",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-continuity"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Recuperación selectiva, grafo y ONNX locales. Declared status: verified. Difficulty: hard; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-12T22:15:25Z"
+}

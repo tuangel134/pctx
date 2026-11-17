@@ -1,0 +1,164 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "07479316fd78b5d7ea54d82e148f5e48716d0296bfba67148a3a42c95da49b81",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "5107fbcdbd8d629d2d1f9b1afb5186a5dca97db8869817757b05881f644e8dc3",
+              "kind": "file",
+              "path": "pctx/dashboard.py",
+              "ref": "pctx/dashboard.py"
+            },
+            {
+              "content_hash": "ec01c6f0f974c084e9d3d4f92225cf5334557db131a02a0c76d882d4d9db0ff6",
+              "kind": "file",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "2e3cc1ea85c8013ea11e55294b56fd96a308adffe6b46a5061e182d192e48f34",
+              "kind": "file",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            }
+          ],
+          "id": "fact.pctx.v02.interfaces",
+          "origin": "user",
+          "scope": "pctx/runtime",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "verified",
+          "statement": "PCTX 0.2.0 ofrece CLI, MCP stdio y panel web local autenticado. El panel administra proyectos, memoria, tareas, arquitectura y configuraciones de clientes. No necesita APIs de modelos para funcionar.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-09-12T15:53:19Z"
+        },
+        "recorded_at": "2026-09-12T15:53:19Z",
+        "revision": 1
+      },
+      {
+        "digest": "62912829ba57dfd2b0847ce71aa52589fedb707824b57bd35ab6910d8bd6beed",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "5107fbcdbd8d629d2d1f9b1afb5186a5dca97db8869817757b05881f644e8dc3",
+              "kind": "file",
+              "path": "pctx/dashboard.py",
+              "ref": "pctx/dashboard.py"
+            },
+            {
+              "content_hash": "ec01c6f0f974c084e9d3d4f92225cf5334557db131a02a0c76d882d4d9db0ff6",
+              "kind": "file",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "2e3cc1ea85c8013ea11e55294b56fd96a308adffe6b46a5061e182d192e48f34",
+              "kind": "file",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            }
+          ],
+          "id": "fact.pctx.v02.interfaces",
+          "origin": "user",
+          "scope": "pctx/runtime",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-09T18:12:11Z",
+          "stale_reason": "evidence changed or disappeared: pctx/dashboard.py",
+          "state": "stale",
+          "statement": "PCTX 0.2.0 ofrece CLI, MCP stdio y panel web local autenticado. El panel administra proyectos, memoria, tareas, arquitectura y configuraciones de clientes. No necesita APIs de modelos para funcionar.",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T18:12:11Z"
+        },
+        "recorded_at": "2026-10-09T18:12:11Z",
+        "revision": 2
+      },
+      {
+        "digest": "735bb37c9aea4084118f2cab4e149bbf48545b63d7eb40dbc421ab6814f2c784",
+        "record": {
+          "created_at": "2026-09-12T15:53:19Z",
+          "evidence": [
+            {
+              "content_hash": "5107fbcdbd8d629d2d1f9b1afb5186a5dca97db8869817757b05881f644e8dc3",
+              "kind": "file",
+              "path": "pctx/dashboard.py",
+              "ref": "pctx/dashboard.py"
+            },
+            {
+              "content_hash": "ec01c6f0f974c084e9d3d4f92225cf5334557db131a02a0c76d882d4d9db0ff6",
+              "kind": "file",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "2e3cc1ea85c8013ea11e55294b56fd96a308adffe6b46a5061e182d192e48f34",
+              "kind": "file",
+              "path": "pctx/mcp.py",
+              "ref": "pctx/mcp.py"
+            }
+          ],
+          "id": "fact.pctx.v02.interfaces",
+          "origin": "user",
+          "reviewed_at": "2026-10-09T19:11:30Z",
+          "reviewed_by": "mcp",
+          "scope": "pctx/runtime",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-09T18:12:11Z",
+          "stale_reason": "evidence changed or disappeared: pctx/dashboard.py",
+          "state": "superseded",
+          "statement": "PCTX 0.2.0 ofrece CLI, MCP stdio y panel web local autenticado. El panel administra proyectos, memoria, tareas, arquitectura y configuraciones de clientes. No necesita APIs de modelos para funcionar.",
+          "superseded_by": "fact.pctx.v03.interfaces",
+          "tags": [],
+          "type": "fact",
+          "updated_at": "2026-10-09T19:11:30Z"
+        },
+        "recorded_at": "2026-10-09T19:11:30Z",
+        "revision": 3
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-09-12T15:53:19Z",
+  "evidence": [
+    {
+      "content_hash": "5107fbcdbd8d629d2d1f9b1afb5186a5dca97db8869817757b05881f644e8dc3",
+      "kind": "file",
+      "path": "pctx/dashboard.py",
+      "ref": "pctx/dashboard.py"
+    },
+    {
+      "content_hash": "ec01c6f0f974c084e9d3d4f92225cf5334557db131a02a0c76d882d4d9db0ff6",
+      "kind": "file",
+      "path": "pctx/cli.py",
+      "ref": "pctx/cli.py"
+    },
+    {
+      "content_hash": "2e3cc1ea85c8013ea11e55294b56fd96a308adffe6b46a5061e182d192e48f34",
+      "kind": "file",
+      "path": "pctx/mcp.py",
+      "ref": "pctx/mcp.py"
+    }
+  ],
+  "id": "fact.pctx.v02.interfaces",
+  "origin": "user",
+  "reviewed_at": "2026-10-09T19:11:30Z",
+  "reviewed_by": "mcp",
+  "scope": "pctx/runtime",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "stale_at": "2026-10-09T18:12:11Z",
+  "stale_reason": "evidence changed or disappeared: pctx/dashboard.py",
+  "state": "superseded",
+  "statement": "PCTX 0.2.0 ofrece CLI, MCP stdio y panel web local autenticado. El panel administra proyectos, memoria, tareas, arquitectura y configuraciones de clientes. No necesita APIs de modelos para funcionar.",
+  "superseded_by": "fact.pctx.v03.interfaces",
+  "tags": [],
+  "type": "fact",
+  "updated_at": "2026-10-09T19:11:30Z"
+}

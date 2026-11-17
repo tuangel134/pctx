@@ -1,0 +1,864 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "d7cf5429618563536e17fb0c82a96d13a5af2db3b3a7782248ae71cf710fd020",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d2506712f734",
+                "text": "Un estado nuevo reemplaza el anterior sin borrar historial"
+              },
+              {
+                "id": "criterion.d6a16ae2b9ca",
+                "text": "Lo volátil caduca y el ranking prioriza registros vigentes y recientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Reemplazos, caducidad y ranking",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-24T22:05:03Z",
+          "evidence": [],
+          "id": "plan.pctx-07-freshness",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reemplazos, caducidad y ranking. Declared status: pending. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:03Z"
+        },
+        "recorded_at": "2026-10-24T22:05:03Z",
+        "revision": 1
+      },
+      {
+        "digest": "95379a7d9b38e3e0999784170aad66c5264d042198f028810230d2ff537ae574",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d2506712f734",
+                "text": "Un estado nuevo reemplaza el anterior sin borrar historial"
+              },
+              {
+                "id": "criterion.d6a16ae2b9ca",
+                "text": "Lo volátil caduca y el ranking prioriza registros vigentes y recientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "Reemplazos, caducidad y ranking",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:03Z",
+          "evidence": [],
+          "id": "plan.pctx-07-freshness",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reemplazos, caducidad y ranking. Declared status: in_progress. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:03Z"
+        },
+        "recorded_at": "2026-10-24T22:05:03Z",
+        "revision": 2
+      },
+      {
+        "digest": "60f8936e6d571bf6b7633d48c904102777aa04121370e74113e620c5dc550a23",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d2506712f734",
+                "text": "Un estado nuevo reemplaza el anterior sin borrar historial"
+              },
+              {
+                "id": "criterion.d6a16ae2b9ca",
+                "text": "Lo volátil caduca y el ranking prioriza registros vigentes y recientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Reemplazos, caducidad y ranking",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:03Z",
+          "evidence": [],
+          "id": "plan.pctx-07-freshness",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reemplazos, caducidad y ranking. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:48:58Z"
+        },
+        "recorded_at": "2026-10-24T22:48:58Z",
+        "revision": 3
+      },
+      {
+        "digest": "87736f9f5c7396172e500b394e3fc8bc7d17e79ad56538a31b93752dc8c976cb",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d2506712f734",
+                "text": "Un estado nuevo reemplaza el anterior sin borrar historial"
+              },
+              {
+                "id": "criterion.d6a16ae2b9ca",
+                "text": "Lo volátil caduca y el ranking prioriza registros vigentes y recientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:48:58Z",
+              "criteria": [
+                "criterion.d2506712f734",
+                "criterion.d6a16ae2b9ca"
+              ],
+              "definition_hash": "0d944fdcf7b70e29523ecce84b2fe1784e355e95bd0c28c161539c316b640708",
+              "evidence": [
+                {
+                  "content_hash": "dfe8a195cf7ee6ae7be2779d2ee2e30ea0e14f5ded9b618958fa347daf30bed8",
+                  "path": "pctx/freshness.py"
+                },
+                {
+                  "content_hash": "0435a9b7849fe27552b666111eafb74c062008727110176e52d3a4cf15b05e72",
+                  "path": "pctx/replacement.py"
+                },
+                {
+                  "content_hash": "569e71a42ee9c3be90d8e856f6a534f890c34753a7dc222caee26f9acceabaa0",
+                  "path": "pctx/retrieval.py"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+                  "path": "validation/live-quiet-replacement-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-freshness",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "689dd0c2afff79b2f28246ad56d8e4b8cce49e85033740994b02b1c8ecae71a7",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Reemplazos, caducidad y ranking",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:03Z",
+          "evidence": [
+            {
+              "content_hash": "dfe8a195cf7ee6ae7be2779d2ee2e30ea0e14f5ded9b618958fa347daf30bed8",
+              "kind": "reference",
+              "path": "pctx/freshness.py",
+              "ref": "pctx/freshness.py"
+            },
+            {
+              "content_hash": "0435a9b7849fe27552b666111eafb74c062008727110176e52d3a4cf15b05e72",
+              "kind": "reference",
+              "path": "pctx/replacement.py",
+              "ref": "pctx/replacement.py"
+            },
+            {
+              "content_hash": "569e71a42ee9c3be90d8e856f6a534f890c34753a7dc222caee26f9acceabaa0",
+              "kind": "reference",
+              "path": "pctx/retrieval.py",
+              "ref": "pctx/retrieval.py"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+              "kind": "reference",
+              "path": "validation/live-quiet-replacement-0.7.json",
+              "ref": "validation/live-quiet-replacement-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-freshness",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reemplazos, caducidad y ranking. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:48:58Z"
+        },
+        "recorded_at": "2026-10-24T22:48:58Z",
+        "revision": 4
+      },
+      {
+        "digest": "83c9061bac7c0fa9c71ed70b22f9b9e03f8619e488e9cff5e1b1444b8880ffba",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d2506712f734",
+                "text": "Un estado nuevo reemplaza el anterior sin borrar historial"
+              },
+              {
+                "id": "criterion.d6a16ae2b9ca",
+                "text": "Lo volátil caduca y el ranking prioriza registros vigentes y recientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:48:58Z",
+              "criteria": [
+                "criterion.d2506712f734",
+                "criterion.d6a16ae2b9ca"
+              ],
+              "definition_hash": "0d944fdcf7b70e29523ecce84b2fe1784e355e95bd0c28c161539c316b640708",
+              "evidence": [
+                {
+                  "content_hash": "dfe8a195cf7ee6ae7be2779d2ee2e30ea0e14f5ded9b618958fa347daf30bed8",
+                  "path": "pctx/freshness.py"
+                },
+                {
+                  "content_hash": "0435a9b7849fe27552b666111eafb74c062008727110176e52d3a4cf15b05e72",
+                  "path": "pctx/replacement.py"
+                },
+                {
+                  "content_hash": "569e71a42ee9c3be90d8e856f6a534f890c34753a7dc222caee26f9acceabaa0",
+                  "path": "pctx/retrieval.py"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+                  "path": "validation/live-quiet-replacement-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-freshness",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "689dd0c2afff79b2f28246ad56d8e4b8cce49e85033740994b02b1c8ecae71a7",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Reemplazos, caducidad y ranking",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:03Z",
+          "evidence": [
+            {
+              "content_hash": "dfe8a195cf7ee6ae7be2779d2ee2e30ea0e14f5ded9b618958fa347daf30bed8",
+              "kind": "reference",
+              "path": "pctx/freshness.py",
+              "ref": "pctx/freshness.py"
+            },
+            {
+              "content_hash": "0435a9b7849fe27552b666111eafb74c062008727110176e52d3a4cf15b05e72",
+              "kind": "reference",
+              "path": "pctx/replacement.py",
+              "ref": "pctx/replacement.py"
+            },
+            {
+              "content_hash": "569e71a42ee9c3be90d8e856f6a534f890c34753a7dc222caee26f9acceabaa0",
+              "kind": "reference",
+              "path": "pctx/retrieval.py",
+              "ref": "pctx/retrieval.py"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+              "kind": "reference",
+              "path": "validation/live-quiet-replacement-0.7.json",
+              "ref": "validation/live-quiet-replacement-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-freshness",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reemplazos, caducidad y ranking. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:48:59Z"
+        },
+        "recorded_at": "2026-10-24T22:48:59Z",
+        "revision": 5
+      },
+      {
+        "digest": "cf7c0670dd4843541df88315268618d8cd8e623313d4be3603c449c111ee808d",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d2506712f734",
+                "text": "Un estado nuevo reemplaza el anterior sin borrar historial"
+              },
+              {
+                "id": "criterion.d6a16ae2b9ca",
+                "text": "Lo volátil caduca y el ranking prioriza registros vigentes y recientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:11Z",
+              "criteria": [
+                "criterion.d2506712f734",
+                "criterion.d6a16ae2b9ca"
+              ],
+              "definition_hash": "0d944fdcf7b70e29523ecce84b2fe1784e355e95bd0c28c161539c316b640708",
+              "evidence": [
+                {
+                  "content_hash": "dfe8a195cf7ee6ae7be2779d2ee2e30ea0e14f5ded9b618958fa347daf30bed8",
+                  "path": "pctx/freshness.py"
+                },
+                {
+                  "content_hash": "48639269d89bcfcae83a54e5760066bbd169b9df6ce153f93da0a752326bb5e6",
+                  "path": "pctx/replacement.py"
+                },
+                {
+                  "content_hash": "569e71a42ee9c3be90d8e856f6a534f890c34753a7dc222caee26f9acceabaa0",
+                  "path": "pctx/retrieval.py"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+                  "path": "validation/live-quiet-replacement-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-07-freshness",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "7f6e22c227ac25a3f373deef25bf236448bfa249f6fdcc95e86647c4cd53c6d2",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Reemplazos, caducidad y ranking",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:03Z",
+          "evidence": [
+            {
+              "content_hash": "dfe8a195cf7ee6ae7be2779d2ee2e30ea0e14f5ded9b618958fa347daf30bed8",
+              "kind": "reference",
+              "path": "pctx/freshness.py",
+              "ref": "pctx/freshness.py"
+            },
+            {
+              "content_hash": "48639269d89bcfcae83a54e5760066bbd169b9df6ce153f93da0a752326bb5e6",
+              "kind": "reference",
+              "path": "pctx/replacement.py",
+              "ref": "pctx/replacement.py"
+            },
+            {
+              "content_hash": "569e71a42ee9c3be90d8e856f6a534f890c34753a7dc222caee26f9acceabaa0",
+              "kind": "reference",
+              "path": "pctx/retrieval.py",
+              "ref": "pctx/retrieval.py"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+              "kind": "reference",
+              "path": "validation/live-quiet-replacement-0.7.json",
+              "ref": "validation/live-quiet-replacement-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-07-freshness",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reemplazos, caducidad y ranking. Declared status: done. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:11Z"
+        },
+        "recorded_at": "2026-10-24T23:07:12Z",
+        "revision": 6
+      },
+      {
+        "digest": "897c667093c5419b38167f5b070d63067046f75e4c5a634082824cbe5d7414db",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.d2506712f734",
+                "text": "Un estado nuevo reemplaza el anterior sin borrar historial"
+              },
+              {
+                "id": "criterion.d6a16ae2b9ca",
+                "text": "Lo volátil caduca y el ranking prioriza registros vigentes y recientes"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "hard",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:11Z",
+              "criteria": [
+                "criterion.d2506712f734",
+                "criterion.d6a16ae2b9ca"
+              ],
+              "definition_hash": "0d944fdcf7b70e29523ecce84b2fe1784e355e95bd0c28c161539c316b640708",
+              "evidence": [
+                {
+                  "content_hash": "dfe8a195cf7ee6ae7be2779d2ee2e30ea0e14f5ded9b618958fa347daf30bed8",
+                  "path": "pctx/freshness.py"
+                },
+                {
+                  "content_hash": "48639269d89bcfcae83a54e5760066bbd169b9df6ce153f93da0a752326bb5e6",
+                  "path": "pctx/replacement.py"
+                },
+                {
+                  "content_hash": "569e71a42ee9c3be90d8e856f6a534f890c34753a7dc222caee26f9acceabaa0",
+                  "path": "pctx/retrieval.py"
+                },
+                {
+                  "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+                  "path": "tests/test_freshness_workers.py"
+                },
+                {
+                  "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+                  "path": "validation/live-quiet-replacement-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-07-freshness",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "7f6e22c227ac25a3f373deef25bf236448bfa249f6fdcc95e86647c4cd53c6d2",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "high",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Reemplazos, caducidad y ranking",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:03Z",
+          "evidence": [
+            {
+              "content_hash": "dfe8a195cf7ee6ae7be2779d2ee2e30ea0e14f5ded9b618958fa347daf30bed8",
+              "kind": "reference",
+              "path": "pctx/freshness.py",
+              "ref": "pctx/freshness.py"
+            },
+            {
+              "content_hash": "48639269d89bcfcae83a54e5760066bbd169b9df6ce153f93da0a752326bb5e6",
+              "kind": "reference",
+              "path": "pctx/replacement.py",
+              "ref": "pctx/replacement.py"
+            },
+            {
+              "content_hash": "569e71a42ee9c3be90d8e856f6a534f890c34753a7dc222caee26f9acceabaa0",
+              "kind": "reference",
+              "path": "pctx/retrieval.py",
+              "ref": "pctx/retrieval.py"
+            },
+            {
+              "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+              "kind": "reference",
+              "path": "tests/test_freshness_workers.py",
+              "ref": "tests/test_freshness_workers.py"
+            },
+            {
+              "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+              "kind": "reference",
+              "path": "validation/live-quiet-replacement-0.7.json",
+              "ref": "validation/live-quiet-replacement-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-07-freshness",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Reemplazos, caducidad y ranking. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:12Z"
+        },
+        "recorded_at": "2026-10-24T23:07:12Z",
+        "revision": 7
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.d2506712f734",
+        "text": "Un estado nuevo reemplaza el anterior sin borrar historial"
+      },
+      {
+        "id": "criterion.d6a16ae2b9ca",
+        "text": "Lo volátil caduca y el ranking prioriza registros vigentes y recientes"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "hard",
+    "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T23:07:11Z",
+      "criteria": [
+        "criterion.d2506712f734",
+        "criterion.d6a16ae2b9ca"
+      ],
+      "definition_hash": "0d944fdcf7b70e29523ecce84b2fe1784e355e95bd0c28c161539c316b640708",
+      "evidence": [
+        {
+          "content_hash": "dfe8a195cf7ee6ae7be2779d2ee2e30ea0e14f5ded9b618958fa347daf30bed8",
+          "path": "pctx/freshness.py"
+        },
+        {
+          "content_hash": "48639269d89bcfcae83a54e5760066bbd169b9df6ce153f93da0a752326bb5e6",
+          "path": "pctx/replacement.py"
+        },
+        {
+          "content_hash": "569e71a42ee9c3be90d8e856f6a534f890c34753a7dc222caee26f9acceabaa0",
+          "path": "pctx/retrieval.py"
+        },
+        {
+          "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+          "path": "tests/test_freshness_workers.py"
+        },
+        {
+          "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+          "path": "validation/live-quiet-replacement-0.7.json"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        },
+        {
+          "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+          "path": "validation/release-0.7.1.json"
+        },
+        {
+          "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+          "path": "docs/USO_0.7.1.md"
+        }
+      ],
+      "id": "pctx071-plan.pctx-07-freshness",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "7f6e22c227ac25a3f373deef25bf236448bfa249f6fdcc95e86647c4cd53c6d2",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+    },
+    "owner": "",
+    "parent": "plan.pctx-07-workers",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 2,
+    "risk": "high",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Reemplazos, caducidad y ranking",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-24T22:05:03Z",
+  "evidence": [
+    {
+      "content_hash": "dfe8a195cf7ee6ae7be2779d2ee2e30ea0e14f5ded9b618958fa347daf30bed8",
+      "kind": "reference",
+      "path": "pctx/freshness.py",
+      "ref": "pctx/freshness.py"
+    },
+    {
+      "content_hash": "48639269d89bcfcae83a54e5760066bbd169b9df6ce153f93da0a752326bb5e6",
+      "kind": "reference",
+      "path": "pctx/replacement.py",
+      "ref": "pctx/replacement.py"
+    },
+    {
+      "content_hash": "569e71a42ee9c3be90d8e856f6a534f890c34753a7dc222caee26f9acceabaa0",
+      "kind": "reference",
+      "path": "pctx/retrieval.py",
+      "ref": "pctx/retrieval.py"
+    },
+    {
+      "content_hash": "783b2cd7febcfb4da49b4f404a0c33cd9b455a8c5974cafe74e8fbe880457849",
+      "kind": "reference",
+      "path": "tests/test_freshness_workers.py",
+      "ref": "tests/test_freshness_workers.py"
+    },
+    {
+      "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+      "kind": "reference",
+      "path": "validation/live-quiet-replacement-0.7.json",
+      "ref": "validation/live-quiet-replacement-0.7.json"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    },
+    {
+      "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+      "kind": "reference",
+      "path": "validation/release-0.7.1.json",
+      "ref": "validation/release-0.7.1.json"
+    },
+    {
+      "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+      "kind": "reference",
+      "path": "docs/USO_0.7.1.md",
+      "ref": "docs/USO_0.7.1.md"
+    }
+  ],
+  "id": "plan.pctx-07-freshness",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-07-workers"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Reemplazos, caducidad y ranking. Declared status: verified. Difficulty: hard; risk: high; recorded reviews: 2. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T23:07:12Z"
+}

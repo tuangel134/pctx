@@ -1,0 +1,864 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "60b78c1e7f915d9d142f08c0f7343fcea2fc39d6f6c6eb38dde261d4d579d171",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7f4d504e5b6",
+                "text": "Quiet suprime salidas normales y el modo manual conserva generados en escrituras"
+              },
+              {
+                "id": "criterion.40ca030c2b12",
+                "text": "Repetir export/contexto sin cambios no altera bytes ni mtime"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "pending",
+            "title": "Silencio y exports deterministas/bajo demanda",
+            "work_generation": 0
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [],
+          "id": "plan.pctx-07-quiet",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Silencio y exports deterministas/bajo demanda. Declared status: pending. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:06Z"
+        },
+        "recorded_at": "2026-10-24T22:05:06Z",
+        "revision": 1
+      },
+      {
+        "digest": "74f7d238bc78d4de32603ea46294851f8e5e460aa675298e82a24a9548fd530a",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7f4d504e5b6",
+                "text": "Quiet suprime salidas normales y el modo manual conserva generados en escrituras"
+              },
+              {
+                "id": "criterion.40ca030c2b12",
+                "text": "Repetir export/contexto sin cambios no altera bytes ni mtime"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "in_progress",
+            "title": "Silencio y exports deterministas/bajo demanda",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [],
+          "id": "plan.pctx-07-quiet",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Silencio y exports deterministas/bajo demanda. Declared status: in_progress. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:05:06Z"
+        },
+        "recorded_at": "2026-10-24T22:05:06Z",
+        "revision": 2
+      },
+      {
+        "digest": "4d100ef9a71a16f56a08a46c212df7e0ca06d8efd4c89e773b6d3d1617c680a0",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7f4d504e5b6",
+                "text": "Quiet suprime salidas normales y el modo manual conserva generados en escrituras"
+              },
+              {
+                "id": "criterion.40ca030c2b12",
+                "text": "Repetir export/contexto sin cambios no altera bytes ni mtime"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": null,
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 0,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Silencio y exports deterministas/bajo demanda",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [],
+          "id": "plan.pctx-07-quiet",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Silencio y exports deterministas/bajo demanda. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 0. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:04Z"
+        },
+        "recorded_at": "2026-10-24T22:49:04Z",
+        "revision": 3
+      },
+      {
+        "digest": "8ce2c4fb3baf3410f188775a5d2cd5f6c98b905fd21867adb28593307a339e47",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7f4d504e5b6",
+                "text": "Quiet suprime salidas normales y el modo manual conserva generados en escrituras"
+              },
+              {
+                "id": "criterion.40ca030c2b12",
+                "text": "Repetir export/contexto sin cambios no altera bytes ni mtime"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:05Z",
+              "criteria": [
+                "criterion.c7f4d504e5b6",
+                "criterion.40ca030c2b12"
+              ],
+              "definition_hash": "d274fed9eb875216312aca3052e61d5999de72de19c3018574cb589d1520c643",
+              "evidence": [
+                {
+                  "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+                  "path": "pctx/compile.py"
+                },
+                {
+                  "content_hash": "583412fcd3b59a960d2d336400ca2ab5c7d4fc07b4148f1abc24ade6505b4202",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "220c68436d2216662dcd9ba09720ea69bb8afc06e775a924955c1180f7c0b13f",
+                  "path": "pctx/storage.py"
+                },
+                {
+                  "content_hash": "85b987113428341e1022bcb15ee14b379ca61c7dab92af8f993e8f70cfdcff03",
+                  "path": "pctx/adapters.py"
+                },
+                {
+                  "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+                  "path": "validation/live-quiet-replacement-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-quiet",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "4bf40189d9b7caadbc31a9db34ae6d230bc70242a351a5810251cb8874d6de4c",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Silencio y exports deterministas/bajo demanda",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [
+            {
+              "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+              "kind": "reference",
+              "path": "pctx/compile.py",
+              "ref": "pctx/compile.py"
+            },
+            {
+              "content_hash": "583412fcd3b59a960d2d336400ca2ab5c7d4fc07b4148f1abc24ade6505b4202",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "220c68436d2216662dcd9ba09720ea69bb8afc06e775a924955c1180f7c0b13f",
+              "kind": "reference",
+              "path": "pctx/storage.py",
+              "ref": "pctx/storage.py"
+            },
+            {
+              "content_hash": "85b987113428341e1022bcb15ee14b379ca61c7dab92af8f993e8f70cfdcff03",
+              "kind": "reference",
+              "path": "pctx/adapters.py",
+              "ref": "pctx/adapters.py"
+            },
+            {
+              "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+              "kind": "reference",
+              "path": "validation/live-quiet-replacement-0.7.json",
+              "ref": "validation/live-quiet-replacement-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-quiet",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Silencio y exports deterministas/bajo demanda. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:05Z"
+        },
+        "recorded_at": "2026-10-24T22:49:05Z",
+        "revision": 4
+      },
+      {
+        "digest": "ccbf75419ce1e54efc6cd2d571a1f33c688b87774e3280c6eba75a697656a26f",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7f4d504e5b6",
+                "text": "Quiet suprime salidas normales y el modo manual conserva generados en escrituras"
+              },
+              {
+                "id": "criterion.40ca030c2b12",
+                "text": "Repetir export/contexto sin cambios no altera bytes ni mtime"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T22:49:05Z",
+              "criteria": [
+                "criterion.c7f4d504e5b6",
+                "criterion.40ca030c2b12"
+              ],
+              "definition_hash": "d274fed9eb875216312aca3052e61d5999de72de19c3018574cb589d1520c643",
+              "evidence": [
+                {
+                  "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+                  "path": "pctx/compile.py"
+                },
+                {
+                  "content_hash": "583412fcd3b59a960d2d336400ca2ab5c7d4fc07b4148f1abc24ade6505b4202",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "220c68436d2216662dcd9ba09720ea69bb8afc06e775a924955c1180f7c0b13f",
+                  "path": "pctx/storage.py"
+                },
+                {
+                  "content_hash": "85b987113428341e1022bcb15ee14b379ca61c7dab92af8f993e8f70cfdcff03",
+                  "path": "pctx/adapters.py"
+                },
+                {
+                  "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+                  "path": "validation/live-quiet-replacement-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                }
+              ],
+              "id": "pctx07-plan.pctx-07-quiet",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "4bf40189d9b7caadbc31a9db34ae6d230bc70242a351a5810251cb8874d6de4c",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Criterios revisados contra la implementación 0.7, regresiones de 186 pruebas y 57 flujos Chromium. Comprobaciones explícitas y evidencia vigente; alcance local sin auditoría independiente ni sesiones externas."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 1,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Silencio y exports deterministas/bajo demanda",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [
+            {
+              "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+              "kind": "reference",
+              "path": "pctx/compile.py",
+              "ref": "pctx/compile.py"
+            },
+            {
+              "content_hash": "583412fcd3b59a960d2d336400ca2ab5c7d4fc07b4148f1abc24ade6505b4202",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "220c68436d2216662dcd9ba09720ea69bb8afc06e775a924955c1180f7c0b13f",
+              "kind": "reference",
+              "path": "pctx/storage.py",
+              "ref": "pctx/storage.py"
+            },
+            {
+              "content_hash": "85b987113428341e1022bcb15ee14b379ca61c7dab92af8f993e8f70cfdcff03",
+              "kind": "reference",
+              "path": "pctx/adapters.py",
+              "ref": "pctx/adapters.py"
+            },
+            {
+              "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+              "kind": "reference",
+              "path": "validation/live-quiet-replacement-0.7.json",
+              "ref": "validation/live-quiet-replacement-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "plan.pctx-07-quiet",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Silencio y exports deterministas/bajo demanda. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 1. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T22:49:05Z"
+        },
+        "recorded_at": "2026-10-24T22:49:05Z",
+        "revision": 5
+      },
+      {
+        "digest": "2a7c26599370f534aaf472bfa41adf71c097ed4cd747afbe28dadfa2cbc448a3",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7f4d504e5b6",
+                "text": "Quiet suprime salidas normales y el modo manual conserva generados en escrituras"
+              },
+              {
+                "id": "criterion.40ca030c2b12",
+                "text": "Repetir export/contexto sin cambios no altera bytes ni mtime"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:13Z",
+              "criteria": [
+                "criterion.c7f4d504e5b6",
+                "criterion.40ca030c2b12"
+              ],
+              "definition_hash": "d274fed9eb875216312aca3052e61d5999de72de19c3018574cb589d1520c643",
+              "evidence": [
+                {
+                  "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+                  "path": "pctx/compile.py"
+                },
+                {
+                  "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "220c68436d2216662dcd9ba09720ea69bb8afc06e775a924955c1180f7c0b13f",
+                  "path": "pctx/storage.py"
+                },
+                {
+                  "content_hash": "85b987113428341e1022bcb15ee14b379ca61c7dab92af8f993e8f70cfdcff03",
+                  "path": "pctx/adapters.py"
+                },
+                {
+                  "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+                  "path": "validation/live-quiet-replacement-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-07-quiet",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "2accc7d54f36edcc0b1a0b0897af5be2d7362f323e0cedecaefa023c674f9e8f",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "done",
+            "title": "Silencio y exports deterministas/bajo demanda",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [
+            {
+              "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+              "kind": "reference",
+              "path": "pctx/compile.py",
+              "ref": "pctx/compile.py"
+            },
+            {
+              "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "220c68436d2216662dcd9ba09720ea69bb8afc06e775a924955c1180f7c0b13f",
+              "kind": "reference",
+              "path": "pctx/storage.py",
+              "ref": "pctx/storage.py"
+            },
+            {
+              "content_hash": "85b987113428341e1022bcb15ee14b379ca61c7dab92af8f993e8f70cfdcff03",
+              "kind": "reference",
+              "path": "pctx/adapters.py",
+              "ref": "pctx/adapters.py"
+            },
+            {
+              "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+              "kind": "reference",
+              "path": "validation/live-quiet-replacement-0.7.json",
+              "ref": "validation/live-quiet-replacement-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-07-quiet",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Silencio y exports deterministas/bajo demanda. Declared status: done. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:13Z"
+        },
+        "recorded_at": "2026-10-24T23:07:13Z",
+        "revision": 6
+      },
+      {
+        "digest": "2c42fc6ba61de91a4a7d8e0b6dd8ca365b75135ae5d46ac9ffbf53cabc5dc80f",
+        "record": {
+          "checklist": {
+            "criteria": [
+              {
+                "id": "criterion.c7f4d504e5b6",
+                "text": "Quiet suprime salidas normales y el modo manual conserva generados en escrituras"
+              },
+              {
+                "id": "criterion.40ca030c2b12",
+                "text": "Repetir export/contexto sin cambios no altera bytes ni mtime"
+              }
+            ],
+            "dependencies": [],
+            "description": "",
+            "difficulty": "intermediate",
+            "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+            "kind": "task",
+            "last_review": {
+              "at": "2026-10-24T23:07:13Z",
+              "criteria": [
+                "criterion.c7f4d504e5b6",
+                "criterion.40ca030c2b12"
+              ],
+              "definition_hash": "d274fed9eb875216312aca3052e61d5999de72de19c3018574cb589d1520c643",
+              "evidence": [
+                {
+                  "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+                  "path": "pctx/compile.py"
+                },
+                {
+                  "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+                  "path": "pctx/cli.py"
+                },
+                {
+                  "content_hash": "220c68436d2216662dcd9ba09720ea69bb8afc06e775a924955c1180f7c0b13f",
+                  "path": "pctx/storage.py"
+                },
+                {
+                  "content_hash": "85b987113428341e1022bcb15ee14b379ca61c7dab92af8f993e8f70cfdcff03",
+                  "path": "pctx/adapters.py"
+                },
+                {
+                  "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+                  "path": "validation/live-quiet-replacement-0.7.json"
+                },
+                {
+                  "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+                  "path": "validation/release-0.7.json"
+                },
+                {
+                  "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+                  "path": "validation/release-0.7.1.json"
+                },
+                {
+                  "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+                  "path": "docs/USO_0.7.1.md"
+                }
+              ],
+              "id": "pctx071-plan.pctx-07-quiet",
+              "outcome": "passed",
+              "related_revisions": {},
+              "request_hash": "2accc7d54f36edcc0b1a0b0897af5be2d7362f323e0cedecaefa023c674f9e8f",
+              "reviewer": "Codex: validación local; sin auditoría independiente",
+              "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+            },
+            "owner": "",
+            "parent": "plan.pctx-07-workers",
+            "priority": "normal",
+            "reason": "",
+            "review_count": 2,
+            "risk": "medium",
+            "schema_version": 1,
+            "status": "verified",
+            "title": "Silencio y exports deterministas/bajo demanda",
+            "work_generation": 1
+          },
+          "created_at": "2026-10-24T22:05:06Z",
+          "evidence": [
+            {
+              "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+              "kind": "reference",
+              "path": "pctx/compile.py",
+              "ref": "pctx/compile.py"
+            },
+            {
+              "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+              "kind": "reference",
+              "path": "pctx/cli.py",
+              "ref": "pctx/cli.py"
+            },
+            {
+              "content_hash": "220c68436d2216662dcd9ba09720ea69bb8afc06e775a924955c1180f7c0b13f",
+              "kind": "reference",
+              "path": "pctx/storage.py",
+              "ref": "pctx/storage.py"
+            },
+            {
+              "content_hash": "85b987113428341e1022bcb15ee14b379ca61c7dab92af8f993e8f70cfdcff03",
+              "kind": "reference",
+              "path": "pctx/adapters.py",
+              "ref": "pctx/adapters.py"
+            },
+            {
+              "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+              "kind": "reference",
+              "path": "validation/live-quiet-replacement-0.7.json",
+              "ref": "validation/live-quiet-replacement-0.7.json"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "reference",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            },
+            {
+              "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+              "kind": "reference",
+              "path": "validation/release-0.7.1.json",
+              "ref": "validation/release-0.7.1.json"
+            },
+            {
+              "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+              "kind": "reference",
+              "path": "docs/USO_0.7.1.md",
+              "ref": "docs/USO_0.7.1.md"
+            }
+          ],
+          "id": "plan.pctx-07-quiet",
+          "links": [
+            {
+              "relation": "supports",
+              "target": "record:plan.pctx-07-workers"
+            }
+          ],
+          "origin": "planning",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "Checklist task: Silencio y exports deterministas/bajo demanda. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+          "tags": [],
+          "type": "note",
+          "updated_at": "2026-10-24T23:07:13Z"
+        },
+        "recorded_at": "2026-10-24T23:07:13Z",
+        "revision": 7
+      }
+    ],
+    "schema_version": 1
+  },
+  "checklist": {
+    "criteria": [
+      {
+        "id": "criterion.c7f4d504e5b6",
+        "text": "Quiet suprime salidas normales y el modo manual conserva generados en escrituras"
+      },
+      {
+        "id": "criterion.40ca030c2b12",
+        "text": "Repetir export/contexto sin cambios no altera bytes ni mtime"
+      }
+    ],
+    "dependencies": [],
+    "description": "",
+    "difficulty": "intermediate",
+    "difficulty_reason": "Clasificación explícita por alcance, concurrencia y superficie de datos; detalles en docs/PLAN_0.7.md",
+    "kind": "task",
+    "last_review": {
+      "at": "2026-10-24T23:07:13Z",
+      "criteria": [
+        "criterion.c7f4d504e5b6",
+        "criterion.40ca030c2b12"
+      ],
+      "definition_hash": "d274fed9eb875216312aca3052e61d5999de72de19c3018574cb589d1520c643",
+      "evidence": [
+        {
+          "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+          "path": "pctx/compile.py"
+        },
+        {
+          "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+          "path": "pctx/cli.py"
+        },
+        {
+          "content_hash": "220c68436d2216662dcd9ba09720ea69bb8afc06e775a924955c1180f7c0b13f",
+          "path": "pctx/storage.py"
+        },
+        {
+          "content_hash": "85b987113428341e1022bcb15ee14b379ca61c7dab92af8f993e8f70cfdcff03",
+          "path": "pctx/adapters.py"
+        },
+        {
+          "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+          "path": "validation/live-quiet-replacement-0.7.json"
+        },
+        {
+          "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+          "path": "validation/release-0.7.json"
+        },
+        {
+          "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+          "path": "validation/release-0.7.1.json"
+        },
+        {
+          "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+          "path": "docs/USO_0.7.1.md"
+        }
+      ],
+      "id": "pctx071-plan.pctx-07-quiet",
+      "outcome": "passed",
+      "related_revisions": {},
+      "request_hash": "2accc7d54f36edcc0b1a0b0897af5be2d7362f323e0cedecaefa023c674f9e8f",
+      "reviewer": "Codex: validación local; sin auditoría independiente",
+      "summary": "Revisión explícita por el parche 0.7.1: regresión completa 194 pruebas,58 flujos UI y paquetes pasan; mismos contratos con brief global identificado, TTL legible y errores de reemplazo accionables. Pruebas e instalación históricas conservan sus artefactos; las sesiones externas siguen pendientes."
+    },
+    "owner": "",
+    "parent": "plan.pctx-07-workers",
+    "priority": "normal",
+    "reason": "",
+    "review_count": 2,
+    "risk": "medium",
+    "schema_version": 1,
+    "status": "verified",
+    "title": "Silencio y exports deterministas/bajo demanda",
+    "work_generation": 1
+  },
+  "created_at": "2026-10-24T22:05:06Z",
+  "evidence": [
+    {
+      "content_hash": "e6b2a44850a9995dde9cc0ec3f9d4b75009b16f66bfc96b9c9c64d7d09eaff71",
+      "kind": "reference",
+      "path": "pctx/compile.py",
+      "ref": "pctx/compile.py"
+    },
+    {
+      "content_hash": "fb53e2ec952072d100a8c47fd8c3444028986e0f41bbd1ded49fe9a055418c0c",
+      "kind": "reference",
+      "path": "pctx/cli.py",
+      "ref": "pctx/cli.py"
+    },
+    {
+      "content_hash": "220c68436d2216662dcd9ba09720ea69bb8afc06e775a924955c1180f7c0b13f",
+      "kind": "reference",
+      "path": "pctx/storage.py",
+      "ref": "pctx/storage.py"
+    },
+    {
+      "content_hash": "85b987113428341e1022bcb15ee14b379ca61c7dab92af8f993e8f70cfdcff03",
+      "kind": "reference",
+      "path": "pctx/adapters.py",
+      "ref": "pctx/adapters.py"
+    },
+    {
+      "content_hash": "1798ef2051eaf42b06828789b85283c510d4d34453eb3e346dc0307afe68bc7a",
+      "kind": "reference",
+      "path": "validation/live-quiet-replacement-0.7.json",
+      "ref": "validation/live-quiet-replacement-0.7.json"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "reference",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    },
+    {
+      "content_hash": "7a7eb52cf27c6ee0621b9ef73643b62f2b87e4e0f8a6125a92e032b86a7c0d1c",
+      "kind": "reference",
+      "path": "validation/release-0.7.1.json",
+      "ref": "validation/release-0.7.1.json"
+    },
+    {
+      "content_hash": "080dd94306f68305105a548cea737f53bbce6d3af9a0b24ab59543f211671cb1",
+      "kind": "reference",
+      "path": "docs/USO_0.7.1.md",
+      "ref": "docs/USO_0.7.1.md"
+    }
+  ],
+  "id": "plan.pctx-07-quiet",
+  "links": [
+    {
+      "relation": "supports",
+      "target": "record:plan.pctx-07-workers"
+    }
+  ],
+  "origin": "planning",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "Checklist task: Silencio y exports deterministas/bajo demanda. Declared status: verified. Difficulty: intermediate; risk: medium; recorded reviews: 2. Inspect pctx_plan for current validity.",
+  "tags": [],
+  "type": "note",
+  "updated_at": "2026-10-24T23:07:13Z"
+}

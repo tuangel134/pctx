@@ -1,0 +1,140 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "c3b971d295f076d34ada114af237237cf70fd3936f087e28880bc850069b9977",
+        "record": {
+          "created_at": "2026-10-24T22:31:26Z",
+          "evidence": [
+            {
+              "content_hash": "86a69c6dae2446e26d7d2629c6ee8566594b4272f8ead6541f52ef213ea4cccf",
+              "kind": "report",
+              "path": ".delegacion/HECHO-PCTX-0.7.md",
+              "ref": ".delegacion/HECHO-PCTX-0.7.md#e5c82780f8e2c33ccf2e",
+              "section": "e5c82780f8e2c33ccf2e"
+            }
+          ],
+          "id": "report.827ffa8c665bad7915cfd757",
+          "origin": "worker-report",
+          "report_source": {
+            "hash": "86a69c6dae2446e26d7d2629c6ee8566594b4272f8ead6541f52ef213ea4cccf",
+            "path": ".delegacion/HECHO-PCTX-0.7.md",
+            "section": "e5c82780f8e2c33ccf2e"
+          },
+          "roles": [
+            "coordinador"
+          ],
+          "scope": "worker/coordinador",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "PCTX 0.7 — cierre local\nImplementadas las siete mejoras de memoria vigente y delegación. Suite local: 184 pruebas y 57 recorridos Chromium pasan. Búsqueda híbrida: 10/10; recuperación: 11 casos. Pendientes: sesiones reales entre clientes/modelos externos y otros sistemas operativos. La comprobación final se ejecuta explícitamente mediante PCTX; este informe por sí solo es una afirmación.",
+          "tags": [],
+          "type": "attempt",
+          "updated_at": "2026-10-24T22:31:26Z"
+        },
+        "recorded_at": "2026-10-24T22:31:26Z",
+        "revision": 1
+      },
+      {
+        "digest": "013e2e6bf49e2022db221d7e74410a29f4464a957e15a6f2d9704b7b426f8852",
+        "record": {
+          "created_at": "2026-10-24T22:31:26Z",
+          "evidence": [
+            {
+              "content_hash": "d45c9346914ef8d9279f2217981b3a4515a8f9fd930faaac90af2be031048e49",
+              "kind": "report",
+              "path": ".delegacion/HECHO-PCTX-0.7.md",
+              "ref": ".delegacion/HECHO-PCTX-0.7.md#e5c82780f8e2c33ccf2e",
+              "section": "e5c82780f8e2c33ccf2e"
+            }
+          ],
+          "id": "report.827ffa8c665bad7915cfd757",
+          "origin": "worker-report",
+          "report_source": {
+            "hash": "d45c9346914ef8d9279f2217981b3a4515a8f9fd930faaac90af2be031048e49",
+            "path": ".delegacion/HECHO-PCTX-0.7.md",
+            "section": "e5c82780f8e2c33ccf2e"
+          },
+          "roles": [
+            "coordinador"
+          ],
+          "scope": "worker/coordinador",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "PCTX 0.7 — cierre local\nImplementadas las siete mejoras de memoria vigente y delegación. Suite local: 185 pruebas y 57 recorridos Chromium pasan. Búsqueda híbrida: 10/10; recuperación: 11 casos. Pendientes: sesiones reales entre clientes/modelos externos y otros sistemas operativos. La comprobación final se ejecuta explícitamente mediante PCTX; este informe por sí solo es una afirmación.",
+          "tags": [],
+          "type": "attempt",
+          "updated_at": "2026-10-24T22:40:49Z"
+        },
+        "recorded_at": "2026-10-24T22:40:49Z",
+        "revision": 2
+      },
+      {
+        "digest": "c733d718755e64a5c1005f8fe68da9b8181bac091501555a1dcec511699789bd",
+        "record": {
+          "created_at": "2026-10-24T22:31:26Z",
+          "evidence": [
+            {
+              "content_hash": "881895e72cc895647dbf5d5649df68f5166149f76e893caad99034c11c5e5515",
+              "kind": "report",
+              "path": ".delegacion/HECHO-PCTX-0.7.md",
+              "ref": ".delegacion/HECHO-PCTX-0.7.md#e5c82780f8e2c33ccf2e",
+              "section": "e5c82780f8e2c33ccf2e"
+            }
+          ],
+          "id": "report.827ffa8c665bad7915cfd757",
+          "origin": "worker-report",
+          "report_source": {
+            "hash": "881895e72cc895647dbf5d5649df68f5166149f76e893caad99034c11c5e5515",
+            "path": ".delegacion/HECHO-PCTX-0.7.md",
+            "section": "e5c82780f8e2c33ccf2e"
+          },
+          "roles": [
+            "coordinador"
+          ],
+          "scope": "worker/coordinador",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "PCTX 0.7 — cierre local\nImplementadas las siete mejoras de memoria vigente y delegación. Suite local: 186 pruebas y 57 recorridos Chromium pasan. Búsqueda híbrida: 10/10; recuperación: 11 casos. Pendientes: sesiones reales entre clientes/modelos externos y otros sistemas operativos. La comprobación final se ejecuta explícitamente mediante PCTX; este informe por sí solo es una afirmación.",
+          "tags": [],
+          "type": "attempt",
+          "updated_at": "2026-10-24T22:46:44Z"
+        },
+        "recorded_at": "2026-10-24T22:46:44Z",
+        "revision": 3
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-10-24T22:31:26Z",
+  "evidence": [
+    {
+      "content_hash": "881895e72cc895647dbf5d5649df68f5166149f76e893caad99034c11c5e5515",
+      "kind": "report",
+      "path": ".delegacion/HECHO-PCTX-0.7.md",
+      "ref": ".delegacion/HECHO-PCTX-0.7.md#e5c82780f8e2c33ccf2e",
+      "section": "e5c82780f8e2c33ccf2e"
+    }
+  ],
+  "id": "report.827ffa8c665bad7915cfd757",
+  "origin": "worker-report",
+  "report_source": {
+    "hash": "881895e72cc895647dbf5d5649df68f5166149f76e893caad99034c11c5e5515",
+    "path": ".delegacion/HECHO-PCTX-0.7.md",
+    "section": "e5c82780f8e2c33ccf2e"
+  },
+  "roles": [
+    "coordinador"
+  ],
+  "scope": "worker/coordinador",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "PCTX 0.7 — cierre local\nImplementadas las siete mejoras de memoria vigente y delegación. Suite local: 186 pruebas y 57 recorridos Chromium pasan. Búsqueda híbrida: 10/10; recuperación: 11 casos. Pendientes: sesiones reales entre clientes/modelos externos y otros sistemas operativos. La comprobación final se ejecuta explícitamente mediante PCTX; este informe por sí solo es una afirmación.",
+  "tags": [],
+  "type": "attempt",
+  "updated_at": "2026-10-24T22:46:44Z"
+}

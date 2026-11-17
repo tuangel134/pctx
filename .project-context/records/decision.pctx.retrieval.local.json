@@ -1,0 +1,324 @@
+{
+  "_pctx_history": {
+    "revisions": [
+      {
+        "digest": "cacfad39514d81f30583a0b18ec315e5bb7247a5906fdafd53bcabae5d5bf09b",
+        "record": {
+          "created_at": "2026-10-09T20:55:00Z",
+          "evidence": [
+            {
+              "content_hash": "9d73765ac23b2d6d95dab87c0975673ca72d68cdd6cfc55bc8aebe87e3a785ab",
+              "kind": "file",
+              "path": "docs/RECUPERACION_0.4.md",
+              "ref": "docs/RECUPERACION_0.4.md"
+            },
+            {
+              "content_hash": "6065c12be9d840d6b80d36c1d1551bc9fc1563ea6aeedfac114aade9c2c7a8f4",
+              "kind": "file",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "851aa73f50c64ca2c5bc38ea076a3e9f6741251390cae1c178808105b0c1c187",
+              "kind": "file",
+              "path": "pctx/embeddings.py",
+              "ref": "pctx/embeddings.py"
+            }
+          ],
+          "id": "decision.pctx.retrieval.local",
+          "links": [
+            {
+              "relation": "depends_on",
+              "target": "record:decision.canonical-json"
+            }
+          ],
+          "origin": "agent",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "La recuperación 0.4 usa SQLite FTS5 y un grafo explícito como índices reconstruibles de JSON y documentos. Los embeddings ONNX CPU son opcionales y requieren modelo local explícito; no hay descargas, proveedores ni fallback semántico implícitos. Se conserva conocimiento portable y restricciones antes de añadir fragmentos.",
+          "tags": [],
+          "type": "decision",
+          "updated_at": "2026-10-09T20:55:00Z"
+        },
+        "recorded_at": "2026-10-09T20:55:00Z",
+        "revision": 1
+      },
+      {
+        "digest": "1c2cd12587af0dd46c75bbbceef23dd9f709a50ced9398063e2e079401a1d704",
+        "record": {
+          "created_at": "2026-10-09T20:55:00Z",
+          "evidence": [
+            {
+              "content_hash": "9d73765ac23b2d6d95dab87c0975673ca72d68cdd6cfc55bc8aebe87e3a785ab",
+              "kind": "file",
+              "path": "docs/RECUPERACION_0.4.md",
+              "ref": "docs/RECUPERACION_0.4.md"
+            },
+            {
+              "content_hash": "4894466504d57135a8dfa9288de26103175103c85878ce69cc8bfc2cee484853",
+              "kind": "file",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "851aa73f50c64ca2c5bc38ea076a3e9f6741251390cae1c178808105b0c1c187",
+              "kind": "file",
+              "path": "pctx/embeddings.py",
+              "ref": "pctx/embeddings.py"
+            }
+          ],
+          "id": "decision.pctx.retrieval.local",
+          "links": [
+            {
+              "relation": "depends_on",
+              "target": "record:decision.canonical-json"
+            }
+          ],
+          "origin": "agent",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "PCTX 0.4/0.5 usa SQLite FTS5 y grafo explícito como índices reconstruibles de JSON/documentos, incluidos criterios y descripción actuales del checklist. Embeddings ONNX CPU opcionales requieren modelo local explícito e índice fresco; no descargan ni cambian de proveedor silenciosamente.",
+          "tags": [],
+          "type": "decision",
+          "updated_at": "2026-10-11T21:11:20Z"
+        },
+        "recorded_at": "2026-10-11T21:11:20Z",
+        "revision": 2
+      },
+      {
+        "digest": "fea1a450b7db031e65ba5bb1e400efa8676eff2ab56b1a2740e82f7736b553b1",
+        "record": {
+          "created_at": "2026-10-09T20:55:00Z",
+          "evidence": [
+            {
+              "content_hash": "9d73765ac23b2d6d95dab87c0975673ca72d68cdd6cfc55bc8aebe87e3a785ab",
+              "kind": "file",
+              "path": "docs/RECUPERACION_0.4.md",
+              "ref": "docs/RECUPERACION_0.4.md"
+            },
+            {
+              "content_hash": "4894466504d57135a8dfa9288de26103175103c85878ce69cc8bfc2cee484853",
+              "kind": "file",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "851aa73f50c64ca2c5bc38ea076a3e9f6741251390cae1c178808105b0c1c187",
+              "kind": "file",
+              "path": "pctx/embeddings.py",
+              "ref": "pctx/embeddings.py"
+            }
+          ],
+          "id": "decision.pctx.retrieval.local",
+          "links": [
+            {
+              "relation": "depends_on",
+              "target": "record:decision.canonical-json"
+            }
+          ],
+          "origin": "agent",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-12T22:10:09Z",
+          "stale_reason": "evidence changed or disappeared: pctx/knowledge.py",
+          "state": "stale",
+          "statement": "PCTX 0.4/0.5 usa SQLite FTS5 y grafo explícito como índices reconstruibles de JSON/documentos, incluidos criterios y descripción actuales del checklist. Embeddings ONNX CPU opcionales requieren modelo local explícito e índice fresco; no descargan ni cambian de proveedor silenciosamente.",
+          "tags": [],
+          "type": "decision",
+          "updated_at": "2026-10-12T22:10:09Z"
+        },
+        "recorded_at": "2026-10-12T22:10:09Z",
+        "revision": 3
+      },
+      {
+        "digest": "cd3ac50b1d45cf7d462e44b5d87379ef169a207f01324d9180db10d93e9cc9bb",
+        "record": {
+          "created_at": "2026-10-09T20:55:00Z",
+          "evidence": [
+            {
+              "content_hash": "87253bee31de282691ade77389221225d55d77efaa377e4e4c5c6f4491e5b85e",
+              "kind": "reference",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "33023fd1ee376720000d370cd0d1978832a09de0a8df062d20f1d1f0a495d2c3",
+              "kind": "reference",
+              "path": "pctx/coordination.py",
+              "ref": "pctx/coordination.py"
+            },
+            {
+              "content_hash": "851aa73f50c64ca2c5bc38ea076a3e9f6741251390cae1c178808105b0c1c187",
+              "kind": "reference",
+              "path": "pctx/embeddings.py",
+              "ref": "pctx/embeddings.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "decision.pctx.retrieval.local",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "PCTX 0.6 conserva SQLite FTS5 y grafo como índices reconstruibles de JSON/documentos y criterios del checklist. Las reservas se consultan en vivo; checkpoints/renovaciones no se indexan ni invalidan el índice. ONNX CPU requiere modelo local explícito e índice fresco; sin descargas ni proveedores silenciosos.",
+          "tags": [],
+          "type": "decision",
+          "updated_at": "2026-10-12T22:15:19Z"
+        },
+        "recorded_at": "2026-10-12T22:15:19Z",
+        "revision": 4
+      },
+      {
+        "digest": "5b492d6380abd392d2c3387597feaf88820e4f7689ce10cd37bccc3bcf69fb0c",
+        "record": {
+          "created_at": "2026-10-09T20:55:00Z",
+          "evidence": [
+            {
+              "content_hash": "87253bee31de282691ade77389221225d55d77efaa377e4e4c5c6f4491e5b85e",
+              "kind": "reference",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "33023fd1ee376720000d370cd0d1978832a09de0a8df062d20f1d1f0a495d2c3",
+              "kind": "reference",
+              "path": "pctx/coordination.py",
+              "ref": "pctx/coordination.py"
+            },
+            {
+              "content_hash": "851aa73f50c64ca2c5bc38ea076a3e9f6741251390cae1c178808105b0c1c187",
+              "kind": "reference",
+              "path": "pctx/embeddings.py",
+              "ref": "pctx/embeddings.py"
+            },
+            {
+              "content_hash": "b61d9edd49cd70aca75e07a0ecbd803a94b1838537c248dd5569923647764f77",
+              "kind": "reference",
+              "path": "validation/release-0.6.json",
+              "ref": "validation/release-0.6.json"
+            }
+          ],
+          "id": "decision.pctx.retrieval.local",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "stale_at": "2026-10-24T22:43:28Z",
+          "stale_reason": "pctx/knowledge.py: changed; pctx/coordination.py: changed",
+          "state": "stale",
+          "statement": "PCTX 0.6 conserva SQLite FTS5 y grafo como índices reconstruibles de JSON/documentos y criterios del checklist. Las reservas se consultan en vivo; checkpoints/renovaciones no se indexan ni invalidan el índice. ONNX CPU requiere modelo local explícito e índice fresco; sin descargas ni proveedores silenciosos.",
+          "tags": [],
+          "type": "decision",
+          "updated_at": "2026-10-24T22:43:28Z"
+        },
+        "recorded_at": "2026-10-24T22:43:28Z",
+        "revision": 5
+      },
+      {
+        "digest": "f19f3eebd95d2e93df4d96bf2aa4736493aca5a3307ae5b42ee55db92fb2558e",
+        "record": {
+          "created_at": "2026-10-09T20:55:00Z",
+          "evidence": [
+            {
+              "content_hash": "3a40017ec1db5f9f11f31157b79a5c95e6547d157ad8e4c1c68c80e6cc666b57",
+              "kind": "file",
+              "path": "pctx/knowledge.py",
+              "ref": "pctx/knowledge.py"
+            },
+            {
+              "content_hash": "dfe8a195cf7ee6ae7be2779d2ee2e30ea0e14f5ded9b618958fa347daf30bed8",
+              "kind": "file",
+              "path": "pctx/freshness.py",
+              "ref": "pctx/freshness.py"
+            },
+            {
+              "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+              "kind": "file",
+              "path": "pctx/coordination.py",
+              "ref": "pctx/coordination.py"
+            },
+            {
+              "content_hash": "851aa73f50c64ca2c5bc38ea076a3e9f6741251390cae1c178808105b0c1c187",
+              "kind": "file",
+              "path": "pctx/embeddings.py",
+              "ref": "pctx/embeddings.py"
+            },
+            {
+              "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+              "kind": "file",
+              "path": "validation/release-0.7.json",
+              "ref": "validation/release-0.7.json"
+            }
+          ],
+          "id": "decision.pctx.retrieval.local",
+          "origin": "local-validation",
+          "scope": "project",
+          "sensitivity": "internal",
+          "stability": "stable",
+          "state": "inferred",
+          "statement": "PCTX 0.7 conserva SQLite FTS5 y grafo como índices reconstruibles de JSON/documentos y checklist; consulta vigencia de evidencia y reemplazos en vivo. Recencia no desplaza resultados semánticos fuertes. Reservas/checkpoints se consultan en vivo. ONNX CPU exige modelo local explícito e índice fresco, sin descargas ni proveedores silenciosos.",
+          "tags": [],
+          "type": "decision",
+          "updated_at": "2026-10-24T22:48:58Z"
+        },
+        "recorded_at": "2026-10-24T22:48:58Z",
+        "revision": 6
+      }
+    ],
+    "schema_version": 1
+  },
+  "created_at": "2026-10-09T20:55:00Z",
+  "evidence": [
+    {
+      "content_hash": "3a40017ec1db5f9f11f31157b79a5c95e6547d157ad8e4c1c68c80e6cc666b57",
+      "kind": "file",
+      "path": "pctx/knowledge.py",
+      "ref": "pctx/knowledge.py"
+    },
+    {
+      "content_hash": "dfe8a195cf7ee6ae7be2779d2ee2e30ea0e14f5ded9b618958fa347daf30bed8",
+      "kind": "file",
+      "path": "pctx/freshness.py",
+      "ref": "pctx/freshness.py"
+    },
+    {
+      "content_hash": "f8a75e799e1b36a94f9bdd422de264b167b5630845c2367e0c2d6fec5a583702",
+      "kind": "file",
+      "path": "pctx/coordination.py",
+      "ref": "pctx/coordination.py"
+    },
+    {
+      "content_hash": "851aa73f50c64ca2c5bc38ea076a3e9f6741251390cae1c178808105b0c1c187",
+      "kind": "file",
+      "path": "pctx/embeddings.py",
+      "ref": "pctx/embeddings.py"
+    },
+    {
+      "content_hash": "f13ea185542ca5a2add8f12748b2572d601afed69d39718e50de93af33bb2277",
+      "kind": "file",
+      "path": "validation/release-0.7.json",
+      "ref": "validation/release-0.7.json"
+    }
+  ],
+  "id": "decision.pctx.retrieval.local",
+  "origin": "local-validation",
+  "scope": "project",
+  "sensitivity": "internal",
+  "stability": "stable",
+  "state": "inferred",
+  "statement": "PCTX 0.7 conserva SQLite FTS5 y grafo como índices reconstruibles de JSON/documentos y checklist; consulta vigencia de evidencia y reemplazos en vivo. Recencia no desplaza resultados semánticos fuertes. Reservas/checkpoints se consultan en vivo. ONNX CPU exige modelo local explícito e índice fresco, sin descargas ni proveedores silenciosos.",
+  "tags": [],
+  "type": "decision",
+  "updated_at": "2026-10-24T22:48:58Z"
+}
