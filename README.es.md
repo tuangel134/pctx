@@ -110,6 +110,8 @@ archivos del proyecto ──► escaneo estático ──► registros tipados �
 4. **Verify** puede ejecutar una comprobación registrada y guardar el resultado
    observado — nunca de forma automática, solo si se solicita.
 
+![Contexto por tarea y brief para worker](docs/assets/context.png)
+
 ### Estados de un registro
 
 | Estado | Significado |

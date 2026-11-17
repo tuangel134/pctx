@@ -108,6 +108,8 @@ project files ──► static scan ──► typed records ──► compiled c
 4. **Verify** can run an explicitly recorded check command and store the
    observed outcome — never automatically, and only on request.
 
+![Task context and worker brief](docs/assets/context.png)
+
 ### Record states
 
 | State | Meaning |

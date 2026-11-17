@@ -1,4 +1,4 @@
-# PCTX 0.3: guía de uso
+# Guía de uso de PCTX
 
 PCTX es un programa local de Python 3.10 o posterior. Tiene CLI, servidor MCP y
 panel gráfico en el navegador. No utiliza modelos ni APIs de pago: los hechos se
@@ -32,7 +32,8 @@ Para instalar desde el paquete distribuible:
 
 ```bash
 python3 -m venv /ruta/a/entorno-pctx
-/ruta/a/entorno-pctx/bin/python -m pip install /ruta/a/pctx-0.3.0-py3-none-any.whl
+/ruta/a/entorno-pctx/bin/python -m pip install /ruta/a/pctx-0.7.1-py3-none-any.whl
+# ajusta el nombre del archivo a la versión publicada
 /ruta/a/entorno-pctx/bin/pctx gui
 ```
 
@@ -195,9 +196,9 @@ en `~/.local/share/applications/pctx.desktop`; el enlace de terminal, en
 desde el gestor de archivos. La memoria dentro de tus proyectos es independiente
 y seguirá siendo legible sin instalar PCTX.
 
-## Herramientas nuevas de 0.3
+## Contexto, búsqueda y recuperación
 
-Consulta [validación y comandos](VALIDACION_0.3.md) para contexto de solo lectura,
+Consulta el [historial de la entrega 0.3](VALIDACION_0.3.md) para contexto de solo lectura,
 expansión, historial, revisión, diferencias, respaldo/restauración, migración y
 diagnóstico. El panel muestra esas mismas funciones mediante servicios compartidos.
 `scan --full` omite cachés de parsers; todos los modos vuelven a verificar hashes.
