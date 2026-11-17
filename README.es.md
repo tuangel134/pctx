@@ -9,6 +9,7 @@
     <a href="docs/README.md">Documentación</a>
   </p>
   <p>
+    <a href="https://github.com/tuangel134/pctx/actions/workflows/ci.yml"><img src="https://github.com/tuangel134/pctx/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
     <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10+"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT"></a>
     <a href="docs/INTEGRACIONES.md"><img src="https://img.shields.io/badge/MCP-stdio-6f42c1.svg" alt="MCP"></a>
