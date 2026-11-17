@@ -217,6 +217,7 @@ def compile_context(root: Path, *, task: str | None = None, budget: int | None =
     architecture_limits = {"max_nodes": 12, "max_edges": 20} if task is not None else {"max_nodes": 64, "max_edges": 120}
     architecture = render_architecture(root, **architecture_limits).replace(ARCHITECTURE_MARK_START, "").replace(ARCHITECTURE_MARK_END, "").strip()
     task_summary = render_task_summary(root) + "\nScan coverage: " + coverage["status"]
+    metadata_tokens = approximate_tokens("\n".join(_metadata_section(root, manifest)))
 
     lines: list[str] = [
         "# PROJECT_CONTEXT",
@@ -249,7 +250,7 @@ def compile_context(root: Path, *, task: str | None = None, budget: int | None =
         f"- Record digest: `{digest}`",
         f"- Mode: `{'task' if task is not None else 'full'}`",
         f"- Task: `{task or 'complete durable project context'}`",
-        f"- Approximate tokens: `{approximate_tokens('\\n'.join(_metadata_section(root, manifest)))}` before records",
+        f"- Approximate tokens: `{metadata_tokens}` before records",
         f"- Records included: `{len(active)}`",
         f"- Verified or user asserted: `{len(verified)}`",
         f"- Inferred: `{len(inferred)}`",
